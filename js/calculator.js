@@ -284,11 +284,101 @@ const Calculator = (function() {
       .slice(0, limit);
   }
 
+  // ---- 战备中心：应用配件加成 ----
+  function calcWeaponWithAttachments(weapon, selectedAttachments) {
+    if (!weapon) return null;
+    const base = weapon.base_stats;
+    const mods = { damage: 0, rate_of_fire: 0, accuracy: 0, range: 0, control: 0, mobility: 0, handling: 0 };
+
+    Object.values(selectedAttachments).forEach(attId => {
+      if (!attId || !ATTACHMENTS_DATA) return;
+      const att = ATTACHMENTS_DATA.find(a => a.id === attId);
+      if (!att || !att.stat_mods) return;
+      Object.entries(att.stat_mods).forEach(([key, val]) => {
+        if (key in mods) mods[key] += val;
+      });
+    });
+
+    const cap = (v, min = 0, max = 100) => Math.max(min, Math.min(max, v));
+    const rofCap = (v) => Math.max(0, Math.min(1200, v));
+
+    return {
+      damage: cap(base.damage + mods.damage),
+      rate_of_fire: rofCap(base.rate_of_fire + mods.rate_of_fire),
+      accuracy: cap(base.accuracy + mods.accuracy),
+      range: cap(base.range + mods.range),
+      control: cap(base.control + mods.control),
+      mobility: cap(base.mobility + mods.mobility),
+      handling: cap(base.handling + mods.handling)
+    };
+  }
+
+  // ---- 战备中心：应用战备装备加成 ----
+  function calcGearBonuses(selectedGear) {
+    const bonus = { armor: 0, stealth: 0 };
+    Object.values(selectedGear).forEach(gearId => {
+      if (!gearId || !BATTLE_GEAR_DATA) return;
+      const gear = BATTLE_GEAR_DATA.find(g => g.id === gearId);
+      if (!gear || !gear.stat_mods) return;
+      if (gear.stat_mods.armor !== undefined) bonus.armor += gear.stat_mods.armor;
+      if (gear.stat_mods.stealth !== undefined) bonus.stealth += gear.stat_mods.stealth;
+    });
+    return bonus;
+  }
+
+  // ---- 战备中心：计算总金额 ----
+  function calcTotalCost(weapon, selectedAttachments, selectedGear) {
+    let total = 0;
+    // 配件价格
+    Object.values(selectedAttachments).forEach(attId => {
+      if (!attId || !ATTACHMENTS_DATA) return;
+      const att = ATTACHMENTS_DATA.find(a => a.id === attId);
+      if (att) total += (att.price || 0);
+    });
+    // 战备装备价格
+    Object.values(selectedGear).forEach(gearId => {
+      if (!gearId || !BATTLE_GEAR_DATA) return;
+      const gear = BATTLE_GEAR_DATA.find(g => g.id === gearId);
+      if (gear) total += (gear.price || 0);
+    });
+    return total;
+  }
+
+  // ---- 战备中心：计算带配件加成的武器评分 ----
+  function calcGearWeaponScore(weapon, selectedAttachments) {
+    if (!weapon) return null;
+    const s = calcWeaponWithAttachments(weapon, selectedAttachments);
+    if (!s) return null;
+
+    const ammo = AmmoDB.get(weapon.ammo_type?.[0]) || {};
+    const rofNorm = Math.min(s.rate_of_fire / 12, 100);
+
+    const attack = s.damage * 0.35 + rofNorm * 0.25 + s.accuracy * 0.2 + s.range * 0.2;
+    const accuracy = s.accuracy * 0.6 + (ammo.penetration || 50) * 0.2 + s.control * 0.2;
+    const control = s.control * 0.7 + s.accuracy * 0.2 + (ammo.penetration || 50) * 0.1;
+    const range = s.range * 0.8 + (ammo.stats?.range || 50) * 0.2;
+
+    return {
+      attack: Math.round(Math.min(attack, 100) * 10) / 10,
+      accuracy: Math.round(Math.min(accuracy, 100) * 10) / 10,
+      control: Math.round(Math.min(control, 100) * 10) / 10,
+      range: Math.round(Math.min(range, 100) * 10) / 10,
+      mobility: s.mobility,
+      handling: s.handling,
+      damage: s.damage,
+      rof: s.rate_of_fire
+    };
+  }
+
   return {
     calcWeaponScore,
     calcVehicleScore,
     calculateBuildScore,
     generateAnalysis,
-    findSimilarWeapons
+    findSimilarWeapons,
+    calcWeaponWithAttachments,
+    calcGearBonuses,
+    calcTotalCost,
+    calcGearWeaponScore
   };
 })();

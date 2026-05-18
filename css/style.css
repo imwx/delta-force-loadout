@@ -904,3 +904,347 @@ body {
   .page-title { font-size: 1.3rem; }
   .weapon-card, .vehicle-card { padding: 14px; }
 }
+
+/* ============================================
+   战备中心 样式
+   ============================================ */
+
+.gear-center-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.gear-cost-display {
+  background: var(--bg-card);
+  border: 1px solid var(--accent-primary);
+  border-radius: var(--radius-md);
+  padding: 12px 20px;
+  text-align: center;
+  min-width: 160px;
+  box-shadow: 0 0 16px rgba(240,192,64,0.12);
+}
+.gear-cost-display .cost-label {
+  font-size: 0.72rem;
+  color: var(--text-secondary);
+  margin-bottom: 4px;
+}
+.gear-cost-display .cost-value {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--accent-primary);
+  font-family: var(--font-mono);
+}
+.gear-cost-display .cost-note {
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.gear-container {
+  display: grid;
+  grid-template-columns: 380px 1fr;
+  gap: 24px;
+  margin-top: 0;
+}
+
+.gear-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.gear-section {
+  background: var(--bg-card);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-md);
+  padding: 16px;
+}
+
+.gear-section-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border-default);
+}
+
+.gear-weapon-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gear-weapon-group { }
+
+.gear-group-label {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.gear-weapon-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.gear-weapon-btn {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-sm);
+  color: var(--text-secondary);
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  cursor: pointer;
+  transition: all 0.15s;
+  font-family: var(--font-main);
+}
+.gear-weapon-btn:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent-primary);
+  color: var(--text-primary);
+}
+.gear-weapon-btn.active {
+  background: rgba(240,192,64,0.12);
+  border-color: var(--accent-primary);
+  color: var(--accent-primary);
+  font-weight: 600;
+}
+
+.gear-slots-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.gear-slot-card {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-sm);
+  padding: 10px;
+  transition: border-color 0.2s;
+}
+.gear-slot-card:hover {
+  border-color: var(--border-active);
+}
+.gear-slot-card.battle-slot {
+  grid-column: span 2;
+}
+
+.gear-slot-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.gear-slot-name {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.gear-slot-selected {
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  max-width: 120px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.gear-slot-selected.has-item {
+  color: var(--accent-primary);
+  font-weight: 600;
+}
+
+.gear-slot-price {
+  font-size: 0.68rem;
+  color: var(--accent-primary);
+  margin-bottom: 4px;
+  font-family: var(--font-mono);
+}
+
+.gear-select {
+  width: 100%;
+  background: var(--bg-input);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-sm);
+  color: var(--text-primary);
+  font-size: 0.72rem;
+  padding: 5px 8px;
+  cursor: pointer;
+  font-family: var(--font-main);
+  margin-bottom: 4px;
+}
+.gear-select:focus {
+  outline: none;
+  border-color: var(--accent-primary);
+}
+
+.gear-stat-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin-top: 4px;
+}
+
+.stat-pos {
+  font-size: 0.65rem;
+  color: var(--accent-green);
+  font-family: var(--font-mono);
+  background: rgba(34,197,94,0.08);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+.stat-neg {
+  font-size: 0.65rem;
+  color: var(--accent-red);
+  font-family: var(--font-mono);
+  background: rgba(239,68,68,0.08);
+  padding: 1px 5px;
+  border-radius: 3px;
+}
+
+.gear-placeholder {
+  background: var(--bg-card);
+  border: 1px dashed var(--border-default);
+  border-radius: var(--radius-md);
+  padding: 32px 16px;
+  text-align: center;
+}
+
+/* 右侧预览面板 */
+.gear-preview-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border-default);
+  border-radius: var(--radius-md);
+  position: sticky;
+  top: 70px;
+  max-height: calc(100vh - 90px);
+  overflow-y: auto;
+}
+
+.gear-preview-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 300px;
+  padding: 32px;
+}
+
+.gear-preview-inner {
+  padding: 20px;
+}
+
+.gear-preview-weapon {
+  margin-bottom: 16px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--border-default);
+}
+.gpw-name {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+.gpw-meta {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.radar-container {
+  margin: 16px 0;
+}
+.radar-container h4 {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  margin-bottom: 8px;
+}
+
+.gear-stats-compare {
+  margin: 16px 0;
+  background: var(--bg-secondary);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  font-size: 0.78rem;
+}
+.gear-compare-header {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 4px;
+  padding: 6px 10px;
+  background: var(--bg-card);
+  font-size: 0.7rem;
+  color: var(--text-muted);
+  font-weight: 600;
+  border-bottom: 1px solid var(--border-default);
+}
+.gear-compare-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 4px;
+  padding: 5px 10px;
+  border-bottom: 1px solid var(--border-default);
+  align-items: center;
+  color: var(--text-secondary);
+}
+.gear-compare-row:last-child { border-bottom: none; }
+.stat-base { color: var(--text-muted); font-family: var(--font-mono); font-size: 0.75rem; }
+.stat-final { color: var(--text-primary); font-weight: 600; font-family: var(--font-mono); font-size: 0.75rem; }
+
+.gear-selected-list {
+  margin: 12px 0;
+}
+.gsl-title {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+.gsl-tag {
+  display: inline-block;
+  font-size: 0.68rem;
+  padding: 2px 8px;
+  border-radius: 4px;
+  margin: 2px 4px 2px 0;
+}
+.gsl-tag.att {
+  background: rgba(59,130,246,0.12);
+  color: var(--accent-blue);
+  border: 1px solid rgba(59,130,246,0.25);
+}
+.gsl-tag.gear {
+  background: rgba(168,85,247,0.12);
+  color: var(--accent-purple);
+  border: 1px solid rgba(168,85,247,0.25);
+}
+
+.gear-bonus-section {
+  margin: 8px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+.gear-bonus-section .gsl-title { margin-bottom: 0; margin-right: 8px; }
+
+/* 响应式 */
+@media (max-width: 900px) {
+  .gear-container { grid-template-columns: 1fr; }
+  .gear-preview-panel { position: static; max-height: none; }
+  .gear-slots-grid { grid-template-columns: 1fr 1fr; }
+  .gear-slot-card.battle-slot { grid-column: span 1; }
+  .gear-cost-display { width: 100%; }
+  .gear-center-header { flex-direction: column; align-items: flex-start; }
+}

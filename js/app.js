@@ -7,6 +7,8 @@ let WEAPONS_DATA = [];
 let VEHICLES_DATA = [];
 let AMMO_DATA = [];
 let OPERATORS_DATA = [];
+let ATTACHMENTS_DATA = [];
+let BATTLE_GEAR_DATA = [];
 
 // ---- 当前状态 ----
 let state = {
@@ -19,7 +21,11 @@ let state = {
   analysisResult: null,
   filterType: 'all',
   filterMode: 'all',
-  searchQuery: ''
+  searchQuery: '',
+  // 战备中心专用状态
+  selectedAttachments: {},
+  selectedGear: {},
+  liveCost: 0
 };
 
 // ---- 工具函数 ----
@@ -45,22 +51,28 @@ function debounce(fn, ms) {
 const DataDB = {
   async load() {
     try {
-      const [w, v, a, o] = await Promise.all([
+      const [w, v, a, o, att, gear] = await Promise.all([
         fetch('./data/weapons.json').then(r => r.json()),
         fetch('./data/vehicles.json').then(r => r.json()),
         fetch('./data/ammo.json').then(r => r.json()),
-        fetch('./data/operators.json').then(r => r.json())
+        fetch('./data/operators.json').then(r => r.json()),
+        fetch('./data/attachments.json').then(r => r.json()).catch(() => []),
+        fetch('./data/battle-gear.json').then(r => r.json()).catch(() => [])
       ]);
       WEAPONS_DATA = w;
       VEHICLES_DATA = v;
       AMMO_DATA = a;
       OPERATORS_DATA = o;
+      ATTACHMENTS_DATA = att;
+      BATTLE_GEAR_DATA = gear;
     } catch(e) {
       console.warn('数据加载失败，使用内联数据');
       WEAPONS_DATA = inlineWeapons;
       VEHICLES_DATA = inlineVehicles;
       AMMO_DATA = inlineAmmo;
       OPERATORS_DATA = inlineOperators;
+      ATTACHMENTS_DATA = [];
+      BATTLE_GEAR_DATA = [];
     }
   },
 
@@ -83,6 +95,24 @@ const DataDB = {
 
   getOperatorById(id) {
     return OPERATORS_DATA.find(o => o.id === id);
+  },
+
+  getAttachmentById(id) {
+    return ATTACHMENTS_DATA.find(a => a.id === id) || null;
+  },
+
+  getGearById(id) {
+    return BATTLE_GEAR_DATA.find(g => g.id === id) || null;
+  },
+
+  getAttachmentsForWeapon(weaponType) {
+    return ATTACHMENTS_DATA.filter(att =>
+      att.slot && (att.compatible || []).includes(weaponType)
+    );
+  },
+
+  getGearBySlot(slot) {
+    return BATTLE_GEAR_DATA.filter(g => g.slot === slot);
   }
 };
 
@@ -129,6 +159,7 @@ function render() {
     case 'ammo': main.innerHTML = renderAmmo(); break;
     case 'build': main.innerHTML = renderBuilder(); initBuilderPage(); break;
     case 'meta': main.innerHTML = renderMeta(); break;
+    case 'gear-center': main.innerHTML = renderGearCenter(); initGearCenter(); break;
     default: main.innerHTML = renderHome();
   }
 }
@@ -779,6 +810,388 @@ function copyLoadout(code, btn) {
   });
 }
 
+// ---- 战备中心：主页面 ----
+const GEAR_SLOTS = ['optic', 'barrel', 'stock', 'grip', 'magazine', 'muzzle', 'laser'];
+const GEAR_SLOT_LABELS = {
+  optic: '瞄具', barrel: '枪管', stock: '枪托',
+  grip: '握把', magazine: '弹匣', muzzle: '枪口', laser: '激光'
+};
+const BATTLE_SLOTS = ['vest', 'helmet', 'knee', 'boots', 'tactical'];
+const BATTLE_SLOT_LABELS = {
+  vest: '战术背心', helmet: '战术头盔', knee: '战术护膝',
+  boots: '战斗靴', tactical: '战术配件'
+};
+
+function renderGearCenter() {
+  const w = state.selectedWeapon;
+  const weapons = WEAPONS_DATA;
+
+  return `
+  <div class="page-header container">
+    <div class="gear-center-header">
+      <div>
+        <h1 class="page-title"><span class="icon">⚔️</span> 战备中心</h1>
+        <p class="page-subtitle">组枪配件 · 卡战备装备 · 实时金额计算</p>
+      </div>
+      <div class="gear-cost-display" id="gear-cost-display">
+        <div class="cost-label">实时金额</div>
+        <div class="cost-value" id="cost-value">¥ 0</div>
+        <div class="cost-note">价格数据为估算值</div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="gear-container">
+      <!-- 左侧选择面板 -->
+      <div class="gear-panel">
+        <!-- 武器选择 -->
+        <div class="gear-section">
+          <div class="gear-section-title">
+            <span class="icon">🔫</span> 选择武器
+          </div>
+          <div class="gear-weapon-grid">
+            ${['突击步枪','冲锋枪','精确射手步枪','狙击步枪','霰弹枪','战斗步枪','轻机枪','通用机枪','紧凑突击步枪'].map(type => {
+              const guns = weapons.filter(w => w.type === type).slice(0, 6);
+              if (!guns.length) return '';
+              return `
+              <div class="gear-weapon-group">
+                <div class="gear-group-label">${type}</div>
+                <div class="gear-weapon-list">
+                  ${guns.map(g => `
+                    <button class="gear-weapon-btn ${state.selectedWeapon?.id === g.id ? 'active' : ''}"
+                            onclick="selectGearWeapon('${g.id}')">
+                      ${g.name_cn}
+                    </button>
+                  `).join('')}
+                </div>
+              </div>`;
+            }).join('')}
+          </div>
+        </div>
+
+        <!-- 配件选择 -->
+        ${w ? `
+        <div class="gear-section">
+          <div class="gear-section-title">
+            <span class="icon">🔧</span> 武器配件
+          </div>
+          <div class="gear-slots-grid">
+            ${GEAR_SLOTS.map(slot => renderGearSlotCard(slot)).join('')}
+          </div>
+        </div>
+
+        <!-- 战备装备 -->
+        <div class="gear-section">
+          <div class="gear-section-title">
+            <span class="icon">🎽</span> 战备装备
+          </div>
+          <div class="gear-slots-grid">
+            ${BATTLE_SLOTS.map(slot => renderBattleSlotCard(slot)).join('')}
+          </div>
+        </div>
+        ` : `
+        <div class="gear-placeholder">
+          <div style="font-size:2rem;margin-bottom:12px;">🔫</div>
+          <div style="color:var(--text-secondary);font-size:0.9rem;">请先在左侧选择一个武器</div>
+        </div>
+        `}
+      </div>
+
+      <!-- 右侧实时预览 -->
+      <div class="gear-preview-panel">
+        <div id="gear-preview-content">
+          ${w ? renderGearPreview() : `
+          <div class="gear-preview-empty">
+            <div style="font-size:3rem;margin-bottom:16px;">📊</div>
+            <div style="color:var(--text-secondary);font-size:0.9rem;">选择武器和配件后</div>
+            <div style="color:var(--text-secondary);font-size:0.85rem;margin-top:4px;">实时预览属性变化</div>
+          </div>`}
+        </div>
+      </div>
+    </div>
+  </div>`;
+}
+
+function renderGearSlotCard(slot) {
+  const w = state.selectedWeapon;
+  const selected = state.selectedAttachments[slot];
+  const atts = getAvailableAttachments(w, slot);
+  const selAtt = selected ? DataDB.getAttachmentById(selected) : null;
+
+  return `
+  <div class="gear-slot-card" id="slot-${slot}">
+    <div class="gear-slot-header">
+      <span class="gear-slot-name">${GEAR_SLOT_LABELS[slot] || slot}</span>
+      <span class="gear-slot-selected ${selAtt ? 'has-item' : ''}">
+        ${selAtt ? selAtt.name_cn : '— 未选择 —'}
+      </span>
+    </div>
+    ${selected ? `<div class="gear-slot-price">¥${selected ? (DataDB.getAttachmentById(selected)?.price||0).toLocaleString() : ''}</div>` : ''}
+    <select class="gear-select" onchange="selectAttachment('${slot}', this.value)"
+            data-slot="${slot}">
+      <option value="">— 不装备 —</option>
+      ${atts.map(att => `
+        <option value="${att.id}" ${selected === att.id ? 'selected' : ''}>
+          ${att.name_cn} ${att.price > 0 ? `(¥${att.price.toLocaleString()})` : '(免费)'}
+        </option>
+      `).join('')}
+    </select>
+    ${selAtt && Object.keys(selAtt.stat_mods||{}).length ? `
+    <div class="gear-stat-preview">
+      ${Object.entries(selAtt.stat_mods).map(([k,v]) => `
+        <span class="${v >= 0 ? 'stat-pos' : 'stat-neg'}">${k === 'accuracy' ? '精准' : k === 'range' ? '射程' : k === 'mobility' ? '机动' : k === 'control' ? '控制' : k === 'handling' ? '操控' : k === 'damage' ? '伤害' : k}(${v > 0 ? '+' : ''}${v})</span>
+      `).join('')}
+    </div>` : ''}
+  </div>`;
+}
+
+function renderBattleSlotCard(slot) {
+  const selected = state.selectedGear[slot];
+  const gearList = DataDB.getGearBySlot(slot);
+  const selGear = selected ? DataDB.getGearById(selected) : null;
+
+  return `
+  <div class="gear-slot-card battle-slot" id="bslot-${slot}">
+    <div class="gear-slot-header">
+      <span class="gear-slot-name">${BATTLE_SLOT_LABELS[slot] || slot}</span>
+      <span class="gear-slot-selected ${selGear ? 'has-item' : ''}">
+        ${selGear ? selGear.name_cn : '— 未选择 —'}
+      </span>
+    </div>
+    <select class="gear-select" onchange="selectGearItem('${slot}', this.value)"
+            data-bslot="${slot}">
+      <option value="">— 不装备 —</option>
+      ${gearList.map(g => `
+        <option value="${g.id}" ${selected === g.id ? 'selected' : ''}>
+          ${g.name_cn} ${g.price > 0 ? `(¥${g.price.toLocaleString()})` : '(免费)'}
+        </option>
+      `).join('')}
+    </select>
+    ${selGear && Object.keys(selGear.stat_mods||{}).length ? `
+    <div class="gear-stat-preview">
+      ${Object.entries(selGear.stat_mods).map(([k,v]) => `
+        <span class="${v >= 0 ? 'stat-pos' : 'stat-neg'}">${k}(${v > 0 ? '+' : ''}${v})</span>
+      `).join('')}
+    </div>` : ''}
+  </div>`;
+}
+
+function getAvailableAttachments(weapon, slot) {
+  if (!weapon || !weapon.type) return [];
+  return ATTACHMENTS_DATA.filter(att =>
+    att.slot === slot && (att.compatible || []).includes(weapon.type)
+  );
+}
+
+function renderGearPreview() {
+  const w = state.selectedWeapon;
+  if (!w) return '';
+
+  const base = w.base_stats;
+  const withAtt = Calculator.calcWeaponWithAttachments(w, state.selectedAttachments);
+  const gearBonus = Calculator.calcGearBonuses(state.selectedGear);
+  const wScore = Calculator.calcGearWeaponScore(w, state.selectedAttachments);
+  const cost = Calculator.calcTotalCost(w, state.selectedAttachments, state.selectedGear);
+
+  // 更新金额显示
+  const costEl = $('#cost-value');
+  if (costEl) costEl.textContent = `¥ ${cost.toLocaleString()}`;
+
+  const diff = (key, label) => {
+    if (!withAtt) return '';
+    const b = base[key] || 0;
+    const a = withAtt[key] || 0;
+    const d = a - b;
+    if (d === 0) return '';
+    return `<span class="${d > 0 ? 'stat-pos' : 'stat-neg'}">${d > 0 ? '+' : ''}${d}</span>`;
+  };
+
+  const attNames = Object.entries(state.selectedAttachments)
+    .filter(([_, id]) => id)
+    .map(([slot, id]) => {
+      const att = DataDB.getAttachmentById(id);
+      return att ? `${att.name_cn}` : '';
+    })
+    .filter(Boolean);
+
+  const gearNames = Object.entries(state.selectedGear)
+    .filter(([_, id]) => id)
+    .map(([slot, id]) => {
+      const g = DataDB.getGearById(id);
+      return g ? `${g.name_cn}` : '';
+    })
+    .filter(Boolean);
+
+  return `
+  <div class="gear-preview-inner">
+    <div class="gear-preview-weapon">
+      <div class="gpw-name">${w.name_cn}</div>
+      <div class="gpw-meta">
+        <span class="tag">${w.type}</span>
+        <span class="tier-badge ${w.meta_tier}">${w.meta_tier}级</span>
+      </div>
+    </div>
+
+    <!-- 雷达图 -->
+    <div class="radar-container">
+      <h4>属性雷达图</h4>
+      <canvas id="gearRadarChart" width="320" height="260"></canvas>
+    </div>
+
+    <!-- 属性对比 -->
+    <div class="gear-stats-compare">
+      <div class="gear-compare-header">
+        <span>属性</span><span>基础</span><span>加成</span><span>最终</span>
+      </div>
+      ${['damage','accuracy','range','control','mobility','handling'].map(key => `
+        <div class="gear-compare-row">
+          <span>${key === 'damage'?'伤害':key === 'accuracy'?'精准':key === 'range'?'射程':key==='control'?'控制':key==='mobility'?'机动':'操控'}</span>
+          <span class="stat-base">${base[key]}</span>
+          <span>${diff(key)}</span>
+          <span class="stat-final">${withAtt ? withAtt[key] : base[key]}</span>
+        </div>
+      `).join('')}
+    </div>
+
+    <!-- 已选配件列表 -->
+    ${attNames.length ? `
+    <div class="gear-selected-list">
+      <div class="gsl-title">已选配件</div>
+      ${attNames.map(n => `<span class="gsl-tag att">${n}</span>`).join('')}
+    </div>` : ''}
+
+    <!-- 已选战备列表 -->
+    ${gearNames.length ? `
+    <div class="gear-selected-list">
+      <div class="gsl-title">已选战备</div>
+      ${gearNames.map(n => `<span class="gsl-tag gear">${n}</span>`).join('')}
+    </div>` : ''}
+
+    <!-- 战备加成 -->
+    ${(gearBonus.armor > 0 || gearBonus.stealth > 0) ? `
+    <div class="gear-bonus-section">
+      <div class="gsl-title">战备加成</div>
+      ${gearBonus.armor !== 0 ? `<span class="stat-pos">护甲 +${gearBonus.armor}</span>` : ''}
+      ${gearBonus.stealth !== 0 ? `<span class="stat-pos">隐蔽 +${gearBonus.stealth}</span>` : ''}
+    </div>` : ''}
+
+    <!-- 配装码 -->
+    ${w.loadout_code ? `
+    <div class="loadout-code-box">
+      <div>
+        <div style="font-size:0.72rem;color:var(--text-muted);margin-bottom:4px;">配装码（游戏内一键导入）</div>
+        <div class="loadout-code">${w.loadout_code}</div>
+      </div>
+      <button class="copy-btn" onclick="copyLoadout('${w.loadout_code}', this)">复制</button>
+    </div>` : ''}
+  </div>`;
+}
+
+function initGearCenter() {
+  // 初始化雷达图
+  setTimeout(() => {
+    if (state.selectedWeapon) drawGearRadar();
+  }, 50);
+}
+
+function selectGearWeapon(id) {
+  state.selectedWeapon = id ? DataDB.getWeaponById(id) : null;
+  state.selectedAttachments = {};
+  state.selectedGear = {};
+  state.liveCost = 0;
+  renderGearCenter();
+  initGearCenter();
+  setTimeout(() => drawGearRadar(), 100);
+}
+
+function selectAttachment(slot, attId) {
+  if (attId === '') {
+    delete state.selectedAttachments[slot];
+  } else {
+    state.selectedAttachments[slot] = attId;
+  }
+  updateGearPreview();
+  setTimeout(() => drawGearRadar(), 50);
+}
+
+function selectGearItem(slot, gearId) {
+  if (gearId === '') {
+    delete state.selectedGear[slot];
+  } else {
+    state.selectedGear[slot] = gearId;
+  }
+  updateGearPreview();
+}
+
+function updateGearPreview() {
+  const preview = $('#gear-preview-content');
+  if (preview) {
+    preview.innerHTML = renderGearPreview();
+  }
+  const cost = Calculator.calcTotalCost(state.selectedWeapon, state.selectedAttachments, state.selectedGear);
+  state.liveCost = cost;
+  const costEl = $('#cost-value');
+  if (costEl) costEl.textContent = `¥ ${cost.toLocaleString()}`;
+}
+
+function drawGearRadar() {
+  const canvas = $('#gearRadarChart');
+  if (!canvas || !state.selectedWeapon) return;
+
+  // 销毁旧图
+  const existing = Chart.getChart(canvas);
+  if (existing) existing.destroy();
+
+  const w = state.selectedWeapon;
+  const base = w.base_stats;
+  const withAtt = Calculator.calcWeaponWithAttachments(w, state.selectedAttachments);
+
+  const labels = ['伤害', '精准', '射程', '控制', '机动', '操控'];
+  const baseData = [base.damage, base.accuracy, base.range, base.control, base.mobility, base.handling];
+  const attData = withAtt
+    ? [withAtt.damage, withAtt.accuracy, withAtt.range, withAtt.control, withAtt.mobility, withAtt.handling]
+    : baseData;
+
+  new Chart(canvas, {
+    type: 'radar',
+    data: {
+      labels,
+      datasets: [
+        {
+          label: '基础属性',
+          data: baseData,
+          backgroundColor: 'rgba(59, 130, 246, 0.15)',
+          borderColor: 'rgba(59, 130, 246, 0.8)',
+          borderWidth: 1.5,
+          pointBackgroundColor: 'rgba(59, 130, 246, 0.9)'
+        },
+        {
+          label: '配件加成后',
+          data: attData,
+          backgroundColor: 'rgba(240, 192, 64, 0.15)',
+          borderColor: 'rgba(240, 192, 64, 0.9)',
+          borderWidth: 2,
+          pointBackgroundColor: 'rgba(240, 192, 64, 1)'
+        }
+      ]
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: true,
+      plugins: { legend: { labels: { color: '#8a95a8', font: { size: 11 } } } },
+      scales: {
+        r: {
+          min: 0, max: 100,
+          ticks: { color: '#4a5568', backdropColor: 'transparent', stepSize: 25, font: { size: 10 } },
+          pointLabels: { color: '#8a95a8', font: { size: 11 } },
+          grid: { color: 'rgba(255,255,255,0.06)' }
+        }
+      }
+    }
+  });
+}
+
+// ---- 强势推荐 ----
 function renderMeta() {
   const sorted = [...WEAPONS_DATA].sort((a,b) => (b.copy_count||0) - (a.copy_count||0));
   const sTier = sorted.filter(w => w.meta_tier === 'S');

@@ -1,0 +1,182 @@
+[
+  {
+    "id": "vest_light",
+    "name_cn": "轻型背心",
+    "slot": "vest",
+    "stat_mods": { "armor": 8, "mobility": 2 },
+    "price": 1200,
+    "tier": 1,
+    "tags": ["机动"]
+  },
+  {
+    "id": "vest_standard",
+    "name_cn": "标准背心",
+    "slot": "vest",
+    "stat_mods": { "armor": 15, "mobility": 0 },
+    "price": 2400,
+    "tier": 2,
+    "tags": ["平衡"]
+  },
+  {
+    "id": "vest_heavy",
+    "name_cn": "重型防弹背心",
+    "slot": "vest",
+    "stat_mods": { "armor": 25, "mobility": -4 },
+    "price": 4200,
+    "tier": 3,
+    "tags": ["防护"]
+  },
+  {
+    "id": "vest_tactical",
+    "name_cn": "战术突击背心",
+    "slot": "vest",
+    "stat_mods": { "armor": 18, "mobility": -1, "handling": 3 },
+    "price": 3800,
+    "tier": 2,
+    "tags": ["全能"]
+  },
+  {
+    "id": "helmet_light",
+    "name_cn": "轻型头盔",
+    "slot": "helmet",
+    "stat_mods": { "armor": 5, "mobility": 3 },
+    "price": 800,
+    "tier": 1,
+    "tags": ["机动"]
+  },
+  {
+    "id": "helmet_standard",
+    "name_cn": "标准头盔",
+    "slot": "helmet",
+    "stat_mods": { "armor": 12, "mobility": 0 },
+    "price": 1800,
+    "tier": 2,
+    "tags": ["平衡"]
+  },
+  {
+    "id": "helmet_heavy",
+    "name_cn": "防弹头盔",
+    "slot": "helmet",
+    "stat_mods": { "armor": 20, "mobility": -3, "handling": -1 },
+    "price": 3600,
+    "tier": 3,
+    "tags": ["防护"]
+  },
+  {
+    "id": "helmet_nightvision",
+    "name_cn": "夜视仪头盔",
+    "slot": "helmet",
+    "stat_mods": { "armor": 10, "mobility": 1, "accuracy": 3 },
+    "price": 5000,
+    "tier": 3,
+    "tags": ["夜战"]
+  },
+  {
+    "id": "knee_none",
+    "name_cn": "无护膝",
+    "slot": "knee",
+    "stat_mods": { "mobility": 2 },
+    "price": 0,
+    "tier": 0,
+    "tags": ["零成本"]
+  },
+  {
+    "id": "knee_light",
+    "name_cn": "轻型护膝",
+    "slot": "knee",
+    "stat_mods": { "armor": 3, "mobility": 1 },
+    "price": 500,
+    "tier": 1,
+    "tags": ["机动"]
+  },
+  {
+    "id": "knee_standard",
+    "name_cn": "标准战术护膝",
+    "slot": "knee",
+    "stat_mods": { "armor": 6, "mobility": 0 },
+    "price": 1000,
+    "tier": 2,
+    "tags": ["平衡"]
+  },
+  {
+    "id": "knee_heavy",
+    "name_cn": "重型护膝",
+    "slot": "knee",
+    "stat_mods": { "armor": 10, "mobility": -2 },
+    "price": 2200,
+    "tier": 3,
+    "tags": ["防护"]
+  },
+  {
+    "id": "boots_standard",
+    "name_cn": "标准战斗靴",
+    "slot": "boots",
+    "stat_mods": { "mobility": 0, "armor": 2 },
+    "price": 1000,
+    "tier": 1,
+    "tags": ["平衡"]
+  },
+  {
+    "id": "boots_light",
+    "name_cn": "轻型战术靴",
+    "slot": "boots",
+    "stat_mods": { "mobility": 5, "armor": 0 },
+    "price": 1400,
+    "tier": 2,
+    "tags": ["机动"]
+  },
+  {
+    "id": "boots_stealth",
+    "name_cn": "静音战靴",
+    "slot": "boots",
+    "stat_mods": { "mobility": 3, "stealth": 10 },
+    "price": 2000,
+    "tier": 2,
+    "tags": ["隐蔽"]
+  },
+  {
+    "id": "boots_armored",
+    "name_cn": "装甲战斗靴",
+    "slot": "boots",
+    "stat_mods": { "mobility": -2, "armor": 8 },
+    "price": 2800,
+    "tier": 3,
+    "tags": ["防护"]
+  },
+  {
+    "id": "tac_none",
+    "name_cn": "无战术配件",
+    "slot": "tactical",
+    "stat_mods": {},
+    "price": 0,
+    "tier": 0,
+    "tags": ["零成本"]
+  },
+  {
+    "id": "tac_gloves",
+    "name_cn": "战术手套",
+    "slot": "tactical",
+    "stat_mods": { "handling": 5, "accuracy": 2 },
+    "price": 800,
+    "tier": 1,
+    "tags": ["操控"]
+  },
+  {
+    "id": "tac_holster",
+    "name_cn": "战术枪套",
+    "slot": "tactical",
+    "stat_mods": { "handling": 4, "mobility": 2 },
+    "price": 1200,
+    "tier": 2,
+    "tags": ["机动"]
+  },
+  {
+    "id": "tac_comms",
+    "name_cn": "通讯耳机",
+    "slot": "tactical",
+    "stat_mods": { "accuracy": 3, "mobility": 2 },
+    "price": 1600,
+    "tier": 2,
+    "tags": ["团队"]
+  }
+]
