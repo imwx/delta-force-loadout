@@ -219,7 +219,7 @@ const Calculator = (function() {
     if (op) {
       if (op.id === 'luna') { pros.push('露娜的猎犬技能可提供额外伤害来源'); }
       if (op.id === 'stinger') { pros.push('毒刺的补给无人机保障弹药续航'); }
-      if (op.id === '98k') { pros.push('98K的狙击手本能提升开镜速度'); }
+      if (op.id === 'j93k') { pros.push('98K的狙击手本能提升开镜速度'); }
       if (op.id === 'raccoon') { pros.push('浣熊驾驶载具时速度+8%，适合全面战场'); }
       if (op.id === 'wanwan') { pros.push('玩玩的声波陷阱提供区域控制能力'); }
       if (op.id === 'black_cat') { pros.push('黑猫的近战加成使霰弹枪/冲锋枪更致命'); }
@@ -315,13 +315,14 @@ const Calculator = (function() {
 
   // ---- 战备中心：应用战备装备加成 ----
   function calcGearBonuses(selectedGear) {
-    const bonus = { armor: 0, stealth: 0 };
+    const bonus = { armor: 0, stealth: 0, mobility: 0, handling: 0, accuracy: 0 };
     Object.values(selectedGear).forEach(gearId => {
       if (!gearId || !BATTLE_GEAR_DATA) return;
       const gear = BATTLE_GEAR_DATA.find(g => g.id === gearId);
       if (!gear || !gear.stat_mods) return;
-      if (gear.stat_mods.armor !== undefined) bonus.armor += gear.stat_mods.armor;
-      if (gear.stat_mods.stealth !== undefined) bonus.stealth += gear.stat_mods.stealth;
+      Object.entries(gear.stat_mods).forEach(([key, val]) => {
+        if (key in bonus) bonus[key] += val;
+      });
     });
     return bonus;
   }

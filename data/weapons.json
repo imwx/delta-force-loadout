@@ -1,477 +1,204 @@
 [
   {
-    "id": "ci-19",
-    "name_cn": "CI-19突击步枪",
-    "name_en": "CI-19 Assault Rifle",
-    "type": "突击步枪",
-    "type_en": "Assault Rifle",
+    "id": "w1",
+    "name_cn": "沙漠之鹰",
+    "name_en": "Desert Eagle",
+    "type": "手枪",
+    "type_en": "Pistol",
     "mode": "both",
     "base_stats": {
-      "damage": 72,
-      "rate_of_fire": 750,
-      "accuracy": 78,
-      "range": 65,
-      "control": 70,
-      "mobility": 80,
-      "handling": 75
-    },
-    "ammo_type": [
-      "5.56"
-    ],
-    "meta_tier": "S",
-    "unlock_level": 1,
-    "loadout_code": "CI-19 Assault Rifle-Warfare-6HNEL2G0EIPHRNLI0J8JI",
-    "copy_count": 5390,
-    "tags": [
-      "全场景",
-      "版本强势",
-      "突击兵"
-    ]
-  },
-  {
-    "id": "m4a1",
-    "name_cn": "M4A1突击步枪",
-    "name_en": "M4A1 Assault Rifle",
-    "type": "突击步枪",
-    "type_en": "Assault Rifle",
-    "mode": "both",
-    "base_stats": {
-      "damage": 68,
-      "rate_of_fire": 800,
-      "accuracy": 82,
-      "range": 60,
-      "control": 75,
-      "mobility": 85,
-      "handling": 80
-    },
-    "ammo_type": [
-      "5.56"
-    ],
-    "meta_tier": "S",
-    "unlock_level": 1,
-    "loadout_code_warfare": "6HGO8DS0ED9CPMQ5GIFT9",
-    "loadout_code_operations": "6HLUDLK08M3TET99CEP38",
-    "copy_count": 1256,
-    "tags": [
-      "后坐力可控",
-      "全能"
-    ]
-  },
-  {
-    "id": "ak-74m",
-    "name_cn": "AK-74M突击步枪",
-    "name_en": "AK-74M Assault Rifle",
-    "type": "突击步枪",
-    "type_en": "Assault Rifle",
-    "mode": "both",
-    "base_stats": {
-      "damage": 75,
-      "rate_of_fire": 650,
+      "damage": 65,
+      "rate_of_fire": 300,
       "accuracy": 70,
-      "range": 70,
-      "control": 65,
-      "mobility": 75,
-      "handling": 70
-    },
-    "ammo_type": [
-      "5.45"
-    ],
-    "meta_tier": "S",
-    "unlock_level": 1,
-    "tags": [
-      "中距离强势",
-      "穿透力强"
-    ]
-  },
-  {
-    "id": "aug",
-    "name_cn": "AUG突击步枪",
-    "name_en": "AUG Assault Rifle",
-    "type": "突击步枪",
-    "type_en": "Assault Rifle",
-    "mode": "operations",
-    "base_stats": {
-      "damage": 74,
-      "rate_of_fire": 780,
-      "accuracy": 87,
-      "range": 68,
-      "control": 82,
-      "mobility": 72,
-      "handling": 78
-    },
-    "ammo_type": [
-      "5.56"
-    ],
-    "meta_tier": "A",
-    "unlock_level": 10,
-    "loadout_code": "AUG Assault Rifle-Operations-6I04C2G0FSH6GRF76DG60",
-    "copy_count": 3718,
-    "tags": [
-      "远距离",
-      "高精准",
-      "危险行动"
-    ]
-  },
-  {
-    "id": "akm",
-    "name_cn": "AKM突击步枪",
-    "name_en": "AKM Assault Rifle",
-    "type": "突击步枪",
-    "type_en": "Assault Rifle",
-    "mode": "warfare",
-    "base_stats": {
-      "damage": 80,
-      "rate_of_fire": 600,
-      "accuracy": 65,
-      "range": 75,
-      "control": 60,
-      "mobility": 70,
-      "handling": 65
-    },
-    "ammo_type": [
-      "7.62"
-    ],
-    "meta_tier": "A",
-    "unlock_level": 5,
-    "loadout_code": "AKM Assault Rifle-Warfare-6HE0B9808M3TET99CEP38",
-    "copy_count": 2577,
-    "tags": [
-      "高爆发",
-      "突击兵"
-    ]
-  },
-  {
-    "id": "k416",
-    "name_cn": "K416突击步枪",
-    "name_en": "K416 Assault Rifle",
-    "type": "突击步枪",
-    "type_en": "Assault Rifle",
-    "mode": "warfare",
-    "base_stats": {
-      "damage": 70,
-      "rate_of_fire": 780,
-      "accuracy": 80,
-      "range": 62,
+      "range": 35,
       "control": 72,
-      "mobility": 82,
-      "handling": 78
+      "mobility": 92,
+      "handling": 88
     },
-    "ammo_type": [
-      "5.56"
+      "ammo_type": [
+      ".50 AE"
     ],
-    "meta_tier": "A",
+    "meta_tier": "B",
     "unlock_level": 8,
-    "loadout_code": "K416 Assault Rifle-Warfare-6HS36340FSH6GRF76DG60",
-    "copy_count": 2081,
+    "game_id": 3,
+    "copy_count": 1387,
     "tags": [
-      "性价比高",
-      "持续火力",
-      "全兵种"
-    ]
-  },
-  {
-    "id": "ak-12",
-    "name_cn": "AK-12突击步枪",
-    "name_en": "AK-12 Assault Rifle",
-    "type": "突击步枪",
-    "type_en": "Assault Rifle",
-    "mode": "warfare",
-    "base_stats": {
-      "damage": 73,
-      "rate_of_fire": 750,
-      "accuracy": 76,
-      "range": 74,
-      "control": 68,
-      "mobility": 78,
-      "handling": 74
-    },
-    "ammo_type": [
-      "5.45"
+      "大口径"
     ],
-    "meta_tier": "A",
-    "unlock_level": 15,
-    "loadout_code": "AK-12 Assault Rifle-Warfare-6HSGLAG0FSH6GRF76DG60",
-    "copy_count": 1661,
-    "tags": [
-      "版本强势",
-      "全兵种"
-    ]
+    "loadout_price": 17640
   },
   {
-    "id": "as-val",
-    "name_cn": "AS Val突击步枪",
-    "name_en": "AS Val Assault Rifle",
-    "type": "突击步枪",
-    "type_en": "Assault Rifle",
-    "mode": "warfare",
+    "id": "w2",
+    "name_cn": ".357左轮",
+    "name_en": ".357 Revolver",
+    "type": "手枪",
+    "type_en": "Pistol",
+    "mode": "both",
     "base_stats": {
       "damage": 78,
-      "rate_of_fire": 900,
-      "accuracy": 60,
-      "range": 45,
-      "control": 55,
-      "mobility": 85,
-      "handling": 82
-    },
-    "ammo_type": [
-      "9x39"
-    ],
-    "meta_tier": "B",
-    "unlock_level": 20,
-    "loadout_code": "AS Val Assault Rifle-Warfare-6HLPMQ80EIPHRNLI0J8JI",
-    "copy_count": 1850,
-    "tags": [
-      "高射速",
-      "突击兵"
-    ]
-  },
-  {
-    "id": "aks-74",
-    "name_cn": "AKS-74突击步枪",
-    "name_en": "AKS-74 Assault Rifle",
-    "type": "突击步枪",
-    "type_en": "Assault Rifle",
-    "mode": "both",
-    "base_stats": {
-      "damage": 74,
-      "rate_of_fire": 650,
+      "rate_of_fire": 180,
       "accuracy": 68,
-      "range": 72,
-      "control": 62,
-      "mobility": 77,
-      "handling": 72
-    },
-    "ammo_type": [
-      "5.45"
-    ],
-    "meta_tier": "B",
-    "unlock_level": 3,
-    "loadout_code_warfare": "6I6KK3S00RR8JACO27GDL",
-    "loadout_code_operations": "6I03U9C0FSH6GRF76DG60",
-    "copy_count": 1473,
-    "tags": []
-  },
-  {
-    "id": "car-15",
-    "name_cn": "CAR-15突击步枪",
-    "name_en": "CAR-15 Assault Rifle",
-    "type": "突击步枪",
-    "type_en": "Assault Rifle",
-    "mode": "both",
-    "base_stats": {
-      "damage": 66,
-      "rate_of_fire": 850,
-      "accuracy": 72,
-      "range": 55,
-      "control": 70,
+      "range": 42,
+      "control": 60,
       "mobility": 88,
-      "handling": 85
+      "handling": 78
     },
-    "ammo_type": [
-      "5.56"
+      "ammo_type": [
+      ".357 Magnum"
     ],
     "meta_tier": "B",
     "unlock_level": 12,
-    "loadout_code_warfare": "6HCOJIO08M3TET99CEP38",
-    "copy_count": 1225,
-    "tags": []
+    "game_id": 15,
+    "copy_count": 3043,
+    "tags": [
+      "高伤害"
+    ],
+    "loadout_price": 13899
   },
   {
-    "id": "m7",
-    "name_cn": "M7战斗步枪",
-    "name_en": "M7 Battle Rifle",
-    "type": "战斗步枪",
-    "type_en": "Battle Rifle",
+    "id": "w3",
+    "name_cn": "G17",
+    "name_en": "G17",
+    "type": "手枪",
+    "type_en": "Pistol",
     "mode": "both",
     "base_stats": {
-      "damage": 85,
-      "rate_of_fire": 450,
-      "accuracy": 78,
-      "range": 80,
-      "control": 68,
-      "mobility": 65,
-      "handling": 70
+      "damage": 48,
+      "rate_of_fire": 850,
+      "accuracy": 72,
+      "range": 28,
+      "control": 80,
+      "mobility": 95,
+      "handling": 90
     },
     "ammo_type": [
-      "7.62"
+      "9mm"
     ],
-    "meta_tier": "A",
-    "unlock_level": 18,
-    "loadout_code_warfare": "6HGF7N408M3TET99CEP38",
-    "loadout_code_operations": "6I03ITO0FSH6GRF76DG60",
-    "copy_count": 1569,
+    "meta_tier": "C",
+    "unlock_level": 1,
+    "game_id": 59,
+    "copy_count": 2490,
     "tags": [
-      "高性价比",
-      "高操控性",
-      "危险行动"
-    ]
+      "新手"
+    ],
+    "loadout_price": 4800
   },
   {
-    "id": "m14",
-    "name_cn": "M14战斗步枪",
-    "name_en": "M14 Battle Rifle",
-    "type": "精确射手步枪",
-    "type_en": "Marksman Rifle",
-    "mode": "operations",
-    "base_stats": {
-      "damage": 82,
-      "rate_of_fire": 500,
-      "accuracy": 88,
-      "range": 85,
-      "control": 77,
-      "mobility": 60,
-      "handling": 70
-    },
-    "ammo_type": [
-      "7.62"
-    ],
-    "meta_tier": "A",
-    "unlock_level": 14,
-    "loadout_code": "6HSGI580FSH6GRF76DG60",
-    "copy_count": 1296,
-    "tags": [
-      "高稳定性",
-      "远距离",
-      "危险行动"
-    ]
-  },
-  {
-    "id": "mk47",
-    "name_cn": "MK47战斗步枪",
-    "name_en": "MK47 Battle Rifle",
-    "type": "战斗步枪",
-    "type_en": "Battle Rifle",
+    "id": "w4",
+    "name_cn": "93R",
+    "name_en": "93R",
+    "type": "手枪",
+    "type_en": "Pistol",
     "mode": "both",
     "base_stats": {
-      "damage": 80,
-      "rate_of_fire": 550,
-      "accuracy": 75,
-      "range": 78,
-      "control": 65,
-      "mobility": 68,
-      "handling": 70
-    },
-    "ammo_type": [
-      "7.62"
-    ],
-    "meta_tier": "B",
-    "unlock_level": 22,
-    "loadout_code_operations": "6I0476C0FSH6GRF76DG60",
-    "copy_count": 1221,
-    "tags": [
-      "近距离",
-      "推荐配装",
-      "危险行动"
-    ]
-  },
-  {
-    "id": "mini14",
-    "name_cn": "Mini-14精确射手步枪",
-    "name_en": "Mini-14 Marksman Rifle",
-    "type": "精确射手步枪",
-    "type_en": "Marksman Rifle",
-    "mode": "warfare",
-    "base_stats": {
-      "damage": 65,
-      "rate_of_fire": 750,
-      "accuracy": 90,
-      "range": 88,
-      "control": 82,
-      "mobility": 70,
+      "damage": 58,
+      "rate_of_fire": 1100,
+      "accuracy": 65,
+      "range": 30,
+      "control": 70,
+      "mobility": 90,
       "handling": 85
     },
     "ammo_type": [
-      "5.56"
+      "9mm"
     ],
-    "meta_tier": "A",
-    "unlock_level": 16,
-    "loadout_code": "6HM4U0C0FSH6GRF76DG60",
-    "copy_count": 678,
+    "meta_tier": "B",
+    "unlock_level": 15,
+    "game_id": 122,
+    "copy_count": 1708,
     "tags": [
-      "高稳定性",
-      "远距离",
-      "全兵种"
-    ]
+      "全自动手枪"
+    ],
+    "loadout_price": 17535
   },
   {
-    "id": "sv98",
-    "name_cn": "SV-98狙击步枪",
-    "name_en": "SV-98 Sniper Rifle",
-    "type": "狙击步枪",
-    "type_en": "Sniper Rifle",
-    "mode": "warfare",
+    "id": "w5",
+    "name_cn": "M1911",
+    "name_en": "M1911",
+    "type": "手枪",
+    "type_en": "Pistol",
+    "mode": "both",
     "base_stats": {
-      "damage": 95,
-      "rate_of_fire": 45,
-      "accuracy": 95,
-      "range": 100,
-      "control": 88,
-      "mobility": 50,
-      "handling": 55
+      "damage": 62,
+      "rate_of_fire": 350,
+      "accuracy": 74,
+      "range": 32,
+      "control": 78,
+      "mobility": 92,
+      "handling": 85
+    },
+      "ammo_type": [
+      ".45 ACP"
+    ],
+    "meta_tier": "B",
+    "unlock_level": 5,
+    "game_id": 168,
+    "copy_count": 4567,
+    "tags": [
+      "经典"
+    ],
+    "loadout_price": 17374
+  },
+  {
+    "id": "w6",
+    "name_cn": "QSZ92G",
+    "name_en": "QSZ-92G",
+    "type": "手枪",
+    "type_en": "Pistol",
+    "mode": "both",
+    "base_stats": {
+      "damage": 45,
+      "rate_of_fire": 820,
+      "accuracy": 76,
+      "range": 30,
+      "control": 82,
+      "mobility": 94,
+      "handling": 88
     },
     "ammo_type": [
-      "7.62"
+      "9mm"
+    ],
+    "meta_tier": "C",
+    "unlock_level": 1,
+    "game_id": 212,
+    "copy_count": 3836,
+    "tags": [
+      "标准配置"
+    ],
+    "loadout_price": 4800
+  },
+  {
+    "id": "w7",
+    "name_cn": "G18",
+    "name_en": "G18",
+    "type": "手枪",
+    "type_en": "Pistol",
+    "mode": "both",
+    "base_stats": {
+      "damage": 52,
+      "rate_of_fire": 1200,
+      "accuracy": 58,
+      "range": 25,
+      "control": 62,
+      "mobility": 92,
+      "handling": 86
+    },
+    "ammo_type": [
+      "9mm"
     ],
     "meta_tier": "A",
-    "unlock_level": 25,
-    "loadout_code": "6EKJIJ80AVG5CJCFDNV7J",
-    "copy_count": 737,
-    "tags": []
-  },
-  {
-    "id": "awm",
-    "name_cn": "AWM狙击步枪",
-    "name_en": "AWM Sniper Rifle",
-    "type": "狙击步枪",
-    "type_en": "Sniper Rifle",
-    "mode": "warfare",
-    "base_stats": {
-      "damage": 100,
-      "rate_of_fire": 40,
-      "accuracy": 98,
-      "range": 100,
-      "control": 90,
-      "mobility": 45,
-      "handling": 50
-    },
-    "ammo_type": [
-      ".300"
+    "unlock_level": 18,
+    "game_id": 262,
+    "copy_count": 4315,
+    "tags": [
+      "全自动"
     ],
-    "meta_tier": "S",
-    "unlock_level": 35,
-    "loadout_code": "6EO539004RP0OU9EQA4FD",
-    "copy_count": 618,
-    "tags": []
+    "loadout_price": 19111
   },
   {
-    "id": "r93",
-    "name_cn": "R93狙击步枪",
-    "name_en": "R93 Sniper Rifle",
-    "type": "狙击步枪",
-    "type_en": "Sniper Rifle",
-    "mode": "warfare",
-    "base_stats": {
-      "damage": 90,
-      "rate_of_fire": 50,
-      "accuracy": 92,
-      "range": 95,
-      "control": 85,
-      "mobility": 52,
-      "handling": 58
-    },
-    "ammo_type": [
-      ".338"
-    ],
-    "meta_tier": "A",
-    "unlock_level": 30,
-    "loadout_code": "6ESARI80BPQR609FCOJ8N",
-    "copy_count": 902,
-    "tags": []
-  },
-  {
-    "id": "mp5",
+    "id": "w8",
     "name_cn": "MP5冲锋枪",
-    "name_en": "MP5 Submachine Gun",
+    "name_en": "MP5 SMG",
     "type": "冲锋枪",
     "type_en": "Submachine Gun",
     "mode": "operations",
@@ -489,17 +216,18 @@
     ],
     "meta_tier": "S",
     "unlock_level": 1,
-    "loadout_code": "6HSGMUO0FSH6GRF76DG60",
-    "copy_count": 955,
+    "game_id": 401,
+    "copy_count": 3891,
     "tags": [
       "版本强势",
       "危险行动"
-    ]
+    ],
+    "loadout_price": 38432
   },
   {
-    "id": "smg-45",
+    "id": "w9",
     "name_cn": "SMG-45冲锋枪",
-    "name_en": "SMG-45 Submachine Gun",
+    "name_en": "SMG-45",
     "type": "冲锋枪",
     "type_en": "Submachine Gun",
     "mode": "warfare",
@@ -513,18 +241,19 @@
       "handling": 85
     },
     "ammo_type": [
-      ".45ACP"
+      "9mm"
     ],
     "meta_tier": "B",
     "unlock_level": 8,
-    "loadout_code": "SMG-45 Submachine Gun-Warfare-6EO15NC057RAU0E7AE9HI",
-    "copy_count": 1595,
-    "tags": []
+    "game_id": 364,
+    "copy_count": 1336,
+    "tags": [],
+    "loadout_price": 38081
   },
   {
-    "id": "vector",
+    "id": "w10",
     "name_cn": "Vector冲锋枪",
-    "name_en": "Vector Submachine Gun",
+    "name_en": "Vector SMG",
     "type": "冲锋枪",
     "type_en": "Submachine Gun",
     "mode": "warfare",
@@ -538,21 +267,22 @@
       "handling": 92
     },
     "ammo_type": [
-      ".45ACP"
+      "9mm"
     ],
     "meta_tier": "A",
     "unlock_level": 15,
-    "loadout_code": "6JF8GPC073PLKDGT2OU3K",
-    "copy_count": 1033,
+    "game_id": 510,
+    "copy_count": 2206,
     "tags": [
       "版本强势",
       "全兵种"
-    ]
+    ],
+    "loadout_price": 151225
   },
   {
-    "id": "mp7",
+    "id": "w11",
     "name_cn": "MP7冲锋枪",
-    "name_en": "MP7 Submachine Gun",
+    "name_en": "MP7 SMG",
     "type": "冲锋枪",
     "type_en": "Submachine Gun",
     "mode": "warfare",
@@ -566,18 +296,19 @@
       "handling": 88
     },
     "ammo_type": [
-      "4.6x30"
+      "9mm"
     ],
     "meta_tier": "B",
     "unlock_level": 20,
-    "loadout_code": "6HJ48GS08M3TET99CEP38",
-    "copy_count": 666,
-    "tags": []
+    "game_id": 139,
+    "copy_count": 2891,
+    "tags": [],
+    "loadout_price": 151225
   },
   {
-    "id": "uzi",
+    "id": "w12",
     "name_cn": "UZI冲锋枪",
-    "name_en": "UZI Submachine Gun",
+    "name_en": "UZI SMG",
     "type": "冲锋枪",
     "type_en": "Submachine Gun",
     "mode": "warfare",
@@ -595,16 +326,17 @@
     ],
     "meta_tier": "C",
     "unlock_level": 5,
-    "loadout_code": "6HKOMFO09IK6448JCVE98",
-    "copy_count": 523,
-    "tags": []
+    "game_id": 485,
+    "copy_count": 3481,
+    "tags": [],
+    "loadout_price": 12054
   },
   {
-    "id": "sr-3m",
+    "id": "w13",
     "name_cn": "SR-3M紧凑突击步枪",
-    "name_en": "SR-3M Compact Assault Rifle",
-    "type": "紧凑突击步枪",
-    "type_en": "Compact Assault Rifle",
+    "name_en": "SR-3M Compact",
+    "type": "冲锋枪",
+    "type_en": "Submachine Gun",
     "mode": "operations",
     "base_stats": {
       "damage": 52,
@@ -616,183 +348,47 @@
       "handling": 90
     },
     "ammo_type": [
-      "9x39"
+      "9mm"
     ],
     "meta_tier": "A",
     "unlock_level": 28,
-    "loadout_code": "6I5KMSC00RR8JACO27GDL",
-    "copy_count": 625,
-    "tags": []
+    "game_id": 294,
+    "copy_count": 347,
+    "tags": [],
+    "loadout_price": 151443
   },
   {
-    "id": "vss",
-    "name_cn": "VSS精确射手步枪",
-    "name_en": "VSS Marksman Rifle",
-    "type": "精确射手步枪",
-    "type_en": "Marksman Rifle",
-    "mode": "warfare",
-    "base_stats": {
-      "damage": 68,
-      "rate_of_fire": 850,
-      "accuracy": 72,
-      "range": 55,
-      "control": 65,
-      "mobility": 82,
-      "handling": 80
-    },
-    "ammo_type": [
-      "9x39"
-    ],
-    "meta_tier": "B",
-    "unlock_level": 32,
-    "loadout_code": "6H1TUPC02L400JRD1UIHB",
-    "copy_count": 556,
-    "tags": []
-  },
-  {
-    "id": "s12k",
-    "name_cn": "S12K霰弹枪",
-    "name_en": "S12K Shotgun",
-    "type": "霰弹枪",
-    "type_en": "Shotgun",
-    "mode": "warfare",
-    "base_stats": {
-      "damage": 90,
-      "rate_of_fire": 450,
-      "accuracy": 40,
-      "range": 20,
-      "control": 55,
-      "mobility": 80,
-      "handling": 78
-    },
-    "ammo_type": [
-      "12-gauge"
-    ],
-    "meta_tier": "B",
-    "unlock_level": 10,
-    "loadout_code": "6IJ42PS00RSEV0P3C3K7R",
-    "copy_count": 2799,
-    "tags": [
-      "近距离",
-      "推荐配装",
-      "突击兵"
-    ]
-  },
-  {
-    "id": "m249",
-    "name_cn": "M249轻机枪",
-    "name_en": "M249 Light Machine Gun",
-    "type": "轻机枪",
-    "type_en": "Light Machine Gun",
-    "mode": "both",
-    "base_stats": {
-      "damage": 72,
-      "rate_of_fire": 850,
-      "accuracy": 70,
-      "range": 75,
-      "control": 55,
-      "mobility": 55,
-      "handling": 50
-    },
-    "ammo_type": [
-      "5.56"
-    ],
-    "meta_tier": "A",
-    "unlock_level": 24,
-    "loadout_code_warfare": "6ENLHP80E251LPP6RI7LF",
-    "loadout_code_operations": "6JF88H4073PLKDGT2OU3K",
-    "copy_count": 939,
-    "tags": [
-      "版本强势",
-      "全兵种"
-    ]
-  },
-  {
-    "id": "m250",
-    "name_cn": "M250通用机枪",
-    "name_en": "M250 General Machine Gun",
-    "type": "通用机枪",
-    "type_en": "General Machine Gun",
-    "mode": "warfare",
-    "base_stats": {
-      "damage": 68,
-      "rate_of_fire": 800,
-      "accuracy": 72,
-      "range": 80,
-      "control": 58,
-      "mobility": 50,
-      "handling": 38
-    },
-    "ammo_type": [
-      "7.62"
-    ],
-    "meta_tier": "A",
-    "unlock_level": 38,
-    "loadout_code": "6JF8JNC073PLKDGT2OU3K",
-    "copy_count": 635,
-    "tags": [
-      "版本强势",
-      "全兵种"
-    ]
-  },
-  {
-    "id": "scar-h",
-    "name_cn": "SCAR-H战斗步枪",
-    "name_en": "SCAR-H Battle Rifle",
-    "type": "战斗步枪",
-    "type_en": "Battle Rifle",
+    "id": "w14",
+    "name_cn": "QCQ171冲锋枪",
+    "name_en": "QCQ-171 SMG",
+    "type": "冲锋枪",
+    "type_en": "Submachine Gun",
     "mode": "operations",
     "base_stats": {
-      "damage": 82,
-      "rate_of_fire": 520,
-      "accuracy": 76,
-      "range": 82,
-      "control": 68,
-      "mobility": 62,
-      "handling": 68
+      "damage": 50,
+      "rate_of_fire": 800,
+      "accuracy": 74,
+      "range": 38,
+      "control": 78,
+      "mobility": 86,
+      "handling": 82
     },
     "ammo_type": [
-      "7.62"
+      "9mm"
     ],
     "meta_tier": "A",
-    "unlock_level": 26,
-    "loadout_code": "6HSGEJ40FSH6GRF76DG60",
-    "copy_count": 524,
+    "unlock_level": 22,
+    "game_id": 50,
+    "copy_count": 4391,
     "tags": [
-      "新手友好",
-      "高稳定性",
-      "危险行动"
-    ]
-  },
-  {
-    "id": "m16a4",
-    "name_cn": "M16A4突击步枪",
-    "name_en": "M16A4 Assault Rifle",
-    "type": "突击步枪",
-    "type_en": "Assault Rifle",
-    "mode": "warfare",
-    "base_stats": {
-      "damage": 70,
-      "rate_of_fire": 700,
-      "accuracy": 80,
-      "range": 72,
-      "control": 74,
-      "mobility": 76,
-      "handling": 72
-    },
-    "ammo_type": [
-      "5.56"
+      "国产"
     ],
-    "meta_tier": "B",
-    "unlock_level": 6,
-    "loadout_code": "6ENTK5G00U98BTLV400GS",
-    "copy_count": 975,
-    "tags": []
+    "loadout_price": 124173
   },
   {
-    "id": "p90",
+    "id": "w15",
     "name_cn": "P90冲锋枪",
-    "name_en": "P90 Submachine Gun",
+    "name_en": "P90 SMG",
     "type": "冲锋枪",
     "type_en": "Submachine Gun",
     "mode": "both",
@@ -806,20 +402,104 @@
       "handling": 88
     },
     "ammo_type": [
-      "5.7x28"
+      "9mm"
     ],
     "meta_tier": "S",
     "unlock_level": 20,
-    "loadout_code": "P90 Submachine Gun-Warfare-6J0NU0S064DU5TFLJ691H",
-    "copy_count": 3200,
+    "game_id": 339,
+    "copy_count": 201,
     "tags": [
-      "高射速",
       "大弹容",
       "危险行动"
-    ]
+    ],
+    "loadout_price": 115855
   },
   {
-    "id": "m870",
+    "id": "w16",
+    "name_cn": "勇士冲锋枪",
+    "name_en": "Warrior SMG",
+    "type": "冲锋枪",
+    "type_en": "Submachine Gun",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 46,
+      "rate_of_fire": 780,
+      "accuracy": 70,
+      "range": 34,
+      "control": 76,
+      "mobility": 90,
+      "handling": 84
+    },
+    "ammo_type": [
+      "9mm"
+    ],
+    "meta_tier": "B",
+    "unlock_level": 12,
+    "game_id": 353,
+    "copy_count": 1621,
+    "tags": [
+      "国产"
+    ],
+    "loadout_price": 38035
+  },
+  {
+    "id": "w17",
+    "name_cn": "野牛冲锋枪",
+    "name_en": "Bizon SMG",
+    "type": "冲锋枪",
+    "type_en": "Submachine Gun",
+    "mode": "both",
+    "base_stats": {
+      "damage": 47,
+      "rate_of_fire": 720,
+      "accuracy": 66,
+      "range": 36,
+      "control": 74,
+      "mobility": 88,
+      "handling": 80
+    },
+    "ammo_type": [
+      "9mm"
+    ],
+    "meta_tier": "B",
+    "unlock_level": 10,
+    "game_id": 509,
+    "copy_count": 2947,
+    "tags": [
+      "大弹容"
+    ],
+    "loadout_price": 12100
+  },
+  {
+    "id": "w18",
+    "name_cn": "MK4冲锋枪",
+    "name_en": "MK4 SMG",
+    "type": "冲锋枪",
+    "type_en": "Submachine Gun",
+    "mode": "both",
+    "base_stats": {
+      "damage": 49,
+      "rate_of_fire": 850,
+      "accuracy": 70,
+      "range": 36,
+      "control": 76,
+      "mobility": 88,
+      "handling": 84
+    },
+    "ammo_type": [
+      "9mm"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 30,
+    "game_id": 1232,
+    "copy_count": 4361,
+    "tags": [
+      "S5新增"
+    ],
+    "loadout_price": 102963
+  },
+  {
+    "id": "w19",
     "name_cn": "M870霰弹枪",
     "name_en": "M870 Shotgun",
     "type": "霰弹枪",
@@ -839,133 +519,45 @@
     ],
     "meta_tier": "A",
     "unlock_level": 15,
-    "loadout_code": "M870 Shotgun-Warfare-6IJM4PS00RSEV0P3C3K7R",
-    "copy_count": 2100,
+    "game_id": 140,
+    "copy_count": 394,
     "tags": [
       "泵动",
-      "高伤害",
-      "经典"
-    ]
-  },
-  {
-    "id": "sr25",
-    "name_cn": "SR-25精确射手步枪",
-    "name_en": "SR-25 Marksman Rifle",
-    "type": "精确射手步枪",
-    "type_en": "Marksman Rifle",
-    "mode": "both",
-    "base_stats": {
-      "damage": 78,
-      "rate_of_fire": 600,
-      "accuracy": 88,
-      "range": 90,
-      "control": 76,
-      "mobility": 62,
-      "handling": 65
-    },
-    "ammo_type": [
-      "7.62"
+      "高伤害"
     ],
-    "meta_tier": "S",
-    "unlock_level": 30,
-    "loadout_code": "SR-25 Marksman Rifle-Warfare-6HSGI580FSH6GRF76DG60",
-    "copy_count": 1800,
-    "tags": [
-      "高精准",
-      "中远距离",
-      "全面战场"
-    ]
+    "loadout_price": 5000
   },
   {
-    "id": "svd",
-    "name_cn": "SVD精确射手步枪",
-    "name_en": "SVD Marksman Rifle",
-    "type": "精确射手步枪",
-    "type_en": "Marksman Rifle",
+    "id": "w20",
+    "name_cn": "S12K霰弹枪",
+    "name_en": "S12K Shotgun",
+    "type": "霰弹枪",
+    "type_en": "Shotgun",
     "mode": "warfare",
     "base_stats": {
-      "damage": 80,
-      "rate_of_fire": 550,
-      "accuracy": 85,
-      "range": 88,
-      "control": 70,
-      "mobility": 58,
-      "handling": 62
+      "damage": 90,
+      "rate_of_fire": 450,
+      "accuracy": 40,
+      "range": 20,
+      "control": 55,
+      "mobility": 80,
+      "handling": 78
     },
     "ammo_type": [
-      "7.62"
+      "12-gauge"
     ],
-    "meta_tier": "A",
-    "unlock_level": 25,
-    "loadout_code": "SVD Marksman Rifle-Warfare-6HM4U0C0FSH6GRF76DG60",
-    "copy_count": 1500,
+    "meta_tier": "B",
+    "unlock_level": 10,
+    "game_id": 422,
+    "copy_count": 2641,
     "tags": [
-      "经典DMR",
-      "全兵种",
-      "高性价比"
-    ]
+      "近战",
+      "推荐配装"
+    ],
+    "loadout_price": 39595
   },
   {
-    "id": "l115a3",
-    "name_cn": "L115A3狙击步枪",
-    "name_en": "L115A3 Sniper Rifle",
-    "type": "狙击步枪",
-    "type_en": "Sniper Rifle",
-    "mode": "warfare",
-    "base_stats": {
-      "damage": 96,
-      "rate_of_fire": 42,
-      "accuracy": 96,
-      "range": 98,
-      "control": 86,
-      "mobility": 48,
-      "handling": 52
-    },
-    "ammo_type": [
-      ".338"
-    ],
-    "meta_tier": "S",
-    "unlock_level": 40,
-    "loadout_code": "L115A3 Sniper Rifle-Warfare-6EKJIJ80AVG5CJCFDNV7J",
-    "copy_count": 1100,
-    "tags": [
-      "极远射程",
-      "高精准",
-      "AWM同级"
-    ]
-  },
-  {
-    "id": "k437",
-    "name_cn": "K437突击步枪",
-    "name_en": "K437 Assault Rifle",
-    "type": "突击步枪",
-    "type_en": "Assault Rifle",
-    "mode": "both",
-    "base_stats": {
-      "damage": 74,
-      "rate_of_fire": 780,
-      "accuracy": 80,
-      "range": 72,
-      "control": 76,
-      "mobility": 76,
-      "handling": 72
-    },
-    "ammo_type": [
-      "5.56"
-    ],
-    "meta_tier": "S",
-    "unlock_level": 1,
-    "loadout_code_warfare": "K437 Assault Rifle-Warfare-6G05F3K0BN6I9QU71K795",
-    "loadout_code_operations": "K437 Assault Rifle-Operations-6G04UC80BN6I9QU71K795",
-    "copy_count": 9500,
-    "tags": [
-      "S4新增",
-      "版本强势",
-      "高DPS"
-    ]
-  },
-  {
-    "id": "725",
+    "id": "w21",
     "name_cn": "725双管霰弹枪",
     "name_en": "725 Shotgun",
     "type": "霰弹枪",
@@ -985,18 +577,271 @@
     ],
     "meta_tier": "S",
     "unlock_level": 1,
-    "loadout_code": "725 Shotgun-Warfare-6IJ42PS00RSEV0P3C3K7R",
-    "copy_count": 7800,
+    "game_id": 446,
+    "copy_count": 4697,
     "tags": [
       "S4新增",
-      "双管",
-      "一枪致死"
-    ]
+      "双管"
+    ],
+    "loadout_price": 31915
   },
   {
-    "id": "qbz95",
-    "name_cn": "QBZ-95突击步枪",
-    "name_en": "QBZ-95 Assault Rifle",
+    "id": "w22",
+    "name_cn": "M1014霰弹枪",
+    "name_en": "M1014 Shotgun",
+    "type": "霰弹枪",
+    "type_en": "Shotgun",
+    "mode": "both",
+    "base_stats": {
+      "damage": 88,
+      "rate_of_fire": 200,
+      "accuracy": 38,
+      "range": 24,
+      "control": 60,
+      "mobility": 80,
+      "handling": 72
+    },
+    "ammo_type": [
+      "12-gauge"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 20,
+    "game_id": 506,
+    "copy_count": 4467,
+    "tags": [
+      "半自动"
+    ],
+    "loadout_price": 26588
+  },
+  {
+    "id": "w23",
+    "name_cn": "M16A4突击步枪",
+    "name_en": "M16A4 AR",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 70,
+      "rate_of_fire": 700,
+      "accuracy": 80,
+      "range": 72,
+      "control": 74,
+      "mobility": 76,
+      "handling": 72
+    },
+    "ammo_type": [
+      "5.56"
+    ],
+    "meta_tier": "B",
+    "unlock_level": 6,
+    "game_id": 58,
+    "copy_count": 594,
+    "tags": [],
+    "loadout_price": 12281
+  },
+  {
+    "id": "w24",
+    "name_cn": "M4A1突击步枪",
+    "name_en": "M4A1 AR",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
+    "mode": "both",
+    "base_stats": {
+      "damage": 68,
+      "rate_of_fire": 800,
+      "accuracy": 82,
+      "range": 60,
+      "control": 75,
+      "mobility": 85,
+      "handling": 80
+    },
+    "ammo_type": [
+      "5.56"
+    ],
+    "meta_tier": "S",
+    "unlock_level": 1,
+    "game_id": 375,
+    "copy_count": 1583,
+    "tags": [
+      "后坐力可控",
+      "全能"
+    ],
+    "loadout_price": 129953
+  },
+  {
+    "id": "w25",
+    "name_cn": "AUG突击步枪",
+    "name_en": "AUG AR",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
+    "mode": "operations",
+    "base_stats": {
+      "damage": 74,
+      "rate_of_fire": 780,
+      "accuracy": 87,
+      "range": 68,
+      "control": 82,
+      "mobility": 72,
+      "handling": 78
+    },
+    "ammo_type": [
+      "5.56"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 10,
+    "game_id": 174,
+    "copy_count": 3226,
+    "tags": [
+      "高精准",
+      "危险行动"
+    ],
+    "loadout_price": 134554
+  },
+  {
+    "id": "w26",
+    "name_cn": "AKM突击步枪",
+    "name_en": "AKM AR",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 80,
+      "rate_of_fire": 600,
+      "accuracy": 65,
+      "range": 75,
+      "control": 60,
+      "mobility": 70,
+      "handling": 65
+    },
+    "ammo_type": [
+      "5.56"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 5,
+    "game_id": 241,
+    "copy_count": 585,
+    "tags": [
+      "高爆发",
+      "穿透力强"
+    ],
+    "loadout_price": 102147
+  },
+  {
+    "id": "w27",
+    "name_cn": "K416突击步枪",
+    "name_en": "K416 AR",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 70,
+      "rate_of_fire": 780,
+      "accuracy": 80,
+      "range": 62,
+      "control": 72,
+      "mobility": 82,
+      "handling": 78
+    },
+    "ammo_type": [
+      "5.56"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 8,
+    "game_id": 129,
+    "copy_count": 1195,
+    "tags": [
+      "性价比高",
+      "全兵种"
+    ],
+    "loadout_price": 175134
+  },
+  {
+    "id": "w28",
+    "name_cn": "AK-12突击步枪",
+    "name_en": "AK-12 AR",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 73,
+      "rate_of_fire": 750,
+      "accuracy": 76,
+      "range": 74,
+      "control": 68,
+      "mobility": 78,
+      "handling": 74
+    },
+    "ammo_type": [
+      "5.56"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 15,
+    "game_id": 499,
+    "copy_count": 2196,
+    "tags": [
+      "版本强势"
+    ],
+    "loadout_price": 123567
+  },
+  {
+    "id": "w29",
+    "name_cn": "AS Val突击步枪",
+    "name_en": "AS Val AR",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 78,
+      "rate_of_fire": 900,
+      "accuracy": 60,
+      "range": 45,
+      "control": 55,
+      "mobility": 85,
+      "handling": 82
+    },
+    "ammo_type": [
+      "5.56"
+    ],
+    "meta_tier": "B",
+    "unlock_level": 20,
+    "game_id": 329,
+    "copy_count": 3798,
+    "tags": [
+      "高射速",
+      "消音"
+    ],
+    "loadout_price": 178111
+  },
+  {
+    "id": "w30",
+    "name_cn": "CAR-15突击步枪",
+    "name_en": "CAR-15 AR",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
+    "mode": "both",
+    "base_stats": {
+      "damage": 66,
+      "rate_of_fire": 850,
+      "accuracy": 72,
+      "range": 55,
+      "control": 70,
+      "mobility": 88,
+      "handling": 85
+    },
+    "ammo_type": [
+      "5.56"
+    ],
+    "meta_tier": "B",
+    "unlock_level": 12,
+    "game_id": 175,
+    "copy_count": 4583,
+    "tags": [],
+    "loadout_price": 12303
+  },
+  {
+    "id": "w31",
+    "name_cn": "QBZ95-1突击步枪",
+    "name_en": "QBZ-95-1 AR",
     "type": "突击步枪",
     "type_en": "Assault Rifle",
     "mode": "both",
@@ -1010,16 +855,828 @@
       "handling": 70
     },
     "ammo_type": [
-      "5.8"
+      "5.56"
     ],
     "meta_tier": "A",
     "unlock_level": 10,
-    "loadout_code": "QBZ-95 Assault Rifle-Warfare-6HGO8DS0ED9CPMQ5GIFT9",
-    "copy_count": 1200,
+    "game_id": 429,
+    "copy_count": 4903,
     "tags": [
       "S4增强",
+      "国产"
+    ],
+    "loadout_price": 38843
+  },
+  {
+    "id": "w32",
+    "name_cn": "AKS-74U突击步枪",
+    "name_en": "AKS-74U AR",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
+    "mode": "both",
+    "base_stats": {
+      "damage": 68,
+      "rate_of_fire": 680,
+      "accuracy": 68,
+      "range": 58,
+      "control": 65,
+      "mobility": 84,
+      "handling": 78
+    },
+    "ammo_type": [
+      "5.56"
+    ],
+    "meta_tier": "B",
+    "unlock_level": 5,
+    "game_id": 445,
+    "copy_count": 3263,
+    "tags": [
+      "短管",
+      "突击兵"
+    ],
+    "loadout_price": 11563
+  },
+  {
+    "id": "w33",
+    "name_cn": "PTR-32突击步枪",
+    "name_en": "PTR-32 AR",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 65,
+      "rate_of_fire": 850,
+      "accuracy": 70,
+      "range": 52,
+      "control": 68,
+      "mobility": 82,
+      "handling": 78
+    },
+    "ammo_type": [
+      "5.56"
+    ],
+    "meta_tier": "B",
+    "unlock_level": 18,
+    "game_id": 273,
+    "copy_count": 4730,
+    "tags": [],
+    "loadout_price": 38228
+  },
+  {
+    "id": "w34",
+    "name_cn": "SG552突击步枪",
+    "name_en": "SG552 AR",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 72,
+      "rate_of_fire": 780,
+      "accuracy": 78,
+      "range": 66,
+      "control": 70,
+      "mobility": 76,
+      "handling": 74
+    },
+    "ammo_type": [
+      "5.56"
+    ],
+    "meta_tier": "B",
+    "unlock_level": 16,
+    "game_id": 314,
+    "copy_count": 3744,
+    "tags": [],
+    "loadout_price": 39059
+  },
+  {
+    "id": "w35",
+    "name_cn": "腾龙突击步枪",
+    "name_en": "Tenglong AR",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
+    "mode": "both",
+    "base_stats": {
+      "damage": 76,
+      "rate_of_fire": 720,
+      "accuracy": 80,
+      "range": 70,
+      "control": 72,
+      "mobility": 74,
+      "handling": 76
+    },
+    "ammo_type": [
+      "5.56"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 20,
+    "game_id": 206,
+    "copy_count": 2225,
+    "tags": [
+      "S5新增"
+    ],
+    "loadout_price": 120177
+  },
+  {
+    "id": "w36",
+    "name_cn": "KC17突击步枪",
+    "name_en": "KC17 AR",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 74,
+      "rate_of_fire": 760,
+      "accuracy": 82,
+      "range": 72,
+      "control": 74,
+      "mobility": 72,
+      "handling": 76
+    },
+    "ammo_type": [
+      "5.56"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 25,
+    "game_id": 338,
+    "copy_count": 1895,
+    "tags": [
+      "S5新增"
+    ],
+    "loadout_price": 183351
+  },
+  {
+    "id": "w37",
+    "name_cn": "K437突击步枪",
+    "name_en": "K437 AR",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
+    "mode": "both",
+    "base_stats": {
+      "damage": 74,
+      "rate_of_fire": 780,
+      "accuracy": 80,
+      "range": 72,
+      "control": 76,
+      "mobility": 76,
+      "handling": 72
+    },
+    "ammo_type": [
+      "5.56"
+    ],
+    "meta_tier": "S",
+    "unlock_level": 1,
+    "game_id": 474,
+    "copy_count": 2565,
+    "tags": [
+      "S4新增",
+      "版本强势"
+    ],
+    "loadout_price": 154909
+  },
+  {
+    "id": "w38",
+    "name_cn": "M7战斗步枪",
+    "name_en": "M7 Battle Rifle",
+    "type": "战斗步枪",
+    "type_en": "Battle Rifle",
+    "mode": "both",
+    "base_stats": {
+      "damage": 85,
+      "rate_of_fire": 450,
+      "accuracy": 78,
+      "range": 80,
+      "control": 68,
+      "mobility": 65,
+      "handling": 70
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 18,
+    "game_id": 181,
+    "copy_count": 1903,
+    "tags": [
+      "高性价比",
+      "危险行动"
+    ],
+    "loadout_price": 256464
+  },
+  {
+    "id": "w39",
+    "name_cn": "SCAR-H战斗步枪",
+    "name_en": "SCAR-H BR",
+    "type": "战斗步枪",
+    "type_en": "Battle Rifle",
+    "mode": "operations",
+    "base_stats": {
+      "damage": 82,
+      "rate_of_fire": 520,
+      "accuracy": 76,
+      "range": 82,
+      "control": 68,
+      "mobility": 62,
+      "handling": 68
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 26,
+    "game_id": 79,
+    "copy_count": 2943,
+    "tags": [
+      "新手友好",
+      "高稳定性"
+    ],
+    "loadout_price": 111360
+  },
+  {
+    "id": "w40",
+    "name_cn": "ASh-12战斗步枪",
+    "name_en": "ASh-12 BR",
+    "type": "战斗步枪",
+    "type_en": "Battle Rifle",
+    "mode": "both",
+    "base_stats": {
+      "damage": 90,
+      "rate_of_fire": 480,
+      "accuracy": 68,
+      "range": 75,
+      "control": 60,
+      "mobility": 58,
+      "handling": 62
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "S",
+    "unlock_level": 30,
+    "game_id": 495,
+    "copy_count": 2884,
+    "tags": [
+      "大口径",
+      "全兵种"
+    ],
+    "loadout_price": 197326
+  },
+  {
+    "id": "w41",
+    "name_cn": "G3战斗步枪",
+    "name_en": "G3 BR",
+    "type": "战斗步枪",
+    "type_en": "Battle Rifle",
+    "mode": "both",
+    "base_stats": {
+      "damage": 82,
+      "rate_of_fire": 480,
+      "accuracy": 72,
+      "range": 80,
+      "control": 64,
+      "mobility": 58,
+      "handling": 64
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "B",
+    "unlock_level": 22,
+    "game_id": 527,
+    "copy_count": 1192,
+    "tags": [
+      "经典DMR"
+    ],
+    "loadout_price": 39057
+  },
+  {
+    "id": "w42",
+    "name_cn": "MK47战斗步枪",
+    "name_en": "MK47 BR",
+    "type": "战斗步枪",
+    "type_en": "Battle Rifle",
+    "mode": "both",
+    "base_stats": {
+      "damage": 80,
+      "rate_of_fire": 550,
+      "accuracy": 75,
+      "range": 78,
+      "control": 65,
+      "mobility": 68,
+      "handling": 70
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "B",
+    "unlock_level": 25,
+    "game_id": 1179,
+    "copy_count": 3861,
+    "tags": [
+      "S5新增"
+    ],
+    "loadout_price": 85291
+  },
+  {
+    "id": "w43",
+    "name_cn": "杠杆式步枪",
+    "name_en": "Lever Action Rifle",
+    "type": "战斗步枪",
+    "type_en": "Battle Rifle",
+    "mode": "both",
+    "base_stats": {
+      "damage": 78,
+      "rate_of_fire": 300,
+      "accuracy": 74,
+      "range": 82,
+      "control": 62,
+      "mobility": 60,
+      "handling": 64
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 35,
+    "game_id": 1180,
+    "copy_count": 4301,
+    "tags": [
+      "S5新增",
+      "西部风格"
+    ],
+    "loadout_price": 71415
+  },
+  {
+    "id": "w44",
+    "name_cn": "M14战斗步枪",
+    "name_en": "M14 DMR",
+    "type": "精确射手步枪",
+    "type_en": "Marksman Rifle",
+    "mode": "operations",
+    "base_stats": {
+      "damage": 82,
+      "rate_of_fire": 500,
+      "accuracy": 88,
+      "range": 85,
+      "control": 77,
+      "mobility": 60,
+      "handling": 70
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 14,
+    "game_id": 358,
+    "copy_count": 1691,
+    "tags": [
+      "高稳定性",
+      "远距离"
+    ],
+    "loadout_price": 189875
+  },
+  {
+    "id": "w45",
+    "name_cn": "Mini-14精确射手步枪",
+    "name_en": "Mini-14 DMR",
+    "type": "精确射手步枪",
+    "type_en": "Marksman Rifle",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 65,
+      "rate_of_fire": 750,
+      "accuracy": 90,
+      "range": 88,
+      "control": 82,
+      "mobility": 70,
+      "handling": 85
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 16,
+    "game_id": 217,
+    "copy_count": 308,
+    "tags": [
+      "高稳定性",
+      "远距离"
+    ],
+    "loadout_price": 39092
+  },
+  {
+    "id": "w46",
+    "name_cn": "SR-25精确射手步枪",
+    "name_en": "SR-25 DMR",
+    "type": "精确射手步枪",
+    "type_en": "Marksman Rifle",
+    "mode": "both",
+    "base_stats": {
+      "damage": 78,
+      "rate_of_fire": 600,
+      "accuracy": 88,
+      "range": 90,
+      "control": 76,
+      "mobility": 62,
+      "handling": 65
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "S",
+    "unlock_level": 30,
+    "game_id": 579,
+    "copy_count": 3238,
+    "tags": [
+      "高精准",
+      "中远距离"
+    ],
+    "loadout_price": 208163
+  },
+  {
+    "id": "w47",
+    "name_cn": "SVD精确射手步枪",
+    "name_en": "SVD DMR",
+    "type": "精确射手步枪",
+    "type_en": "Marksman Rifle",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 80,
+      "rate_of_fire": 550,
+      "accuracy": 85,
+      "range": 88,
+      "control": 70,
+      "mobility": 58,
+      "handling": 62
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 25,
+    "game_id": 395,
+    "copy_count": 1382,
+    "tags": [
+      "经典DMR",
+      "全兵种"
+    ],
+    "loadout_price": 86400
+  },
+  {
+    "id": "w48",
+    "name_cn": "VSS精确射手步枪",
+    "name_en": "VSS DMR",
+    "type": "精确射手步枪",
+    "type_en": "Marksman Rifle",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 68,
+      "rate_of_fire": 850,
+      "accuracy": 72,
+      "range": 55,
+      "control": 65,
+      "mobility": 82,
+      "handling": 80
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "B",
+    "unlock_level": 32,
+    "game_id": 80,
+    "copy_count": 290,
+    "tags": [
+      "消音"
+    ],
+    "loadout_price": 47780
+  },
+  {
+    "id": "w49",
+    "name_cn": "SR9精确射手步枪",
+    "name_en": "SR9 DMR",
+    "type": "精确射手步枪",
+    "type_en": "Marksman Rifle",
+    "mode": "both",
+    "base_stats": {
+      "damage": 62,
+      "rate_of_fire": 780,
+      "accuracy": 84,
+      "range": 82,
+      "control": 78,
+      "mobility": 68,
+      "handling": 78
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "B",
+    "unlock_level": 12,
+    "game_id": 340,
+    "copy_count": 3588,
+    "tags": [],
+    "loadout_price": 11250
+  },
+  {
+    "id": "w50",
+    "name_cn": "PSG-1精确射手步枪",
+    "name_en": "PSG-1 DMR",
+    "type": "精确射手步枪",
+    "type_en": "Marksman Rifle",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 88,
+      "rate_of_fire": 380,
+      "accuracy": 92,
+      "range": 92,
+      "control": 82,
+      "mobility": 50,
+      "handling": 58
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 28,
+    "game_id": 187,
+    "copy_count": 4998,
+    "tags": [
+      "半自动狙击"
+    ],
+    "loadout_price": 129600
+  },
+  {
+    "id": "w51",
+    "name_cn": "SKS精确射手步枪",
+    "name_en": "SKS DMR",
+    "type": "精确射手步枪",
+    "type_en": "Marksman Rifle",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 72,
+      "rate_of_fire": 480,
+      "accuracy": 84,
+      "range": 85,
+      "control": 75,
+      "mobility": 62,
+      "handling": 68
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "B",
+    "unlock_level": 20,
+    "game_id": 523,
+    "copy_count": 1396,
+    "tags": [
+      "经典"
+    ],
+    "loadout_price": 48510
+  },
+  {
+    "id": "w52",
+    "name_cn": "SV-98狙击步枪",
+    "name_en": "SV-98 Sniper",
+    "type": "狙击步枪",
+    "type_en": "Sniper Rifle",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 95,
+      "rate_of_fire": 45,
+      "accuracy": 95,
+      "range": 100,
+      "control": 88,
+      "mobility": 50,
+      "handling": 55
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 25,
+    "game_id": 511,
+    "copy_count": 4850,
+    "tags": [],
+    "loadout_price": 83575
+  },
+  {
+    "id": "w53",
+    "name_cn": "AWM狙击步枪",
+    "name_en": "AWM Sniper",
+    "type": "狙击步枪",
+    "type_en": "Sniper Rifle",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 100,
+      "rate_of_fire": 40,
+      "accuracy": 98,
+      "range": 100,
+      "control": 90,
+      "mobility": 45,
+      "handling": 50
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "S",
+    "unlock_level": 35,
+    "game_id": 406,
+    "copy_count": 2381,
+    "tags": [],
+    "loadout_price": 600979
+  },
+  {
+    "id": "w54",
+    "name_cn": "R93狙击步枪",
+    "name_en": "R93 Sniper",
+    "type": "狙击步枪",
+    "type_en": "Sniper Rifle",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 90,
+      "rate_of_fire": 50,
+      "accuracy": 92,
+      "range": 95,
+      "control": 85,
+      "mobility": 52,
+      "handling": 58
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 30,
+    "game_id": 449,
+    "copy_count": 5417,
+    "tags": [],
+    "loadout_price": 80535
+  },
+  {
+    "id": "w55",
+    "name_cn": "M700狙击步枪",
+    "name_en": "M700 Sniper",
+    "type": "狙击步枪",
+    "type_en": "Sniper Rifle",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 88,
+      "rate_of_fire": 55,
+      "accuracy": 94,
+      "range": 96,
+      "control": 86,
+      "mobility": 52,
+      "handling": 58
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 28,
+    "game_id": 225,
+    "copy_count": 4388,
+    "tags": [
+      "栓动狙击"
+    ],
+    "loadout_price": 111000
+  },
+  {
+    "id": "w56",
+    "name_cn": "M249轻机枪",
+    "name_en": "M249 LMG",
+    "type": "轻机枪",
+    "type_en": "Light Machine Gun",
+    "mode": "both",
+    "base_stats": {
+      "damage": 72,
+      "rate_of_fire": 850,
+      "accuracy": 70,
+      "range": 75,
+      "control": 55,
+      "mobility": 55,
+      "handling": 50
+    },
+    "ammo_type": [
+      "5.56"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 24,
+    "game_id": 573,
+    "copy_count": 2115,
+    "tags": [
+      "版本强势"
+    ],
+    "loadout_price": 79218
+  },
+  {
+    "id": "w57",
+    "name_cn": "QJB201轻机枪",
+    "name_en": "QJB201 LMG",
+    "type": "轻机枪",
+    "type_en": "Light Machine Gun",
+    "mode": "both",
+    "base_stats": {
+      "damage": 70,
+      "rate_of_fire": 820,
+      "accuracy": 72,
+      "range": 76,
+      "control": 56,
+      "mobility": 54,
+      "handling": 48
+    },
+    "ammo_type": [
+      "5.56"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 26,
+    "game_id": 134,
+    "copy_count": 5585,
+    "tags": [
       "国产",
-      "高性价比"
-    ]
+      "全兵种"
+    ],
+    "loadout_price": 115513
+  },
+  {
+    "id": "w58",
+    "name_cn": "M250通用机枪",
+    "name_en": "M250 GMG",
+    "type": "通用机枪",
+    "type_en": "General Machine Gun",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 68,
+      "rate_of_fire": 800,
+      "accuracy": 72,
+      "range": 80,
+      "control": 58,
+      "mobility": 50,
+      "handling": 38
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 38,
+    "game_id": 133,
+    "copy_count": 3281,
+    "tags": [
+      "版本强势"
+    ],
+    "loadout_price": 192324
+  },
+  {
+    "id": "w59",
+    "name_cn": "PKM通用机枪",
+    "name_en": "PKM GMG",
+    "type": "通用机枪",
+    "type_en": "General Machine Gun",
+    "mode": "warfare",
+    "base_stats": {
+      "damage": 75,
+      "rate_of_fire": 780,
+      "accuracy": 68,
+      "range": 82,
+      "control": 54,
+      "mobility": 48,
+      "handling": 40
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "A",
+    "unlock_level": 34,
+    "game_id": 442,
+    "copy_count": 3686,
+    "tags": [
+      "大口径"
+    ],
+    "loadout_price": 121593
+  },
+  {
+    "id": "w60",
+    "name_cn": "复合弓",
+    "name_en": "Compound Bow",
+    "type": "特殊武器",
+    "type_en": "Special",
+    "mode": "both",
+    "base_stats": {
+      "damage": 95,
+      "rate_of_fire": 60,
+      "accuracy": 85,
+      "range": 60,
+      "control": 90,
+      "mobility": 80,
+      "handling": 75
+    },
+    "ammo_type": [
+      "箭矢"
+    ],
+    "meta_tier": "S",
+    "unlock_level": 1,
+    "game_id": 71,
+    "copy_count": 3914,
+    "tags": [
+      "近战",
+      "一箭秒杀"
+    ],
+    "loadout_price": 78000
   }
 ]

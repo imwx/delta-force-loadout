@@ -1,202 +1,603 @@
-[
-  {
-    "id": "vest_light",
-    "name_cn": "轻型背心",
-    "slot": "vest",
-    "stat_mods": { "armor": 8, "mobility": 2 },
-    "price": 1599,
-    "price_source": "实测参考：安保防弹衣",
-    "tier": 1,
-    "tags": ["机动"]
+{
+  "meta": {
+    "version": "2.0",
+    "source": "三角洲数据帝 orzice.com price.json (GitHub开源)",
+    "note": "战备装备数据基于游戏真实市场数据，价格为实时交易行价格。stat_mods为估算参考值。"
   },
-  {
-    "id": "vest_standard",
-    "name_cn": "标准背心",
-    "slot": "vest",
-    "stat_mods": { "armor": 15, "mobility": 0 },
-    "price": 5888,
-    "price_source": "实测参考：HT战术背心",
-    "tier": 2,
-    "tags": ["平衡"]
-  },
-  {
-    "id": "vest_heavy",
-    "name_cn": "重型防弹背心",
-    "slot": "vest",
-    "stat_mods": { "armor": 25, "mobility": -4 },
-    "price": 25708,
-    "price_source": "实测参考：制式防弹背心",
-    "tier": 3,
-    "tags": ["防护"]
-  },
-  {
-    "id": "vest_tactical",
-    "name_cn": "战术突击背心",
-    "slot": "vest",
-    "stat_mods": { "armor": 18, "mobility": -1, "handling": 3 },
-    "price": 38296,
-    "price_source": "实测参考：TG-H防弹衣",
-    "tier": 2,
-    "tags": ["全能"]
-  },
-  {
-    "id": "helmet_light",
-    "name_cn": "轻型头盔",
-    "slot": "helmet",
-    "stat_mods": { "armor": 5, "mobility": 3 },
-    "price": 1858,
-    "price_source": "实测参考：安保头盔",
-    "tier": 1,
-    "tags": ["机动"]
-  },
-  {
-    "id": "helmet_standard",
-    "name_cn": "标准头盔",
-    "slot": "helmet",
-    "stat_mods": { "armor": 12, "mobility": 0 },
-    "price": 5855,
-    "price_source": "实测参考：DRO战术头盔",
-    "tier": 2,
-    "tags": ["平衡"]
-  },
-  {
-    "id": "helmet_heavy",
-    "name_cn": "防弹头盔",
-    "slot": "helmet",
-    "stat_mods": { "armor": 20, "mobility": -3, "handling": -1 },
-    "price": 19034,
-    "price_source": "实测参考：H07战术头盔",
-    "tier": 3,
-    "tags": ["防护"]
-  },
-  {
-    "id": "helmet_nightvision",
-    "name_cn": "夜视仪头盔",
-    "slot": "helmet",
-    "stat_mods": { "armor": 10, "mobility": 1, "accuracy": 3 },
-    "price": 24337,
-    "price_source": "实测参考：防暴头盔",
-    "tier": 3,
-    "tags": ["夜战"]
-  },
-  {
-    "id": "knee_none",
-    "name_cn": "无护膝",
-    "slot": "knee",
-    "stat_mods": { "mobility": 2 },
-    "price": 0,
-    "price_source": "无额外护膝装备",
-    "tier": 0,
-    "tags": ["零成本"]
-  },
-  {
-    "id": "knee_light",
-    "name_cn": "轻型护膝",
-    "slot": "knee",
-    "stat_mods": { "armor": 3, "mobility": 1 },
-    "price": 1500,
-    "price_source": "估算参考：防具低价区间",
-    "tier": 1,
-    "tags": ["机动"]
-  },
-  {
-    "id": "knee_standard",
-    "name_cn": "标准战术护膝",
-    "slot": "knee",
-    "stat_mods": { "armor": 6, "mobility": 0 },
-    "price": 3000,
-    "price_source": "估算参考：防具中价区间",
-    "tier": 2,
-    "tags": ["平衡"]
-  },
-  {
-    "id": "knee_heavy",
-    "name_cn": "重型护膝",
-    "slot": "knee",
-    "stat_mods": { "armor": 10, "mobility": -2 },
-    "price": 6000,
-    "price_source": "估算参考：防具高价区间",
-    "tier": 3,
-    "tags": ["防护"]
-  },
-  {
-    "id": "boots_standard",
-    "name_cn": "标准战斗靴",
-    "slot": "boots",
-    "stat_mods": { "mobility": 0, "armor": 2 },
-    "price": 1500,
-    "price_source": "估算参考：防具低价区间",
-    "tier": 1,
-    "tags": ["平衡"]
-  },
-  {
-    "id": "boots_light",
-    "name_cn": "轻型战术靴",
-    "slot": "boots",
-    "stat_mods": { "mobility": 5, "armor": 0 },
-    "price": 2500,
-    "price_source": "估算参考：防具低价区间",
-    "tier": 2,
-    "tags": ["机动"]
-  },
-  {
-    "id": "boots_stealth",
-    "name_cn": "静音战靴",
-    "slot": "boots",
-    "stat_mods": { "mobility": 3, "stealth": 10 },
-    "price": 3500,
-    "price_source": "估算参考：防具中价区间",
-    "tier": 2,
-    "tags": ["隐蔽"]
-  },
-  {
-    "id": "boots_armored",
-    "name_cn": "装甲战斗靴",
-    "slot": "boots",
-    "stat_mods": { "mobility": -2, "armor": 8 },
-    "price": 5000,
-    "price_source": "估算参考：防具中高价区间",
-    "tier": 3,
-    "tags": ["防护"]
-  },
-  {
-    "id": "tac_none",
-    "name_cn": "无战术配件",
-    "slot": "tactical",
-    "stat_mods": {},
-    "price": 0,
-    "price_source": "无额外战术配件",
-    "tier": 0,
-    "tags": ["零成本"]
-  },
-  {
-    "id": "tac_gloves",
-    "name_cn": "战术手套",
-    "slot": "tactical",
-    "stat_mods": { "handling": 5, "accuracy": 2 },
-    "price": 3000,
-    "price_source": "估算参考：防具低价区间",
-    "tier": 1,
-    "tags": ["操控"]
-  },
-  {
-    "id": "tac_holster",
-    "name_cn": "战术枪套",
-    "slot": "tactical",
-    "stat_mods": { "handling": 4, "mobility": 2 },
-    "price": 5630,
-    "price_source": "实测参考：灰熊全威力快拔套",
-    "tier": 2,
-    "tags": ["机动"]
-  },
-  {
-    "id": "tac_comms",
-    "name_cn": "通讯耳机",
-    "slot": "tactical",
-    "stat_mods": { "accuracy": 3, "mobility": 2 },
-    "price": 3500,
-    "price_source": "估算参考：防具中价区间",
-    "tier": 2,
-    "tags": ["团队"]
-  }
-]
+  "data": [
+    {
+      "id": "h01",
+      "name_cn": "H01战术头盔(几乎全新)",
+      "game_id": 65,
+      "slot": "helmet",
+      "tier": 1,
+      "price": 6203,
+      "price_source": "实测:H01战术头盔几乎全新",
+      "stat_mods": {
+        "armor": 8,
+        "mobility": 2
+      },
+      "tags": [
+        "机动",
+        "几乎全新"
+      ]
+    },
+    {
+      "id": "h07",
+      "name_cn": "H07战术头盔",
+      "game_id": 47,
+      "slot": "helmet",
+      "tier": 2,
+      "price": 25947,
+      "price_source": "实测:H07战术头盔",
+      "stat_mods": {
+        "armor": 15,
+        "mobility": -1
+      },
+      "tags": [
+        "平衡"
+      ]
+    },
+    {
+      "id": "mhs_l",
+      "name_cn": "MHS战术头盔(几乎全新)",
+      "game_id": 94,
+      "slot": "helmet",
+      "tier": 2,
+      "price": 89855,
+      "price_source": "实测:MHS战术头盔几乎全新",
+      "stat_mods": {
+        "armor": 20,
+        "mobility": 0
+      },
+      "tags": [
+        "防护"
+      ]
+    },
+    {
+      "id": "mc_l",
+      "name_cn": "MC防弹头盔(几乎全新)",
+      "game_id": 33,
+      "slot": "helmet",
+      "tier": 1,
+      "price": 9348,
+      "price_source": "实测:MC防弹头盔几乎全新",
+      "stat_mods": {
+        "armor": 10,
+        "mobility": 1
+      },
+      "tags": [
+        "机动",
+        "几乎全新"
+      ]
+    },
+    {
+      "id": "dro",
+      "name_cn": "DRO战术头盔",
+      "game_id": 4,
+      "slot": "helmet",
+      "tier": 2,
+      "price": 8352,
+      "price_source": "实测:DRO战术头盔",
+      "stat_mods": {
+        "armor": 12,
+        "mobility": 0
+      },
+      "tags": [
+        "平衡"
+      ]
+    },
+    {
+      "id": "das",
+      "name_cn": "DAS防弹头盔",
+      "game_id": 109,
+      "slot": "helmet",
+      "tier": 3,
+      "price": 38126,
+      "price_source": "实测:DAS防弹头盔",
+      "stat_mods": {
+        "armor": 22,
+        "mobility": -2,
+        "handling": -1
+      },
+      "tags": [
+        "防护"
+      ]
+    },
+    {
+      "id": "gn_heavy_l",
+      "name_cn": "GN重型夜视头盔(几乎全新)",
+      "game_id": 33,
+      "slot": "helmet",
+      "tier": 3,
+      "price": 93348,
+      "price_source": "实测:GN重型夜视头盔几乎全新",
+      "stat_mods": {
+        "armor": 25,
+        "mobility": -3,
+        "accuracy": 3
+      },
+      "tags": [
+        "夜战",
+        "防护"
+      ]
+    },
+    {
+      "id": "mask1",
+      "name_cn": "Mask-1铁壁头盔",
+      "game_id": 16,
+      "slot": "helmet",
+      "tier": 3,
+      "price": 136869,
+      "price_source": "实测:Mask-1铁壁头盔",
+      "stat_mods": {
+        "armor": 28,
+        "mobility": -4,
+        "handling": -2
+      },
+      "tags": [
+        "防护"
+      ]
+    },
+    {
+      "id": "old_l",
+      "name_cn": "老式钢盔(几乎全新)",
+      "game_id": 1,
+      "slot": "helmet",
+      "tier": 1,
+      "price": 1259,
+      "price_source": "实测:老式钢盔几乎全新",
+      "stat_mods": {
+        "armor": 3,
+        "mobility": 3
+      },
+      "tags": [
+        "机动",
+        "零成本"
+      ]
+    },
+    {
+      "id": "cap",
+      "name_cn": "户外棒球帽",
+      "game_id": 60,
+      "slot": "helmet",
+      "tier": 0,
+      "price": 10110,
+      "price_source": "实测:户外棒球帽",
+      "stat_mods": {
+        "armor": 1,
+        "mobility": 1
+      },
+      "tags": [
+        "无防护"
+      ]
+    },
+    {
+      "id": "sec_l",
+      "name_cn": "安保防弹衣(几乎全新)",
+      "game_id": 148,
+      "slot": "vest",
+      "tier": 1,
+      "price": 2035,
+      "price_source": "实测:安保防弹衣几乎全新",
+      "stat_mods": {
+        "armor": 8,
+        "mobility": 2
+      },
+      "tags": [
+        "机动",
+        "几乎全新"
+      ]
+    },
+    {
+      "id": "ny_l",
+      "name_cn": "尼龙防弹衣(几乎全新)",
+      "game_id": 103,
+      "slot": "vest",
+      "tier": 1,
+      "price": 2624,
+      "price_source": "实测:尼龙防弹衣几乎全新",
+      "stat_mods": {
+        "armor": 10,
+        "mobility": 1
+      },
+      "tags": [
+        "平衡",
+        "几乎全新"
+      ]
+    },
+    {
+      "id": "ny",
+      "name_cn": "尼龙防弹衣",
+      "game_id": 177,
+      "slot": "vest",
+      "tier": 2,
+      "price": 3095,
+      "price_source": "实测:尼龙防弹衣",
+      "stat_mods": {
+        "armor": 12,
+        "mobility": 0
+      },
+      "tags": [
+        "平衡"
+      ]
+    },
+    {
+      "id": "sec",
+      "name_cn": "安保防弹衣",
+      "game_id": 82,
+      "slot": "vest",
+      "tier": 1,
+      "price": 2390,
+      "price_source": "实测:安保防弹衣",
+      "stat_mods": {
+        "armor": 10,
+        "mobility": 1
+      },
+      "tags": [
+        "平衡"
+      ]
+    },
+    {
+      "id": "tg",
+      "name_cn": "TG战术防弹衣",
+      "game_id": 169,
+      "slot": "vest",
+      "tier": 2,
+      "price": 10949,
+      "price_source": "实测:TG战术防弹衣",
+      "stat_mods": {
+        "armor": 15,
+        "mobility": 0,
+        "handling": 2
+      },
+      "tags": [
+        "全能"
+      ]
+    },
+    {
+      "id": "sh_l",
+      "name_cn": "射手战术背心(几乎全新)",
+      "game_id": 144,
+      "slot": "vest",
+      "tier": 2,
+      "price": 43937,
+      "price_source": "实测:射手战术背心几乎全新",
+      "stat_mods": {
+        "armor": 18,
+        "mobility": -1,
+        "handling": 2
+      },
+      "tags": [
+        "全能"
+      ]
+    },
+    {
+      "id": "gen",
+      "name_cn": "通用战术背心",
+      "game_id": 117,
+      "slot": "vest",
+      "tier": 2,
+      "price": 15226,
+      "price_source": "实测:通用战术背心",
+      "stat_mods": {
+        "armor": 16,
+        "mobility": 0,
+        "handling": 1
+      },
+      "tags": [
+        "平衡"
+      ]
+    },
+    {
+      "id": "mk2",
+      "name_cn": "MK-2战术背心",
+      "game_id": 147,
+      "slot": "vest",
+      "tier": 3,
+      "price": 228141,
+      "price_source": "实测:MK-2战术背心",
+      "stat_mods": {
+        "armor": 25,
+        "mobility": -3,
+        "handling": 3
+      },
+      "tags": [
+        "防护"
+      ]
+    },
+    {
+      "id": "dt_l",
+      "name_cn": "DT-AVS防弹衣(几乎全新)",
+      "game_id": 154,
+      "slot": "vest",
+      "tier": 3,
+      "price": 143337,
+      "price_source": "实测:DT-AVS防弹衣几乎全新",
+      "stat_mods": {
+        "armor": 28,
+        "mobility": -2,
+        "handling": 2
+      },
+      "tags": [
+        "防护"
+      ]
+    },
+    {
+      "id": "hvk_l",
+      "name_cn": "Hvk快拆防弹衣(几乎全新)",
+      "game_id": 145,
+      "slot": "vest",
+      "tier": 2,
+      "price": 28838,
+      "price_source": "实测:Hvk快拆防弹衣几乎全新",
+      "stat_mods": {
+        "armor": 14,
+        "mobility": 1,
+        "handling": 3
+      },
+      "tags": [
+        "机动"
+      ]
+    },
+    {
+      "id": "bush_l",
+      "name_cn": "武士防弹背心(几乎全新)",
+      "game_id": 144,
+      "slot": "vest",
+      "tier": 3,
+      "price": 147142,
+      "price_source": "实测:武士防弹背心几乎全新",
+      "stat_mods": {
+        "armor": 22,
+        "mobility": -2,
+        "handling": 1
+      },
+      "tags": [
+        "防护"
+      ]
+    },
+    {
+      "id": "elite_l",
+      "name_cn": "精英防弹背心(几乎全新)",
+      "game_id": 97,
+      "slot": "vest",
+      "tier": 3,
+      "price": 260699,
+      "price_source": "实测:精英防弹背心几乎全新",
+      "stat_mods": {
+        "armor": 30,
+        "mobility": -4,
+        "handling": 2
+      },
+      "tags": [
+        "防护"
+      ]
+    },
+    {
+      "id": "dt",
+      "name_cn": "DT-AVS防弹衣",
+      "game_id": 125,
+      "slot": "vest",
+      "tier": 3,
+      "price": 199911,
+      "price_source": "实测:DT-AVS防弹衣",
+      "stat_mods": {
+        "armor": 28,
+        "mobility": -3,
+        "handling": 2
+      },
+      "tags": [
+        "防护"
+      ]
+    },
+    {
+      "id": "tgh_l",
+      "name_cn": "TG-H防弹衣(几乎全新)",
+      "game_id": 178,
+      "slot": "vest",
+      "tier": 2,
+      "price": 32711,
+      "price_source": "实测:TG-H防弹衣几乎全新",
+      "stat_mods": {
+        "armor": 18,
+        "mobility": -1,
+        "handling": 3
+      },
+      "tags": [
+        "全能"
+      ]
+    },
+    {
+      "id": "k_none",
+      "name_cn": "无护膝",
+      "slot": "knee",
+      "tier": 0,
+      "price": 0,
+      "price_source": "无额外护膝装备",
+      "stat_mods": {
+        "mobility": 0
+      },
+      "tags": [
+        "零成本"
+      ]
+    },
+    {
+      "id": "k_l",
+      "name_cn": "轻型战术护膝",
+      "slot": "knee",
+      "tier": 1,
+      "price": 1500,
+      "price_source": "估算参考:轻型战术护膝",
+      "stat_mods": {
+        "armor": 3,
+        "mobility": 1
+      },
+      "tags": [
+        "机动"
+      ]
+    },
+    {
+      "id": "k_s",
+      "name_cn": "标准战术护膝",
+      "slot": "knee",
+      "tier": 2,
+      "price": 3000,
+      "price_source": "估算参考:标准战术护膝",
+      "stat_mods": {
+        "armor": 6,
+        "mobility": 0
+      },
+      "tags": [
+        "平衡"
+      ]
+    },
+    {
+      "id": "k_h",
+      "name_cn": "重型战术护膝",
+      "slot": "knee",
+      "tier": 3,
+      "price": 6000,
+      "price_source": "估算参考:重型战术护膝",
+      "stat_mods": {
+        "armor": 10,
+        "mobility": -2
+      },
+      "tags": [
+        "防护"
+      ]
+    },
+    {
+      "id": "b_l",
+      "name_cn": "轻型战术靴",
+      "slot": "boots",
+      "tier": 2,
+      "price": 2500,
+      "price_source": "估算参考:轻型战术靴",
+      "stat_mods": {
+        "mobility": 5,
+        "armor": 0
+      },
+      "tags": [
+        "机动"
+      ]
+    },
+    {
+      "id": "b_s",
+      "name_cn": "标准战斗靴",
+      "slot": "boots",
+      "tier": 1,
+      "price": 1500,
+      "price_source": "估算参考:标准战斗靴",
+      "stat_mods": {
+        "mobility": 0,
+        "armor": 2
+      },
+      "tags": [
+        "平衡"
+      ]
+    },
+    {
+      "id": "b_st",
+      "name_cn": "静音战靴",
+      "slot": "boots",
+      "tier": 2,
+      "price": 3500,
+      "price_source": "估算参考:静音战靴",
+      "stat_mods": {
+        "mobility": 3,
+        "stealth": 10
+      },
+      "tags": [
+        "隐蔽"
+      ]
+    },
+    {
+      "id": "b_arm",
+      "name_cn": "装甲战斗靴",
+      "slot": "boots",
+      "tier": 3,
+      "price": 5000,
+      "price_source": "估算参考:装甲战斗靴",
+      "stat_mods": {
+        "mobility": -2,
+        "armor": 8
+      },
+      "tags": [
+        "防护"
+      ]
+    },
+    {
+      "id": "t_none",
+      "name_cn": "无战术配件",
+      "slot": "tactical",
+      "tier": 0,
+      "price": 0,
+      "price_source": "无额外战术配件",
+      "stat_mods": {},
+      "tags": [
+        "零成本"
+      ]
+    },
+    {
+      "id": "t_gloves",
+      "name_cn": "战术手套",
+      "slot": "tactical",
+      "tier": 1,
+      "price": 3000,
+      "price_source": "估算参考:战术手套",
+      "stat_mods": {
+        "handling": 5,
+        "accuracy": 2
+      },
+      "tags": [
+        "操控"
+      ]
+    },
+    {
+      "id": "t_comms",
+      "name_cn": "通讯耳机",
+      "slot": "tactical",
+      "tier": 2,
+      "price": 3500,
+      "price_source": "估算参考:通讯耳机",
+      "stat_mods": {
+        "accuracy": 3,
+        "mobility": 2
+      },
+      "tags": [
+        "团队"
+      ]
+    },
+    {
+      "id": "t_holster",
+      "name_cn": "战术枪套",
+      "slot": "tactical",
+      "tier": 2,
+      "price": 5630,
+      "price_source": "实测参考:灰熊全威力快拔套",
+      "stat_mods": {
+        "handling": 4,
+        "mobility": 2
+      },
+      "tags": [
+        "机动"
+      ]
+    },
+    {
+      "id": "t_light",
+      "name_cn": "战术手电",
+      "slot": "tactical",
+      "tier": 1,
+      "price": 2500,
+      "price_source": "估算参考:战术手电",
+      "stat_mods": {
+        "accuracy": 2,
+        "mobility": -1
+      },
+      "tags": [
+        "近战"
+      ]
+    }
+  ]
+}
