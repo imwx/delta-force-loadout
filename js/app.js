@@ -51,20 +51,22 @@ function debounce(fn, ms) {
 const DataDB = {
   async load() {
     try {
+      const CACHE_BUST = '?v=5';
       const [w, v, a, o, att, gear] = await Promise.all([
-        fetch('./data/weapons.json').then(r => r.json()),
-        fetch('./data/vehicles.json').then(r => r.json()),
-        fetch('./data/ammo.json').then(r => r.json()),
-        fetch('./data/operators.json').then(r => r.json()),
-        fetch('./data/attachments.json').then(r => r.json()).catch(() => []),
-        fetch('./data/battle-gear.json').then(r => r.json()).catch(() => [])
+        fetch('./data/weapons.json' + CACHE_BUST).then(r => r.json()),
+        fetch('./data/vehicles.json' + CACHE_BUST).then(r => r.json()),
+        fetch('./data/ammo.json' + CACHE_BUST).then(r => r.json()),
+        fetch('./data/operators.json' + CACHE_BUST).then(r => r.json()),
+        fetch('./data/attachments.json' + CACHE_BUST).then(r => { if (!r.ok) throw new Error('attachments HTTP '+r.status); return r.json(); }).catch(e => { console.error('附件加载失败:', e); return []; }),
+        fetch('./data/battle-gear.json' + CACHE_BUST).then(r => { if (!r.ok) throw new Error('battle-gear HTTP '+r.status); return r.json(); }).catch(e => { console.error('战备装备加载失败:', e); return []; })
       ]);
       WEAPONS_DATA = w;
       VEHICLES_DATA = v;
       AMMO_DATA = a;
       OPERATORS_DATA = o;
-      ATTACHMENTS_DATA = att;
+      ATTACHMENTS_DATA = Array.isArray(att) ? att : (att.data || []);
       BATTLE_GEAR_DATA = Array.isArray(gear) ? gear : (gear.data || []);
+      console.log('数据加载完成:', { weapons: WEAPONS_DATA.length, attachments: ATTACHMENTS_DATA.length, battleGear: BATTLE_GEAR_DATA.length });
     } catch(e) {
       console.warn('数据加载失败，使用内联数据');
       WEAPONS_DATA = inlineWeapons;
@@ -860,7 +862,7 @@ function renderGearCenter() {
                   ${guns.map(g => `
                     <button class="gear-weapon-btn ${state.selectedWeapon?.id === g.id ? 'active' : ''}"
                             onclick="selectGearWeapon('${g.id}')">
-                      ${g.name_cn}
+                      ${g.name_cn} ${g.price > 0 ? `<span class="gear-weapon-price">¥${g.price.toLocaleString()}</span>` : ''}
                     </button>
                   `).join('')}
                 </div>
@@ -955,15 +957,15 @@ function renderBattleSlotCard(slot) {
     <div class="gear-slot-header">
       <span class="gear-slot-name">${BATTLE_SLOT_LABELS[slot] || slot}</span>
       <span class="gear-slot-selected ${selGear ? 'has-item' : ''}">
-        ${selGear ? selGear.name_cn : '— 未选择 —'}
+        ${selGear ? (selGear.name_cn || selGear.name || selGear.name_en) : '— 未选择 —'}
       </span>
     </div>
     <select class="gear-select" onchange="selectGearItem('${slot}', this.value)"
             data-bslot="${slot}">
       <option value="">— 不装备 —</option>
-      ${gearList.map(g => `
+        ${gearList.map(g => `
         <option value="${g.id}" ${selected === g.id ? 'selected' : ''}>
-          ${g.name_cn} ${g.price > 0 ? `(¥${g.price.toLocaleString()})` : '(免费)'}
+          ${g.name_cn || g.name || g.name_en} ${g.price > 0 ? `(¥${g.price.toLocaleString()})` : '(免费)'}
         </option>
       `).join('')}
     </select>
@@ -1103,8 +1105,9 @@ function renderGearPreview() {
 }
 
 function initGearCenter() {
-  // 初始化雷达图
+  // 初始化雷达图并更新金额
   setTimeout(() => {
+    updateGearPreview();
     if (state.selectedWeapon) drawGearRadar();
   }, 50);
 }

@@ -1025,6 +1025,11 @@ body {
   color: var(--accent-primary);
   font-weight: 600;
 }
+.gear-weapon-price {
+  font-size: 0.7rem;
+  opacity: 0.7;
+  margin-left: 4px;
+}
 
 .gear-slots-grid {
   display: grid;

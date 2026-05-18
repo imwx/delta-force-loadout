@@ -330,6 +330,10 @@ const Calculator = (function() {
   // ---- 战备中心：计算总金额 ----
   function calcTotalCost(weapon, selectedAttachments, selectedGear) {
     let total = 0;
+    // 武器价格
+    if (weapon && weapon.price) {
+      total += weapon.price;
+    }
     // 配件价格
     Object.values(selectedAttachments).forEach(attId => {
       if (!attId || !ATTACHMENTS_DATA) return;

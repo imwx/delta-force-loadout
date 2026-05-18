@@ -15,7 +15,7 @@
       "mobility": 92,
       "handling": 88
     },
-      "ammo_type": [
+    "ammo_type": [
       ".50 AE"
     ],
     "meta_tier": "B",
@@ -25,7 +25,8 @@
     "tags": [
       "大口径"
     ],
-    "loadout_price": 17640
+    "loadout_price": 17640,
+    "price": 17640
   },
   {
     "id": "w2",
@@ -43,7 +44,7 @@
       "mobility": 88,
       "handling": 78
     },
-      "ammo_type": [
+    "ammo_type": [
       ".357 Magnum"
     ],
     "meta_tier": "B",
@@ -53,7 +54,8 @@
     "tags": [
       "高伤害"
     ],
-    "loadout_price": 13899
+    "loadout_price": 13899,
+    "price": 13899
   },
   {
     "id": "w3",
@@ -81,7 +83,8 @@
     "tags": [
       "新手"
     ],
-    "loadout_price": 4800
+    "loadout_price": 4800,
+    "price": 4800
   },
   {
     "id": "w4",
@@ -109,7 +112,8 @@
     "tags": [
       "全自动手枪"
     ],
-    "loadout_price": 17535
+    "loadout_price": 17535,
+    "price": 17535
   },
   {
     "id": "w5",
@@ -127,7 +131,7 @@
       "mobility": 92,
       "handling": 85
     },
-      "ammo_type": [
+    "ammo_type": [
       ".45 ACP"
     ],
     "meta_tier": "B",
@@ -137,7 +141,8 @@
     "tags": [
       "经典"
     ],
-    "loadout_price": 17374
+    "loadout_price": 17374,
+    "price": 17374
   },
   {
     "id": "w6",
@@ -165,7 +170,8 @@
     "tags": [
       "标准配置"
     ],
-    "loadout_price": 4800
+    "loadout_price": 4800,
+    "price": 4800
   },
   {
     "id": "w7",
@@ -193,7 +199,8 @@
     "tags": [
       "全自动"
     ],
-    "loadout_price": 19111
+    "loadout_price": 19111,
+    "price": 19111
   },
   {
     "id": "w8",
@@ -222,7 +229,8 @@
       "版本强势",
       "危险行动"
     ],
-    "loadout_price": 38432
+    "loadout_price": 38432,
+    "price": 38432
   },
   {
     "id": "w9",
@@ -248,7 +256,8 @@
     "game_id": 364,
     "copy_count": 1336,
     "tags": [],
-    "loadout_price": 38081
+    "loadout_price": 38081,
+    "price": 38081
   },
   {
     "id": "w10",
@@ -277,7 +286,8 @@
       "版本强势",
       "全兵种"
     ],
-    "loadout_price": 151225
+    "loadout_price": 151225,
+    "price": 151225
   },
   {
     "id": "w11",
@@ -303,7 +313,8 @@
     "game_id": 139,
     "copy_count": 2891,
     "tags": [],
-    "loadout_price": 151225
+    "loadout_price": 151225,
+    "price": 151225
   },
   {
     "id": "w12",
@@ -329,7 +340,8 @@
     "game_id": 485,
     "copy_count": 3481,
     "tags": [],
-    "loadout_price": 12054
+    "loadout_price": 12054,
+    "price": 12054
   },
   {
     "id": "w13",
@@ -355,7 +367,8 @@
     "game_id": 294,
     "copy_count": 347,
     "tags": [],
-    "loadout_price": 151443
+    "loadout_price": 151443,
+    "price": 151443
   },
   {
     "id": "w14",
@@ -383,7 +396,8 @@
     "tags": [
       "国产"
     ],
-    "loadout_price": 124173
+    "loadout_price": 124173,
+    "price": 124173
   },
   {
     "id": "w15",
@@ -412,7 +426,8 @@
       "大弹容",
       "危险行动"
     ],
-    "loadout_price": 115855
+    "loadout_price": 115855,
+    "price": 115855
   },
   {
     "id": "w16",
@@ -440,7 +455,8 @@
     "tags": [
       "国产"
     ],
-    "loadout_price": 38035
+    "loadout_price": 38035,
+    "price": 38035
   },
   {
     "id": "w17",
@@ -468,7 +484,8 @@
     "tags": [
       "大弹容"
     ],
-    "loadout_price": 12100
+    "loadout_price": 12100,
+    "price": 12100
   },
   {
     "id": "w18",
@@ -496,7 +513,8 @@
     "tags": [
       "S5新增"
     ],
-    "loadout_price": 102963
+    "loadout_price": 102963,
+    "price": 102963
   },
   {
     "id": "w19",
@@ -525,7 +543,8 @@
       "泵动",
       "高伤害"
     ],
-    "loadout_price": 5000
+    "loadout_price": 5000,
+    "price": 5000
   },
   {
     "id": "w20",
@@ -554,7 +573,8 @@
       "近战",
       "推荐配装"
     ],
-    "loadout_price": 39595
+    "loadout_price": 39595,
+    "price": 39595
   },
   {
     "id": "w21",
@@ -583,7 +603,8 @@
       "S4新增",
       "双管"
     ],
-    "loadout_price": 31915
+    "loadout_price": 31915,
+    "price": 31915
   },
   {
     "id": "w22",
@@ -611,7 +632,8 @@
     "tags": [
       "半自动"
     ],
-    "loadout_price": 26588
+    "loadout_price": 26588,
+    "price": 26588
   },
   {
     "id": "w23",
@@ -637,7 +659,8 @@
     "game_id": 58,
     "copy_count": 594,
     "tags": [],
-    "loadout_price": 12281
+    "loadout_price": 12281,
+    "price": 12281
   },
   {
     "id": "w24",
@@ -666,7 +689,8 @@
       "后坐力可控",
       "全能"
     ],
-    "loadout_price": 129953
+    "loadout_price": 129953,
+    "price": 129953
   },
   {
     "id": "w25",
@@ -695,7 +719,8 @@
       "高精准",
       "危险行动"
     ],
-    "loadout_price": 134554
+    "loadout_price": 134554,
+    "price": 134554
   },
   {
     "id": "w26",
@@ -724,7 +749,8 @@
       "高爆发",
       "穿透力强"
     ],
-    "loadout_price": 102147
+    "loadout_price": 102147,
+    "price": 102147
   },
   {
     "id": "w27",
@@ -753,7 +779,8 @@
       "性价比高",
       "全兵种"
     ],
-    "loadout_price": 175134
+    "loadout_price": 175134,
+    "price": 175134
   },
   {
     "id": "w28",
@@ -781,7 +808,8 @@
     "tags": [
       "版本强势"
     ],
-    "loadout_price": 123567
+    "loadout_price": 123567,
+    "price": 123567
   },
   {
     "id": "w29",
@@ -810,7 +838,8 @@
       "高射速",
       "消音"
     ],
-    "loadout_price": 178111
+    "loadout_price": 178111,
+    "price": 178111
   },
   {
     "id": "w30",
@@ -836,7 +865,8 @@
     "game_id": 175,
     "copy_count": 4583,
     "tags": [],
-    "loadout_price": 12303
+    "loadout_price": 12303,
+    "price": 12303
   },
   {
     "id": "w31",
@@ -865,7 +895,8 @@
       "S4增强",
       "国产"
     ],
-    "loadout_price": 38843
+    "loadout_price": 38843,
+    "price": 38843
   },
   {
     "id": "w32",
@@ -894,7 +925,8 @@
       "短管",
       "突击兵"
     ],
-    "loadout_price": 11563
+    "loadout_price": 11563,
+    "price": 11563
   },
   {
     "id": "w33",
@@ -920,7 +952,8 @@
     "game_id": 273,
     "copy_count": 4730,
     "tags": [],
-    "loadout_price": 38228
+    "loadout_price": 38228,
+    "price": 38228
   },
   {
     "id": "w34",
@@ -946,7 +979,8 @@
     "game_id": 314,
     "copy_count": 3744,
     "tags": [],
-    "loadout_price": 39059
+    "loadout_price": 39059,
+    "price": 39059
   },
   {
     "id": "w35",
@@ -974,7 +1008,8 @@
     "tags": [
       "S5新增"
     ],
-    "loadout_price": 120177
+    "loadout_price": 120177,
+    "price": 120177
   },
   {
     "id": "w36",
@@ -1002,7 +1037,8 @@
     "tags": [
       "S5新增"
     ],
-    "loadout_price": 183351
+    "loadout_price": 183351,
+    "price": 183351
   },
   {
     "id": "w37",
@@ -1031,7 +1067,8 @@
       "S4新增",
       "版本强势"
     ],
-    "loadout_price": 154909
+    "loadout_price": 154909,
+    "price": 154909
   },
   {
     "id": "w38",
@@ -1060,7 +1097,8 @@
       "高性价比",
       "危险行动"
     ],
-    "loadout_price": 256464
+    "loadout_price": 256464,
+    "price": 256464
   },
   {
     "id": "w39",
@@ -1089,7 +1127,8 @@
       "新手友好",
       "高稳定性"
     ],
-    "loadout_price": 111360
+    "loadout_price": 111360,
+    "price": 111360
   },
   {
     "id": "w40",
@@ -1118,7 +1157,8 @@
       "大口径",
       "全兵种"
     ],
-    "loadout_price": 197326
+    "loadout_price": 197326,
+    "price": 197326
   },
   {
     "id": "w41",
@@ -1146,7 +1186,8 @@
     "tags": [
       "经典DMR"
     ],
-    "loadout_price": 39057
+    "loadout_price": 39057,
+    "price": 39057
   },
   {
     "id": "w42",
@@ -1174,7 +1215,8 @@
     "tags": [
       "S5新增"
     ],
-    "loadout_price": 85291
+    "loadout_price": 85291,
+    "price": 85291
   },
   {
     "id": "w43",
@@ -1203,7 +1245,8 @@
       "S5新增",
       "西部风格"
     ],
-    "loadout_price": 71415
+    "loadout_price": 71415,
+    "price": 71415
   },
   {
     "id": "w44",
@@ -1232,7 +1275,8 @@
       "高稳定性",
       "远距离"
     ],
-    "loadout_price": 189875
+    "loadout_price": 189875,
+    "price": 189875
   },
   {
     "id": "w45",
@@ -1261,7 +1305,8 @@
       "高稳定性",
       "远距离"
     ],
-    "loadout_price": 39092
+    "loadout_price": 39092,
+    "price": 39092
   },
   {
     "id": "w46",
@@ -1290,7 +1335,8 @@
       "高精准",
       "中远距离"
     ],
-    "loadout_price": 208163
+    "loadout_price": 208163,
+    "price": 208163
   },
   {
     "id": "w47",
@@ -1319,7 +1365,8 @@
       "经典DMR",
       "全兵种"
     ],
-    "loadout_price": 86400
+    "loadout_price": 86400,
+    "price": 86400
   },
   {
     "id": "w48",
@@ -1347,7 +1394,8 @@
     "tags": [
       "消音"
     ],
-    "loadout_price": 47780
+    "loadout_price": 47780,
+    "price": 47780
   },
   {
     "id": "w49",
@@ -1373,7 +1421,8 @@
     "game_id": 340,
     "copy_count": 3588,
     "tags": [],
-    "loadout_price": 11250
+    "loadout_price": 11250,
+    "price": 11250
   },
   {
     "id": "w50",
@@ -1401,7 +1450,8 @@
     "tags": [
       "半自动狙击"
     ],
-    "loadout_price": 129600
+    "loadout_price": 129600,
+    "price": 129600
   },
   {
     "id": "w51",
@@ -1429,7 +1479,8 @@
     "tags": [
       "经典"
     ],
-    "loadout_price": 48510
+    "loadout_price": 48510,
+    "price": 48510
   },
   {
     "id": "w52",
@@ -1455,7 +1506,8 @@
     "game_id": 511,
     "copy_count": 4850,
     "tags": [],
-    "loadout_price": 83575
+    "loadout_price": 83575,
+    "price": 83575
   },
   {
     "id": "w53",
@@ -1481,7 +1533,8 @@
     "game_id": 406,
     "copy_count": 2381,
     "tags": [],
-    "loadout_price": 600979
+    "loadout_price": 600979,
+    "price": 600979
   },
   {
     "id": "w54",
@@ -1507,7 +1560,8 @@
     "game_id": 449,
     "copy_count": 5417,
     "tags": [],
-    "loadout_price": 80535
+    "loadout_price": 80535,
+    "price": 80535
   },
   {
     "id": "w55",
@@ -1535,7 +1589,8 @@
     "tags": [
       "栓动狙击"
     ],
-    "loadout_price": 111000
+    "loadout_price": 111000,
+    "price": 111000
   },
   {
     "id": "w56",
@@ -1563,7 +1618,8 @@
     "tags": [
       "版本强势"
     ],
-    "loadout_price": 79218
+    "loadout_price": 79218,
+    "price": 79218
   },
   {
     "id": "w57",
@@ -1592,7 +1648,8 @@
       "国产",
       "全兵种"
     ],
-    "loadout_price": 115513
+    "loadout_price": 115513,
+    "price": 115513
   },
   {
     "id": "w58",
@@ -1620,7 +1677,8 @@
     "tags": [
       "版本强势"
     ],
-    "loadout_price": 192324
+    "loadout_price": 192324,
+    "price": 192324
   },
   {
     "id": "w59",
@@ -1648,7 +1706,8 @@
     "tags": [
       "大口径"
     ],
-    "loadout_price": 121593
+    "loadout_price": 121593,
+    "price": 121593
   },
   {
     "id": "w60",
@@ -1677,6 +1736,7 @@
       "近战",
       "一箭秒杀"
     ],
-    "loadout_price": 78000
+    "loadout_price": 78000,
+    "price": 78000
   }
 ]
