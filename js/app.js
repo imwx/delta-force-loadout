@@ -22,6 +22,8 @@ let state = {
   filterType: 'all',
   filterMode: 'all',
   searchQuery: '',
+  // 搭配构建器配件
+  builderAttachments: {},
   // 战备中心专用状态
   selectedAttachments: {},
   selectedGear: {},
@@ -51,7 +53,7 @@ function debounce(fn, ms) {
 const DataDB = {
   async load() {
     try {
-      const CACHE_BUST = '?v=5';
+      const CACHE_BUST = '?v=6';
       const [w, v, a, o, att, gear] = await Promise.all([
         fetch('./data/weapons.json' + CACHE_BUST).then(r => r.json()),
         fetch('./data/vehicles.json' + CACHE_BUST).then(r => r.json()),
@@ -563,7 +565,16 @@ function renderBuilder() {
         </div>
 
         <div class="step-section">
-          <div class="step-title"><span class="step-number">3</span> 选择弹药</div>
+          <div class="step-title"><span class="step-number">3</span> 武器配件</div>
+          ${state.selectedWeapon ? `
+          <div class="builder-attachments-grid">
+            ${GEAR_SLOTS.map(slot => renderBuilderAttachmentSlot(slot)).join('')}
+          </div>
+          ` : `<div class="builder-att-placeholder">请先选择一把武器以配置配件</div>`}
+        </div>
+
+        <div class="step-section">
+          <div class="step-title"><span class="step-number">4</span> 选择弹药</div>
           <select class="step-select" id="sel-ammo" onchange="selectAmmo(this.value)">
             <option value="">— 选择弹药（可选）—</option>
             ${ammos.map(a => `<option value="${a.id}">${a.name_cn}</option>`).join('')}
@@ -572,7 +583,7 @@ function renderBuilder() {
 
         ${state.mode === 'warfare' ? `
         <div class="step-section">
-          <div class="step-title"><span class="step-number">4</span> 选择载具</div>
+          <div class="step-title"><span class="step-number">5</span> 选择载具</div>
           <select class="step-select" id="sel-vehicle" onchange="selectVehicle(this.value)">
             <option value="">— 选择载具（可选）—</option>
             ${vehicles.map(v => `<option value="${v.id}">${v.name_cn}</option>`).join('')}
@@ -599,6 +610,32 @@ function renderBuilder() {
   </div>`;
 }
 
+function renderBuilderAttachmentSlot(slot) {
+  const w = state.selectedWeapon;
+  const selected = state.builderAttachments[slot];
+  const atts = getAvailableAttachments(w, slot);
+  const selAtt = selected ? DataDB.getAttachmentById(selected) : null;
+
+  return `
+  <div class="builder-att-slot">
+    <div class="builder-att-label">${GEAR_SLOT_LABELS[slot] || slot}</div>
+    <select class="step-select" onchange="selectBuilderAttachment('${slot}', this.value)">
+      <option value="">— 不装备 —</option>
+      ${atts.map(att => `
+        <option value="${att.id}" ${selected === att.id ? 'selected' : ''}>
+          ${att.name_cn} ${att.price > 0 ? `(¥${att.price.toLocaleString()})` : '(免费)'}
+        </option>
+      `).join('')}
+    </select>
+    ${selAtt && Object.keys(selAtt.stat_mods||{}).length ? `
+    <div class="gear-stat-preview" style="margin-top:2px;">
+      ${Object.entries(selAtt.stat_mods).map(([k,v]) => `
+        <span class="${v >= 0 ? 'stat-pos' : 'stat-neg'}">${k === 'accuracy' ? '精准' : k === 'range' ? '射程' : k === 'mobility' ? '机动' : k === 'control' ? '控制' : k === 'handling' ? '操控' : k === 'damage' ? '伤害' : k}(${v > 0 ? '+' : ''}${v})</span>
+      `).join('')}
+    </div>` : ''}
+  </div>`;
+}
+
 function initBuilderPage() {
   // 初始化默认选中
   if (state.selectedWeapon) {
@@ -612,12 +649,14 @@ function setMode(mode) {
   state.selectedWeapon = null;
   state.selectedVehicle = null;
   state.selectedAmmo = null;
+  state.builderAttachments = {};
   state.analysisResult = null;
   render();
 }
 
 function selectWeapon(id) {
   state.selectedWeapon = id ? DataDB.getWeaponById(id) : null;
+  state.builderAttachments = {};
   state.analysisResult = null;
   // 自动更新弹药选项
   if (id) {
@@ -664,7 +703,8 @@ function analyzeBuild() {
     state.selectedVehicle,
     state.selectedOperator,
     state.mode,
-    state.selectedAmmo?.id
+    state.selectedAmmo?.id,
+    state.builderAttachments
   );
 
   const analysis = Calculator.generateAnalysis(result, state.selectedWeapon, state.selectedVehicle, state.selectedOperator, state.mode);
@@ -687,6 +727,14 @@ function renderAnalysisResult(result, analysis, similar) {
   const w = state.selectedWeapon;
   const ws = result.weaponScore;
   const vScore = result.vehicleScore;
+
+  const attNames = Object.entries(state.builderAttachments)
+    .filter(([_, id]) => id)
+    .map(([slot, id]) => {
+      const att = DataDB.getAttachmentById(id);
+      return att ? `${GEAR_SLOT_LABELS[slot] || slot}: ${att.name_cn}` : '';
+    })
+    .filter(Boolean);
 
   return `
   <div class="result-header">
@@ -714,6 +762,13 @@ function renderAnalysisResult(result, analysis, similar) {
       </div>
     </div>
   </div>
+
+  <!-- 已选配件 -->
+  ${attNames.length > 0 ? `
+  <div class="gear-selected-list" style="margin-bottom:20px;">
+    <div class="gsl-title">已选配件</div>
+    ${attNames.map(n => `<span class="gsl-tag att">${n}</span>`).join('')}
+  </div>` : ''}
 
   <!-- 武器详细属性 -->
   <div class="radar-container">
@@ -1132,6 +1187,15 @@ function selectAttachment(slot, attId) {
   }
   updateGearPreview();
   setTimeout(() => drawGearRadar(), 50);
+}
+
+function selectBuilderAttachment(slot, attId) {
+  if (attId === '') {
+    delete state.builderAttachments[slot];
+  } else {
+    state.builderAttachments[slot] = attId;
+  }
+  hideResult();
 }
 
 function selectGearItem(slot, gearId) {

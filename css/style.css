@@ -438,6 +438,35 @@ body {
   justify-content: center;
 }
 
+.builder-attachments-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.builder-att-slot {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.builder-att-label {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.builder-att-slot .step-select {
+  font-size: 0.8rem;
+  padding: 8px 10px;
+}
+
+.builder-att-placeholder {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  padding: 8px 0;
+}
+
 .step-select {
   width: 100%;
   padding: 10px 14px;

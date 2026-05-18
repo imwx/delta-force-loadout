@@ -84,8 +84,13 @@ const Calculator = (function() {
   }
 
   // 计算综合搭配评分
-  function calculateBuildScore(weapon, vehicle, operator, mode, ammoType) {
-    const wScore = calcWeaponScore(weapon, ammoType);
+  function calculateBuildScore(weapon, vehicle, operator, mode, ammoType, selectedAttachments) {
+    // 如果有配件，应用配件加成到武器属性
+    let effectiveWeapon = weapon;
+    if (selectedAttachments && weapon) {
+      effectiveWeapon = { ...weapon, base_stats: calcWeaponWithAttachments(weapon, selectedAttachments) };
+    }
+    const wScore = calcWeaponScore(effectiveWeapon, ammoType);
     const vScore = calcVehicleScore(vehicle);
     const opBonus = getOperatorBonus(operator);
     const weights = getModeWeights(mode);
