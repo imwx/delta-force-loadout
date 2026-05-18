@@ -13,6 +13,25 @@ def fetch(url):
         print(f"  [ERROR] {url}: {e}")
         return None
 
+def infer_slot(name):
+    """从物品名称推断槽位类型"""
+    n = name
+    if any(k in n for k in ['背心', '防弹衣', '战术背心', '胸甲', '摩托马甲', '胸包', '胸挂']):
+        return 'vest'
+    if any(k in n for k in ['头盔', '面罩', '护目镜', '护耳', '防毒面具']):
+        return 'helmet'
+    if any(k in n for k in ['护膝', '护腿', '护胫']):
+        return 'knee'
+    if any(k in n for k in ['靴', '鞋子', '战靴']):
+        return 'boots'
+    # 武器配件 → tactical
+    if any(k in n for k in ['枪管', '枪托', '枪机', '握把', '护木', '弹链', '弹匣',
+                             '消音', '镭射', '激光', '退器', '导气', '制退',
+                             '一体', '托芯', '枪背带', '脚架', '刺刀', '下挂', '导轨',
+                             '聚合物', '稳定', '枪口', '榴弹']):
+        return 'tactical'
+    return 'tactical'
+
 def parse_table(html, page_num):
     """解析战备/子弹页面表格"""
     items = []
@@ -90,12 +109,20 @@ def parse_table(html, page_num):
         recommend_match = re.search(r'class="ShopSellType-(\d+)"[^>]*>([^<]+)</span>', tr)
         recommend = recommend_match.group(2).strip() if recommend_match else ''
 
+        # 推断槽位（仅战备装备）
+        slot = infer_slot(name)
+        # 计算展示价格：优先 price_current（正数），否则 price_30d
+        pc = price_current if price_current and price_current > 0 else None
+        display_price = pc if pc else (price_30d if price_30d else 0)
+
         items.append({
             'id': item_id,
             'name': name,
             'page': page_num,
             'grade': grade,
             'recommend': recommend,
+            'slot': slot,
+            'price': display_price,
             'price_current': price_current,
             'price_3d': price_3d,
             'price_7d': price_7d,
@@ -140,6 +167,7 @@ def scrape(base_url, total_pages, out_live, out_latest, label):
     for it in all_items:
         if it['id'] not in seen2:
             seen2.add(it['id'])
+            # slot/price 已由 parse_table 填充，直接保留
             deduped.append(it)
 
     with open(out_latest, 'w', encoding='utf-8') as f:

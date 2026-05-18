@@ -10,9 +10,17 @@
       "range": 70,
       "armor_piercing": "标准"
     },
-    "best_for": ["M4A1", "K416", "M16A4", "CI-19", "AUG", "CAR-15"],
+    "best_for": [
+      "M4A1",
+      "K416",
+      "M16A4",
+      "CI-19",
+      "AUG",
+      "CAR-15"
+    ],
     "price": 200,
-    "unlock_level": 1
+    "unlock_level": 1,
+    "market_price": 286
   },
   {
     "id": "556-ap",
@@ -25,9 +33,14 @@
       "range": 65,
       "armor_piercing": "高"
     },
-    "best_for": ["M4A1", "K416", "CI-19"],
+    "best_for": [
+      "M4A1",
+      "K416",
+      "CI-19"
+    ],
     "price": 350,
-    "unlock_level": 15
+    "unlock_level": 15,
+    "market_price": 286
   },
   {
     "id": "762x39",
@@ -40,9 +53,13 @@
       "range": 55,
       "armor_piercing": "标准"
     },
-    "best_for": ["AKM", "AKS-74"],
+    "best_for": [
+      "AKM",
+      "AKS-74"
+    ],
     "price": 220,
-    "unlock_level": 1
+    "unlock_level": 1,
+    "market_price": 528
   },
   {
     "id": "762x51",
@@ -55,9 +72,17 @@
       "range": 90,
       "armor_piercing": "高"
     },
-    "best_for": ["M14", "MK47", "SCAR-H", "M7", "R93", "SV-98"],
+    "best_for": [
+      "M14",
+      "MK47",
+      "SCAR-H",
+      "M7",
+      "R93",
+      "SV-98"
+    ],
     "price": 380,
-    "unlock_level": 20
+    "unlock_level": 20,
+    "market_price": 528
   },
   {
     "id": "545x39",
@@ -70,9 +95,14 @@
       "range": 72,
       "armor_piercing": "标准"
     },
-    "best_for": ["AK-74M", "AK-12", "AKS-74"],
+    "best_for": [
+      "AK-74M",
+      "AK-12",
+      "AKS-74"
+    ],
     "price": 200,
-    "unlock_level": 1
+    "unlock_level": 1,
+    "market_price": 489
   },
   {
     "id": "545-ap",
@@ -85,9 +115,13 @@
       "range": 68,
       "armor_piercing": "高"
     },
-    "best_for": ["AK-74M", "AK-12"],
+    "best_for": [
+      "AK-74M",
+      "AK-12"
+    ],
     "price": 340,
-    "unlock_level": 18
+    "unlock_level": 18,
+    "market_price": 489
   },
   {
     "id": "9x18",
@@ -100,7 +134,9 @@
       "range": 30,
       "armor_piercing": "低"
     },
-    "best_for": ["手枪类武器"],
+    "best_for": [
+      "手枪类武器"
+    ],
     "price": 80,
     "unlock_level": 1
   },
@@ -115,9 +151,14 @@
       "range": 38,
       "armor_piercing": "标准"
     },
-    "best_for": ["MP5", "UZI", "Vector"],
+    "best_for": [
+      "MP5",
+      "UZI",
+      "Vector"
+    ],
     "price": 120,
-    "unlock_level": 1
+    "unlock_level": 1,
+    "market_price": 366
   },
   {
     "id": "9x19-hp",
@@ -130,7 +171,10 @@
       "range": 25,
       "armor_piercing": "无"
     },
-    "best_for": ["MP5", "UZI"],
+    "best_for": [
+      "MP5",
+      "UZI"
+    ],
     "price": 160,
     "unlock_level": 8,
     "description": "危险行动模式高伤害选择，对无护甲目标伤害极高，但无法穿透任何护甲。"
@@ -146,10 +190,15 @@
       "range": 55,
       "armor_piercing": "高"
     },
-    "best_for": ["AS Val", "SR-3M", "VSS"],
+    "best_for": [
+      "AS Val",
+      "SR-3M",
+      "VSS"
+    ],
     "price": 300,
     "unlock_level": 25,
-    "description": "亚音速弹药，射击时声音极小（消音效果极佳），穿深和伤害均优秀，是潜入战术的首选弹药。"
+    "description": "亚音速弹药，射击时声音极小（消音效果极佳），穿深和伤害均优秀，是潜入战术的首选弹药。",
+    "market_price": 489
   },
   {
     "id": "45acp",
@@ -162,9 +211,13 @@
       "range": 35,
       "armor_piercing": "低"
     },
-    "best_for": ["SMG-45", "Vector"],
+    "best_for": [
+      "SMG-45",
+      "Vector"
+    ],
     "price": 130,
-    "unlock_level": 5
+    "unlock_level": 5,
+    "market_price": 1190
   },
   {
     "id": "46x30",
@@ -177,10 +230,13 @@
       "range": 42,
       "armor_piercing": "高"
     },
-    "best_for": ["MP7"],
+    "best_for": [
+      "MP7"
+    ],
     "price": 280,
     "unlock_level": 22,
-    "description": "专为MP7设计的穿甲弹，穿深极高，可击穿大多数轻型防弹衣。对护甲目标效果显著。"
+    "description": "专为MP7设计的穿甲弹，穿深极高，可击穿大多数轻型防弹衣。对护甲目标效果显著。",
+    "market_price": 970
   },
   {
     "id": "300-win",
@@ -193,10 +249,13 @@
       "range": 98,
       "armor_piercing": "极高"
     },
-    "best_for": ["AWM"],
+    "best_for": [
+      "AWM"
+    ],
     "price": 500,
     "unlock_level": 35,
-    "description": "狙击步枪顶级弹药，远射程、高穿深、超高伤害，一击可击穿三级护甲。"
+    "description": "狙击步枪顶级弹药，远射程、高穿深、超高伤害，一击可击穿三级护甲。",
+    "market_price": 542
   },
   {
     "id": "338-lapua",
@@ -209,7 +268,9 @@
       "range": 95,
       "armor_piercing": "极高"
     },
-    "best_for": ["R93"],
+    "best_for": [
+      "R93"
+    ],
     "price": 480,
     "unlock_level": 30,
     "description": "反器材级狙击弹药，兼具AWM的威力和更快的射速，是R93等狙击步枪的最佳搭档。"
@@ -225,10 +286,13 @@
       "range": 20,
       "armor_piercing": "无"
     },
-    "best_for": ["S12K"],
+    "best_for": [
+      "S12K"
+    ],
     "price": 180,
     "unlock_level": 1,
-    "description": "近距离大威力霰弹，一发多丸，近距离可一击毙命。超出中距离几乎无效。"
+    "description": "近距离大威力霰弹，一发多丸，近距离可一击毙命。超出中距离几乎无效。",
+    "market_price": 511
   },
   {
     "id": "12g-ap",
@@ -241,9 +305,12 @@
       "range": 40,
       "armor_piercing": "中"
     },
-    "best_for": ["S12K"],
+    "best_for": [
+      "S12K"
+    ],
     "price": 260,
     "unlock_level": 20,
-    "description": "单发穿甲弹丸，可击穿轻装甲和头盔，近距离威力略低于鹿弹，但穿甲能力大幅提升。"
+    "description": "单发穿甲弹丸，可击穿轻装甲和头盔，近距离威力略低于鹿弹，但穿甲能力大幅提升。",
+    "market_price": 511
   }
 ]

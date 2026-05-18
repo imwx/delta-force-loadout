@@ -13,7 +13,9 @@
     "change_ratio": -50.0,
     "change_3d": 3.17,
     "change_7d": 1.56,
-    "change_30d": 14.04
+    "change_30d": 14.04,
+    "slot": "vest",
+    "price": 818751
   },
   {
     "id": "417",
@@ -29,7 +31,9 @@
     "change_ratio": -38.0,
     "change_3d": -2.67,
     "change_7d": 1.39,
-    "change_30d": 12.31
+    "change_30d": 12.31,
+    "slot": "vest",
+    "price": 768905
   },
   {
     "id": "196",
@@ -45,7 +49,9 @@
     "change_ratio": -34.0,
     "change_3d": 1.47,
     "change_7d": 1.47,
-    "change_30d": 2.99
+    "change_30d": 2.99,
+    "slot": "helmet",
+    "price": 757419
   },
   {
     "id": "1193",
@@ -61,7 +67,9 @@
     "change_ratio": -67.0,
     "change_3d": -65.33,
     "change_7d": -72.87,
-    "change_30d": -13.82
+    "change_30d": -13.82,
+    "slot": "tactical",
+    "price": 48341
   },
   {
     "id": "17",
@@ -77,7 +85,9 @@
     "change_ratio": -7.0,
     "change_3d": 2.82,
     "change_7d": 8.96,
-    "change_30d": 2.82
+    "change_30d": 2.82,
+    "slot": "helmet",
+    "price": 660997
   },
   {
     "id": "463",
@@ -93,7 +103,9 @@
     "change_ratio": -49.0,
     "change_3d": -23.72,
     "change_7d": -63.33,
-    "change_30d": -61.38
+    "change_30d": -61.38,
+    "slot": "tactical",
+    "price": 133407
   },
   {
     "id": "232",
@@ -109,7 +121,9 @@
     "change_ratio": -40.0,
     "change_3d": 12.0,
     "change_7d": -3.45,
-    "change_30d": -3.45
+    "change_30d": -3.45,
+    "slot": "tactical",
+    "price": 74384
   },
   {
     "id": "351",
@@ -125,7 +139,9 @@
     "change_ratio": -45.0,
     "change_3d": 0.0,
     "change_7d": -55.42,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 51543
   },
   {
     "id": "571",
@@ -141,7 +157,9 @@
     "change_ratio": -31.0,
     "change_3d": -5.56,
     "change_7d": -34.63,
-    "change_30d": -39.3
+    "change_30d": -39.3,
+    "slot": "tactical",
+    "price": 99367
   },
   {
     "id": "319",
@@ -157,7 +175,9 @@
     "change_ratio": -7.0,
     "change_3d": -7.14,
     "change_7d": -9.3,
-    "change_30d": 5.41
+    "change_30d": 5.41,
+    "slot": "vest",
+    "price": 342754
   },
   {
     "id": "1183",
@@ -173,7 +193,9 @@
     "change_ratio": -19.0,
     "change_3d": -3.57,
     "change_7d": -10.01,
-    "change_30d": -63.03
+    "change_30d": -63.03,
+    "slot": "tactical",
+    "price": 260181
   },
   {
     "id": "1213",
@@ -189,7 +211,9 @@
     "change_ratio": -46.0,
     "change_3d": -48.3,
     "change_7d": -46.45,
-    "change_30d": -48.3
+    "change_30d": -48.3,
+    "slot": "tactical",
+    "price": 51449
   },
   {
     "id": "1192",
@@ -205,7 +229,9 @@
     "change_ratio": -20.0,
     "change_3d": -29.47,
     "change_7d": -27.53,
-    "change_30d": -25.48
+    "change_30d": -25.48,
+    "slot": "tactical",
+    "price": 118151
   },
   {
     "id": "536",
@@ -221,7 +247,9 @@
     "change_ratio": -9.0,
     "change_3d": -4.17,
     "change_7d": 4.55,
-    "change_30d": 27.78
+    "change_30d": 27.78,
+    "slot": "tactical",
+    "price": 144440
   },
   {
     "id": "553",
@@ -237,7 +265,9 @@
     "change_ratio": -26.0,
     "change_3d": 19.47,
     "change_7d": -23.23,
-    "change_30d": 48.34
+    "change_30d": 48.34,
+    "slot": "tactical",
+    "price": 37212
   },
   {
     "id": "130",
@@ -253,7 +283,9 @@
     "change_ratio": -16.0,
     "change_3d": -2.86,
     "change_7d": -2.86,
-    "change_30d": -20.94
+    "change_30d": -20.94,
+    "slot": "tactical",
+    "price": 103602
   },
   {
     "id": "151",
@@ -269,7 +301,9 @@
     "change_ratio": -26.0,
     "change_3d": 0.0,
     "change_7d": -50.01,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 37103
   },
   {
     "id": "189",
@@ -285,7 +319,9 @@
     "change_ratio": -27.0,
     "change_3d": 4.01,
     "change_7d": -36.65,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 33190
   },
   {
     "id": "483",
@@ -301,7 +337,9 @@
     "change_ratio": -13.0,
     "change_3d": 3.51,
     "change_7d": -39.18,
-    "change_30d": 103.47
+    "change_30d": 103.47,
+    "slot": "tactical",
+    "price": 37256
   },
   {
     "id": "107",
@@ -317,7 +355,9 @@
     "change_ratio": -14.0,
     "change_3d": 9.09,
     "change_7d": 12.5,
-    "change_30d": 24.14
+    "change_30d": 24.14,
+    "slot": "tactical",
+    "price": 51461
   },
   {
     "id": "572",
@@ -333,7 +373,9 @@
     "change_ratio": -21.0,
     "change_3d": 0.0,
     "change_7d": -19.45,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 38858
   },
   {
     "id": "515",
@@ -349,7 +391,9 @@
     "change_ratio": -29.0,
     "change_3d": 0.0,
     "change_7d": -38.17,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 24884
   },
   {
     "id": "1115",
@@ -365,7 +409,9 @@
     "change_ratio": -14.0,
     "change_3d": 9.31,
     "change_7d": -18.97,
-    "change_30d": 62.12
+    "change_30d": 62.12,
+    "slot": "tactical",
+    "price": 37236
   },
   {
     "id": "410",
@@ -381,7 +427,9 @@
     "change_ratio": -16.0,
     "change_3d": 0.0,
     "change_7d": -48.24,
-    "change_30d": 3.57
+    "change_30d": 3.57,
+    "slot": "tactical",
+    "price": 49657
   },
   {
     "id": "150",
@@ -397,7 +445,9 @@
     "change_ratio": -15.0,
     "change_3d": -3.34,
     "change_7d": -3.34,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 51707
   },
   {
     "id": "391",
@@ -413,7 +463,9 @@
     "change_ratio": -30.0,
     "change_3d": 0.0,
     "change_7d": -40.91,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 21449
   },
   {
     "id": "371",
@@ -429,7 +481,9 @@
     "change_ratio": -11.0,
     "change_3d": 64.81,
     "change_7d": -30.02,
-    "change_30d": -50.47
+    "change_30d": -50.47,
+    "slot": "tactical",
+    "price": 145135
   },
   {
     "id": "193",
@@ -445,7 +499,9 @@
     "change_ratio": -26.0,
     "change_3d": 0.0,
     "change_7d": -39.54,
-    "change_30d": -43.48
+    "change_30d": -43.48,
+    "slot": "tactical",
+    "price": 44156
   },
   {
     "id": "39",
@@ -461,7 +517,9 @@
     "change_ratio": -21.0,
     "change_3d": -21.23,
     "change_7d": -18.77,
-    "change_30d": -38.12
+    "change_30d": -38.12,
+    "slot": "tactical",
+    "price": 53517
   },
   {
     "id": "1197",
@@ -477,7 +535,9 @@
     "change_ratio": -18.0,
     "change_3d": 13.9,
     "change_7d": -2.38,
-    "change_30d": -19.62
+    "change_30d": -19.62,
+    "slot": "tactical",
+    "price": 48920
   },
   {
     "id": "85",
@@ -493,7 +553,9 @@
     "change_ratio": -25.0,
     "change_3d": -31.1,
     "change_7d": -31.1,
-    "change_30d": -58.41
+    "change_30d": -58.41,
+    "slot": "tactical",
+    "price": 61603
   },
   {
     "id": "544",
@@ -509,7 +571,9 @@
     "change_ratio": -5.0,
     "change_3d": -7.14,
     "change_7d": 8.33,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 139033
   },
   {
     "id": "14",
@@ -525,7 +589,9 @@
     "change_ratio": -12.0,
     "change_3d": -2.22,
     "change_7d": -10.21,
-    "change_30d": 51.82
+    "change_30d": 51.82,
+    "slot": "tactical",
+    "price": 37053
   },
   {
     "id": "291",
@@ -541,7 +607,9 @@
     "change_ratio": -8.0,
     "change_3d": 0.0,
     "change_7d": -5.89,
-    "change_30d": -15.8
+    "change_30d": -15.8,
+    "slot": "tactical",
+    "price": 91332
   },
   {
     "id": "488",
@@ -557,7 +625,9 @@
     "change_ratio": -22.0,
     "change_3d": -15.03,
     "change_7d": 6.26,
-    "change_30d": 6.26
+    "change_30d": 6.26,
+    "slot": "tactical",
+    "price": 22193
   },
   {
     "id": "512",
@@ -573,7 +643,9 @@
     "change_ratio": -1.0,
     "change_3d": -5.66,
     "change_7d": -1.96,
-    "change_30d": -3.85
+    "change_30d": -3.85,
+    "slot": "vest",
+    "price": 372290
   },
   {
     "id": "78",
@@ -589,7 +661,9 @@
     "change_ratio": -18.0,
     "change_3d": 25.96,
     "change_7d": -22.75,
-    "change_30d": -15.01
+    "change_30d": -15.01,
+    "slot": "tactical",
+    "price": 32969
   },
   {
     "id": "540",
@@ -605,7 +679,9 @@
     "change_ratio": -18.0,
     "change_3d": 11.56,
     "change_7d": 0.0,
-    "change_30d": 11.56
+    "change_30d": 11.56,
+    "slot": "tactical",
+    "price": 24137
   },
   {
     "id": "379",
@@ -621,7 +697,9 @@
     "change_ratio": -8.0,
     "change_3d": 63.37,
     "change_7d": 13.96,
-    "change_30d": 75.05
+    "change_30d": 75.05,
+    "slot": "tactical",
+    "price": 35816
   },
   {
     "id": "257",
@@ -637,7 +715,9 @@
     "change_ratio": -15.0,
     "change_3d": 24.1,
     "change_7d": -6.08,
-    "change_30d": -58.19
+    "change_30d": -58.19,
+    "slot": "tactical",
+    "price": 71311
   },
   {
     "id": "473",
@@ -653,7 +733,9 @@
     "change_ratio": -14.0,
     "change_3d": 0.0,
     "change_7d": -48.25,
-    "change_30d": 3.58
+    "change_30d": 3.58,
+    "slot": "tactical",
+    "price": 32290
   },
   {
     "id": "112",
@@ -669,7 +751,9 @@
     "change_ratio": -9.0,
     "change_3d": -8.57,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 50880
   },
   {
     "id": "219",
@@ -685,7 +769,9 @@
     "change_ratio": -16.0,
     "change_3d": -4.55,
     "change_7d": -8.71,
-    "change_30d": -8.71
+    "change_30d": -8.71,
+    "slot": "tactical",
+    "price": 29404
   },
   {
     "id": "484",
@@ -701,7 +787,9 @@
     "change_ratio": -10.0,
     "change_3d": -8.95,
     "change_7d": -31.13,
-    "change_30d": -32.95
+    "change_30d": -32.95,
+    "slot": "tactical",
+    "price": 62981
   },
   {
     "id": "422",
@@ -717,7 +805,9 @@
     "change_ratio": -13.0,
     "change_3d": -19.4,
     "change_7d": -21.92,
-    "change_30d": -21.92
+    "change_30d": -21.92,
+    "slot": "tactical",
+    "price": 40875
   },
   {
     "id": "557",
@@ -733,7 +823,9 @@
     "change_ratio": -7.0,
     "change_3d": 20.7,
     "change_7d": -2.78,
-    "change_30d": 20.7
+    "change_30d": 20.7,
+    "slot": "tactical",
+    "price": 47974
   },
   {
     "id": "516",
@@ -749,7 +841,9 @@
     "change_ratio": -11.0,
     "change_3d": -12.75,
     "change_7d": -4.01,
-    "change_30d": -31.48
+    "change_30d": -31.48,
+    "slot": "tactical",
+    "price": 52413
   },
   {
     "id": "278",
@@ -765,7 +859,9 @@
     "change_ratio": -7.0,
     "change_3d": 10.01,
     "change_7d": 4.77,
-    "change_30d": 51.8
+    "change_30d": 51.8,
+    "slot": "tactical",
+    "price": 37063
   },
   {
     "id": "493",
@@ -781,7 +877,9 @@
     "change_ratio": -14.0,
     "change_3d": -18.8,
     "change_7d": -35.08,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 25000
   },
   {
     "id": "339",
@@ -797,7 +895,9 @@
     "change_ratio": -5.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -37.51
+    "change_30d": -37.51,
+    "slot": "tactical",
+    "price": 121955
   },
   {
     "id": "128",
@@ -813,7 +913,9 @@
     "change_ratio": -15.0,
     "change_3d": -5.56,
     "change_7d": 0.0,
-    "change_30d": -59.53
+    "change_30d": -59.53,
+    "slot": "tactical",
+    "price": 53757
   },
   {
     "id": "30",
@@ -829,7 +931,9 @@
     "change_ratio": -20.0,
     "change_3d": -24.06,
     "change_7d": -24.06,
-    "change_30d": -72.92
+    "change_30d": -72.92,
+    "slot": "tactical",
+    "price": 56301
   },
   {
     "id": "460",
@@ -845,7 +949,9 @@
     "change_ratio": -9.0,
     "change_3d": -19.47,
     "change_7d": -29.3,
-    "change_30d": 3.58
+    "change_30d": 3.58,
+    "slot": "tactical",
+    "price": 35929
   },
   {
     "id": "62",
@@ -861,7 +967,9 @@
     "change_ratio": -11.0,
     "change_3d": 0.0,
     "change_7d": -26.79,
-    "change_30d": -25.46
+    "change_30d": -25.46,
+    "slot": "tactical",
+    "price": 40688
   },
   {
     "id": "312",
@@ -877,7 +985,9 @@
     "change_ratio": -3.0,
     "change_3d": -4.29,
     "change_7d": 21.82,
-    "change_30d": 131.09
+    "change_30d": 131.09,
+    "slot": "tactical",
+    "price": 51745
   },
   {
     "id": "1214",
@@ -893,7 +1003,9 @@
     "change_ratio": -14.0,
     "change_3d": -3.85,
     "change_7d": -3.85,
-    "change_30d": -13.8
+    "change_30d": -13.8,
+    "slot": "tactical",
+    "price": 24063
   },
   {
     "id": "568",
@@ -909,7 +1021,9 @@
     "change_ratio": -6.0,
     "change_3d": 20.86,
     "change_7d": -27.52,
-    "change_30d": 107.39
+    "change_30d": 107.39,
+    "slot": "tactical",
+    "price": 24932
   },
   {
     "id": "45",
@@ -925,7 +1039,9 @@
     "change_ratio": -3.0,
     "change_3d": -3.85,
     "change_7d": 8.7,
-    "change_30d": 8.7
+    "change_30d": 8.7,
+    "slot": "tactical",
+    "price": 81735
   },
   {
     "id": "179",
@@ -941,7 +1057,9 @@
     "change_ratio": -10.0,
     "change_3d": 0.0,
     "change_7d": 6.25,
-    "change_30d": -32.01
+    "change_30d": -32.01,
+    "slot": "tactical",
+    "price": 41234
   },
   {
     "id": "587",
@@ -957,7 +1075,9 @@
     "change_ratio": -5.0,
     "change_3d": 2.44,
     "change_7d": -12.51,
-    "change_30d": -6.67
+    "change_30d": -6.67,
+    "slot": "tactical",
+    "price": 62741
   },
   {
     "id": "486",
@@ -973,7 +1093,9 @@
     "change_ratio": -4.0,
     "change_3d": 0.0,
     "change_7d": -9.53,
-    "change_30d": 5.56
+    "change_30d": 5.56,
+    "slot": "helmet",
+    "price": 67113
   },
   {
     "id": "225",
@@ -989,7 +1111,9 @@
     "change_ratio": -2.0,
     "change_3d": -7.5,
     "change_7d": -7.5,
-    "change_30d": -19.57
+    "change_30d": -19.57,
+    "slot": "tactical",
+    "price": 138000
   },
   {
     "id": "1095",
@@ -1005,7 +1129,9 @@
     "change_ratio": -30.0,
     "change_3d": -38.19,
     "change_7d": -27.86,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 6862
   },
   {
     "id": "347",
@@ -1021,7 +1147,9 @@
     "change_ratio": -10.0,
     "change_3d": 0.0,
     "change_7d": -35.08,
-    "change_30d": -33.42
+    "change_30d": -33.42,
+    "slot": "tactical",
+    "price": 37543
   },
   {
     "id": "1190",
@@ -1037,7 +1165,9 @@
     "change_ratio": -11.0,
     "change_3d": 0.0,
     "change_7d": 4.0,
-    "change_30d": -31.59
+    "change_30d": -31.59,
+    "slot": "tactical",
+    "price": 31530
   },
   {
     "id": "569",
@@ -1053,7 +1183,9 @@
     "change_ratio": -7.0,
     "change_3d": 21.07,
     "change_7d": 43.8,
-    "change_30d": -8.01
+    "change_30d": -8.01,
+    "slot": "tactical",
+    "price": 34726
   },
   {
     "id": "13",
@@ -1069,7 +1201,9 @@
     "change_ratio": -7.0,
     "change_3d": -29.79,
     "change_7d": 0.0,
-    "change_30d": -13.36
+    "change_30d": -13.36,
+    "slot": "tactical",
+    "price": 38310
   },
   {
     "id": "31",
@@ -1085,7 +1219,9 @@
     "change_ratio": -4.0,
     "change_3d": -7.28,
     "change_7d": -27.16,
-    "change_30d": -33.79
+    "change_30d": -33.79,
+    "slot": "tactical",
+    "price": 79260
   },
   {
     "id": "573",
@@ -1101,7 +1237,9 @@
     "change_ratio": -2.0,
     "change_3d": -14.3,
     "change_7d": 0.0,
-    "change_30d": -65.74
+    "change_30d": -65.74,
+    "slot": "tactical",
+    "price": 213418
   },
   {
     "id": "566",
@@ -1117,7 +1255,9 @@
     "change_ratio": -5.0,
     "change_3d": 4.01,
     "change_7d": 0.0,
-    "change_30d": -48.05
+    "change_30d": -48.05,
+    "slot": "tactical",
+    "price": 66927
   },
   {
     "id": "437",
@@ -1133,7 +1273,9 @@
     "change_ratio": -11.0,
     "change_3d": -23.57,
     "change_7d": 0.0,
-    "change_30d": -63.43
+    "change_30d": -63.43,
+    "slot": "tactical",
+    "price": 43632
   },
   {
     "id": "1078",
@@ -1149,7 +1291,9 @@
     "change_ratio": -20.0,
     "change_3d": 0.0,
     "change_7d": -32.72,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 8018
   },
   {
     "id": "290",
@@ -1165,7 +1309,9 @@
     "change_ratio": -5.0,
     "change_3d": -2.27,
     "change_7d": -15.69,
-    "change_30d": -42.67
+    "change_30d": -42.67,
+    "slot": "tactical",
+    "price": 61875
   },
   {
     "id": "88",
@@ -1181,7 +1327,9 @@
     "change_ratio": -11.0,
     "change_3d": -33.37,
     "change_7d": 0.0,
-    "change_30d": 14.31
+    "change_30d": 14.31,
+    "slot": "tactical",
+    "price": 13416
   },
   {
     "id": "156",
@@ -1197,7 +1345,9 @@
     "change_ratio": -4.0,
     "change_3d": -21.78,
     "change_7d": -5.28,
-    "change_30d": -50.06
+    "change_30d": -50.06,
+    "slot": "tactical",
+    "price": 80364
   },
   {
     "id": "1126",
@@ -1213,7 +1363,9 @@
     "change_ratio": -6.0,
     "change_3d": -3.45,
     "change_7d": -3.45,
-    "change_30d": -24.35
+    "change_30d": -24.35,
+    "slot": "tactical",
+    "price": 35480
   },
   {
     "id": "1120",
@@ -1229,7 +1381,9 @@
     "change_ratio": -6.0,
     "change_3d": -3.46,
     "change_7d": 0.0,
-    "change_30d": -22.28
+    "change_30d": -22.28,
+    "slot": "tactical",
+    "price": 34652
   },
   {
     "id": "77",
@@ -1245,7 +1399,9 @@
     "change_ratio": -6.0,
     "change_3d": 3.85,
     "change_7d": 8.0,
-    "change_30d": -12.9
+    "change_30d": -12.9,
+    "slot": "tactical",
+    "price": 29759
   },
   {
     "id": "320",
@@ -1261,7 +1417,9 @@
     "change_ratio": -8.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -49.05
+    "change_30d": -49.05,
+    "slot": "tactical",
+    "price": 42305
   },
   {
     "id": "426",
@@ -1277,7 +1435,9 @@
     "change_ratio": -6.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -39.61
+    "change_30d": -39.61,
+    "slot": "tactical",
+    "price": 41413
   },
   {
     "id": "462",
@@ -1293,7 +1453,9 @@
     "change_ratio": -5.0,
     "change_3d": -5.56,
     "change_7d": 0.0,
-    "change_30d": -72.61
+    "change_30d": -72.61,
+    "slot": "tactical",
+    "price": 110013
   },
   {
     "id": "1125",
@@ -1309,7 +1471,9 @@
     "change_ratio": -6.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -28.58
+    "change_30d": -28.58,
+    "slot": "tactical",
+    "price": 33765
   },
   {
     "id": "210",
@@ -1325,7 +1489,9 @@
     "change_ratio": -7.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -35.07
+    "change_30d": -35.07,
+    "slot": "tactical",
+    "price": 32931
   },
   {
     "id": "322",
@@ -1341,7 +1507,9 @@
     "change_ratio": -7.0,
     "change_3d": 0.0,
     "change_7d": -12.81,
-    "change_30d": -45.42
+    "change_30d": -45.42,
+    "slot": "tactical",
+    "price": 38548
   },
   {
     "id": "465",
@@ -1357,7 +1525,9 @@
     "change_ratio": -6.0,
     "change_3d": 13.4,
     "change_7d": 13.4,
-    "change_30d": 13.4
+    "change_30d": 13.4,
+    "slot": "tactical",
+    "price": 20752
   },
   {
     "id": "556",
@@ -1373,7 +1543,9 @@
     "change_ratio": -5.0,
     "change_3d": -12.13,
     "change_7d": -23.7,
-    "change_30d": -49.14
+    "change_30d": -49.14,
+    "slot": "tactical",
+    "price": 50713
   },
   {
     "id": "504",
@@ -1389,7 +1561,9 @@
     "change_ratio": -3.0,
     "change_3d": -18.53,
     "change_7d": 0.0,
-    "change_30d": -24.15
+    "change_30d": -24.15,
+    "slot": "tactical",
+    "price": 51748
   },
   {
     "id": "144",
@@ -1405,7 +1579,9 @@
     "change_ratio": -3.0,
     "change_3d": -3.85,
     "change_7d": 4.17,
-    "change_30d": -7.42
+    "change_30d": -7.42,
+    "slot": "vest",
+    "price": 43937
   },
   {
     "id": "83",
@@ -1421,7 +1597,9 @@
     "change_ratio": -3.0,
     "change_3d": -5.27,
     "change_7d": -7.71,
-    "change_30d": 5.9
+    "change_30d": 5.9,
+    "slot": "tactical",
+    "price": 37478
   },
   {
     "id": "305",
@@ -1437,7 +1615,9 @@
     "change_ratio": -10.0,
     "change_3d": 0.0,
     "change_7d": -13.4,
-    "change_30d": -38.23
+    "change_30d": -38.23,
+    "slot": "tactical",
+    "price": 21553
   },
   {
     "id": "279",
@@ -1453,7 +1633,9 @@
     "change_ratio": -4.0,
     "change_3d": 0.0,
     "change_7d": -14.02,
-    "change_30d": -12.27
+    "change_30d": -12.27,
+    "slot": "tactical",
+    "price": 40356
   },
   {
     "id": "116",
@@ -1469,7 +1651,9 @@
     "change_ratio": -10.0,
     "change_3d": -5.01,
     "change_7d": -9.55,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "helmet",
+    "price": 11554
   },
   {
     "id": "404",
@@ -1485,7 +1669,9 @@
     "change_ratio": -4.0,
     "change_3d": 13.09,
     "change_7d": -3.71,
-    "change_30d": -44.76
+    "change_30d": -44.76,
+    "slot": "tactical",
+    "price": 47859
   },
   {
     "id": "469",
@@ -1501,7 +1687,9 @@
     "change_ratio": -5.0,
     "change_3d": 0.0,
     "change_7d": -22.77,
-    "change_30d": -34.67
+    "change_30d": -34.67,
+    "slot": "tactical",
+    "price": 31538
   },
   {
     "id": "309",
@@ -1517,7 +1705,9 @@
     "change_ratio": -4.0,
     "change_3d": 4.55,
     "change_7d": 9.53,
-    "change_30d": -11.54
+    "change_30d": -11.54,
+    "slot": "helmet",
+    "price": 31188
   },
   {
     "id": "496",
@@ -1533,7 +1723,9 @@
     "change_ratio": -5.0,
     "change_3d": -6.27,
     "change_7d": 7.17,
-    "change_30d": -11.81
+    "change_30d": -11.81,
+    "slot": "tactical",
+    "price": 23630
   },
   {
     "id": "1135",
@@ -1549,7 +1741,9 @@
     "change_ratio": -5.0,
     "change_3d": 0.0,
     "change_7d": 36.95,
-    "change_30d": 13.08
+    "change_30d": 13.08,
+    "slot": "tactical",
+    "price": 17666
   },
   {
     "id": "161",
@@ -1565,7 +1759,9 @@
     "change_ratio": -7.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -32.16
+    "change_30d": -32.16,
+    "slot": "tactical",
+    "price": 22526
   },
   {
     "id": "476",
@@ -1581,7 +1777,9 @@
     "change_ratio": -6.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 7.73
+    "change_30d": 7.73,
+    "slot": "tactical",
+    "price": 16621
   },
   {
     "id": "405",
@@ -1597,7 +1795,9 @@
     "change_ratio": -2.0,
     "change_3d": 0.0,
     "change_7d": -11.65,
-    "change_30d": -65.18
+    "change_30d": -65.18,
+    "slot": "tactical",
+    "price": 140515
   },
   {
     "id": "1082",
@@ -1613,7 +1813,9 @@
     "change_ratio": -9.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -30.34
+    "change_30d": -30.34,
+    "slot": "tactical",
+    "price": 15654
   },
   {
     "id": "49",
@@ -1629,7 +1831,9 @@
     "change_ratio": -8.0,
     "change_3d": -17.95,
     "change_7d": -17.95,
-    "change_30d": -37.99
+    "change_30d": -37.99,
+    "slot": "tactical",
+    "price": 17506
   },
   {
     "id": "194",
@@ -1645,7 +1849,9 @@
     "change_ratio": -5.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 16821
   },
   {
     "id": "1122",
@@ -1661,7 +1867,9 @@
     "change_ratio": -1.0,
     "change_3d": 8.35,
     "change_7d": 4.01,
-    "change_30d": 23.86
+    "change_30d": 23.86,
+    "slot": "tactical",
+    "price": 40436
   },
   {
     "id": "108",
@@ -1677,7 +1885,9 @@
     "change_ratio": -4.0,
     "change_3d": 0.0,
     "change_7d": 17.69,
-    "change_30d": -13.07
+    "change_30d": -13.07,
+    "slot": "tactical",
+    "price": 22155
   },
   {
     "id": "580",
@@ -1693,7 +1903,9 @@
     "change_ratio": -3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 24917
   },
   {
     "id": "162",
@@ -1709,7 +1921,9 @@
     "change_ratio": -5.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 16291
   },
   {
     "id": "86",
@@ -1725,7 +1939,9 @@
     "change_ratio": -3.0,
     "change_3d": 0.0,
     "change_7d": 5.89,
-    "change_30d": 5.89
+    "change_30d": 5.89,
+    "slot": "tactical",
+    "price": 26381
   },
   {
     "id": "160",
@@ -1741,7 +1957,9 @@
     "change_ratio": -3.0,
     "change_3d": -4.0,
     "change_7d": 50.0,
-    "change_30d": -7.69
+    "change_30d": -7.69,
+    "slot": "tactical",
+    "price": 29899
   },
   {
     "id": "461",
@@ -1757,7 +1975,9 @@
     "change_ratio": -3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -23.33
+    "change_30d": -23.33,
+    "slot": "tactical",
+    "price": 28349
   },
   {
     "id": "499",
@@ -1773,7 +1993,9 @@
     "change_ratio": -1.0,
     "change_3d": 0.0,
     "change_7d": 4.0,
-    "change_30d": -10.35
+    "change_30d": -10.35,
+    "slot": "tactical",
+    "price": 87387
   },
   {
     "id": "356",
@@ -1789,7 +2011,9 @@
     "change_ratio": -2.0,
     "change_3d": 4.88,
     "change_7d": -14.01,
-    "change_30d": -44.17
+    "change_30d": -44.17,
+    "slot": "tactical",
+    "price": 56965
   },
   {
     "id": "256",
@@ -1805,7 +2029,9 @@
     "change_ratio": -2.0,
     "change_3d": 33.39,
     "change_7d": -16.69,
-    "change_30d": 53.96
+    "change_30d": 53.96,
+    "slot": "tactical",
+    "price": 25037
   },
   {
     "id": "373",
@@ -1821,7 +2047,9 @@
     "change_ratio": -3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -23.42
+    "change_30d": -23.42,
+    "slot": "tactical",
+    "price": 26008
   },
   {
     "id": "393",
@@ -1837,7 +2065,9 @@
     "change_ratio": -5.0,
     "change_3d": 0.0,
     "change_7d": 7.17,
-    "change_30d": -16.71
+    "change_30d": -16.71,
+    "slot": "tactical",
+    "price": 17238
   },
   {
     "id": "374",
@@ -1853,7 +2083,9 @@
     "change_ratio": -3.0,
     "change_3d": 0.0,
     "change_7d": 7.7,
-    "change_30d": -12.51
+    "change_30d": -12.51,
+    "slot": "tactical",
+    "price": 28458
   },
   {
     "id": "95",
@@ -1869,7 +2101,9 @@
     "change_ratio": -10.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -25.99
+    "change_30d": -25.99,
+    "slot": "tactical",
+    "price": 8618
   },
   {
     "id": "52",
@@ -1885,7 +2119,9 @@
     "change_ratio": -1.0,
     "change_3d": 0.0,
     "change_7d": -27.54,
-    "change_30d": -21.66
+    "change_30d": -21.66,
+    "slot": "tactical",
+    "price": 47655
   },
   {
     "id": "246",
@@ -1901,7 +2137,9 @@
     "change_ratio": -2.0,
     "change_3d": 0.0,
     "change_7d": -25.77,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 25012
   },
   {
     "id": "531",
@@ -1917,7 +2155,9 @@
     "change_ratio": -5.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 10881
   },
   {
     "id": "42",
@@ -1933,7 +2173,9 @@
     "change_ratio": -2.0,
     "change_3d": 0.0,
     "change_7d": 26.45,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 24981
   },
   {
     "id": "72",
@@ -1949,7 +2191,9 @@
     "change_ratio": -10.0,
     "change_3d": -5.32,
     "change_7d": 12.65,
-    "change_30d": -18.34
+    "change_30d": -18.34,
+    "slot": "helmet",
+    "price": 6434
   },
   {
     "id": "498",
@@ -1965,7 +2209,9 @@
     "change_ratio": -2.0,
     "change_3d": 4.0,
     "change_7d": 8.34,
-    "change_30d": -38.1
+    "change_30d": -38.1,
+    "slot": "tactical",
+    "price": 40524
   },
   {
     "id": "1088",
@@ -1981,7 +2227,9 @@
     "change_ratio": -10.0,
     "change_3d": -5.09,
     "change_7d": -5.09,
-    "change_30d": -61.69
+    "change_30d": -61.69,
+    "slot": "tactical",
+    "price": 11428
   },
   {
     "id": "114",
@@ -1997,7 +2245,9 @@
     "change_ratio": -3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -36.07
+    "change_30d": -36.07,
+    "slot": "tactical",
+    "price": 23953
   },
   {
     "id": "598",
@@ -2013,7 +2263,9 @@
     "change_ratio": -7.0,
     "change_3d": -6.69,
     "change_7d": 0.0,
-    "change_30d": -12.54
+    "change_30d": -12.54,
+    "slot": "tactical",
+    "price": 6457
   },
   {
     "id": "592",
@@ -2029,7 +2281,9 @@
     "change_ratio": -2.0,
     "change_3d": -5.02,
     "change_7d": -9.57,
-    "change_30d": -17.46
+    "change_30d": -17.46,
+    "slot": "tactical",
+    "price": 18556
   },
   {
     "id": "1075",
@@ -2045,7 +2299,9 @@
     "change_ratio": -8.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -37.84
+    "change_30d": -37.84,
+    "slot": "tactical",
+    "price": 8509
   },
   {
     "id": "238",
@@ -2061,7 +2317,9 @@
     "change_ratio": -1.0,
     "change_3d": 4.01,
     "change_7d": 4.01,
-    "change_30d": -42.28
+    "change_30d": -42.28,
+    "slot": "tactical",
+    "price": 43137
   },
   {
     "id": "603",
@@ -2077,7 +2335,9 @@
     "change_ratio": 0.0,
     "change_3d": 2.56,
     "change_7d": -4.76,
-    "change_30d": 8.11
+    "change_30d": 8.11,
+    "slot": "tactical",
+    "price": 56775
   },
   {
     "id": "142",
@@ -2093,7 +2353,9 @@
     "change_ratio": -2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -39.64
+    "change_30d": -39.64,
+    "slot": "tactical",
+    "price": 22084
   },
   {
     "id": "280",
@@ -2109,7 +2371,9 @@
     "change_ratio": -2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 5.89
+    "change_30d": 5.89,
+    "slot": "tactical",
+    "price": 12386
   },
   {
     "id": "24",
@@ -2125,7 +2389,9 @@
     "change_ratio": -2.0,
     "change_3d": 0.0,
     "change_7d": 7.17,
-    "change_30d": -16.72
+    "change_30d": -16.72,
+    "slot": "tactical",
+    "price": 17227
   },
   {
     "id": "1116",
@@ -2141,7 +2407,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -34.81
+    "change_30d": -34.81,
+    "slot": "tactical",
+    "price": 47922
   },
   {
     "id": "551",
@@ -2157,7 +2425,9 @@
     "change_ratio": -1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 15407
   },
   {
     "id": "547",
@@ -2173,7 +2443,9 @@
     "change_ratio": -4.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -46.76
+    "change_30d": -46.76,
+    "slot": "tactical",
+    "price": 10694
   },
   {
     "id": "48",
@@ -2189,7 +2461,9 @@
     "change_ratio": -1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 16772
   },
   {
     "id": "1109",
@@ -2205,7 +2479,9 @@
     "change_ratio": -3.0,
     "change_3d": 0.0,
     "change_7d": 9.63,
-    "change_30d": -39.72
+    "change_30d": -39.72,
+    "slot": "tactical",
+    "price": 9441
   },
   {
     "id": "450",
@@ -2221,7 +2497,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -3.58
+    "change_30d": -3.58,
+    "slot": "vest",
+    "price": 26662
   },
   {
     "id": "1164",
@@ -2237,7 +2515,9 @@
     "change_ratio": -3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 5628
   },
   {
     "id": "284",
@@ -2253,7 +2533,9 @@
     "change_ratio": -3.0,
     "change_3d": -9.15,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "helmet",
+    "price": 6453
   },
   {
     "id": "8",
@@ -2269,7 +2551,9 @@
     "change_ratio": -2.0,
     "change_3d": -4.76,
     "change_7d": 0.0,
-    "change_30d": -4.76
+    "change_30d": -4.76,
+    "slot": "helmet",
+    "price": 7452
   },
   {
     "id": "324",
@@ -2285,7 +2569,9 @@
     "change_ratio": -3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 4755
   },
   {
     "id": "141",
@@ -2301,7 +2587,9 @@
     "change_ratio": -3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 6052
   },
   {
     "id": "1170",
@@ -2317,7 +2605,9 @@
     "change_ratio": -4.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 3478
   },
   {
     "id": "1173",
@@ -2333,7 +2623,9 @@
     "change_ratio": -3.0,
     "change_3d": -8.98,
     "change_7d": -8.98,
-    "change_30d": 35.71
+    "change_30d": 35.71,
+    "slot": "tactical",
+    "price": 3696
   },
   {
     "id": "583",
@@ -2349,7 +2641,9 @@
     "change_ratio": -2.0,
     "change_3d": -6.68,
     "change_7d": 0.0,
-    "change_30d": -12.52
+    "change_30d": -12.52,
+    "slot": "tactical",
+    "price": 8227
   },
   {
     "id": "188",
@@ -2365,7 +2659,9 @@
     "change_ratio": 0.0,
     "change_3d": -38.81,
     "change_7d": 18.85,
-    "change_30d": -20.91
+    "change_30d": -20.91,
+    "slot": "tactical",
+    "price": 19732
   },
   {
     "id": "1167",
@@ -2381,7 +2677,9 @@
     "change_ratio": -2.0,
     "change_3d": -14.96,
     "change_7d": -3.4,
-    "change_30d": 26.75
+    "change_30d": 26.75,
+    "slot": "tactical",
+    "price": 3476
   },
   {
     "id": "423",
@@ -2397,7 +2695,9 @@
     "change_ratio": -1.0,
     "change_3d": -4.61,
     "change_7d": -4.61,
-    "change_30d": -8.81
+    "change_30d": -8.81,
+    "slot": "vest",
+    "price": 7147
   },
   {
     "id": "1101",
@@ -2413,7 +2713,9 @@
     "change_ratio": -2.0,
     "change_3d": -9.09,
     "change_7d": 0.0,
-    "change_30d": -9.09
+    "change_30d": -9.09,
+    "slot": "tactical",
+    "price": 3522
   },
   {
     "id": "143",
@@ -2429,7 +2731,9 @@
     "change_ratio": 0.0,
     "change_3d": -3.14,
     "change_7d": 3.35,
-    "change_30d": -29.64
+    "change_30d": -29.64,
+    "slot": "tactical",
+    "price": 20833
   },
   {
     "id": "409",
@@ -2445,7 +2749,9 @@
     "change_ratio": -1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 5334
   },
   {
     "id": "442",
@@ -2461,7 +2767,9 @@
     "change_ratio": 0.0,
     "change_3d": -15.63,
     "change_7d": 8.0,
-    "change_30d": -6.9
+    "change_30d": -6.9,
+    "slot": "tactical",
+    "price": 88153
   },
   {
     "id": "361",
@@ -2477,7 +2785,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -20.72
+    "change_30d": -20.72,
+    "slot": "tactical",
+    "price": 6660
   },
   {
     "id": "537",
@@ -2493,7 +2803,9 @@
     "change_ratio": 0.0,
     "change_3d": -1.82,
     "change_7d": -26.07,
-    "change_30d": -15.65
+    "change_30d": -15.65,
+    "slot": "tactical",
+    "price": 39292
   },
   {
     "id": "368",
@@ -2509,7 +2821,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 4962
   },
   {
     "id": "1182",
@@ -2525,7 +2839,9 @@
     "change_ratio": 0.0,
     "change_3d": -6.32,
     "change_7d": -3.26,
-    "change_30d": -35.07
+    "change_30d": -35.07,
+    "slot": "tactical",
+    "price": 10951
   },
   {
     "id": "1159",
@@ -2541,7 +2857,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 2639
   },
   {
     "id": "508",
@@ -2557,7 +2875,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 7563
   },
   {
     "id": "84",
@@ -2573,7 +2893,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 3796
   },
   {
     "id": "1306",
@@ -2589,7 +2911,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 3.58
+    "change_30d": 3.58,
+    "slot": "tactical",
+    "price": 35766
   },
   {
     "id": "1305",
@@ -2605,7 +2929,9 @@
     "change_ratio": 0.0,
     "change_3d": 9.1,
     "change_7d": 9.1,
-    "change_30d": -7.7
+    "change_30d": -7.7,
+    "slot": "tactical",
+    "price": 23049
   },
   {
     "id": "1304",
@@ -2621,7 +2947,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -8.37
+    "change_30d": -8.37,
+    "slot": "tactical",
+    "price": 25522
   },
   {
     "id": "1303",
@@ -2637,7 +2965,9 @@
     "change_ratio": 0.0,
     "change_3d": -10.42,
     "change_7d": 30.32,
-    "change_30d": 104.88
+    "change_30d": 104.88,
+    "slot": "tactical",
+    "price": 37234
   },
   {
     "id": "1302",
@@ -2653,7 +2983,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -30.97
+    "change_30d": -30.97,
+    "slot": "tactical",
+    "price": 54141
   },
   {
     "id": "1301",
@@ -2669,7 +3001,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 25760
   },
   {
     "id": "1300",
@@ -2685,7 +3019,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 58750
   },
   {
     "id": "1299",
@@ -2701,7 +3037,9 @@
     "change_ratio": 0.0,
     "change_3d": 3.89,
     "change_7d": 0.0,
-    "change_30d": -64.72
+    "change_30d": -64.72,
+    "slot": "tactical",
+    "price": 25364
   },
   {
     "id": "1296",
@@ -2717,7 +3055,9 @@
     "change_ratio": 0.0,
     "change_3d": -19.07,
     "change_7d": 0.0,
-    "change_30d": -26.12
+    "change_30d": -26.12,
+    "slot": "tactical",
+    "price": 36871
   },
   {
     "id": "1295",
@@ -2733,7 +3073,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 123.22
+    "change_30d": 123.22,
+    "slot": "tactical",
+    "price": 49991
   },
   {
     "id": "1294",
@@ -2749,7 +3091,9 @@
     "change_ratio": 0.0,
     "change_3d": 2.7,
     "change_7d": -2.56,
-    "change_30d": -49.34
+    "change_30d": -49.34,
+    "slot": "tactical",
+    "price": 556459
   },
   {
     "id": "1279",
@@ -2765,7 +3109,9 @@
     "change_ratio": 0.0,
     "change_3d": 7.41,
     "change_7d": -39.6,
-    "change_30d": -40.83
+    "change_30d": -40.83,
+    "slot": "tactical",
+    "price": 39427
   },
   {
     "id": "1278",
@@ -2781,7 +3127,9 @@
     "change_ratio": 0.0,
     "change_3d": -27.83,
     "change_7d": -40.97,
-    "change_30d": -66.72
+    "change_30d": -66.72,
+    "slot": "tactical",
+    "price": 47151
   },
   {
     "id": "1277",
@@ -2797,7 +3145,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 10570
   },
   {
     "id": "1276",
@@ -2813,7 +3163,9 @@
     "change_ratio": 0.0,
     "change_3d": 40.92,
     "change_7d": -24.06,
-    "change_30d": -2.57
+    "change_30d": -2.57,
+    "slot": "tactical",
+    "price": 19636
   },
   {
     "id": "1275",
@@ -2829,7 +3181,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 8.34,
-    "change_30d": -7.15
+    "change_30d": -7.15,
+    "slot": "tactical",
+    "price": 35870
   },
   {
     "id": "1274",
@@ -2845,7 +3199,9 @@
     "change_ratio": 0.0,
     "change_3d": 11.78,
     "change_7d": -17.4,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 46128
   },
   {
     "id": "1273",
@@ -2861,7 +3217,9 @@
     "change_ratio": 0.0,
     "change_3d": 6.7,
     "change_7d": 0.0,
-    "change_30d": -15.86
+    "change_30d": -15.86,
+    "slot": "tactical",
+    "price": 18258
   },
   {
     "id": "1271",
@@ -2877,7 +3235,9 @@
     "change_ratio": 0.0,
     "change_3d": -21.67,
     "change_7d": -6.47,
-    "change_30d": -73.45
+    "change_30d": -73.45,
+    "slot": "tactical",
+    "price": 121442
   },
   {
     "id": "1270",
@@ -2893,7 +3253,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 20.85,
-    "change_30d": -23.7
+    "change_30d": -23.7,
+    "slot": "tactical",
+    "price": 16900
   },
   {
     "id": "1269",
@@ -2909,7 +3271,9 @@
     "change_ratio": 0.0,
     "change_3d": 7.14,
     "change_7d": 7.14,
-    "change_30d": 15.38
+    "change_30d": 15.38,
+    "slot": "tactical",
+    "price": 23270
   },
   {
     "id": "1268",
@@ -2925,7 +3289,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 7.71,
-    "change_30d": -62.2
+    "change_30d": -62.2,
+    "slot": "tactical",
+    "price": 47332
   },
   {
     "id": "1267",
@@ -2941,7 +3307,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 37195
   },
   {
     "id": "1266",
@@ -2957,7 +3325,9 @@
     "change_ratio": 0.0,
     "change_3d": -4.76,
     "change_7d": -4.76,
-    "change_30d": -2.44
+    "change_30d": -2.44,
+    "slot": "tactical",
+    "price": 77490
   },
   {
     "id": "1265",
@@ -2973,7 +3343,9 @@
     "change_ratio": 0.0,
     "change_3d": 4.0,
     "change_7d": 23.84,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 79474
   },
   {
     "id": "1246",
@@ -2989,7 +3361,9 @@
     "change_ratio": 0.0,
     "change_3d": 3.57,
     "change_7d": 7.41,
-    "change_30d": -34.09
+    "change_30d": -34.09,
+    "slot": "tactical",
+    "price": 78760
   },
   {
     "id": "1245",
@@ -3005,7 +3379,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -2.05
+    "change_30d": -2.05,
+    "slot": "tactical",
+    "price": 18084
   },
   {
     "id": "1244",
@@ -3021,7 +3397,9 @@
     "change_ratio": 0.0,
     "change_3d": 4.88,
     "change_7d": 19.46,
-    "change_30d": -58.67
+    "change_30d": -58.67,
+    "slot": "tactical",
+    "price": 184559
   },
   {
     "id": "1243",
@@ -3037,7 +3415,9 @@
     "change_ratio": 0.0,
     "change_3d": -9.12,
     "change_7d": 17.71,
-    "change_30d": -53.57
+    "change_30d": -53.57,
+    "slot": "tactical",
+    "price": 44009
   },
   {
     "id": "1242",
@@ -3053,7 +3433,9 @@
     "change_ratio": 0.0,
     "change_3d": 9.71,
     "change_7d": 48.05,
-    "change_30d": -19.1
+    "change_30d": -19.1,
+    "slot": "tactical",
+    "price": 32256
   },
   {
     "id": "1241",
@@ -3069,7 +3451,9 @@
     "change_ratio": 0.0,
     "change_3d": 20.05,
     "change_7d": 23.14,
-    "change_30d": -5.89
+    "change_30d": -5.89,
+    "slot": "tactical",
+    "price": 36394
   },
   {
     "id": "1240",
@@ -3085,7 +3469,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 31.88
+    "change_30d": 31.88,
+    "slot": "tactical",
+    "price": 39302
   },
   {
     "id": "1239",
@@ -3101,7 +3487,9 @@
     "change_ratio": 0.0,
     "change_3d": 10.71,
     "change_7d": 19.23,
-    "change_30d": -20.51
+    "change_30d": -20.51,
+    "slot": "tactical",
+    "price": 69810
   },
   {
     "id": "1238",
@@ -3117,7 +3505,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": -41.01,
-    "change_30d": -41.01
+    "change_30d": -41.01,
+    "slot": "tactical",
+    "price": 36429
   },
   {
     "id": "1237",
@@ -3133,7 +3523,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 4.02
+    "change_30d": 4.02,
+    "slot": "tactical",
+    "price": 20659
   },
   {
     "id": "1236",
@@ -3149,7 +3541,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 51683
   },
   {
     "id": "1235",
@@ -3165,7 +3559,9 @@
     "change_ratio": 0.0,
     "change_3d": 16.03,
     "change_7d": 70.78,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 51683
   },
   {
     "id": "1234",
@@ -3181,7 +3577,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 37195
   },
   {
     "id": "1233",
@@ -3197,7 +3595,9 @@
     "change_ratio": 0.0,
     "change_3d": 8.37,
     "change_7d": 0.0,
-    "change_30d": -7.17
+    "change_30d": -7.17,
+    "slot": "tactical",
+    "price": 17920
   },
   {
     "id": "1232",
@@ -3213,7 +3613,9 @@
     "change_ratio": 0.0,
     "change_3d": 5.27,
     "change_7d": 5.27,
-    "change_30d": -45.97
+    "change_30d": -45.97,
+    "slot": "tactical",
+    "price": 112053
   },
   {
     "id": "1113",
@@ -3229,7 +3631,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 12.03,
-    "change_30d": -15.18
+    "change_30d": -15.18,
+    "slot": "tactical",
+    "price": 42161
   },
   {
     "id": "604",
@@ -3245,7 +3649,9 @@
     "change_ratio": 0.0,
     "change_3d": 3.58,
     "change_7d": 3.58,
-    "change_30d": 3.58
+    "change_30d": 3.58,
+    "slot": "tactical",
+    "price": 35910
   },
   {
     "id": "362",
@@ -3261,7 +3667,9 @@
     "change_ratio": 0.0,
     "change_3d": 3.58,
     "change_7d": 3.58,
-    "change_30d": 31.86
+    "change_30d": 31.86,
+    "slot": "tactical",
+    "price": 56129
   },
   {
     "id": "570",
@@ -3277,7 +3685,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 4
   },
   {
     "id": "270",
@@ -3293,7 +3703,9 @@
     "change_ratio": 0.0,
     "change_3d": -9.13,
     "change_7d": -20.7,
-    "change_30d": -35.16
+    "change_30d": -35.16,
+    "slot": "tactical",
+    "price": 4
   },
   {
     "id": "98",
@@ -3309,7 +3721,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 4
   },
   {
     "id": "481",
@@ -3325,7 +3739,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 7
   },
   {
     "id": "318",
@@ -3341,7 +3757,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -23.39
+    "change_30d": -23.39,
+    "slot": "tactical",
+    "price": 8
   },
   {
     "id": "213",
@@ -3357,7 +3775,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 8
   },
   {
     "id": "34",
@@ -3373,7 +3793,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 9
   },
   {
     "id": "239",
@@ -3389,7 +3811,9 @@
     "change_ratio": 0.0,
     "change_3d": -4.36,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 11
   },
   {
     "id": "135",
@@ -3405,7 +3829,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 11
   },
   {
     "id": "117",
@@ -3421,7 +3847,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 14
   },
   {
     "id": "367",
@@ -3437,7 +3865,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 4.89
+    "change_30d": 4.89,
+    "slot": "vest",
+    "price": 16
   },
   {
     "id": "172",
@@ -3453,7 +3883,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.14,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 18
   },
   {
     "id": "186",
@@ -3469,7 +3901,9 @@
     "change_ratio": 0.0,
     "change_3d": -4.35,
     "change_7d": 0.0,
-    "change_30d": -4.35
+    "change_30d": -4.35,
+    "slot": "helmet",
+    "price": 19
   },
   {
     "id": "169",
@@ -3485,7 +3919,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 19
   },
   {
     "id": "1104",
@@ -3501,7 +3937,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 24
   },
   {
     "id": "574",
@@ -3517,7 +3955,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "helmet",
+    "price": 26
   },
   {
     "id": "4",
@@ -3533,7 +3973,9 @@
     "change_ratio": 0.0,
     "change_3d": 4.77,
     "change_7d": 4.77,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "helmet",
+    "price": 26
   },
   {
     "id": "1189",
@@ -3549,7 +3991,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -25.71
+    "change_30d": -25.71,
+    "slot": "tactical",
+    "price": 31
   },
   {
     "id": "1103",
@@ -3565,7 +4009,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.51,
     "change_7d": 0.51,
-    "change_30d": 0.51
+    "change_30d": 0.51,
+    "slot": "tactical",
+    "price": 35
   },
   {
     "id": "275",
@@ -3581,7 +4027,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 4.89,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 37
   },
   {
     "id": "1097",
@@ -3597,7 +4045,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 39
   },
   {
     "id": "602",
@@ -3613,7 +4063,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 39
   },
   {
     "id": "1160",
@@ -3629,7 +4081,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.51,
     "change_7d": 0.51,
-    "change_30d": 0.51
+    "change_30d": 0.51,
+    "slot": "tactical",
+    "price": 42
   },
   {
     "id": "46",
@@ -3645,7 +4099,9 @@
     "change_ratio": 1.0,
     "change_3d": -0.2,
     "change_7d": -0.2,
-    "change_30d": -0.2
+    "change_30d": -0.2,
+    "slot": "tactical",
+    "price": 44
   },
   {
     "id": "1092",
@@ -3661,7 +4117,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 45
   },
   {
     "id": "452",
@@ -3677,7 +4135,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 46
   },
   {
     "id": "276",
@@ -3693,7 +4153,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": -0.03,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 46
   },
   {
     "id": "1102",
@@ -3709,7 +4171,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.13,
     "change_7d": 0.0,
-    "change_30d": 0.13
+    "change_30d": 0.13,
+    "slot": "tactical",
+    "price": 47
   },
   {
     "id": "1112",
@@ -3725,7 +4189,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": -0.23,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 48
   },
   {
     "id": "245",
@@ -3741,7 +4207,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 48
   },
   {
     "id": "1171",
@@ -3757,7 +4225,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 49
   },
   {
     "id": "118",
@@ -3773,7 +4243,9 @@
     "change_ratio": 0.0,
     "change_3d": -3.85,
     "change_7d": 0.0,
-    "change_30d": -3.85
+    "change_30d": -3.85,
+    "slot": "tactical",
+    "price": 49
   },
   {
     "id": "1111",
@@ -3789,7 +4261,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.25,
     "change_7d": 0.25,
-    "change_30d": 0.25
+    "change_30d": 0.25,
+    "slot": "tactical",
+    "price": 54
   },
   {
     "id": "585",
@@ -3805,7 +4279,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -4.08
+    "change_30d": -4.08,
+    "slot": "vest",
+    "price": 54
   },
   {
     "id": "487",
@@ -3821,7 +4297,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 58
   },
   {
     "id": "287",
@@ -3837,7 +4315,9 @@
     "change_ratio": 5.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 59
   },
   {
     "id": "1100",
@@ -3853,7 +4333,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": -0.25,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 61
   },
   {
     "id": "247",
@@ -3869,7 +4351,9 @@
     "change_ratio": 0.0,
     "change_3d": -3.71,
     "change_7d": 0.0,
-    "change_30d": -3.71
+    "change_30d": -3.71,
+    "slot": "vest",
+    "price": 63
   },
   {
     "id": "1098",
@@ -3885,7 +4369,9 @@
     "change_ratio": 1.0,
     "change_3d": -0.28,
     "change_7d": -0.28,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 65
   },
   {
     "id": "1096",
@@ -3901,7 +4387,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.23
+    "change_30d": 0.23,
+    "slot": "tactical",
+    "price": 66
   },
   {
     "id": "425",
@@ -3917,7 +4405,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 4.58,
-    "change_30d": -4.2
+    "change_30d": -4.2,
+    "slot": "tactical",
+    "price": 69
   },
   {
     "id": "529",
@@ -3933,7 +4423,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -4.0
+    "change_30d": -4.0,
+    "slot": "vest",
+    "price": 71
   },
   {
     "id": "258",
@@ -3949,7 +4441,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 71
   },
   {
     "id": "124",
@@ -3965,7 +4459,9 @@
     "change_ratio": 5.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "helmet",
+    "price": 71
   },
   {
     "id": "1163",
@@ -3981,7 +4477,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.14
+    "change_30d": 0.14,
+    "slot": "tactical",
+    "price": 74
   },
   {
     "id": "224",
@@ -3997,7 +4495,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.23,
     "change_7d": 0.0,
-    "change_30d": 0.23
+    "change_30d": 0.23,
+    "slot": "tactical",
+    "price": 74
   },
   {
     "id": "559",
@@ -4013,7 +4513,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": -0.17,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 75
   },
   {
     "id": "1089",
@@ -4029,7 +4531,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 76
   },
   {
     "id": "230",
@@ -4045,7 +4549,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 76
   },
   {
     "id": "1150",
@@ -4061,7 +4567,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.14,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 78
   },
   {
     "id": "543",
@@ -4077,7 +4585,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.09
+    "change_30d": 0.09,
+    "slot": "tactical",
+    "price": 78
   },
   {
     "id": "524",
@@ -4093,7 +4603,9 @@
     "change_ratio": 5.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 79
   },
   {
     "id": "439",
@@ -4109,7 +4621,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.26,
     "change_7d": 0.26,
-    "change_30d": 0.26
+    "change_30d": 0.26,
+    "slot": "tactical",
+    "price": 80
   },
   {
     "id": "427",
@@ -4125,7 +4639,9 @@
     "change_ratio": 2.0,
     "change_3d": -0.2,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 82
   },
   {
     "id": "1156",
@@ -4141,7 +4657,9 @@
     "change_ratio": 1.0,
     "change_3d": -0.14,
     "change_7d": -0.14,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 84
   },
   {
     "id": "274",
@@ -4157,7 +4675,9 @@
     "change_ratio": 5.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 86
   },
   {
     "id": "36",
@@ -4173,7 +4693,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.09,
     "change_7d": 0.0,
-    "change_30d": 0.09
+    "change_30d": 0.09,
+    "slot": "tactical",
+    "price": 87
   },
   {
     "id": "296",
@@ -4189,7 +4711,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.05,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 88
   },
   {
     "id": "1087",
@@ -4205,7 +4729,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.14,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 90
   },
   {
     "id": "331",
@@ -4221,7 +4747,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 91
   },
   {
     "id": "1151",
@@ -4237,7 +4765,9 @@
     "change_ratio": 1.0,
     "change_3d": -0.14,
     "change_7d": -0.14,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 93
   },
   {
     "id": "575",
@@ -4253,7 +4783,9 @@
     "change_ratio": 5.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "helmet",
+    "price": 94
   },
   {
     "id": "51",
@@ -4269,7 +4801,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.12,
     "change_7d": 0.12,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 94
   },
   {
     "id": "561",
@@ -4285,7 +4819,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 100
   },
   {
     "id": "110",
@@ -4301,7 +4837,9 @@
     "change_ratio": 6.0,
     "change_3d": -4.81,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "helmet",
+    "price": 100
   },
   {
     "id": "148",
@@ -4317,7 +4855,9 @@
     "change_ratio": 5.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 101
   },
   {
     "id": "261",
@@ -4333,7 +4873,9 @@
     "change_ratio": 0.0,
     "change_3d": 11.12,
     "change_7d": -23.09,
-    "change_30d": 72.47
+    "change_30d": 72.47,
+    "slot": "tactical",
+    "price": 103
   },
   {
     "id": "66",
@@ -4349,7 +4891,9 @@
     "change_ratio": 2.0,
     "change_3d": 9.56,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 103
   },
   {
     "id": "581",
@@ -4365,7 +4909,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": -0.25,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 104
   },
   {
     "id": "1153",
@@ -4381,7 +4927,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.14,
     "change_7d": 0.0,
-    "change_30d": 0.14
+    "change_30d": 0.14,
+    "slot": "tactical",
+    "price": 105
   },
   {
     "id": "1091",
@@ -4397,7 +4945,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.25,
     "change_7d": 0.25,
-    "change_30d": 0.25
+    "change_30d": 0.25,
+    "slot": "tactical",
+    "price": 105
   },
   {
     "id": "1084",
@@ -4413,7 +4963,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 106
   },
   {
     "id": "403",
@@ -4429,7 +4981,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.12,
     "change_7d": 0.12,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 107
   },
   {
     "id": "335",
@@ -4445,7 +4999,9 @@
     "change_ratio": 0.0,
     "change_3d": 6.27,
     "change_7d": 13.37,
-    "change_30d": -29.22
+    "change_30d": -29.22,
+    "slot": "tactical",
+    "price": 107
   },
   {
     "id": "325",
@@ -4461,7 +5017,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.09,
     "change_7d": 0.09,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 107
   },
   {
     "id": "171",
@@ -4477,7 +5035,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 107
   },
   {
     "id": "1155",
@@ -4493,7 +5053,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 108
   },
   {
     "id": "1093",
@@ -4509,7 +5071,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.11,
     "change_7d": 0.11,
-    "change_30d": 0.11
+    "change_30d": 0.11,
+    "slot": "tactical",
+    "price": 109
   },
   {
     "id": "167",
@@ -4525,7 +5089,9 @@
     "change_ratio": 5.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 109
   },
   {
     "id": "87",
@@ -4541,7 +5107,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": -0.1,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 110
   },
   {
     "id": "1147",
@@ -4557,7 +5125,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": -0.14,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 112
   },
   {
     "id": "1149",
@@ -4573,7 +5143,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.14,
     "change_7d": 0.14,
-    "change_30d": 0.14
+    "change_30d": 0.14,
+    "slot": "tactical",
+    "price": 113
   },
   {
     "id": "459",
@@ -4589,7 +5161,9 @@
     "change_ratio": 6.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 113
   },
   {
     "id": "82",
@@ -4605,7 +5179,9 @@
     "change_ratio": 5.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 114
   },
   {
     "id": "1165",
@@ -4621,7 +5197,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.14,
     "change_7d": 0.14,
-    "change_30d": 0.14
+    "change_30d": 0.14,
+    "slot": "tactical",
+    "price": 117
   },
   {
     "id": "1106",
@@ -4637,7 +5215,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 4.58,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 117
   },
   {
     "id": "1172",
@@ -4653,7 +5233,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 118
   },
   {
     "id": "1169",
@@ -4669,7 +5251,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.14,
     "change_7d": 0.0,
-    "change_30d": 0.14
+    "change_30d": 0.14,
+    "slot": "tactical",
+    "price": 118
   },
   {
     "id": "1154",
@@ -4685,7 +5269,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.11,
     "change_7d": 0.11,
-    "change_30d": 0.11
+    "change_30d": 0.11,
+    "slot": "tactical",
+    "price": 118
   },
   {
     "id": "1157",
@@ -4701,7 +5287,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.14,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 120
   },
   {
     "id": "1146",
@@ -4717,7 +5305,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.14,
     "change_7d": 0.14,
-    "change_30d": 0.14
+    "change_30d": 0.14,
+    "slot": "tactical",
+    "price": 121
   },
   {
     "id": "1079",
@@ -4733,7 +5323,9 @@
     "change_ratio": 0.0,
     "change_3d": -14.29,
     "change_7d": -8.7,
-    "change_30d": -40.86
+    "change_30d": -40.86,
+    "slot": "tactical",
+    "price": 122
   },
   {
     "id": "1174",
@@ -4749,7 +5341,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 125
   },
   {
     "id": "1110",
@@ -4765,7 +5359,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 128
   },
   {
     "id": "1090",
@@ -4781,7 +5377,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.11,
     "change_7d": 0.11,
-    "change_30d": 0.11
+    "change_30d": 0.11,
+    "slot": "tactical",
+    "price": 128
   },
   {
     "id": "283",
@@ -4797,7 +5395,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.06,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 128
   },
   {
     "id": "229",
@@ -4813,7 +5413,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 128
   },
   {
     "id": "1107",
@@ -4829,7 +5431,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 129
   },
   {
     "id": "341",
@@ -4845,7 +5449,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 129
   },
   {
     "id": "1166",
@@ -4861,7 +5467,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 131
   },
   {
     "id": "111",
@@ -4877,7 +5485,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -7.48
+    "change_30d": -7.48,
+    "slot": "vest",
+    "price": 135
   },
   {
     "id": "1168",
@@ -4893,7 +5503,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.14
+    "change_30d": 0.14,
+    "slot": "tactical",
+    "price": 139
   },
   {
     "id": "1105",
@@ -4909,7 +5521,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 144
   },
   {
     "id": "1",
@@ -4925,7 +5539,9 @@
     "change_ratio": 11.0,
     "change_3d": 4.91,
     "change_7d": 4.91,
-    "change_30d": 10.33
+    "change_30d": 10.33,
+    "slot": "tactical",
+    "price": 145
   },
   {
     "id": "177",
@@ -4941,7 +5557,9 @@
     "change_ratio": 5.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 148
   },
   {
     "id": "75",
@@ -4957,7 +5575,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -0.11
+    "change_30d": -0.11,
+    "slot": "tactical",
+    "price": 148
   },
   {
     "id": "103",
@@ -4973,7 +5593,9 @@
     "change_ratio": 6.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 149
   },
   {
     "id": "472",
@@ -4989,7 +5611,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -4.35
+    "change_30d": -4.35,
+    "slot": "vest",
+    "price": 152
   },
   {
     "id": "380",
@@ -5005,7 +5629,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.12,
     "change_7d": 0.0,
-    "change_30d": 0.12
+    "change_30d": 0.12,
+    "slot": "tactical",
+    "price": 159
   },
   {
     "id": "1158",
@@ -5021,7 +5647,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.14,
     "change_7d": 0.14,
-    "change_30d": 0.14
+    "change_30d": 0.14,
+    "slot": "tactical",
+    "price": 160
   },
   {
     "id": "205",
@@ -5037,7 +5665,9 @@
     "change_ratio": 0.0,
     "change_3d": -19.16,
     "change_7d": -9.53,
-    "change_30d": -22.46
+    "change_30d": -22.46,
+    "slot": "tactical",
+    "price": 160
   },
   {
     "id": "535",
@@ -5053,7 +5683,9 @@
     "change_ratio": 8.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 161
   },
   {
     "id": "416",
@@ -5069,7 +5701,9 @@
     "change_ratio": 8.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 164
   },
   {
     "id": "29",
@@ -5085,7 +5719,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -36.69
+    "change_30d": -36.69,
+    "slot": "tactical",
+    "price": 164
   },
   {
     "id": "1161",
@@ -5101,7 +5737,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.14,
     "change_7d": 0.14,
-    "change_30d": 0.14
+    "change_30d": 0.14,
+    "slot": "tactical",
+    "price": 178
   },
   {
     "id": "1077",
@@ -5117,7 +5755,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -40.98
+    "change_30d": -40.98,
+    "slot": "tactical",
+    "price": 180
   },
   {
     "id": "57",
@@ -5133,7 +5773,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.06,
     "change_7d": 0.06,
-    "change_30d": 0.06
+    "change_30d": 0.06,
+    "slot": "tactical",
+    "price": 188
   },
   {
     "id": "542",
@@ -5149,7 +5791,9 @@
     "change_ratio": 1.0,
     "change_3d": -3.24,
     "change_7d": 0.0,
-    "change_30d": -30.31
+    "change_30d": -30.31,
+    "slot": "tactical",
+    "price": 191
   },
   {
     "id": "1180",
@@ -5165,7 +5809,9 @@
     "change_ratio": 0.0,
     "change_3d": -5.27,
     "change_7d": -5.27,
-    "change_30d": -16.29
+    "change_30d": -16.29,
+    "slot": "tactical",
+    "price": 192
   },
   {
     "id": "1143",
@@ -5181,7 +5827,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 198
   },
   {
     "id": "428",
@@ -5197,7 +5845,9 @@
     "change_ratio": 5.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 4.97
+    "change_30d": 4.97,
+    "slot": "tactical",
+    "price": 198
   },
   {
     "id": "90",
@@ -5213,7 +5863,9 @@
     "change_ratio": 1.0,
     "change_3d": -3.85,
     "change_7d": 8.71,
-    "change_30d": 8.71
+    "change_30d": 8.71,
+    "slot": "tactical",
+    "price": 199
   },
   {
     "id": "1099",
@@ -5229,7 +5881,9 @@
     "change_ratio": 5.0,
     "change_3d": 4.55,
     "change_7d": 4.55,
-    "change_30d": 4.55
+    "change_30d": 4.55,
+    "slot": "tactical",
+    "price": 207
   },
   {
     "id": "1094",
@@ -5245,7 +5899,9 @@
     "change_ratio": 5.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 4.55
+    "change_30d": 4.55,
+    "slot": "tactical",
+    "price": 207
   },
   {
     "id": "267",
@@ -5261,7 +5917,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.02
+    "change_30d": 0.02,
+    "slot": "tactical",
+    "price": 214
   },
   {
     "id": "539",
@@ -5277,7 +5935,9 @@
     "change_ratio": 6.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 4.77
+    "change_30d": 4.77,
+    "slot": "vest",
+    "price": 215
   },
   {
     "id": "1083",
@@ -5293,7 +5953,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 221
   },
   {
     "id": "1188",
@@ -5309,7 +5971,9 @@
     "change_ratio": 1.0,
     "change_3d": 17.47,
     "change_7d": 28.71,
-    "change_30d": -44.99
+    "change_30d": -44.99,
+    "slot": "tactical",
+    "price": 224
   },
   {
     "id": "248",
@@ -5325,7 +5989,9 @@
     "change_ratio": 5.0,
     "change_3d": 0.0,
     "change_7d": 4.61,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 230
   },
   {
     "id": "113",
@@ -5341,7 +6007,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 235
   },
   {
     "id": "140",
@@ -5357,7 +6025,9 @@
     "change_ratio": 5.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 242
   },
   {
     "id": "92",
@@ -5373,7 +6043,9 @@
     "change_ratio": 12.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -2.21
+    "change_30d": -2.21,
+    "slot": "tactical",
+    "price": 242
   },
   {
     "id": "445",
@@ -5389,7 +6061,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -0.08
+    "change_30d": -0.08,
+    "slot": "tactical",
+    "price": 247
   },
   {
     "id": "59",
@@ -5405,7 +6079,9 @@
     "change_ratio": 5.0,
     "change_3d": 4.17,
     "change_7d": 0.0,
-    "change_30d": 4.17
+    "change_30d": 4.17,
+    "slot": "tactical",
+    "price": 251
   },
   {
     "id": "1133",
@@ -5421,7 +6097,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 260
   },
   {
     "id": "212",
@@ -5437,7 +6115,9 @@
     "change_ratio": 5.0,
     "change_3d": 4.17,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 262
   },
   {
     "id": "269",
@@ -5453,7 +6133,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": -3.05,
-    "change_30d": -22.09
+    "change_30d": -22.09,
+    "slot": "tactical",
+    "price": 281
   },
   {
     "id": "299",
@@ -5469,7 +6151,9 @@
     "change_ratio": 1.0,
     "change_3d": 4.02,
     "change_7d": 8.38,
-    "change_30d": -3.72
+    "change_30d": -3.72,
+    "slot": "helmet",
+    "price": 282
   },
   {
     "id": "348",
@@ -5485,7 +6169,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 283
   },
   {
     "id": "506",
@@ -5501,7 +6187,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 290
   },
   {
     "id": "195",
@@ -5517,7 +6205,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 292
   },
   {
     "id": "446",
@@ -5533,7 +6223,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 293
   },
   {
     "id": "1138",
@@ -5549,7 +6241,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 302
   },
   {
     "id": "366",
@@ -5565,7 +6259,9 @@
     "change_ratio": 5.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "helmet",
+    "price": 304
   },
   {
     "id": "1081",
@@ -5581,7 +6277,9 @@
     "change_ratio": 1.0,
     "change_3d": -9.39,
     "change_7d": -13.45,
-    "change_30d": -20.58
+    "change_30d": -20.58,
+    "slot": "tactical",
+    "price": 308
   },
   {
     "id": "336",
@@ -5597,7 +6295,9 @@
     "change_ratio": 1.0,
     "change_3d": -3.35,
     "change_7d": -3.35,
-    "change_30d": -31.03
+    "change_30d": -31.03,
+    "slot": "tactical",
+    "price": 312
   },
   {
     "id": "1176",
@@ -5613,7 +6313,9 @@
     "change_ratio": 5.0,
     "change_3d": -19.34,
     "change_7d": -9.63,
-    "change_30d": 27.09
+    "change_30d": 27.09,
+    "slot": "tactical",
+    "price": 318
   },
   {
     "id": "477",
@@ -5629,7 +6331,9 @@
     "change_ratio": 1.0,
     "change_3d": -25.02,
     "change_7d": 0.0,
-    "change_30d": 20.02
+    "change_30d": 20.02,
+    "slot": "tactical",
+    "price": 323
   },
   {
     "id": "485",
@@ -5645,7 +6349,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.09,
     "change_7d": 0.09,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 327
   },
   {
     "id": "478",
@@ -5661,7 +6367,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "helmet",
+    "price": 340
   },
   {
     "id": "509",
@@ -5677,7 +6385,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 347
   },
   {
     "id": "418",
@@ -5693,7 +6403,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 347
   },
   {
     "id": "316",
@@ -5709,7 +6421,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.02,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 358
   },
   {
     "id": "1142",
@@ -5725,7 +6439,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 359
   },
   {
     "id": "273",
@@ -5741,7 +6457,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 375
   },
   {
     "id": "595",
@@ -5757,7 +6475,9 @@
     "change_ratio": 1.0,
     "change_3d": -3.57,
     "change_7d": -3.57,
-    "change_30d": -3.57
+    "change_30d": -3.57,
+    "slot": "helmet",
+    "price": 378
   },
   {
     "id": "451",
@@ -5773,7 +6493,9 @@
     "change_ratio": 7.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 387
   },
   {
     "id": "215",
@@ -5789,7 +6511,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -25.04
+    "change_30d": -25.04,
+    "slot": "tactical",
+    "price": 396
   },
   {
     "id": "482",
@@ -5805,7 +6529,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 4.55,
-    "change_30d": 4.55
+    "change_30d": 4.55,
+    "slot": "tactical",
+    "price": 398
   },
   {
     "id": "192",
@@ -5821,7 +6547,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 4.55,
-    "change_30d": 4.55
+    "change_30d": 4.55,
+    "slot": "tactical",
+    "price": 398
   },
   {
     "id": "363",
@@ -5837,7 +6565,9 @@
     "change_ratio": 0.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 405
   },
   {
     "id": "65",
@@ -5853,7 +6583,9 @@
     "change_ratio": 7.0,
     "change_3d": 4.82,
     "change_7d": 29.82,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "helmet",
+    "price": 406
   },
   {
     "id": "3",
@@ -5869,7 +6601,9 @@
     "change_ratio": 2.0,
     "change_3d": 2.03,
     "change_7d": 0.0,
-    "change_30d": -1.5
+    "change_30d": -1.5,
+    "slot": "tactical",
+    "price": 412
   },
   {
     "id": "464",
@@ -5885,7 +6619,9 @@
     "change_ratio": 0.0,
     "change_3d": 3.45,
     "change_7d": -6.25,
-    "change_30d": -38.78
+    "change_30d": -38.78,
+    "slot": "tactical",
+    "price": 413
   },
   {
     "id": "25",
@@ -5901,7 +6637,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "helmet",
+    "price": 424
   },
   {
     "id": "1132",
@@ -5917,7 +6655,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 428
   },
   {
     "id": "430",
@@ -5933,7 +6673,9 @@
     "change_ratio": 7.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 429
   },
   {
     "id": "15",
@@ -5949,7 +6691,9 @@
     "change_ratio": 3.0,
     "change_3d": -1.63,
     "change_7d": 5.7,
-    "change_30d": -1.63
+    "change_30d": -1.63,
+    "slot": "tactical",
+    "price": 437
   },
   {
     "id": "1074",
@@ -5965,7 +6709,9 @@
     "change_ratio": 3.0,
     "change_3d": -3.57,
     "change_7d": 17.4,
-    "change_30d": -6.9
+    "change_30d": -6.9,
+    "slot": "tactical",
+    "price": 454
   },
   {
     "id": "304",
@@ -5981,7 +6727,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 456
   },
   {
     "id": "530",
@@ -5997,7 +6745,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 457
   },
   {
     "id": "60",
@@ -6013,7 +6763,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 460
   },
   {
     "id": "1119",
@@ -6029,7 +6781,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 475
   },
   {
     "id": "525",
@@ -6045,7 +6799,9 @@
     "change_ratio": 7.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -36.27
+    "change_30d": -36.27,
+    "slot": "tactical",
+    "price": 494
   },
   {
     "id": "122",
@@ -6061,7 +6817,9 @@
     "change_ratio": 3.0,
     "change_3d": -9.41,
     "change_7d": -3.35,
-    "change_30d": -3.35
+    "change_30d": -3.35,
+    "slot": "tactical",
+    "price": 496
   },
   {
     "id": "168",
@@ -6077,7 +6835,9 @@
     "change_ratio": 3.0,
     "change_3d": 2.03,
     "change_7d": 2.03,
-    "change_30d": 2.03
+    "change_30d": 2.03,
+    "slot": "tactical",
+    "price": 508
   },
   {
     "id": "456",
@@ -6093,7 +6853,9 @@
     "change_ratio": 3.0,
     "change_3d": -6.29,
     "change_7d": 0.0,
-    "change_30d": -21.17
+    "change_30d": -21.17,
+    "slot": "tactical",
+    "price": 525
   },
   {
     "id": "526",
@@ -6109,7 +6871,9 @@
     "change_ratio": 3.0,
     "change_3d": -8.86,
     "change_7d": -3.14,
-    "change_30d": -29.65
+    "change_30d": -29.65,
+    "slot": "tactical",
+    "price": 537
   },
   {
     "id": "53",
@@ -6125,7 +6889,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 6.69,
-    "change_30d": -11.14
+    "change_30d": -11.14,
+    "slot": "tactical",
+    "price": 549
   },
   {
     "id": "435",
@@ -6141,7 +6907,9 @@
     "change_ratio": 5.0,
     "change_3d": 0.0,
     "change_7d": -3.35,
-    "change_30d": -3.35
+    "change_30d": -3.35,
+    "slot": "tactical",
+    "price": 550
   },
   {
     "id": "263",
@@ -6157,7 +6925,9 @@
     "change_ratio": 6.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 561
   },
   {
     "id": "262",
@@ -6173,7 +6943,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": -1.46,
-    "change_30d": 2.07
+    "change_30d": 2.07,
+    "slot": "tactical",
+    "price": 599
   },
   {
     "id": "121",
@@ -6189,7 +6961,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": -3.23,
-    "change_30d": -11.78
+    "change_30d": -11.78,
+    "slot": "tactical",
+    "price": 604
   },
   {
     "id": "1162",
@@ -6205,7 +6979,9 @@
     "change_ratio": 12.0,
     "change_3d": 0.14,
     "change_7d": 0.14,
-    "change_30d": 0.14
+    "change_30d": 0.14,
+    "slot": "tactical",
+    "price": 607
   },
   {
     "id": "10",
@@ -6221,7 +6997,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 608
   },
   {
     "id": "534",
@@ -6237,7 +7015,9 @@
     "change_ratio": 9.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -4.02
+    "change_30d": -4.02,
+    "slot": "tactical",
+    "price": 609
   },
   {
     "id": "1086",
@@ -6253,7 +7033,9 @@
     "change_ratio": 5.0,
     "change_3d": -12.89,
     "change_7d": 0.0,
-    "change_30d": -29.29
+    "change_30d": -29.29,
+    "slot": "tactical",
+    "price": 616
   },
   {
     "id": "340",
@@ -6269,7 +7051,9 @@
     "change_ratio": 5.0,
     "change_3d": 0.0,
     "change_7d": 4.17,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 616
   },
   {
     "id": "1134",
@@ -6285,7 +7069,9 @@
     "change_ratio": 6.0,
     "change_3d": 0.0,
     "change_7d": 21.07,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 625
   },
   {
     "id": "272",
@@ -6301,7 +7087,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -35.39
+    "change_30d": -35.39,
+    "slot": "tactical",
+    "price": 632
   },
   {
     "id": "497",
@@ -6317,7 +7105,9 @@
     "change_ratio": 12.0,
     "change_3d": -5.89,
     "change_7d": 6.68,
-    "change_30d": -8.59
+    "change_30d": -8.59,
+    "slot": "tactical",
+    "price": 647
   },
   {
     "id": "190",
@@ -6333,7 +7123,9 @@
     "change_ratio": 2.0,
     "change_3d": -18.44,
     "change_7d": 10.73,
-    "change_30d": -39.24
+    "change_30d": -39.24,
+    "slot": "tactical",
+    "price": 650
   },
   {
     "id": "102",
@@ -6349,7 +7141,9 @@
     "change_ratio": 10.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 650
   },
   {
     "id": "1141",
@@ -6365,7 +7159,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 651
   },
   {
     "id": "494",
@@ -6381,7 +7177,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 3.58,
-    "change_30d": -17.17
+    "change_30d": -17.17,
+    "slot": "tactical",
+    "price": 702
   },
   {
     "id": "396",
@@ -6397,7 +7195,9 @@
     "change_ratio": 15.0,
     "change_3d": 0.0,
     "change_7d": 4.6,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "helmet",
+    "price": 706
   },
   {
     "id": "175",
@@ -6413,7 +7213,9 @@
     "change_ratio": 6.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -0.07
+    "change_30d": -0.07,
+    "slot": "tactical",
+    "price": 721
   },
   {
     "id": "577",
@@ -6429,7 +7231,9 @@
     "change_ratio": 3.0,
     "change_3d": -3.57,
     "change_7d": -3.57,
-    "change_30d": -3.57
+    "change_30d": -3.57,
+    "slot": "tactical",
+    "price": 725
   },
   {
     "id": "38",
@@ -6445,7 +7249,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 745
   },
   {
     "id": "146",
@@ -6461,7 +7267,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 771
   },
   {
     "id": "268",
@@ -6477,7 +7285,9 @@
     "change_ratio": 11.0,
     "change_3d": 0.0,
     "change_7d": -2.89,
-    "change_30d": -21.13
+    "change_30d": -21.13,
+    "slot": "tactical",
+    "price": 785
   },
   {
     "id": "47",
@@ -6493,7 +7303,9 @@
     "change_ratio": 3.0,
     "change_3d": -3.45,
     "change_7d": -3.45,
-    "change_30d": -6.67
+    "change_30d": -6.67,
+    "slot": "helmet",
+    "price": 787
   },
   {
     "id": "282",
@@ -6509,7 +7321,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 11.57,
-    "change_30d": -34.14
+    "change_30d": -34.14,
+    "slot": "tactical",
+    "price": 790
   },
   {
     "id": "420",
@@ -6525,7 +7339,9 @@
     "change_ratio": 9.0,
     "change_3d": 0.0,
     "change_7d": 4.35,
-    "change_30d": -4.0
+    "change_30d": -4.0,
+    "slot": "vest",
+    "price": 795
   },
   {
     "id": "1108",
@@ -6541,7 +7357,9 @@
     "change_ratio": 11.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -2.04
+    "change_30d": -2.04,
+    "slot": "tactical",
+    "price": 798
   },
   {
     "id": "58",
@@ -6557,7 +7375,9 @@
     "change_ratio": 7.0,
     "change_3d": 0.0,
     "change_7d": 4.37,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 806
   },
   {
     "id": "73",
@@ -6573,7 +7393,9 @@
     "change_ratio": 3.0,
     "change_3d": -23.14,
     "change_7d": 17.72,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 807
   },
   {
     "id": "412",
@@ -6589,7 +7411,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 4.56,
-    "change_30d": 4.56
+    "change_30d": 4.56,
+    "slot": "tactical",
+    "price": 826
   },
   {
     "id": "455",
@@ -6605,7 +7429,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 835
   },
   {
     "id": "266",
@@ -6621,7 +7447,9 @@
     "change_ratio": 2.0,
     "change_3d": -3.23,
     "change_7d": 0.0,
-    "change_30d": 3.45
+    "change_30d": 3.45,
+    "slot": "vest",
+    "price": 850
   },
   {
     "id": "532",
@@ -6637,7 +7465,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 4.01,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 855
   },
   {
     "id": "454",
@@ -6653,7 +7483,9 @@
     "change_ratio": 1.0,
     "change_3d": 0.0,
     "change_7d": -7.15,
-    "change_30d": -22.01
+    "change_30d": -22.01,
+    "slot": "tactical",
+    "price": 855
   },
   {
     "id": "332",
@@ -6669,7 +7501,9 @@
     "change_ratio": 1.0,
     "change_3d": -12.0,
     "change_7d": -4.35,
-    "change_30d": 2.33
+    "change_30d": 2.33,
+    "slot": "tactical",
+    "price": 858
   },
   {
     "id": "28",
@@ -6685,7 +7519,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 9.56,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 872
   },
   {
     "id": "191",
@@ -6701,7 +7537,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 878
   },
   {
     "id": "429",
@@ -6717,7 +7555,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 4.17,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 908
   },
   {
     "id": "6",
@@ -6733,7 +7573,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -36.66
+    "change_30d": -36.66,
+    "slot": "tactical",
+    "price": 911
   },
   {
     "id": "503",
@@ -6749,7 +7591,9 @@
     "change_ratio": 4.0,
     "change_3d": -5.9,
     "change_7d": -3.04,
-    "change_30d": -20.06
+    "change_30d": -20.06,
+    "slot": "tactical",
+    "price": 929
   },
   {
     "id": "119",
@@ -6765,7 +7609,9 @@
     "change_ratio": 3.0,
     "change_3d": -5.57,
     "change_7d": -3.78,
-    "change_30d": -32.05
+    "change_30d": -32.05,
+    "slot": "tactical",
+    "price": 938
   },
   {
     "id": "360",
@@ -6781,7 +7627,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 943
   },
   {
     "id": "315",
@@ -6797,7 +7645,9 @@
     "change_ratio": 4.0,
     "change_3d": -7.15,
     "change_7d": 18.21,
-    "change_30d": 8.34
+    "change_30d": 8.34,
+    "slot": "tactical",
+    "price": 948
   },
   {
     "id": "597",
@@ -6813,7 +7663,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 4.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 955
   },
   {
     "id": "293",
@@ -6829,7 +7681,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 984
   },
   {
     "id": "377",
@@ -6845,7 +7699,9 @@
     "change_ratio": 5.0,
     "change_3d": 0.0,
     "change_7d": 3.03,
-    "change_30d": -27.68
+    "change_30d": -27.68,
+    "slot": "tactical",
+    "price": 985
   },
   {
     "id": "1178",
@@ -6861,7 +7717,9 @@
     "change_ratio": 17.0,
     "change_3d": 0.0,
     "change_7d": 13.73,
-    "change_30d": 56.81
+    "change_30d": 56.81,
+    "slot": "tactical",
+    "price": 999
   },
   {
     "id": "1140",
@@ -6877,7 +7735,9 @@
     "change_ratio": 11.0,
     "change_3d": -4.55,
     "change_7d": 16.69,
-    "change_30d": 5.01
+    "change_30d": 5.01,
+    "slot": "tactical",
+    "price": 1014
   },
   {
     "id": "392",
@@ -6893,7 +7753,9 @@
     "change_ratio": 8.0,
     "change_3d": 5.89,
     "change_7d": 0.0,
-    "change_30d": 5.89
+    "change_30d": 5.89,
+    "slot": "tactical",
+    "price": 1016
   },
   {
     "id": "207",
@@ -6909,7 +7771,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 3.58,
-    "change_30d": 20.87
+    "change_30d": 20.87,
+    "slot": "tactical",
+    "price": 1027
   },
   {
     "id": "596",
@@ -6925,7 +7789,9 @@
     "change_ratio": 6.0,
     "change_3d": -3.45,
     "change_7d": 0.0,
-    "change_30d": -3.45
+    "change_30d": -3.45,
+    "slot": "tactical",
+    "price": 1037
   },
   {
     "id": "185",
@@ -6941,7 +7807,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 3.58,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 1042
   },
   {
     "id": "297",
@@ -6957,7 +7825,9 @@
     "change_ratio": 3.0,
     "change_3d": -10.54,
     "change_7d": -10.54,
-    "change_30d": -32.02
+    "change_30d": -32.02,
+    "slot": "tactical",
+    "price": 1052
   },
   {
     "id": "79",
@@ -6973,7 +7843,9 @@
     "change_ratio": 1.0,
     "change_3d": -3.57,
     "change_7d": 12.5,
-    "change_30d": -6.9
+    "change_30d": -6.9,
+    "slot": "tactical",
+    "price": 1062
   },
   {
     "id": "1137",
@@ -6989,7 +7861,9 @@
     "change_ratio": 6.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 1066
   },
   {
     "id": "123",
@@ -7005,7 +7879,9 @@
     "change_ratio": 7.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -3.72
+    "change_30d": -3.72,
+    "slot": "helmet",
+    "price": 1071
   },
   {
     "id": "187",
@@ -7021,7 +7897,9 @@
     "change_ratio": 1.0,
     "change_3d": -2.5,
     "change_7d": -2.5,
-    "change_30d": -29.09
+    "change_30d": -29.09,
+    "slot": "tactical",
+    "price": 1096
   },
   {
     "id": "41",
@@ -7037,7 +7915,9 @@
     "change_ratio": 7.0,
     "change_3d": 5.59,
     "change_7d": 5.59,
-    "change_30d": -34.61
+    "change_30d": -34.61,
+    "slot": "tactical",
+    "price": 1100
   },
   {
     "id": "565",
@@ -7053,7 +7933,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 1109
   },
   {
     "id": "1121",
@@ -7069,7 +7951,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -37.52
+    "change_30d": -37.52,
+    "slot": "tactical",
+    "price": 1121
   },
   {
     "id": "236",
@@ -7085,7 +7969,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 7.42
+    "change_30d": 7.42,
+    "slot": "tactical",
+    "price": 1122
   },
   {
     "id": "443",
@@ -7101,7 +7987,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 11.57
+    "change_30d": 11.57,
+    "slot": "tactical",
+    "price": 1132
   },
   {
     "id": "588",
@@ -7117,7 +8005,9 @@
     "change_ratio": 8.0,
     "change_3d": 0.0,
     "change_7d": 15.04,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 1136
   },
   {
     "id": "203",
@@ -7133,7 +8023,9 @@
     "change_ratio": 8.0,
     "change_3d": 5.58,
     "change_7d": 11.82,
-    "change_30d": -29.72
+    "change_30d": -29.72,
+    "slot": "tactical",
+    "price": 1136
   },
   {
     "id": "1175",
@@ -7149,7 +8041,9 @@
     "change_ratio": 16.0,
     "change_3d": 4.13,
     "change_7d": 4.13,
-    "change_30d": 55.45
+    "change_30d": 55.45,
+    "slot": "tactical",
+    "price": 1157
   },
   {
     "id": "204",
@@ -7165,7 +8059,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 1177
   },
   {
     "id": "70",
@@ -7181,7 +8077,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 3.58
+    "change_30d": 3.58,
+    "slot": "tactical",
+    "price": 1234
   },
   {
     "id": "20",
@@ -7197,7 +8095,9 @@
     "change_ratio": 3.0,
     "change_3d": 4.0,
     "change_7d": 4.0,
-    "change_30d": 4.0
+    "change_30d": 4.0,
+    "slot": "tactical",
+    "price": 1240
   },
   {
     "id": "467",
@@ -7213,7 +8113,9 @@
     "change_ratio": 8.0,
     "change_3d": -5.57,
     "change_7d": 0.0,
-    "change_30d": -29.21
+    "change_30d": -29.21,
+    "slot": "tactical",
+    "price": 1252
   },
   {
     "id": "352",
@@ -7229,7 +8131,9 @@
     "change_ratio": 3.0,
     "change_3d": 3.58,
     "change_7d": 7.43,
-    "change_30d": 31.93
+    "change_30d": 31.93,
+    "slot": "tactical",
+    "price": 1252
   },
   {
     "id": "201",
@@ -7245,7 +8149,9 @@
     "change_ratio": 5.0,
     "change_3d": -3.71,
     "change_7d": -3.71,
-    "change_30d": -10.35
+    "change_30d": -10.35,
+    "slot": "helmet",
+    "price": 1261
   },
   {
     "id": "453",
@@ -7261,7 +8167,9 @@
     "change_ratio": 7.0,
     "change_3d": 0.0,
     "change_7d": 7.17,
-    "change_30d": -16.72
+    "change_30d": -16.72,
+    "slot": "tactical",
+    "price": 1269
   },
   {
     "id": "11",
@@ -7277,7 +8185,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 1294
   },
   {
     "id": "81",
@@ -7293,7 +8203,9 @@
     "change_ratio": 8.0,
     "change_3d": 0.0,
     "change_7d": 14.31,
-    "change_30d": -11.13
+    "change_30d": -11.13,
+    "slot": "helmet",
+    "price": 1324
   },
   {
     "id": "217",
@@ -7309,7 +8221,9 @@
     "change_ratio": 3.0,
     "change_3d": -1.45,
     "change_7d": 2.08,
-    "change_30d": -1.45
+    "change_30d": -1.45,
+    "slot": "tactical",
+    "price": 1334
   },
   {
     "id": "438",
@@ -7325,7 +8239,9 @@
     "change_ratio": 9.0,
     "change_3d": 0.0,
     "change_7d": 15.04,
-    "change_30d": 4.56
+    "change_30d": 4.56,
+    "slot": "tactical",
+    "price": 1335
   },
   {
     "id": "149",
@@ -7341,7 +8257,9 @@
     "change_ratio": 7.0,
     "change_3d": 0.0,
     "change_7d": 7.18,
-    "change_30d": -48.4
+    "change_30d": -48.4,
+    "slot": "tactical",
+    "price": 1339
   },
   {
     "id": "1186",
@@ -7357,7 +8275,9 @@
     "change_ratio": 6.0,
     "change_3d": 4.02,
     "change_7d": 4.02,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 1353
   },
   {
     "id": "448",
@@ -7373,7 +8293,9 @@
     "change_ratio": 6.0,
     "change_3d": 4.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 1376
   },
   {
     "id": "349",
@@ -7389,7 +8311,9 @@
     "change_ratio": 6.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 1398
   },
   {
     "id": "383",
@@ -7405,7 +8329,9 @@
     "change_ratio": 6.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 1412
   },
   {
     "id": "202",
@@ -7421,7 +8347,9 @@
     "change_ratio": 12.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -2.05
+    "change_30d": -2.05,
+    "slot": "tactical",
+    "price": 1421
   },
   {
     "id": "546",
@@ -7437,7 +8365,9 @@
     "change_ratio": 1.0,
     "change_3d": -4.65,
     "change_7d": -2.38,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 1446
   },
   {
     "id": "120",
@@ -7453,7 +8383,9 @@
     "change_ratio": 12.0,
     "change_3d": 2.18,
     "change_7d": -2.09,
-    "change_30d": -4.09
+    "change_30d": -4.09,
+    "slot": "tactical",
+    "price": 1459
   },
   {
     "id": "173",
@@ -7469,7 +8401,9 @@
     "change_ratio": 11.0,
     "change_3d": -3.23,
     "change_7d": 0.0,
-    "change_30d": -6.27
+    "change_30d": -6.27,
+    "slot": "tactical",
+    "price": 1463
   },
   {
     "id": "372",
@@ -7485,7 +8419,9 @@
     "change_ratio": 9.0,
     "change_3d": 4.77,
     "change_7d": 29.51,
-    "change_30d": 4.77
+    "change_30d": 4.77,
+    "slot": "tactical",
+    "price": 1469
   },
   {
     "id": "12",
@@ -7501,7 +8437,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 93.59
+    "change_30d": 93.59,
+    "slot": "tactical",
+    "price": 1475
   },
   {
     "id": "61",
@@ -7517,7 +8455,9 @@
     "change_ratio": 6.0,
     "change_3d": -7.16,
     "change_7d": 0.0,
-    "change_30d": -53.63
+    "change_30d": -53.63,
+    "slot": "tactical",
+    "price": 1477
   },
   {
     "id": "346",
@@ -7533,7 +8473,9 @@
     "change_ratio": 6.0,
     "change_3d": 7.69,
     "change_7d": 7.69,
-    "change_30d": -46.16
+    "change_30d": -46.16,
+    "slot": "tactical",
+    "price": 1529
   },
   {
     "id": "590",
@@ -7549,7 +8491,9 @@
     "change_ratio": 11.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -2.05
+    "change_30d": -2.05,
+    "slot": "tactical",
+    "price": 1540
   },
   {
     "id": "1177",
@@ -7565,7 +8509,9 @@
     "change_ratio": 21.0,
     "change_3d": -19.56,
     "change_7d": 12.64,
-    "change_30d": 8.09
+    "change_30d": 8.09,
+    "slot": "tactical",
+    "price": 1589
   },
   {
     "id": "80",
@@ -7581,7 +8527,9 @@
     "change_ratio": 3.0,
     "change_3d": 7.42,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 1602
   },
   {
     "id": "342",
@@ -7597,7 +8545,9 @@
     "change_ratio": 5.0,
     "change_3d": -3.24,
     "change_7d": -6.27,
-    "change_30d": -14.33
+    "change_30d": -14.33,
+    "slot": "tactical",
+    "price": 1637
   },
   {
     "id": "343",
@@ -7613,7 +8563,9 @@
     "change_ratio": 32.0,
     "change_3d": 11.22,
     "change_7d": 36.79,
-    "change_30d": 30.78
+    "change_30d": 30.78,
+    "slot": "tactical",
+    "price": 1648
   },
   {
     "id": "265",
@@ -7629,7 +8581,9 @@
     "change_ratio": 14.0,
     "change_3d": 6.55,
     "change_7d": 2.09,
-    "change_30d": 4.27
+    "change_30d": 4.27,
+    "slot": "tactical",
+    "price": 1657
   },
   {
     "id": "5",
@@ -7645,7 +8599,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 1676
   },
   {
     "id": "502",
@@ -7661,7 +8617,9 @@
     "change_ratio": 3.0,
     "change_3d": 3.57,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 1717
   },
   {
     "id": "180",
@@ -7677,7 +8635,9 @@
     "change_ratio": 4.0,
     "change_3d": 4.55,
     "change_7d": 27.84,
-    "change_30d": 21.1
+    "change_30d": 21.1,
+    "slot": "tactical",
+    "price": 1727
   },
   {
     "id": "399",
@@ -7693,7 +8653,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 1749
   },
   {
     "id": "314",
@@ -7709,7 +8671,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 1775
   },
   {
     "id": "434",
@@ -7725,7 +8689,9 @@
     "change_ratio": 7.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 1787
   },
   {
     "id": "593",
@@ -7741,7 +8707,9 @@
     "change_ratio": 9.0,
     "change_3d": -2.09,
     "change_7d": -2.09,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 1800
   },
   {
     "id": "125",
@@ -7757,7 +8725,9 @@
     "change_ratio": 1.0,
     "change_3d": -8.51,
     "change_7d": -12.25,
-    "change_30d": -2.27
+    "change_30d": -2.27,
+    "slot": "vest",
+    "price": 1801
   },
   {
     "id": "560",
@@ -7773,7 +8743,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 3.58,
-    "change_30d": -9.39
+    "change_30d": -9.39,
+    "slot": "tactical",
+    "price": 1803
   },
   {
     "id": "159",
@@ -7789,7 +8761,9 @@
     "change_ratio": 10.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 7.15
+    "change_30d": 7.15,
+    "slot": "tactical",
+    "price": 1803
   },
   {
     "id": "1194",
@@ -7805,7 +8779,9 @@
     "change_ratio": 1.0,
     "change_3d": -22.1,
     "change_7d": 31.39,
-    "change_30d": 9.84
+    "change_30d": 9.84,
+    "slot": "tactical",
+    "price": 1807
   },
   {
     "id": "237",
@@ -7821,7 +8797,9 @@
     "change_ratio": 6.0,
     "change_3d": -5.27,
     "change_7d": 0.0,
-    "change_30d": -28.02
+    "change_30d": -28.02,
+    "slot": "tactical",
+    "price": 1837
   },
   {
     "id": "145",
@@ -7837,7 +8815,9 @@
     "change_ratio": 7.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -3.71
+    "change_30d": -3.71,
+    "slot": "vest",
+    "price": 1844
   },
   {
     "id": "301",
@@ -7853,7 +8833,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 1847
   },
   {
     "id": "317",
@@ -7869,7 +8851,9 @@
     "change_ratio": 4.0,
     "change_3d": -4.0,
     "change_7d": -5.89,
-    "change_30d": -22.6
+    "change_30d": -22.6,
+    "slot": "tactical",
+    "price": 1854
   },
   {
     "id": "458",
@@ -7885,7 +8869,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 16.03
+    "change_30d": 16.03,
+    "slot": "tactical",
+    "price": 1858
   },
   {
     "id": "376",
@@ -7901,7 +8887,9 @@
     "change_ratio": 5.0,
     "change_3d": 0.0,
     "change_7d": -9.39,
-    "change_30d": -6.46
+    "change_30d": -6.46,
+    "slot": "tactical",
+    "price": 1880
   },
   {
     "id": "1073",
@@ -7917,7 +8905,9 @@
     "change_ratio": 10.0,
     "change_3d": -1.3,
     "change_7d": 0.0,
-    "change_30d": 1.33
+    "change_30d": 1.33,
+    "slot": "tactical",
+    "price": 1883
   },
   {
     "id": "249",
@@ -7933,7 +8923,9 @@
     "change_ratio": 8.0,
     "change_3d": -2.94,
     "change_7d": -5.71,
-    "change_30d": 3.13
+    "change_30d": 3.13,
+    "slot": "tactical",
+    "price": 1908
   },
   {
     "id": "601",
@@ -7949,7 +8941,9 @@
     "change_ratio": 2.0,
     "change_3d": -8.44,
     "change_7d": -26.22,
-    "change_30d": 16.93
+    "change_30d": 16.93,
+    "slot": "tactical",
+    "price": 1911
   },
   {
     "id": "552",
@@ -7965,7 +8959,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -71.88
+    "change_30d": -71.88,
+    "slot": "tactical",
+    "price": 1931
   },
   {
     "id": "197",
@@ -7981,7 +8977,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -3.34
+    "change_30d": -3.34,
+    "slot": "vest",
+    "price": 1933
   },
   {
     "id": "436",
@@ -7997,7 +8995,9 @@
     "change_ratio": 3.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -73.64
+    "change_30d": -73.64,
+    "slot": "tactical",
+    "price": 1942
   },
   {
     "id": "64",
@@ -8013,7 +9013,9 @@
     "change_ratio": 3.0,
     "change_3d": -2.7,
     "change_7d": 9.09,
-    "change_30d": -5.26
+    "change_30d": -5.26,
+    "slot": "helmet",
+    "price": 1988
   },
   {
     "id": "1198",
@@ -8029,7 +9031,9 @@
     "change_ratio": 27.0,
     "change_3d": 0.0,
     "change_7d": 9.38,
-    "change_30d": -2.78
+    "change_30d": -2.78,
+    "slot": "tactical",
+    "price": 1995
   },
   {
     "id": "1129",
@@ -8045,7 +9049,9 @@
     "change_ratio": 11.0,
     "change_3d": 5.28,
     "change_7d": 5.28,
-    "change_30d": -42.93
+    "change_30d": -42.93,
+    "slot": "tactical",
+    "price": 2016
   },
   {
     "id": "134",
@@ -8061,7 +9067,9 @@
     "change_ratio": 2.0,
     "change_3d": -12.9,
     "change_7d": 8.0,
-    "change_30d": -10.0
+    "change_30d": -10.0,
+    "slot": "tactical",
+    "price": 2027
   },
   {
     "id": "223",
@@ -8077,7 +9085,9 @@
     "change_ratio": 10.0,
     "change_3d": 0.0,
     "change_7d": 37.06,
-    "change_30d": 4.02
+    "change_30d": 4.02,
+    "slot": "tactical",
+    "price": 2042
   },
   {
     "id": "489",
@@ -8093,7 +9103,9 @@
     "change_ratio": 2.0,
     "change_3d": 22.25,
     "change_7d": -26.68,
-    "change_30d": 3.78
+    "change_30d": 3.78,
+    "slot": "tactical",
+    "price": 2061
   },
   {
     "id": "475",
@@ -8109,7 +9121,9 @@
     "change_ratio": 6.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -44.13
+    "change_30d": -44.13,
+    "slot": "tactical",
+    "price": 2192
   },
   {
     "id": "554",
@@ -8125,7 +9139,9 @@
     "change_ratio": 9.0,
     "change_3d": 7.16,
     "change_7d": 7.16,
-    "change_30d": 7.16
+    "change_30d": 7.16,
+    "slot": "tactical",
+    "price": 2210
   },
   {
     "id": "344",
@@ -8141,7 +9157,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 2212
   },
   {
     "id": "109",
@@ -8157,7 +9175,9 @@
     "change_ratio": 6.0,
     "change_3d": -3.58,
     "change_7d": -3.58,
-    "change_30d": -6.91
+    "change_30d": -6.91,
+    "slot": "helmet",
+    "price": 2283
   },
   {
     "id": "44",
@@ -8173,7 +9193,9 @@
     "change_ratio": 5.0,
     "change_3d": 8.71,
     "change_7d": 0.0,
-    "change_30d": -13.81
+    "change_30d": -13.81,
+    "slot": "tactical",
+    "price": 2297
   },
   {
     "id": "533",
@@ -8189,7 +9211,9 @@
     "change_ratio": 5.0,
     "change_3d": -6.07,
     "change_7d": -3.13,
-    "change_30d": -6.07
+    "change_30d": -6.07,
+    "slot": "helmet",
+    "price": 2362
   },
   {
     "id": "1184",
@@ -8205,7 +9229,9 @@
     "change_ratio": 2.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -14.71
+    "change_30d": -14.71,
+    "slot": "tactical",
+    "price": 2373
   },
   {
     "id": "104",
@@ -8221,7 +9247,9 @@
     "change_ratio": 8.0,
     "change_3d": -10.55,
     "change_7d": 13.36,
-    "change_30d": -34.66
+    "change_30d": -34.66,
+    "slot": "tactical",
+    "price": 2373
   },
   {
     "id": "277",
@@ -8237,7 +9265,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 3.58,
-    "change_30d": 16.02
+    "change_30d": 16.02,
+    "slot": "tactical",
+    "price": 2397
   },
   {
     "id": "381",
@@ -8253,7 +9283,9 @@
     "change_ratio": 13.0,
     "change_3d": 4.35,
     "change_7d": 2.13,
-    "change_30d": 2.13
+    "change_30d": 2.13,
+    "slot": "tactical",
+    "price": 2419
   },
   {
     "id": "18",
@@ -8269,7 +9301,9 @@
     "change_ratio": 10.0,
     "change_3d": 0.0,
     "change_7d": 15.39,
-    "change_30d": 7.14
+    "change_30d": 7.14,
+    "slot": "tactical",
+    "price": 2462
   },
   {
     "id": "1076",
@@ -8285,7 +9319,9 @@
     "change_ratio": 13.0,
     "change_3d": 5.41,
     "change_7d": -1.27,
-    "change_30d": 52.96
+    "change_30d": 52.96,
+    "slot": "tactical",
+    "price": 2470
   },
   {
     "id": "334",
@@ -8301,7 +9337,9 @@
     "change_ratio": 11.0,
     "change_3d": -10.64,
     "change_7d": -2.33,
-    "change_30d": -12.5
+    "change_30d": -12.5,
+    "slot": "tactical",
+    "price": 2486
   },
   {
     "id": "214",
@@ -8317,7 +9355,9 @@
     "change_ratio": 15.0,
     "change_3d": 3.13,
     "change_7d": 0.0,
-    "change_30d": 10.02
+    "change_30d": 10.02,
+    "slot": "tactical",
+    "price": 2497
   },
   {
     "id": "71",
@@ -8333,7 +9373,9 @@
     "change_ratio": 2.0,
     "change_3d": 5.71,
     "change_7d": -2.63,
-    "change_30d": 42.31
+    "change_30d": 42.31,
+    "slot": "tactical",
+    "price": 2499
   },
   {
     "id": "517",
@@ -8349,7 +9391,9 @@
     "change_ratio": 12.0,
     "change_3d": -4.46,
     "change_7d": 34.51,
-    "change_30d": -35.89
+    "change_30d": -35.89,
+    "slot": "tactical",
+    "price": 2506
   },
   {
     "id": "216",
@@ -8365,7 +9409,9 @@
     "change_ratio": 22.0,
     "change_3d": 2.14,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 2534
   },
   {
     "id": "1187",
@@ -8381,7 +9427,9 @@
     "change_ratio": 7.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 2537
   },
   {
     "id": "400",
@@ -8397,7 +9445,9 @@
     "change_ratio": 9.0,
     "change_3d": 0.0,
     "change_7d": 9.52,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 2606
   },
   {
     "id": "221",
@@ -8413,7 +9463,9 @@
     "change_ratio": 13.0,
     "change_3d": 0.0,
     "change_7d": 3.23,
-    "change_30d": -21.97
+    "change_30d": -21.97,
+    "slot": "tactical",
+    "price": 2609
   },
   {
     "id": "408",
@@ -8429,7 +9481,9 @@
     "change_ratio": 1.0,
     "change_3d": -2.44,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 2627
   },
   {
     "id": "441",
@@ -8445,7 +9499,9 @@
     "change_ratio": 17.0,
     "change_3d": -14.01,
     "change_7d": 0.0,
-    "change_30d": -11.95
+    "change_30d": -11.95,
+    "slot": "tactical",
+    "price": 2647
   },
   {
     "id": "386",
@@ -8461,7 +9517,9 @@
     "change_ratio": 5.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -3.34
+    "change_30d": -3.34,
+    "slot": "vest",
+    "price": 2674
   },
   {
     "id": "165",
@@ -8477,7 +9535,9 @@
     "change_ratio": 3.0,
     "change_3d": -65.08,
     "change_7d": 0.0,
-    "change_30d": -72.4
+    "change_30d": -72.4,
+    "slot": "tactical",
+    "price": 2706
   },
   {
     "id": "178",
@@ -8493,7 +9553,9 @@
     "change_ratio": 9.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 2733
   },
   {
     "id": "240",
@@ -8509,7 +9571,9 @@
     "change_ratio": 8.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 7.7
+    "change_30d": 7.7,
+    "slot": "tactical",
+    "price": 2745
   },
   {
     "id": "93",
@@ -8525,7 +9589,9 @@
     "change_ratio": 29.0,
     "change_3d": -4.36,
     "change_7d": 15.86,
-    "change_30d": -10.24
+    "change_30d": -10.24,
+    "slot": "tactical",
+    "price": 2753
   },
   {
     "id": "414",
@@ -8541,7 +9607,9 @@
     "change_ratio": 17.0,
     "change_3d": -11.56,
     "change_7d": 6.16,
-    "change_30d": 68.48
+    "change_30d": 68.48,
+    "slot": "tactical",
+    "price": 2754
   },
   {
     "id": "567",
@@ -8557,7 +9625,9 @@
     "change_ratio": 19.0,
     "change_3d": 4.57,
     "change_7d": 35.57,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 2793
   },
   {
     "id": "378",
@@ -8573,7 +9643,9 @@
     "change_ratio": 13.0,
     "change_3d": 4.36,
     "change_7d": 9.12,
-    "change_30d": -45.54
+    "change_30d": -45.54,
+    "slot": "tactical",
+    "price": 2815
   },
   {
     "id": "384",
@@ -8589,7 +9661,9 @@
     "change_ratio": 7.0,
     "change_3d": 30.34,
     "change_7d": 10.27,
-    "change_30d": -60.21
+    "change_30d": -60.21,
+    "slot": "tactical",
+    "price": 2816
   },
   {
     "id": "21",
@@ -8605,7 +9679,9 @@
     "change_ratio": 7.0,
     "change_3d": 2.04,
     "change_7d": -10.71,
-    "change_30d": -13.79
+    "change_30d": -13.79,
+    "slot": "tactical",
+    "price": 2822
   },
   {
     "id": "500",
@@ -8621,7 +9697,9 @@
     "change_ratio": 10.0,
     "change_3d": -3.46,
     "change_7d": 0.0,
-    "change_30d": -3.46
+    "change_30d": -3.46,
+    "slot": "helmet",
+    "price": 2840
   },
   {
     "id": "398",
@@ -8637,7 +9715,9 @@
     "change_ratio": 14.0,
     "change_3d": -8.62,
     "change_7d": -3.64,
-    "change_30d": -19.7
+    "change_30d": -19.7,
+    "slot": "vest",
+    "price": 2865
   },
   {
     "id": "289",
@@ -8653,7 +9733,9 @@
     "change_ratio": 5.0,
     "change_3d": -4.65,
     "change_7d": 0.0,
-    "change_30d": 7.89
+    "change_30d": 7.89,
+    "slot": "tactical",
+    "price": 2869
   },
   {
     "id": "394",
@@ -8669,7 +9751,9 @@
     "change_ratio": 11.0,
     "change_3d": 0.0,
     "change_7d": 2.75,
-    "change_30d": 1.35
+    "change_30d": 1.35,
+    "slot": "tactical",
+    "price": 2903
   },
   {
     "id": "302",
@@ -8685,7 +9769,9 @@
     "change_ratio": 4.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 2954
   },
   {
     "id": "231",
@@ -8701,7 +9787,9 @@
     "change_ratio": 14.0,
     "change_3d": -15.84,
     "change_7d": 14.34,
-    "change_30d": -31.99
+    "change_30d": -31.99,
+    "slot": "tactical",
+    "price": 2955
   },
   {
     "id": "397",
@@ -8717,7 +9805,9 @@
     "change_ratio": 9.0,
     "change_3d": -3.46,
     "change_7d": 0.0,
-    "change_30d": -3.46
+    "change_30d": -3.46,
+    "slot": "vest",
+    "price": 2963
   },
   {
     "id": "1128",
@@ -8733,7 +9823,9 @@
     "change_ratio": 14.0,
     "change_3d": 4.56,
     "change_7d": 27.89,
-    "change_30d": 9.56
+    "change_30d": 9.56,
+    "slot": "tactical",
+    "price": 3016
   },
   {
     "id": "411",
@@ -8749,7 +9841,9 @@
     "change_ratio": 20.0,
     "change_3d": 0.0,
     "change_7d": -10.24,
-    "change_30d": -6.41
+    "change_30d": -6.41,
+    "slot": "tactical",
+    "price": 3025
   },
   {
     "id": "523",
@@ -8765,7 +9859,9 @@
     "change_ratio": 7.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -20.37
+    "change_30d": -20.37,
+    "slot": "tactical",
+    "price": 3124
   },
   {
     "id": "541",
@@ -8781,7 +9877,9 @@
     "change_ratio": 14.0,
     "change_3d": -3.71,
     "change_7d": 0.0,
-    "change_30d": -3.42
+    "change_30d": -3.42,
+    "slot": "helmet",
+    "price": 3193
   },
   {
     "id": "281",
@@ -8797,7 +9895,9 @@
     "change_ratio": 18.0,
     "change_3d": -2.28,
     "change_7d": 2.39,
-    "change_30d": -8.55
+    "change_30d": -8.55,
+    "slot": "tactical",
+    "price": 3207
   },
   {
     "id": "253",
@@ -8813,7 +9913,9 @@
     "change_ratio": 6.0,
     "change_3d": 3.58,
     "change_7d": 7.42,
-    "change_30d": 3.58
+    "change_30d": 3.58,
+    "slot": "tactical",
+    "price": 3219
   },
   {
     "id": "243",
@@ -8829,7 +9931,9 @@
     "change_ratio": 11.0,
     "change_3d": 0.0,
     "change_7d": 8.36,
-    "change_30d": 4.01
+    "change_30d": 4.01,
+    "slot": "tactical",
+    "price": 3232
   },
   {
     "id": "1072",
@@ -8845,7 +9949,9 @@
     "change_ratio": 11.0,
     "change_3d": 4.06,
     "change_7d": 0.0,
-    "change_30d": -1.28
+    "change_30d": -1.28,
+    "slot": "tactical",
+    "price": 3256
   },
   {
     "id": "370",
@@ -8861,7 +9967,9 @@
     "change_ratio": 15.0,
     "change_3d": 7.72,
     "change_7d": 16.73,
-    "change_30d": -17.69
+    "change_30d": -17.69,
+    "slot": "tactical",
+    "price": 3259
   },
   {
     "id": "337",
@@ -8877,7 +9985,9 @@
     "change_ratio": 14.0,
     "change_3d": 7.16,
     "change_7d": 7.16,
-    "change_30d": -48.33
+    "change_30d": -48.33,
+    "slot": "tactical",
+    "price": 3304
   },
   {
     "id": "27",
@@ -8893,7 +10003,9 @@
     "change_ratio": 10.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 3354
   },
   {
     "id": "501",
@@ -8909,7 +10021,9 @@
     "change_ratio": 15.0,
     "change_3d": 0.0,
     "change_7d": 5.35,
-    "change_30d": 2.6
+    "change_30d": 2.6,
+    "slot": "tactical",
+    "price": 3371
   },
   {
     "id": "355",
@@ -8925,7 +10039,9 @@
     "change_ratio": 10.0,
     "change_3d": -48.18,
     "change_7d": 7.7,
-    "change_30d": -48.18
+    "change_30d": -48.18,
+    "slot": "tactical",
+    "price": 3376
   },
   {
     "id": "1136",
@@ -8941,7 +10057,9 @@
     "change_ratio": 30.0,
     "change_3d": 18.9,
     "change_7d": 36.04,
-    "change_30d": 26.89
+    "change_30d": 26.89,
+    "slot": "tactical",
+    "price": 3395
   },
   {
     "id": "1144",
@@ -8957,7 +10075,9 @@
     "change_ratio": 19.0,
     "change_3d": -5.9,
     "change_7d": -8.6,
-    "change_30d": 147.61
+    "change_30d": 147.61,
+    "slot": "tactical",
+    "price": 3421
   },
   {
     "id": "468",
@@ -8973,7 +10093,9 @@
     "change_ratio": 17.0,
     "change_3d": -3.57,
     "change_7d": 0.0,
-    "change_30d": -3.57
+    "change_30d": -3.57,
+    "slot": "vest",
+    "price": 3506
   },
   {
     "id": "326",
@@ -8989,7 +10111,9 @@
     "change_ratio": 11.0,
     "change_3d": 5.01,
     "change_7d": 5.01,
-    "change_30d": -25.03
+    "change_30d": -25.03,
+    "slot": "tactical",
+    "price": 3525
   },
   {
     "id": "1145",
@@ -9005,7 +10129,9 @@
     "change_ratio": 19.0,
     "change_3d": -9.49,
     "change_7d": -11.88,
-    "change_30d": 11.72
+    "change_30d": 11.72,
+    "slot": "tactical",
+    "price": 3580
   },
   {
     "id": "211",
@@ -9021,7 +10147,9 @@
     "change_ratio": 11.0,
     "change_3d": 5.57,
     "change_7d": 5.57,
-    "change_30d": -82.11
+    "change_30d": -82.11,
+    "slot": "tactical",
+    "price": 3585
   },
   {
     "id": "364",
@@ -9037,7 +10165,9 @@
     "change_ratio": 7.0,
     "change_3d": -2.94,
     "change_7d": -2.94,
-    "change_30d": -17.51
+    "change_30d": -17.51,
+    "slot": "tactical",
+    "price": 3586
   },
   {
     "id": "68",
@@ -9053,7 +10183,9 @@
     "change_ratio": 12.0,
     "change_3d": 0.0,
     "change_7d": 5.57,
-    "change_30d": -32.19
+    "change_30d": -32.19,
+    "slot": "tactical",
+    "price": 3600
   },
   {
     "id": "233",
@@ -9069,7 +10201,9 @@
     "change_ratio": 16.0,
     "change_3d": 0.0,
     "change_7d": -10.36,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 3639
   },
   {
     "id": "131",
@@ -9085,7 +10219,9 @@
     "change_ratio": 14.0,
     "change_3d": -2.67,
     "change_7d": -5.2,
-    "change_30d": -6.42
+    "change_30d": -6.42,
+    "slot": "tactical",
+    "price": 3675
   },
   {
     "id": "1148",
@@ -9101,7 +10237,9 @@
     "change_ratio": 20.0,
     "change_3d": -15.64,
     "change_7d": -8.48,
-    "change_30d": 142.09
+    "change_30d": 142.09,
+    "slot": "tactical",
+    "price": 3718
   },
   {
     "id": "1191",
@@ -9117,7 +10255,9 @@
     "change_ratio": 19.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -2.04
+    "change_30d": -2.04,
+    "slot": "tactical",
+    "price": 3775
   },
   {
     "id": "353",
@@ -9133,7 +10273,9 @@
     "change_ratio": 8.0,
     "change_3d": -3.13,
     "change_7d": -3.13,
-    "change_30d": -11.45
+    "change_30d": -11.45,
+    "slot": "tactical",
+    "price": 3802
   },
   {
     "id": "323",
@@ -9149,7 +10291,9 @@
     "change_ratio": 10.0,
     "change_3d": 4.55,
     "change_7d": 4.55,
-    "change_30d": -17.86
+    "change_30d": -17.86,
+    "slot": "tactical",
+    "price": 3843
   },
   {
     "id": "37",
@@ -9165,7 +10309,9 @@
     "change_ratio": 18.0,
     "change_3d": -12.84,
     "change_7d": 17.28,
-    "change_30d": -27.7
+    "change_30d": -27.7,
+    "slot": "tactical",
+    "price": 3881
   },
   {
     "id": "433",
@@ -9181,7 +10327,9 @@
     "change_ratio": 24.0,
     "change_3d": -2.33,
     "change_7d": 0.0,
-    "change_30d": -8.71
+    "change_30d": -8.71,
+    "slot": "tactical",
+    "price": 3911
   },
   {
     "id": "252",
@@ -9197,7 +10345,9 @@
     "change_ratio": 7.0,
     "change_3d": 25.76,
     "change_7d": 29.46,
-    "change_30d": -2.23
+    "change_30d": -2.23,
+    "slot": "tactical",
+    "price": 3971
   },
   {
     "id": "22",
@@ -9213,7 +10363,9 @@
     "change_ratio": 21.0,
     "change_3d": -16.27,
     "change_7d": 14.88,
-    "change_30d": 72.67
+    "change_30d": 72.67,
+    "slot": "tactical",
+    "price": 3971
   },
   {
     "id": "242",
@@ -9229,7 +10381,9 @@
     "change_ratio": 29.0,
     "change_3d": 15.01,
     "change_7d": 27.8,
-    "change_30d": -20.7
+    "change_30d": -20.7,
+    "slot": "tactical",
+    "price": 4205
   },
   {
     "id": "126",
@@ -9245,7 +10399,9 @@
     "change_ratio": 8.0,
     "change_3d": -1.32,
     "change_7d": 1.35,
-    "change_30d": -5.07
+    "change_30d": -5.07,
+    "slot": "tactical",
+    "price": 4207
   },
   {
     "id": "1293",
@@ -9261,7 +10417,9 @@
     "change_ratio": 2.0,
     "change_3d": 26.1,
     "change_7d": 0.0,
-    "change_30d": 7.41
+    "change_30d": 7.41,
+    "slot": "tactical",
+    "price": 4278
   },
   {
     "id": "153",
@@ -9277,7 +10435,9 @@
     "change_ratio": 24.0,
     "change_3d": -2.13,
     "change_7d": -2.13,
-    "change_30d": -8.02
+    "change_30d": -8.02,
+    "slot": "tactical",
+    "price": 4310
   },
   {
     "id": "40",
@@ -9293,7 +10453,9 @@
     "change_ratio": 2.0,
     "change_3d": 3.03,
     "change_7d": 13.34,
-    "change_30d": -17.07
+    "change_30d": -17.07,
+    "slot": "helmet",
+    "price": 4358
   },
   {
     "id": "401",
@@ -9309,7 +10471,9 @@
     "change_ratio": 9.0,
     "change_3d": 0.0,
     "change_7d": 0.0,
-    "change_30d": -15.4
+    "change_30d": -15.4,
+    "slot": "tactical",
+    "price": 4362
   },
   {
     "id": "285",
@@ -9325,7 +10489,9 @@
     "change_ratio": 11.0,
     "change_3d": -10.54,
     "change_7d": -1.93,
-    "change_30d": -13.58
+    "change_30d": -13.58,
+    "slot": "tactical",
+    "price": 4379
   },
   {
     "id": "228",
@@ -9341,7 +10507,9 @@
     "change_ratio": 19.0,
     "change_3d": 0.0,
     "change_7d": 53.01,
-    "change_30d": 23.83
+    "change_30d": 23.83,
+    "slot": "tactical",
+    "price": 4380
   },
   {
     "id": "94",
@@ -9357,7 +10525,9 @@
     "change_ratio": 5.0,
     "change_3d": -2.38,
     "change_7d": 0.0,
-    "change_30d": -2.38
+    "change_30d": -2.38,
+    "slot": "helmet",
+    "price": 4403
   },
   {
     "id": "264",
@@ -9373,7 +10543,9 @@
     "change_ratio": 2.0,
     "change_3d": 4.0,
     "change_7d": -3.71,
-    "change_30d": -22.4
+    "change_30d": -22.4,
+    "slot": "tactical",
+    "price": 4424
   },
   {
     "id": "170",
@@ -9389,7 +10561,9 @@
     "change_ratio": 12.0,
     "change_3d": -5.27,
     "change_7d": 2.86,
-    "change_30d": 9.11
+    "change_30d": 9.11,
+    "slot": "tactical",
+    "price": 4449
   },
   {
     "id": "1118",
@@ -9405,7 +10579,9 @@
     "change_ratio": 15.0,
     "change_3d": 40.08,
     "change_7d": 40.08,
-    "change_30d": 6.07
+    "change_30d": 6.07,
+    "slot": "tactical",
+    "price": 4471
   },
   {
     "id": "241",
@@ -9421,7 +10597,9 @@
     "change_ratio": 5.0,
     "change_3d": -8.57,
     "change_7d": 14.29,
-    "change_30d": -8.57
+    "change_30d": -8.57,
+    "slot": "tactical",
+    "price": 4602
   },
   {
     "id": "244",
@@ -9437,7 +10615,9 @@
     "change_ratio": 23.0,
     "change_3d": 2.13,
     "change_7d": 0.0,
-    "change_30d": 2.13
+    "change_30d": 2.13,
+    "slot": "tactical",
+    "price": 4622
   },
   {
     "id": "413",
@@ -9453,7 +10633,9 @@
     "change_ratio": 28.0,
     "change_3d": 29.44,
     "change_7d": 37.53,
-    "change_30d": -15.39
+    "change_30d": -15.39,
+    "slot": "tactical",
+    "price": 4646
   },
   {
     "id": "1080",
@@ -9469,7 +10651,9 @@
     "change_ratio": 19.0,
     "change_3d": 1.3,
     "change_7d": 1.3,
-    "change_30d": -1.27
+    "change_30d": -1.27,
+    "slot": "tactical",
+    "price": 4678
   },
   {
     "id": "1131",
@@ -9485,7 +10669,9 @@
     "change_ratio": 28.0,
     "change_3d": 0.0,
     "change_7d": 27.85,
-    "change_30d": 35.4
+    "change_30d": 35.4,
+    "slot": "tactical",
+    "price": 4855
   },
   {
     "id": "582",
@@ -9501,7 +10687,9 @@
     "change_ratio": 9.0,
     "change_3d": 9.1,
     "change_7d": 9.1,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 4857
   },
   {
     "id": "226",
@@ -9517,7 +10705,9 @@
     "change_ratio": 10.0,
     "change_3d": -10.73,
     "change_7d": 0.0,
-    "change_30d": -20.66
+    "change_30d": -20.66,
+    "slot": "vest",
+    "price": 4949
   },
   {
     "id": "55",
@@ -9533,7 +10723,9 @@
     "change_ratio": 10.0,
     "change_3d": 4.11,
     "change_7d": 2.7,
-    "change_30d": 4.11
+    "change_30d": 4.11,
+    "slot": "tactical",
+    "price": 5088
   },
   {
     "id": "1196",
@@ -9549,7 +10741,9 @@
     "change_ratio": 28.0,
     "change_3d": 2.23,
     "change_7d": 12.24,
-    "change_30d": -6.14
+    "change_30d": -6.14,
+    "slot": "tactical",
+    "price": 5102
   },
   {
     "id": "105",
@@ -9565,7 +10759,9 @@
     "change_ratio": 20.0,
     "change_3d": -3.23,
     "change_7d": 11.13,
-    "change_30d": -38.81
+    "change_30d": -38.81,
+    "slot": "tactical",
+    "price": 5135
   },
   {
     "id": "286",
@@ -9581,7 +10777,9 @@
     "change_ratio": 26.0,
     "change_3d": 0.0,
     "change_7d": 18.23,
-    "change_30d": -21.25
+    "change_30d": -21.25,
+    "slot": "tactical",
+    "price": 5229
   },
   {
     "id": "1085",
@@ -9597,7 +10795,9 @@
     "change_ratio": 21.0,
     "change_3d": -2.67,
     "change_7d": -3.96,
-    "change_30d": 4.3
+    "change_30d": 4.3,
+    "slot": "tactical",
+    "price": 5240
   },
   {
     "id": "220",
@@ -9613,7 +10813,9 @@
     "change_ratio": 22.0,
     "change_3d": 17.68,
     "change_7d": 17.68,
-    "change_30d": -13.06
+    "change_30d": -13.06,
+    "slot": "tactical",
+    "price": 5282
   },
   {
     "id": "527",
@@ -9629,7 +10831,9 @@
     "change_ratio": 11.0,
     "change_3d": -2.94,
     "change_7d": 3.13,
-    "change_30d": -21.45
+    "change_30d": -21.45,
+    "slot": "tactical",
+    "price": 5414
   },
   {
     "id": "63",
@@ -9645,7 +10849,9 @@
     "change_ratio": 27.0,
     "change_3d": -3.71,
     "change_7d": 30.02,
-    "change_30d": -29.74
+    "change_30d": -29.74,
+    "slot": "tactical",
+    "price": 5456
   },
   {
     "id": "584",
@@ -9661,7 +10867,9 @@
     "change_ratio": 13.0,
     "change_3d": 8.35,
     "change_7d": 8.35,
-    "change_30d": 8.35
+    "change_30d": 8.35,
+    "slot": "tactical",
+    "price": 5461
   },
   {
     "id": "470",
@@ -9677,7 +10885,9 @@
     "change_ratio": 17.0,
     "change_3d": 0.0,
     "change_7d": 3.58,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 5534
   },
   {
     "id": "69",
@@ -9693,7 +10903,9 @@
     "change_ratio": 4.0,
     "change_3d": -6.0,
     "change_7d": -7.85,
-    "change_30d": -6.0
+    "change_30d": -6.0,
+    "slot": "helmet",
+    "price": 5543
   },
   {
     "id": "43",
@@ -9709,7 +10921,9 @@
     "change_ratio": 37.0,
     "change_3d": 0.0,
     "change_7d": 34.95,
-    "change_30d": 34.95
+    "change_30d": 34.95,
+    "slot": "tactical",
+    "price": 5642
   },
   {
     "id": "518",
@@ -9725,7 +10939,9 @@
     "change_ratio": 16.0,
     "change_3d": 15.04,
     "change_7d": 35.4,
-    "change_30d": -4.18
+    "change_30d": -4.18,
+    "slot": "tactical",
+    "price": 5668
   },
   {
     "id": "127",
@@ -9741,7 +10957,9 @@
     "change_ratio": 16.0,
     "change_3d": -8.53,
     "change_7d": 2.39,
-    "change_30d": -12.27
+    "change_30d": -12.27,
+    "slot": "tactical",
+    "price": 5774
   },
   {
     "id": "440",
@@ -9757,7 +10975,9 @@
     "change_ratio": 11.0,
     "change_3d": 0.0,
     "change_7d": 6.67,
-    "change_30d": 14.29
+    "change_30d": 14.29,
+    "slot": "tactical",
+    "price": 5985
   },
   {
     "id": "136",
@@ -9773,7 +10993,9 @@
     "change_ratio": 14.0,
     "change_3d": -2.09,
     "change_7d": 2.18,
-    "change_30d": -4.09
+    "change_30d": -4.09,
+    "slot": "tactical",
+    "price": 6032
   },
   {
     "id": "1195",
@@ -9789,7 +11011,9 @@
     "change_ratio": 37.0,
     "change_3d": 2.13,
     "change_7d": 33.48,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 6543
   },
   {
     "id": "548",
@@ -9805,7 +11029,9 @@
     "change_ratio": 17.0,
     "change_3d": 3.58,
     "change_7d": 3.58,
-    "change_30d": 52.79
+    "change_30d": 52.79,
+    "slot": "tactical",
+    "price": 6560
   },
   {
     "id": "155",
@@ -9821,7 +11047,9 @@
     "change_ratio": 8.0,
     "change_3d": -3.57,
     "change_7d": 3.85,
-    "change_30d": -1.82
+    "change_30d": -1.82,
+    "slot": "tactical",
+    "price": 6577
   },
   {
     "id": "298",
@@ -9837,7 +11065,9 @@
     "change_ratio": 14.0,
     "change_3d": 11.13,
     "change_7d": 15.41,
-    "change_30d": 7.15
+    "change_30d": 7.15,
+    "slot": "tactical",
+    "price": 6656
   },
   {
     "id": "101",
@@ -9853,7 +11083,9 @@
     "change_ratio": 19.0,
     "change_3d": 4.55,
     "change_7d": 9.54,
-    "change_30d": 35.36
+    "change_30d": 35.36,
+    "slot": "tactical",
+    "price": 6677
   },
   {
     "id": "563",
@@ -9869,7 +11101,9 @@
     "change_ratio": 49.0,
     "change_3d": 35.37,
     "change_7d": 43.85,
-    "change_30d": -17.88
+    "change_30d": -17.88,
+    "slot": "tactical",
+    "price": 6788
   },
   {
     "id": "132",
@@ -9885,7 +11119,9 @@
     "change_ratio": 26.0,
     "change_3d": -24.48,
     "change_7d": 36.09,
-    "change_30d": -43.38
+    "change_30d": -43.38,
+    "slot": "tactical",
+    "price": 6827
   },
   {
     "id": "137",
@@ -9901,7 +11137,9 @@
     "change_ratio": 17.0,
     "change_3d": 0.0,
     "change_7d": 27.29,
-    "change_30d": 16.68
+    "change_30d": 16.68,
+    "slot": "tactical",
+    "price": 6835
   },
   {
     "id": "389",
@@ -9917,7 +11155,9 @@
     "change_ratio": 20.0,
     "change_3d": 0.0,
     "change_7d": 27.85,
-    "change_30d": 35.39
+    "change_30d": 35.39,
+    "slot": "tactical",
+    "price": 6968
   },
   {
     "id": "56",
@@ -9933,7 +11173,9 @@
     "change_ratio": 32.0,
     "change_3d": -6.39,
     "change_7d": 29.44,
-    "change_30d": -6.39
+    "change_30d": -6.39,
+    "slot": "tactical",
+    "price": 7120
   },
   {
     "id": "369",
@@ -9949,7 +11191,9 @@
     "change_ratio": 38.0,
     "change_3d": 1.29,
     "change_7d": 34.01,
-    "change_30d": -1.25
+    "change_30d": -1.25,
+    "slot": "tactical",
+    "price": 7124
   },
   {
     "id": "382",
@@ -9965,7 +11209,9 @@
     "change_ratio": 41.0,
     "change_3d": 26.76,
     "change_7d": 35.85,
-    "change_30d": 18.81
+    "change_30d": 18.81,
+    "slot": "tactical",
+    "price": 7126
   },
   {
     "id": "424",
@@ -9981,7 +11227,9 @@
     "change_ratio": 11.0,
     "change_3d": 33.39,
     "change_7d": -6.98,
-    "change_30d": -24.55
+    "change_30d": -24.55,
+    "slot": "tactical",
+    "price": 7138
   },
   {
     "id": "147",
@@ -9997,7 +11245,9 @@
     "change_ratio": 4.0,
     "change_3d": -6.12,
     "change_7d": -8.0,
-    "change_30d": 4.55
+    "change_30d": 4.55,
+    "slot": "vest",
+    "price": 7548
   },
   {
     "id": "176",
@@ -10013,7 +11263,9 @@
     "change_ratio": 7.0,
     "change_3d": 3.85,
     "change_7d": 17.4,
-    "change_30d": -38.64
+    "change_30d": -38.64,
+    "slot": "helmet",
+    "price": 7673
   },
   {
     "id": "354",
@@ -10029,7 +11281,9 @@
     "change_ratio": 18.0,
     "change_3d": 16.7,
     "change_7d": 16.7,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 7760
   },
   {
     "id": "415",
@@ -10045,7 +11299,9 @@
     "change_ratio": 5.0,
     "change_3d": -4.65,
     "change_7d": -2.38,
-    "change_30d": 5.13
+    "change_30d": 5.13,
+    "slot": "vest",
+    "price": 7866
   },
   {
     "id": "250",
@@ -10061,7 +11317,9 @@
     "change_ratio": 28.0,
     "change_3d": 2.94,
     "change_7d": 40.01,
-    "change_30d": -5.41
+    "change_30d": -5.41,
+    "slot": "tactical",
+    "price": 7935
   },
   {
     "id": "511",
@@ -10077,7 +11335,9 @@
     "change_ratio": 13.0,
     "change_3d": -12.25,
     "change_7d": -6.52,
-    "change_30d": -14.0
+    "change_30d": -14.0,
+    "slot": "tactical",
+    "price": 7944
   },
   {
     "id": "1139",
@@ -10093,7 +11353,9 @@
     "change_ratio": 27.0,
     "change_3d": 50.09,
     "change_7d": 50.09,
-    "change_30d": 50.09
+    "change_30d": 50.09,
+    "slot": "tactical",
+    "price": 8008
   },
   {
     "id": "164",
@@ -10109,7 +11371,9 @@
     "change_ratio": 45.0,
     "change_3d": 3.57,
     "change_7d": 38.1,
-    "change_30d": -14.71
+    "change_30d": -14.71,
+    "slot": "tactical",
+    "price": 8130
   },
   {
     "id": "447",
@@ -10125,7 +11389,9 @@
     "change_ratio": 23.0,
     "change_3d": -6.53,
     "change_7d": 7.51,
-    "change_30d": -8.52
+    "change_30d": -8.52,
+    "slot": "tactical",
+    "price": 8395
   },
   {
     "id": "32",
@@ -10141,7 +11407,9 @@
     "change_ratio": 35.0,
     "change_3d": -7.15,
     "change_7d": 30.07,
-    "change_30d": -11.38
+    "change_30d": -11.38,
+    "slot": "tactical",
+    "price": 8528
   },
   {
     "id": "300",
@@ -10157,7 +11425,9 @@
     "change_ratio": 13.0,
     "change_3d": -2.38,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 8696
   },
   {
     "id": "96",
@@ -10173,7 +11443,9 @@
     "change_ratio": 51.0,
     "change_3d": 11.56,
     "change_7d": 45.09,
-    "change_30d": -29.3
+    "change_30d": -29.3,
+    "slot": "tactical",
+    "price": 8759
   },
   {
     "id": "157",
@@ -10189,7 +11461,9 @@
     "change_ratio": 12.0,
     "change_3d": 2.78,
     "change_7d": 5.72,
-    "change_30d": -9.76
+    "change_30d": -9.76,
+    "slot": "tactical",
+    "price": 8945
   },
   {
     "id": "74",
@@ -10205,7 +11479,9 @@
     "change_ratio": 36.0,
     "change_3d": 5.01,
     "change_7d": 61.81,
-    "change_30d": 10.56
+    "change_30d": 10.56,
+    "slot": "tactical",
+    "price": 9221
   },
   {
     "id": "390",
@@ -10221,7 +11497,9 @@
     "change_ratio": 33.0,
     "change_3d": 0.0,
     "change_7d": -40.85,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 9449
   },
   {
     "id": "306",
@@ -10237,7 +11515,9 @@
     "change_ratio": 52.0,
     "change_3d": 11.55,
     "change_7d": 45.04,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 9527
   },
   {
     "id": "154",
@@ -10253,7 +11533,9 @@
     "change_ratio": 7.0,
     "change_3d": -2.38,
     "change_7d": 0.0,
-    "change_30d": -4.65
+    "change_30d": -4.65,
+    "slot": "vest",
+    "price": 9550
   },
   {
     "id": "550",
@@ -10269,7 +11551,9 @@
     "change_ratio": 24.0,
     "change_3d": -2.5,
     "change_7d": 0.0,
-    "change_30d": -4.88
+    "change_30d": -4.88,
+    "slot": "helmet",
+    "price": 9887
   },
   {
     "id": "310",
@@ -10285,7 +11569,9 @@
     "change_ratio": 9.0,
     "change_3d": 0.0,
     "change_7d": 2.63,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 9996
   },
   {
     "id": "576",
@@ -10301,7 +11587,9 @@
     "change_ratio": 9.0,
     "change_3d": -2.27,
     "change_7d": 0.0,
-    "change_30d": 7.5
+    "change_30d": 7.5,
+    "slot": "vest",
+    "price": 10014
   },
   {
     "id": "545",
@@ -10317,7 +11605,9 @@
     "change_ratio": 57.0,
     "change_3d": 0.0,
     "change_7d": 23.6,
-    "change_30d": 40.13
+    "change_30d": 40.13,
+    "slot": "tactical",
+    "price": 10180
   },
   {
     "id": "579",
@@ -10333,7 +11623,9 @@
     "change_ratio": 5.0,
     "change_3d": -5.41,
     "change_7d": 16.67,
-    "change_30d": 29.64
+    "change_30d": 29.64,
+    "slot": "tactical",
+    "price": 10184
   },
   {
     "id": "599",
@@ -10349,7 +11641,9 @@
     "change_ratio": 11.0,
     "change_3d": 4.06,
     "change_7d": 0.0,
-    "change_30d": 10.01
+    "change_30d": 10.01,
+    "slot": "tactical",
+    "price": 10394
   },
   {
     "id": "199",
@@ -10365,7 +11659,9 @@
     "change_ratio": 14.0,
     "change_3d": -8.93,
     "change_7d": 2.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 10441
   },
   {
     "id": "183",
@@ -10381,7 +11677,9 @@
     "change_ratio": 10.0,
     "change_3d": -2.33,
     "change_7d": -12.5,
-    "change_30d": -14.29
+    "change_30d": -14.29,
+    "slot": "vest",
+    "price": 10669
   },
   {
     "id": "16",
@@ -10397,7 +11695,9 @@
     "change_ratio": 8.0,
     "change_3d": 3.7,
     "change_7d": 7.69,
-    "change_30d": -20.0
+    "change_30d": -20.0,
+    "slot": "helmet",
+    "price": 10698
   },
   {
     "id": "158",
@@ -10413,7 +11713,9 @@
     "change_ratio": 33.0,
     "change_3d": 33.37,
     "change_7d": 33.37,
-    "change_30d": -17.25
+    "change_30d": -17.25,
+    "slot": "tactical",
+    "price": 10769
   },
   {
     "id": "558",
@@ -10429,7 +11731,9 @@
     "change_ratio": 10.0,
     "change_3d": -7.47,
     "change_7d": 0.0,
-    "change_30d": -3.13
+    "change_30d": -3.13,
+    "slot": "tactical",
+    "price": 10802
   },
   {
     "id": "163",
@@ -10445,7 +11749,9 @@
     "change_ratio": 56.0,
     "change_3d": 10.37,
     "change_7d": 52.54,
-    "change_30d": -30.48
+    "change_30d": -30.48,
+    "slot": "tactical",
+    "price": 11050
   },
   {
     "id": "421",
@@ -10461,7 +11767,9 @@
     "change_ratio": 23.0,
     "change_3d": -13.23,
     "change_7d": 2.23,
-    "change_30d": 6.99
+    "change_30d": 6.99,
+    "slot": "tactical",
+    "price": 11115
   },
   {
     "id": "357",
@@ -10477,7 +11785,9 @@
     "change_ratio": 31.0,
     "change_3d": 0.0,
     "change_7d": 7.71,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 11158
   },
   {
     "id": "152",
@@ -10493,7 +11803,9 @@
     "change_ratio": 27.0,
     "change_3d": 3.58,
     "change_7d": 3.58,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 11254
   },
   {
     "id": "198",
@@ -10509,7 +11821,9 @@
     "change_ratio": 14.0,
     "change_3d": -2.5,
     "change_7d": 0.0,
-    "change_30d": -4.88
+    "change_30d": -4.88,
+    "slot": "vest",
+    "price": 11290
   },
   {
     "id": "106",
@@ -10525,7 +11839,9 @@
     "change_ratio": 19.0,
     "change_3d": 0.0,
     "change_7d": 2.57,
-    "change_30d": -13.05
+    "change_30d": -13.05,
+    "slot": "tactical",
+    "price": 11537
   },
   {
     "id": "1185",
@@ -10541,7 +11857,9 @@
     "change_ratio": 64.0,
     "change_3d": 5.9,
     "change_7d": 63.88,
-    "change_30d": -25.04
+    "change_30d": -25.04,
+    "slot": "tactical",
+    "price": 11576
   },
   {
     "id": "35",
@@ -10557,7 +11875,9 @@
     "change_ratio": 48.0,
     "change_3d": 38.89,
     "change_7d": 31.58,
-    "change_30d": -13.79
+    "change_30d": -13.79,
+    "slot": "tactical",
+    "price": 11803
   },
   {
     "id": "586",
@@ -10573,7 +11893,9 @@
     "change_ratio": 37.0,
     "change_3d": 55.2,
     "change_7d": -4.26,
-    "change_30d": 55.2
+    "change_30d": 55.2,
+    "slot": "tactical",
+    "price": 11810
   },
   {
     "id": "431",
@@ -10589,7 +11911,9 @@
     "change_ratio": 23.0,
     "change_3d": 32.44,
     "change_7d": -12.5,
-    "change_30d": 68.98
+    "change_30d": 68.98,
+    "slot": "tactical",
+    "price": 11927
   },
   {
     "id": "327",
@@ -10605,7 +11929,9 @@
     "change_ratio": 35.0,
     "change_3d": 34.78,
     "change_7d": 46.79,
-    "change_30d": 78.63
+    "change_30d": 78.63,
+    "slot": "tactical",
+    "price": 12005
   },
   {
     "id": "474",
@@ -10621,7 +11947,9 @@
     "change_ratio": 12.0,
     "change_3d": 0.0,
     "change_7d": 5.0,
-    "change_30d": 16.68
+    "change_30d": 16.68,
+    "slot": "tactical",
+    "price": 12048
   },
   {
     "id": "407",
@@ -10637,7 +11965,9 @@
     "change_ratio": 19.0,
     "change_3d": -2.27,
     "change_7d": 0.0,
-    "change_30d": -2.27
+    "change_30d": -2.27,
+    "slot": "helmet",
+    "price": 12168
   },
   {
     "id": "292",
@@ -10653,7 +11983,9 @@
     "change_ratio": 21.0,
     "change_3d": 0.0,
     "change_7d": 46.89,
-    "change_30d": -4.08
+    "change_30d": -4.08,
+    "slot": "tactical",
+    "price": 12297
   },
   {
     "id": "555",
@@ -10669,7 +12001,9 @@
     "change_ratio": 10.0,
     "change_3d": -8.34,
     "change_7d": 0.0,
-    "change_30d": -2.22
+    "change_30d": -2.22,
+    "slot": "helmet",
+    "price": 12635
   },
   {
     "id": "76",
@@ -10685,7 +12019,9 @@
     "change_ratio": 30.0,
     "change_3d": 35.53,
     "change_7d": 13.53,
-    "change_30d": -62.85
+    "change_30d": -62.85,
+    "slot": "tactical",
+    "price": 12742
   },
   {
     "id": "1215",
@@ -10701,7 +12037,9 @@
     "change_ratio": 23.0,
     "change_3d": -12.26,
     "change_7d": 7.51,
-    "change_30d": -36.8
+    "change_30d": -36.8,
+    "slot": "tactical",
+    "price": 12846
   },
   {
     "id": "449",
@@ -10717,7 +12055,9 @@
     "change_ratio": 13.0,
     "change_3d": -7.5,
     "change_7d": -2.63,
-    "change_30d": -37.29
+    "change_30d": -37.29,
+    "slot": "tactical",
+    "price": 12893
   },
   {
     "id": "466",
@@ -10733,7 +12073,9 @@
     "change_ratio": 33.0,
     "change_3d": 20.88,
     "change_7d": 26.14,
-    "change_30d": -17.17
+    "change_30d": -17.17,
+    "slot": "tactical",
+    "price": 12954
   },
   {
     "id": "330",
@@ -10749,7 +12091,9 @@
     "change_ratio": 11.0,
     "change_3d": -5.66,
     "change_7d": -1.96,
-    "change_30d": 2.04
+    "change_30d": 2.04,
+    "slot": "vest",
+    "price": 13039
   },
   {
     "id": "562",
@@ -10765,7 +12109,9 @@
     "change_ratio": 54.0,
     "change_3d": 7.42,
     "change_7d": 61.25,
-    "change_30d": 70.76
+    "change_30d": 70.76,
+    "slot": "tactical",
+    "price": 13088
   },
   {
     "id": "138",
@@ -10781,7 +12127,9 @@
     "change_ratio": 34.0,
     "change_3d": 3.57,
     "change_7d": 26.09,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 13191
   },
   {
     "id": "338",
@@ -10797,7 +12145,9 @@
     "change_ratio": 9.0,
     "change_3d": 0.0,
     "change_7d": -3.33,
-    "change_30d": 52.66
+    "change_30d": 52.66,
+    "slot": "tactical",
+    "price": 13428
   },
   {
     "id": "519",
@@ -10813,7 +12163,9 @@
     "change_ratio": 11.0,
     "change_3d": 4.35,
     "change_7d": 9.09,
-    "change_30d": -7.69
+    "change_30d": -7.69,
+    "slot": "helmet",
+    "price": 13566
   },
   {
     "id": "521",
@@ -10829,7 +12181,9 @@
     "change_ratio": 13.0,
     "change_3d": -2.5,
     "change_7d": -2.5,
-    "change_30d": -2.5
+    "change_30d": -2.5,
+    "slot": "vest",
+    "price": 13808
   },
   {
     "id": "538",
@@ -10845,7 +12199,9 @@
     "change_ratio": 15.0,
     "change_3d": -2.44,
     "change_7d": 2.56,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "helmet",
+    "price": 14012
   },
   {
     "id": "1130",
@@ -10861,7 +12217,9 @@
     "change_ratio": 40.0,
     "change_3d": -32.02,
     "change_7d": 59.47,
-    "change_30d": 200.57
+    "change_30d": 200.57,
+    "slot": "tactical",
+    "price": 14183
   },
   {
     "id": "50",
@@ -10877,7 +12235,9 @@
     "change_ratio": 13.0,
     "change_3d": -4.76,
     "change_7d": 8.11,
-    "change_30d": 2.57
+    "change_30d": 2.57,
+    "slot": "tactical",
+    "price": 14264
   },
   {
     "id": "444",
@@ -10893,7 +12253,9 @@
     "change_ratio": 47.0,
     "change_3d": -13.82,
     "change_7d": 25.06,
-    "change_30d": -13.82
+    "change_30d": -13.82,
+    "slot": "tactical",
+    "price": 14416
   },
   {
     "id": "419",
@@ -10909,7 +12271,9 @@
     "change_ratio": 63.0,
     "change_3d": 0.0,
     "change_7d": 45.12,
-    "change_30d": 16.03
+    "change_30d": 16.03,
+    "slot": "tactical",
+    "price": 14436
   },
   {
     "id": "1124",
@@ -10925,7 +12289,9 @@
     "change_ratio": 22.0,
     "change_3d": 1.64,
     "change_7d": 10.72,
-    "change_30d": 51.25
+    "change_30d": 51.25,
+    "slot": "tactical",
+    "price": 14529
   },
   {
     "id": "591",
@@ -10941,7 +12307,9 @@
     "change_ratio": 22.0,
     "change_3d": 25.03,
     "change_7d": 25.03,
-    "change_30d": -50.02
+    "change_30d": -50.02,
+    "slot": "tactical",
+    "price": 14544
   },
   {
     "id": "505",
@@ -10957,7 +12325,9 @@
     "change_ratio": 29.0,
     "change_3d": 16.14,
     "change_7d": 24.15,
-    "change_30d": -26.54
+    "change_30d": -26.54,
+    "slot": "tactical",
+    "price": 14692
   },
   {
     "id": "311",
@@ -10973,7 +12343,9 @@
     "change_ratio": 30.0,
     "change_3d": 2.09,
     "change_7d": 13.98,
-    "change_30d": 69.13
+    "change_30d": 69.13,
+    "slot": "tactical",
+    "price": 14705
   },
   {
     "id": "345",
@@ -10989,7 +12361,9 @@
     "change_ratio": 53.0,
     "change_3d": 13.53,
     "change_7d": 50.06,
-    "change_30d": -12.51
+    "change_30d": -12.51,
+    "slot": "tactical",
+    "price": 14758
   },
   {
     "id": "507",
@@ -11005,7 +12379,9 @@
     "change_ratio": 3.0,
     "change_3d": -2.27,
     "change_7d": -2.27,
-    "change_30d": 4.88
+    "change_30d": 4.88,
+    "slot": "vest",
+    "price": 14815
   },
   {
     "id": "235",
@@ -11021,7 +12397,9 @@
     "change_ratio": 35.0,
     "change_3d": 3.57,
     "change_7d": 20.85,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 15112
   },
   {
     "id": "313",
@@ -11037,7 +12415,9 @@
     "change_ratio": 52.0,
     "change_3d": 38.9,
     "change_7d": 47.08,
-    "change_30d": -13.8
+    "change_30d": -13.8,
+    "slot": "tactical",
+    "price": 15230
   },
   {
     "id": "358",
@@ -11053,7 +12433,9 @@
     "change_ratio": 13.0,
     "change_3d": 4.35,
     "change_7d": 9.09,
-    "change_30d": -22.58
+    "change_30d": -22.58,
+    "slot": "tactical",
+    "price": 15324
   },
   {
     "id": "479",
@@ -11069,7 +12451,9 @@
     "change_ratio": 7.0,
     "change_3d": 5.27,
     "change_7d": 11.12,
-    "change_30d": -41.18
+    "change_30d": -41.18,
+    "slot": "helmet",
+    "price": 15345
   },
   {
     "id": "308",
@@ -11085,7 +12469,9 @@
     "change_ratio": 29.0,
     "change_3d": 11.77,
     "change_7d": 26.67,
-    "change_30d": -20.84
+    "change_30d": -20.84,
+    "slot": "tactical",
+    "price": 15533
   },
   {
     "id": "115",
@@ -11101,7 +12487,9 @@
     "change_ratio": 43.0,
     "change_3d": 7.42,
     "change_7d": 38.19,
-    "change_30d": 7.42
+    "change_30d": 7.42,
+    "slot": "tactical",
+    "price": 15598
   },
   {
     "id": "578",
@@ -11117,7 +12505,9 @@
     "change_ratio": 34.0,
     "change_3d": -4.55,
     "change_7d": 18.88,
-    "change_30d": -37.01
+    "change_30d": -37.01,
+    "slot": "tactical",
+    "price": 15692
   },
   {
     "id": "288",
@@ -11133,7 +12523,9 @@
     "change_ratio": 16.0,
     "change_3d": -2.44,
     "change_7d": -2.44,
-    "change_30d": -11.11
+    "change_30d": -11.11,
+    "slot": "vest",
+    "price": 15694
   },
   {
     "id": "222",
@@ -11149,7 +12541,9 @@
     "change_ratio": 13.0,
     "change_3d": 7.04,
     "change_7d": -22.45,
-    "change_30d": 11.77
+    "change_30d": 11.77,
+    "slot": "tactical",
+    "price": 15733
   },
   {
     "id": "271",
@@ -11165,7 +12559,9 @@
     "change_ratio": 43.0,
     "change_3d": 26.12,
     "change_7d": 45.07,
-    "change_30d": -6.46
+    "change_30d": -6.46,
+    "slot": "tactical",
+    "price": 15777
   },
   {
     "id": "100",
@@ -11181,7 +12577,9 @@
     "change_ratio": 23.0,
     "change_3d": -16.52,
     "change_7d": -12.25,
-    "change_30d": 19.47
+    "change_30d": 19.47,
+    "slot": "tactical",
+    "price": 15883
   },
   {
     "id": "1123",
@@ -11197,7 +12595,9 @@
     "change_ratio": 38.0,
     "change_3d": 25.04,
     "change_7d": 25.04,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 16444
   },
   {
     "id": "359",
@@ -11213,7 +12613,9 @@
     "change_ratio": 21.0,
     "change_3d": -2.57,
     "change_7d": -2.57,
-    "change_30d": -2.57
+    "change_30d": -2.57,
+    "slot": "vest",
+    "price": 16738
   },
   {
     "id": "2",
@@ -11229,7 +12631,9 @@
     "change_ratio": 48.0,
     "change_3d": 0.0,
     "change_7d": 3.57,
-    "change_30d": 81.26
+    "change_30d": 81.26,
+    "slot": "tactical",
+    "price": 16800
   },
   {
     "id": "395",
@@ -11245,7 +12649,9 @@
     "change_ratio": 16.0,
     "change_3d": -6.38,
     "change_7d": 0.0,
-    "change_30d": 7.32
+    "change_30d": 7.32,
+    "slot": "tactical",
+    "price": 16978
   },
   {
     "id": "200",
@@ -11261,7 +12667,9 @@
     "change_ratio": 20.0,
     "change_3d": 1.89,
     "change_7d": 5.88,
-    "change_30d": -3.57
+    "change_30d": -3.57,
+    "slot": "tactical",
+    "price": 17218
   },
   {
     "id": "91",
@@ -11277,7 +12685,9 @@
     "change_ratio": 48.0,
     "change_3d": 21.24,
     "change_7d": 60.1,
-    "change_30d": 29.07
+    "change_30d": 29.07,
+    "slot": "tactical",
+    "price": 17425
   },
   {
     "id": "206",
@@ -11293,7 +12703,9 @@
     "change_ratio": 18.0,
     "change_3d": -2.56,
     "change_7d": 15.16,
-    "change_30d": 2.7
+    "change_30d": 2.7,
+    "slot": "tactical",
+    "price": 17682
   },
   {
     "id": "1298",
@@ -11309,7 +12721,9 @@
     "change_ratio": 52.0,
     "change_3d": 0.0,
     "change_7d": 7.42,
-    "change_30d": 107.5
+    "change_30d": 107.5,
+    "slot": "tactical",
+    "price": 17694
   },
   {
     "id": "492",
@@ -11325,7 +12739,9 @@
     "change_ratio": 52.0,
     "change_3d": 7.42,
     "change_7d": 45.11,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 17698
   },
   {
     "id": "89",
@@ -11341,7 +12757,9 @@
     "change_ratio": 30.0,
     "change_3d": -2.44,
     "change_7d": 0.0,
-    "change_30d": -6.98
+    "change_30d": -6.98,
+    "slot": "vest",
+    "price": 17796
   },
   {
     "id": "174",
@@ -11357,7 +12775,9 @@
     "change_ratio": 16.0,
     "change_3d": 2.44,
     "change_7d": 10.53,
-    "change_30d": -6.67
+    "change_30d": -6.67,
+    "slot": "tactical",
+    "price": 17948
   },
   {
     "id": "490",
@@ -11373,7 +12793,9 @@
     "change_ratio": 6.0,
     "change_3d": -8.11,
     "change_7d": -2.86,
-    "change_30d": 9.68
+    "change_30d": 9.68,
+    "slot": "vest",
+    "price": 18531
   },
   {
     "id": "528",
@@ -11389,7 +12811,9 @@
     "change_ratio": 24.0,
     "change_3d": 0.0,
     "change_7d": 14.3,
-    "change_30d": -40.02
+    "change_30d": -40.02,
+    "slot": "helmet",
+    "price": 18859
   },
   {
     "id": "19",
@@ -11405,7 +12829,9 @@
     "change_ratio": 59.0,
     "change_3d": 16.01,
     "change_7d": 61.16,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 19144
   },
   {
     "id": "7",
@@ -11421,7 +12847,9 @@
     "change_ratio": 9.0,
     "change_3d": 0.0,
     "change_7d": 7.5,
-    "change_30d": -42.67
+    "change_30d": -42.67,
+    "slot": "helmet",
+    "price": 19283
   },
   {
     "id": "328",
@@ -11437,7 +12865,9 @@
     "change_ratio": 54.0,
     "change_3d": -4.49,
     "change_7d": 30.68,
-    "change_30d": 3.23
+    "change_30d": 3.23,
+    "slot": "tactical",
+    "price": 19568
   },
   {
     "id": "9",
@@ -11453,7 +12883,9 @@
     "change_ratio": 31.0,
     "change_3d": 12.2,
     "change_7d": 4.55,
-    "change_30d": -30.3
+    "change_30d": -30.3,
+    "slot": "tactical",
+    "price": 19683
   },
   {
     "id": "67",
@@ -11469,7 +12901,9 @@
     "change_ratio": 66.0,
     "change_3d": 45.1,
     "change_7d": 52.75,
-    "change_30d": 3.58
+    "change_30d": 3.58,
+    "slot": "tactical",
+    "price": 20651
   },
   {
     "id": "184",
@@ -11485,7 +12919,9 @@
     "change_ratio": 26.0,
     "change_3d": 0.0,
     "change_7d": -4.68,
-    "change_30d": 9.69
+    "change_30d": 9.69,
+    "slot": "tactical",
+    "price": 20841
   },
   {
     "id": "303",
@@ -11501,7 +12937,9 @@
     "change_ratio": 30.0,
     "change_3d": -2.38,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "helmet",
+    "price": 21174
   },
   {
     "id": "1297",
@@ -11517,7 +12955,9 @@
     "change_ratio": 69.0,
     "change_3d": -65.09,
     "change_7d": 45.07,
-    "change_30d": 38.15
+    "change_30d": 38.15,
+    "slot": "tactical",
+    "price": 21206
   },
   {
     "id": "1114",
@@ -11533,7 +12973,9 @@
     "change_ratio": 36.0,
     "change_3d": 9.54,
     "change_7d": 64.41,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 21431
   },
   {
     "id": "333",
@@ -11549,7 +12991,9 @@
     "change_ratio": 74.0,
     "change_3d": 7.41,
     "change_7d": 70.61,
-    "change_30d": 16.0
+    "change_30d": 16.0,
+    "slot": "tactical",
+    "price": 22003
   },
   {
     "id": "520",
@@ -11565,7 +13009,9 @@
     "change_ratio": 5.0,
     "change_3d": -2.22,
     "change_7d": -4.35,
-    "change_30d": 15.79
+    "change_30d": 15.79,
+    "slot": "vest",
+    "price": 22027
   },
   {
     "id": "307",
@@ -11581,7 +13027,9 @@
     "change_ratio": 75.0,
     "change_3d": 16.02,
     "change_7d": 61.21,
-    "change_30d": -39.61
+    "change_30d": -39.61,
+    "slot": "tactical",
+    "price": 22213
   },
   {
     "id": "251",
@@ -11597,7 +13045,9 @@
     "change_ratio": 75.0,
     "change_3d": 7.42,
     "change_7d": 61.27,
-    "change_30d": 45.11
+    "change_30d": 45.11,
+    "slot": "tactical",
+    "price": 22293
   },
   {
     "id": "510",
@@ -11613,7 +13063,9 @@
     "change_ratio": 18.0,
     "change_3d": -12.5,
     "change_7d": 27.28,
-    "change_30d": 40.0
+    "change_30d": 40.0,
+    "slot": "tactical",
+    "price": 22930
   },
   {
     "id": "234",
@@ -11629,7 +13081,9 @@
     "change_ratio": 9.0,
     "change_3d": -2.78,
     "change_7d": 0.0,
-    "change_30d": 20.69
+    "change_30d": 20.69,
+    "slot": "vest",
+    "price": 24316
   },
   {
     "id": "522",
@@ -11645,7 +13099,9 @@
     "change_ratio": 101.0,
     "change_3d": 25.85,
     "change_7d": 117.0,
-    "change_30d": -11.38
+    "change_30d": -11.38,
+    "slot": "tactical",
+    "price": 25296
   },
   {
     "id": "513",
@@ -11661,7 +13117,9 @@
     "change_ratio": 10.0,
     "change_3d": -2.78,
     "change_7d": 6.06,
-    "change_30d": 6.06
+    "change_30d": 6.06,
+    "slot": "vest",
+    "price": 25410
   },
   {
     "id": "294",
@@ -11677,7 +13135,9 @@
     "change_ratio": 27.0,
     "change_3d": 11.43,
     "change_7d": 39.31,
-    "change_30d": -20.42
+    "change_30d": -20.42,
+    "slot": "tactical",
+    "price": 25413
   },
   {
     "id": "99",
@@ -11693,7 +13153,9 @@
     "change_ratio": 34.0,
     "change_3d": 0.0,
     "change_7d": 13.05,
-    "change_30d": 27.9
+    "change_30d": 27.9,
+    "slot": "tactical",
+    "price": 25651
   },
   {
     "id": "432",
@@ -11709,7 +13171,9 @@
     "change_ratio": 108.0,
     "change_3d": 86.73,
     "change_7d": 86.73,
-    "change_30d": 3.71
+    "change_30d": 3.71,
+    "slot": "tactical",
+    "price": 25968
   },
   {
     "id": "260",
@@ -11725,7 +13189,9 @@
     "change_ratio": 73.0,
     "change_3d": 65.68,
     "change_7d": 65.68,
-    "change_30d": 65.68
+    "change_30d": 65.68,
+    "slot": "tactical",
+    "price": 25998
   },
   {
     "id": "1179",
@@ -11741,7 +13207,9 @@
     "change_ratio": 24.0,
     "change_3d": -10.72,
     "change_7d": 4.17,
-    "change_30d": 31.6
+    "change_30d": 31.6,
+    "slot": "tactical",
+    "price": 26212
   },
   {
     "id": "385",
@@ -11757,7 +13225,9 @@
     "change_ratio": 25.0,
     "change_3d": -5.66,
     "change_7d": -1.96,
-    "change_30d": -1.96
+    "change_30d": -1.96,
+    "slot": "helmet",
+    "price": 27530
   },
   {
     "id": "350",
@@ -11773,7 +13243,9 @@
     "change_ratio": 121.0,
     "change_3d": 93.6,
     "change_7d": 107.47,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "tactical",
+    "price": 28246
   },
   {
     "id": "254",
@@ -11789,7 +13261,9 @@
     "change_ratio": 8.0,
     "change_3d": -3.57,
     "change_7d": 3.85,
-    "change_30d": -22.86
+    "change_30d": -22.86,
+    "slot": "helmet",
+    "price": 28483
   },
   {
     "id": "387",
@@ -11805,7 +13279,9 @@
     "change_ratio": 19.0,
     "change_3d": -1.25,
     "change_7d": 1.28,
-    "change_30d": 12.86
+    "change_30d": 12.86,
+    "slot": "tactical",
+    "price": 28914
   },
   {
     "id": "182",
@@ -11821,7 +13297,9 @@
     "change_ratio": 39.0,
     "change_3d": 0.0,
     "change_7d": 9.09,
-    "change_30d": -25.01
+    "change_30d": -25.01,
+    "slot": "helmet",
+    "price": 31300
   },
   {
     "id": "375",
@@ -11837,7 +13315,9 @@
     "change_ratio": 34.0,
     "change_3d": 2.56,
     "change_7d": 21.22,
-    "change_30d": 11.11
+    "change_30d": 11.11,
+    "slot": "tactical",
+    "price": 31739
   },
   {
     "id": "208",
@@ -11853,7 +13333,9 @@
     "change_ratio": 75.0,
     "change_3d": 52.72,
     "change_7d": 61.22,
-    "change_30d": 3.58
+    "change_30d": 3.58,
+    "slot": "tactical",
+    "price": 31768
   },
   {
     "id": "139",
@@ -11869,7 +13351,9 @@
     "change_ratio": 23.0,
     "change_3d": 10.0,
     "change_7d": 17.86,
-    "change_30d": -42.11
+    "change_30d": -42.11,
+    "slot": "tactical",
+    "price": 32581
   },
   {
     "id": "514",
@@ -11885,7 +13369,9 @@
     "change_ratio": 18.0,
     "change_3d": 0.0,
     "change_7d": 7.41,
-    "change_30d": 7.41
+    "change_30d": 7.41,
+    "slot": "vest",
+    "price": 33000
   },
   {
     "id": "1127",
@@ -11901,7 +13387,9 @@
     "change_ratio": 40.0,
     "change_3d": -3.19,
     "change_7d": 21.34,
-    "change_30d": 49.2
+    "change_30d": 49.2,
+    "slot": "tactical",
+    "price": 33731
   },
   {
     "id": "218",
@@ -11917,7 +13405,9 @@
     "change_ratio": 23.0,
     "change_3d": -1.72,
     "change_7d": 0.0,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "helmet",
+    "price": 34190
   },
   {
     "id": "471",
@@ -11933,7 +13423,9 @@
     "change_ratio": 42.0,
     "change_3d": -7.41,
     "change_7d": 0.0,
-    "change_30d": -16.68
+    "change_30d": -16.68,
+    "slot": "helmet",
+    "price": 36559
   },
   {
     "id": "495",
@@ -11949,7 +13441,9 @@
     "change_ratio": 26.0,
     "change_3d": 3.03,
     "change_7d": 21.44,
-    "change_30d": 36.02
+    "change_30d": 36.02,
+    "slot": "tactical",
+    "price": 38531
   },
   {
     "id": "129",
@@ -11965,7 +13459,9 @@
     "change_ratio": 28.0,
     "change_3d": 6.46,
     "change_7d": 17.87,
-    "change_30d": 73.75
+    "change_30d": 73.75,
+    "slot": "tactical",
+    "price": 38655
   },
   {
     "id": "480",
@@ -11981,7 +13477,9 @@
     "change_ratio": 24.0,
     "change_3d": -4.35,
     "change_7d": 0.0,
-    "change_30d": -34.33
+    "change_30d": -34.33,
+    "slot": "helmet",
+    "price": 38846
   },
   {
     "id": "564",
@@ -11997,7 +13495,9 @@
     "change_ratio": 32.0,
     "change_3d": -6.25,
     "change_7d": 7.15,
-    "change_30d": -6.25
+    "change_30d": -6.25,
+    "slot": "helmet",
+    "price": 43560
   },
   {
     "id": "295",
@@ -12013,7 +13513,9 @@
     "change_ratio": 55.0,
     "change_3d": -5.09,
     "change_7d": -1.76,
-    "change_30d": -3.45
+    "change_30d": -3.45,
+    "slot": "helmet",
+    "price": 44404
   },
   {
     "id": "1117",
@@ -12029,7 +13531,9 @@
     "change_ratio": 43.0,
     "change_3d": -3.85,
     "change_7d": 12.37,
-    "change_30d": 49.3
+    "change_30d": 49.3,
+    "slot": "tactical",
+    "price": 46832
   },
   {
     "id": "457",
@@ -12045,7 +13549,9 @@
     "change_ratio": 29.0,
     "change_3d": -3.03,
     "change_7d": 10.35,
-    "change_30d": -17.95
+    "change_30d": -17.95,
+    "slot": "vest",
+    "price": 47269
   },
   {
     "id": "365",
@@ -12061,7 +13567,9 @@
     "change_ratio": 25.0,
     "change_3d": 0.0,
     "change_7d": 12.5,
-    "change_30d": -14.29
+    "change_30d": -14.29,
+    "slot": "helmet",
+    "price": 47449
   },
   {
     "id": "54",
@@ -12077,7 +13585,9 @@
     "change_ratio": 86.0,
     "change_3d": 20.85,
     "change_7d": 81.34,
-    "change_30d": 26.11
+    "change_30d": 26.11,
+    "slot": "tactical",
+    "price": 48184
   },
   {
     "id": "589",
@@ -12093,7 +13603,9 @@
     "change_ratio": 30.0,
     "change_3d": -5.88,
     "change_7d": 6.67,
-    "change_30d": 0.0
+    "change_30d": 0.0,
+    "slot": "vest",
+    "price": 49054
   },
   {
     "id": "181",
@@ -12109,7 +13621,9 @@
     "change_ratio": 35.0,
     "change_3d": 5.56,
     "change_7d": 22.59,
-    "change_30d": 15.16
+    "change_30d": 15.16,
+    "slot": "tactical",
+    "price": 52656
   },
   {
     "id": "227",
@@ -12125,7 +13639,9 @@
     "change_ratio": 8.0,
     "change_3d": 8.0,
     "change_7d": 4.52,
-    "change_30d": 6.58
+    "change_30d": 6.58,
+    "slot": "tactical",
+    "price": 55084
   },
   {
     "id": "1216",
@@ -12141,7 +13657,9 @@
     "change_ratio": 61.0,
     "change_3d": 53.61,
     "change_7d": 53.61,
-    "change_30d": 7.5
+    "change_30d": 7.5,
+    "slot": "tactical",
+    "price": 58438
   },
   {
     "id": "26",
@@ -12157,7 +13675,9 @@
     "change_ratio": 48.0,
     "change_3d": 4.76,
     "change_7d": 4.76,
-    "change_30d": -46.35
+    "change_30d": -46.35,
+    "slot": "helmet",
+    "price": 65700
   },
   {
     "id": "549",
@@ -12173,7 +13693,9 @@
     "change_ratio": 32.0,
     "change_3d": 0.0,
     "change_7d": 5.41,
-    "change_30d": -7.14
+    "change_30d": -7.14,
+    "slot": "helmet",
+    "price": 67345
   },
   {
     "id": "321",
@@ -12189,7 +13711,9 @@
     "change_ratio": 30.0,
     "change_3d": -5.66,
     "change_7d": -1.96,
-    "change_30d": -5.66
+    "change_30d": -5.66,
+    "slot": "vest",
+    "price": 70599
   },
   {
     "id": "166",
@@ -12205,7 +13729,9 @@
     "change_ratio": 28.0,
     "change_3d": 5.66,
     "change_7d": 5.66,
-    "change_30d": 7.69
+    "change_30d": 7.69,
+    "slot": "helmet",
+    "price": 73468
   },
   {
     "id": "133",
@@ -12221,7 +13747,9 @@
     "change_ratio": 41.0,
     "change_3d": -2.08,
     "change_7d": 23.7,
-    "change_30d": 34.3
+    "change_30d": 34.3,
+    "slot": "tactical",
+    "price": 74206
   },
   {
     "id": "329",
@@ -12237,7 +13765,9 @@
     "change_ratio": 50.0,
     "change_3d": 10.26,
     "change_7d": 30.31,
-    "change_30d": 48.29
+    "change_30d": 48.29,
+    "slot": "tactical",
+    "price": 75103
   },
   {
     "id": "402",
@@ -12253,7 +13783,9 @@
     "change_ratio": 73.0,
     "change_3d": -1.79,
     "change_7d": 0.0,
-    "change_30d": -30.38
+    "change_30d": -30.38,
+    "slot": "helmet",
+    "price": 85308
   },
   {
     "id": "255",
@@ -12269,7 +13801,9 @@
     "change_ratio": 172.0,
     "change_3d": -8.89,
     "change_7d": -4.65,
-    "change_30d": -22.65
+    "change_30d": -22.65,
+    "slot": "helmet",
+    "price": 85754
   },
   {
     "id": "97",
@@ -12285,7 +13819,9 @@
     "change_ratio": 64.0,
     "change_3d": -5.77,
     "change_7d": 0.0,
-    "change_30d": -15.52
+    "change_30d": -15.52,
+    "slot": "vest",
+    "price": 95919
   },
   {
     "id": "406",
@@ -12301,7 +13837,9 @@
     "change_ratio": 17.0,
     "change_3d": 1.89,
     "change_7d": 0.93,
-    "change_30d": 17.39
+    "change_30d": 17.39,
+    "slot": "tactical",
+    "price": 119326
   },
   {
     "id": "1181",
@@ -12317,6 +13855,8 @@
     "change_ratio": 56.0,
     "change_3d": 14.78,
     "change_7d": 14.22,
-    "change_30d": 18.27
+    "change_30d": 18.27,
+    "slot": "vest",
+    "price": 1414944
   }
 ]
