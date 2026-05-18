@@ -4,7 +4,8 @@
     "name_cn": "轻型背心",
     "slot": "vest",
     "stat_mods": { "armor": 8, "mobility": 2 },
-    "price": 1200,
+    "price": 1599,
+    "price_source": "实测参考：安保防弹衣",
     "tier": 1,
     "tags": ["机动"]
   },
@@ -13,7 +14,8 @@
     "name_cn": "标准背心",
     "slot": "vest",
     "stat_mods": { "armor": 15, "mobility": 0 },
-    "price": 2400,
+    "price": 5888,
+    "price_source": "实测参考：HT战术背心",
     "tier": 2,
     "tags": ["平衡"]
   },
@@ -22,7 +24,8 @@
     "name_cn": "重型防弹背心",
     "slot": "vest",
     "stat_mods": { "armor": 25, "mobility": -4 },
-    "price": 4200,
+    "price": 25708,
+    "price_source": "实测参考：制式防弹背心",
     "tier": 3,
     "tags": ["防护"]
   },
@@ -31,7 +34,8 @@
     "name_cn": "战术突击背心",
     "slot": "vest",
     "stat_mods": { "armor": 18, "mobility": -1, "handling": 3 },
-    "price": 3800,
+    "price": 38296,
+    "price_source": "实测参考：TG-H防弹衣",
     "tier": 2,
     "tags": ["全能"]
   },
@@ -40,7 +44,8 @@
     "name_cn": "轻型头盔",
     "slot": "helmet",
     "stat_mods": { "armor": 5, "mobility": 3 },
-    "price": 800,
+    "price": 1858,
+    "price_source": "实测参考：安保头盔",
     "tier": 1,
     "tags": ["机动"]
   },
@@ -49,7 +54,8 @@
     "name_cn": "标准头盔",
     "slot": "helmet",
     "stat_mods": { "armor": 12, "mobility": 0 },
-    "price": 1800,
+    "price": 5855,
+    "price_source": "实测参考：DRO战术头盔",
     "tier": 2,
     "tags": ["平衡"]
   },
@@ -58,7 +64,8 @@
     "name_cn": "防弹头盔",
     "slot": "helmet",
     "stat_mods": { "armor": 20, "mobility": -3, "handling": -1 },
-    "price": 3600,
+    "price": 19034,
+    "price_source": "实测参考：H07战术头盔",
     "tier": 3,
     "tags": ["防护"]
   },
@@ -67,7 +74,8 @@
     "name_cn": "夜视仪头盔",
     "slot": "helmet",
     "stat_mods": { "armor": 10, "mobility": 1, "accuracy": 3 },
-    "price": 5000,
+    "price": 24337,
+    "price_source": "实测参考：防暴头盔",
     "tier": 3,
     "tags": ["夜战"]
   },
@@ -77,6 +85,7 @@
     "slot": "knee",
     "stat_mods": { "mobility": 2 },
     "price": 0,
+    "price_source": "无额外护膝装备",
     "tier": 0,
     "tags": ["零成本"]
   },
@@ -85,7 +94,8 @@
     "name_cn": "轻型护膝",
     "slot": "knee",
     "stat_mods": { "armor": 3, "mobility": 1 },
-    "price": 500,
+    "price": 1500,
+    "price_source": "估算参考：防具低价区间",
     "tier": 1,
     "tags": ["机动"]
   },
@@ -94,7 +104,8 @@
     "name_cn": "标准战术护膝",
     "slot": "knee",
     "stat_mods": { "armor": 6, "mobility": 0 },
-    "price": 1000,
+    "price": 3000,
+    "price_source": "估算参考：防具中价区间",
     "tier": 2,
     "tags": ["平衡"]
   },
@@ -103,7 +114,8 @@
     "name_cn": "重型护膝",
     "slot": "knee",
     "stat_mods": { "armor": 10, "mobility": -2 },
-    "price": 2200,
+    "price": 6000,
+    "price_source": "估算参考：防具高价区间",
     "tier": 3,
     "tags": ["防护"]
   },
@@ -112,7 +124,8 @@
     "name_cn": "标准战斗靴",
     "slot": "boots",
     "stat_mods": { "mobility": 0, "armor": 2 },
-    "price": 1000,
+    "price": 1500,
+    "price_source": "估算参考：防具低价区间",
     "tier": 1,
     "tags": ["平衡"]
   },
@@ -121,7 +134,8 @@
     "name_cn": "轻型战术靴",
     "slot": "boots",
     "stat_mods": { "mobility": 5, "armor": 0 },
-    "price": 1400,
+    "price": 2500,
+    "price_source": "估算参考：防具低价区间",
     "tier": 2,
     "tags": ["机动"]
   },
@@ -130,7 +144,8 @@
     "name_cn": "静音战靴",
     "slot": "boots",
     "stat_mods": { "mobility": 3, "stealth": 10 },
-    "price": 2000,
+    "price": 3500,
+    "price_source": "估算参考：防具中价区间",
     "tier": 2,
     "tags": ["隐蔽"]
   },
@@ -139,7 +154,8 @@
     "name_cn": "装甲战斗靴",
     "slot": "boots",
     "stat_mods": { "mobility": -2, "armor": 8 },
-    "price": 2800,
+    "price": 5000,
+    "price_source": "估算参考：防具中高价区间",
     "tier": 3,
     "tags": ["防护"]
   },
@@ -149,6 +165,7 @@
     "slot": "tactical",
     "stat_mods": {},
     "price": 0,
+    "price_source": "无额外战术配件",
     "tier": 0,
     "tags": ["零成本"]
   },
@@ -157,7 +174,8 @@
     "name_cn": "战术手套",
     "slot": "tactical",
     "stat_mods": { "handling": 5, "accuracy": 2 },
-    "price": 800,
+    "price": 3000,
+    "price_source": "估算参考：防具低价区间",
     "tier": 1,
     "tags": ["操控"]
   },
@@ -166,7 +184,8 @@
     "name_cn": "战术枪套",
     "slot": "tactical",
     "stat_mods": { "handling": 4, "mobility": 2 },
-    "price": 1200,
+    "price": 5630,
+    "price_source": "实测参考：灰熊全威力快拔套",
     "tier": 2,
     "tags": ["机动"]
   },
@@ -175,7 +194,8 @@
     "name_cn": "通讯耳机",
     "slot": "tactical",
     "stat_mods": { "accuracy": 3, "mobility": 2 },
-    "price": 1600,
+    "price": 3500,
+    "price_source": "估算参考：防具中价区间",
     "tier": 2,
     "tags": ["团队"]
   }
