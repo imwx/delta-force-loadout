@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>三角洲行动 · 装备搭配分析站</title>
+  <meta name="description" content="三角洲行动 Delta Force Hawk Ops 武器载具弹药量化评分，搭配分析，配装码。全面战场&危险行动双模式支持。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a href="#" class="nav-logo" onclick="navigate('home');return false;">
+          <span class="logo-icon">🎯</span>
+          DeltaForce 搭配站
+        </a>
+        <div class="nav-links">
+          <a href="#" class="nav-link active" data-page="home">
+            <span class="icon">🏠</span>
+            <span>首页</span>
+          </a>
+          <a href="#" class="nav-link" data-page="build">
+            <span class="icon">⚙️</span>
+            <span>搭配构建器</span>
+          </a>
+          <a href="#" class="nav-link" data-page="weapons">
+            <span class="icon">🔫</span>
+            <span>武器库</span>
+          </a>
+          <a href="#" class="nav-link" data-page="vehicles">
+            <span class="icon">🚁</span>
+            <span>载具库</span>
+          </a>
+          <a href="#" class="nav-link" data-page="ammo">
+            <span class="icon">💨</span>
+            <span>弹药</span>
+          </a>
+          <a href="#" class="nav-link" data-page="meta">
+            <span class="icon">🏆</span>
+            <span>强势推荐</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main id="app">
+    <!-- 加载中 -->
+    <div style="display:flex;align-items:center;justify-content:center;min-height:60vh;flex-direction:column;gap:16px;color:var(--text-muted);">
+      <div style="font-size:3rem;">🎯</div>
+      <div style="font-size:1.1rem;">加载数据中...</div>
+    </div>
+  </main>
+
+  <!-- Modal -->
+  <div class="modal-overlay" id="modal-overlay"></div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>三角洲行动 · 装备搭配分析站 | 数据基于公开信息整理，仅供参考</p>
+      <p style="margin-top:6px;">本项目与腾讯/英雄游戏无关 · <a href="https://deltaforcefps.com" target="_blank" rel="noopener">deltaforcefps.com</a> · <a href="https://deltaforcetools.gg" target="_blank" rel="noopener">deltaforcetools.gg</a></p>
+    </div>
+  </footer>
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+
+  <!-- 内联数据（备用，当 fetch 失败时使用） -->
+  <script>
+  // 内联数据防止 fetch 失败
+  </script>
+
+  <!-- Calculator -->
+  <script src="./js/calculator.js"></script>
+
+  <!-- Main App -->
+  <script src="./js/app.js"></script>
+
+  <!-- Radar Chart Enhancement -->
+  <script>
+  // 覆盖 analyzeBuild 后的雷达图渲染
+  const _origAnalyzeBuild = analyzeBuild;
+  </script>
+</body>
+</html>

@@ -1,0 +1,249 @@
+[
+  {
+    "id": "556x45-nato",
+    "name_cn": "5.56×45mm NATO弹",
+    "name_en": "5.56×45mm NATO",
+    "caliber": "5.56×45mm NATO",
+    "stats": {
+      "penetration": 55,
+      "damage": 65,
+      "range": 70,
+      "armor_piercing": "标准"
+    },
+    "best_for": ["M4A1", "K416", "M16A4", "CI-19", "AUG", "CAR-15"],
+    "price": 200,
+    "unlock_level": 1
+  },
+  {
+    "id": "556-ap",
+    "name_cn": "5.56mm穿甲弹",
+    "name_en": "5.56mm Armor Piercing",
+    "caliber": "5.56×45mm NATO",
+    "stats": {
+      "penetration": 78,
+      "damage": 60,
+      "range": 65,
+      "armor_piercing": "高"
+    },
+    "best_for": ["M4A1", "K416", "CI-19"],
+    "price": 350,
+    "unlock_level": 15
+  },
+  {
+    "id": "762x39",
+    "name_cn": "7.62×39mm M43弹",
+    "name_en": "7.62×39mm M43",
+    "caliber": "7.62×39mm",
+    "stats": {
+      "penetration": 60,
+      "damage": 78,
+      "range": 55,
+      "armor_piercing": "标准"
+    },
+    "best_for": ["AKM", "AKS-74"],
+    "price": 220,
+    "unlock_level": 1
+  },
+  {
+    "id": "762x51",
+    "name_cn": "7.62×51mm NATO弹",
+    "name_en": "7.62×51mm NATO",
+    "caliber": "7.62×51mm NATO",
+    "stats": {
+      "penetration": 80,
+      "damage": 85,
+      "range": 90,
+      "armor_piercing": "高"
+    },
+    "best_for": ["M14", "MK47", "SCAR-H", "M7", "R93", "SV-98"],
+    "price": 380,
+    "unlock_level": 20
+  },
+  {
+    "id": "545x39",
+    "name_cn": "5.45×39mm弹",
+    "name_en": "5.45×39mm",
+    "caliber": "5.45×39mm",
+    "stats": {
+      "penetration": 52,
+      "damage": 70,
+      "range": 72,
+      "armor_piercing": "标准"
+    },
+    "best_for": ["AK-74M", "AK-12", "AKS-74"],
+    "price": 200,
+    "unlock_level": 1
+  },
+  {
+    "id": "545-ap",
+    "name_cn": "5.45mm穿甲弹",
+    "name_en": "5.45mm Armor Piercing",
+    "caliber": "5.45×39mm",
+    "stats": {
+      "penetration": 75,
+      "damage": 65,
+      "range": 68,
+      "armor_piercing": "高"
+    },
+    "best_for": ["AK-74M", "AK-12"],
+    "price": 340,
+    "unlock_level": 18
+  },
+  {
+    "id": "9x18",
+    "name_cn": "9×18mm马卡洛夫弹",
+    "name_en": "9×18mm Makarov",
+    "caliber": "9×18mm",
+    "stats": {
+      "penetration": 30,
+      "damage": 42,
+      "range": 30,
+      "armor_piercing": "低"
+    },
+    "best_for": ["手枪类武器"],
+    "price": 80,
+    "unlock_level": 1
+  },
+  {
+    "id": "9x19",
+    "name_cn": "9×19mm派弹",
+    "name_en": "9×19mm Parabellum",
+    "caliber": "9×19mm",
+    "stats": {
+      "penetration": 40,
+      "damage": 48,
+      "range": 38,
+      "armor_piercing": "标准"
+    },
+    "best_for": ["MP5", "UZI", "Vector"],
+    "price": 120,
+    "unlock_level": 1
+  },
+  {
+    "id": "9x19-hp",
+    "name_cn": "9mm空尖弹",
+    "name_en": "9mm Hollow Point",
+    "caliber": "9×19mm",
+    "stats": {
+      "penetration": 25,
+      "damage": 62,
+      "range": 25,
+      "armor_piercing": "无"
+    },
+    "best_for": ["MP5", "UZI"],
+    "price": 160,
+    "unlock_level": 8,
+    "description": "危险行动模式高伤害选择，对无护甲目标伤害极高，但无法穿透任何护甲。"
+  },
+  {
+    "id": "9x39",
+    "name_cn": "9×39mm亚音速弹",
+    "name_en": "9×39mm Subsonic",
+    "caliber": "9×39mm",
+    "stats": {
+      "penetration": 65,
+      "damage": 72,
+      "range": 55,
+      "armor_piercing": "高"
+    },
+    "best_for": ["AS Val", "SR-3M", "VSS"],
+    "price": 300,
+    "unlock_level": 25,
+    "description": "亚音速弹药，射击时声音极小（消音效果极佳），穿深和伤害均优秀，是潜入战术的首选弹药。"
+  },
+  {
+    "id": "45acp",
+    "name_cn": ".45 ACP弹",
+    "name_en": ".45 ACP",
+    "caliber": ".45 ACP",
+    "stats": {
+      "penetration": 35,
+      "damage": 55,
+      "range": 35,
+      "armor_piercing": "低"
+    },
+    "best_for": ["SMG-45", "Vector"],
+    "price": 130,
+    "unlock_level": 5
+  },
+  {
+    "id": "46x30",
+    "name_cn": "4.6×30mm弹",
+    "name_en": "4.6×30mm",
+    "caliber": "4.6×30mm",
+    "stats": {
+      "penetration": 70,
+      "damage": 45,
+      "range": 42,
+      "armor_piercing": "高"
+    },
+    "best_for": ["MP7"],
+    "price": 280,
+    "unlock_level": 22,
+    "description": "专为MP7设计的穿甲弹，穿深极高，可击穿大多数轻型防弹衣。对护甲目标效果显著。"
+  },
+  {
+    "id": "300-win",
+    "name_cn": ".300温彻斯特马格南弹",
+    "name_en": ".300 Winchester Magnum",
+    "caliber": ".300 Win Mag",
+    "stats": {
+      "penetration": 90,
+      "damage": 95,
+      "range": 98,
+      "armor_piercing": "极高"
+    },
+    "best_for": ["AWM"],
+    "price": 500,
+    "unlock_level": 35,
+    "description": "狙击步枪顶级弹药，远射程、高穿深、超高伤害，一击可击穿三级护甲。"
+  },
+  {
+    "id": "338-lapua",
+    "name_cn": ".338拉普阿弹",
+    "name_en": ".338 Lapua Magnum",
+    "caliber": ".338 Lapua",
+    "stats": {
+      "penetration": 88,
+      "damage": 92,
+      "range": 95,
+      "armor_piercing": "极高"
+    },
+    "best_for": ["R93"],
+    "price": 480,
+    "unlock_level": 30,
+    "description": "反器材级狙击弹药，兼具AWM的威力和更快的射速，是R93等狙击步枪的最佳搭档。"
+  },
+  {
+    "id": "12g-buck",
+    "name_cn": "12号霰弹（鹿弹）",
+    "name_en": "12 Gauge Buckshot",
+    "caliber": "12 Gauge",
+    "stats": {
+      "penetration": 25,
+      "damage": 90,
+      "range": 20,
+      "armor_piercing": "无"
+    },
+    "best_for": ["S12K"],
+    "price": 180,
+    "unlock_level": 1,
+    "description": "近距离大威力霰弹，一发多丸，近距离可一击毙命。超出中距离几乎无效。"
+  },
+  {
+    "id": "12g-ap",
+    "name_cn": "12号穿甲霰弹",
+    "name_en": "12 Gauge AP Slug",
+    "caliber": "12 Gauge",
+    "stats": {
+      "penetration": 55,
+      "damage": 75,
+      "range": 40,
+      "armor_piercing": "中"
+    },
+    "best_for": ["S12K"],
+    "price": 260,
+    "unlock_level": 20,
+    "description": "单发穿甲弹丸，可击穿轻装甲和头盔，近距离威力略低于鹿弹，但穿甲能力大幅提升。"
+  }
+]

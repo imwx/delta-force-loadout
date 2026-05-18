@@ -1,0 +1,302 @@
+[
+  {
+    "id": "m1a2-abrams",
+    "name_cn": "M1A2艾布拉姆斯主战坦克",
+    "name_en": "M1A2 Abrams MBT",
+    "type": "主战坦克",
+    "type_en": "Main Battle Tank",
+    "faction": "nato",
+    "stats": {
+      "hp": 5000,
+      "armor": 95,
+      "main_weapon_damage": 92,
+      "secondary_weapon_damage": 60,
+      "speed": 35,
+      "stealth": 15,
+      "passenger_capacity": 4
+    },
+    "weapons": ["120mm滑膛炮", "M2HB重机枪", "M240同轴机枪"],
+    "unlock_rank": "中尉2",
+    "description": "全面战场最强主战坦克，正面装甲防护极佳，主炮威力巨大，但机动性差，容易被反坦克武器针对。"
+  },
+  {
+    "id": "t-90ms",
+    "name_cn": "T-90MS主战坦克",
+    "name_en": "T-90MS Main Battle Tank",
+    "type": "主战坦克",
+    "type_en": "Main Battle Tank",
+    "faction": "east",
+    "stats": {
+      "hp": 4800,
+      "armor": 92,
+      "main_weapon_damage": 90,
+      "secondary_weapon_damage": 65,
+      "speed": 38,
+      "stealth": 18,
+      "passenger_capacity": 3
+    },
+    "weapons": ["125mm滑膛炮", "NSVT重机枪", "PKT同轴机枪"],
+    "unlock_rank": "中尉2",
+    "description": "俄系主战坦克，综合性能均衡，机动性略优于M1A2，但装甲和火力稍逊。"
+  },
+  {
+    "id": "bradley-ifv",
+    "name_cn": "布雷德利步兵战车",
+    "name_en": "M2 Bradley IFV",
+    "type": "步兵战车",
+    "type_en": "Infantry Fighting Vehicle",
+    "faction": "nato",
+    "stats": {
+      "hp": 2500,
+      "armor": 70,
+      "main_weapon_damage": 55,
+      "secondary_weapon_damage": 40,
+      "speed": 65,
+      "stealth": 35,
+      "passenger_capacity": 6
+    },
+    "weapons": ["25mm机炮", "陶式反坦克导弹", "M240C同轴机枪"],
+    "unlock_rank": "中尉1",
+    "description": "北约制式步兵战车，机动灵活，载员量大，可发射陶式导弹对坦克构成威胁。装甲较薄，不宜正面硬抗。"
+  },
+  {
+    "id": "bmp-3",
+    "name_cn": "BMP-3步兵战车",
+    "name_en": "BMP-3 IFV",
+    "type": "步兵战车",
+    "type_en": "Infantry Fighting Vehicle",
+    "faction": "east",
+    "stats": {
+      "hp": 2400,
+      "armor": 68,
+      "main_weapon_damage": 58,
+      "secondary_weapon_damage": 45,
+      "speed": 70,
+      "stealth": 38,
+      "passenger_capacity": 7
+    },
+    "weapons": ["100mm低压炮/导弹两用炮", "30mm机炮", "7.62mm同轴机枪"],
+    "unlock_rank": "中尉1",
+    "description": "俄系步兵战车，速度快、载人多，主炮可发射导弹。装甲防护较弱，适合快速突击和骚扰。"
+  },
+  {
+    "id": "m2-javelin-aa",
+    "name_cn": "M2布莱德利防空型",
+    "name_en": "M2 Bradley AA",
+    "type": "防空载具",
+    "type_en": "Anti-Air Vehicle",
+    "faction": "nato",
+    "stats": {
+      "hp": 2000,
+      "armor": 55,
+      "main_weapon_damage": 75,
+      "secondary_weapon_damage": 30,
+      "speed": 68,
+      "stealth": 30,
+      "passenger_capacity": 3
+    },
+    "weapons": ["毒刺防空导弹", "25mm机炮"],
+    "unlock_rank": "上士3",
+    "description": "与布雷德利IFV同底盘，专为防空设计。可有效打击敌方直升机和攻击机，机炮也可对轻装甲目标造成伤害。"
+  },
+  {
+    "id": "zsd-typ-90",
+    "name_cn": "ZSD-90自行高炮",
+    "name_en": "ZSD Type 90 SPAAG",
+    "type": "防空载具",
+    "type_en": "Anti-Air Vehicle",
+    "faction": "east",
+    "stats": {
+      "hp": 1900,
+      "armor": 52,
+      "main_weapon_damage": 72,
+      "secondary_weapon_damage": 25,
+      "speed": 72,
+      "stealth": 32,
+      "passenger_capacity": 3
+    },
+    "weapons": ["双管37mm高炮", "红樱-6防空导弹"],
+    "unlock_rank": "上士3",
+    "description": "中国产自行高炮，高射速机炮对空中目标压制力强，也可对步兵造成大量伤害。装甲薄弱。"
+  },
+  {
+    "id": "ah-64-apache",
+    "name_cn": "AH-64阿帕奇武装直升机",
+    "name_en": "AH-64 Apache",
+    "type": "武装直升机",
+    "type_en": "Attack Helicopter",
+    "faction": "nato",
+    "stats": {
+      "hp": 3000,
+      "armor": 60,
+      "main_weapon_damage": 88,
+      "secondary_weapon_damage": 55,
+      "speed": 80,
+      "stealth": 22,
+      "passenger_capacity": 2
+    },
+    "weapons": ["地狱火反坦克导弹", "九头蛇70mm火箭弹", "M230链炮"],
+    "unlock_rank": "上尉1",
+    "description": "全面战场最强空中火力平台。地狱火导弹对坦克有极高杀伤力，机动性强，是真正的坦克杀手。怕防空炮和战斗机。"
+  },
+  {
+    "id": "mi-28-havoc",
+    "name_cn": "Mi-28浩劫武装直升机",
+    "name_en": "Mi-28 Havoc",
+    "type": "武装直升机",
+    "type_en": "Attack Helicopter",
+    "faction": "east",
+    "stats": {
+      "hp": 2800,
+      "armor": 65,
+      "main_weapon_damage": 85,
+      "secondary_weapon_damage": 50,
+      "speed": 78,
+      "stealth": 25,
+      "passenger_capacity": 2
+    },
+    "weapons": ["攻击-X反坦克导弹", "S-8火箭弹", "2A42机炮"],
+    "unlock_rank": "上尉1",
+    "description": "俄系武装直升机，攻击-X导弹穿甲能力出色，装甲防护优于阿帕奇。旋翼设计使其生存性更高。"
+  },
+  {
+    "id": "uh-60-blackhawk",
+    "name_cn": "UH-60黑鹰通用直升机",
+    "name_en": "UH-60 Black Hawk",
+    "type": "运输直升机",
+    "type_en": "Transport Helicopter",
+    "faction": "nato",
+    "stats": {
+      "hp": 1800,
+      "armor": 35,
+      "main_weapon_damage": 20,
+      "secondary_weapon_damage": 0,
+      "speed": 85,
+      "stealth": 30,
+      "passenger_capacity": 8
+    },
+    "weapons": ["M134火神炮（舱门枪）"],
+    "unlock_rank": "少尉1",
+    "description": "通用运输直升机，载员量最大，可快速部署步兵班。装甲极薄，无武装版本极易被肩扛式导弹击落。"
+  },
+  {
+    "id": "mi-17-hip",
+    "name_cn": "Mi-17河马通用直升机",
+    "name_en": "Mi-17 Hip",
+    "type": "运输直升机",
+    "type_en": "Transport Helicopter",
+    "faction": "east",
+    "stats": {
+      "hp": 2000,
+      "armor": 40,
+      "main_weapon_damage": 25,
+      "secondary_weapon_damage": 0,
+      "speed": 82,
+      "stealth": 28,
+      "passenger_capacity": 10
+    },
+    "weapons": ["PKT舱门机枪"],
+    "unlock_rank": "少尉1",
+    "description": "俄系运输直升机，载员量最多，高原性能优异。机动性良好，但装甲薄弱，适合快速穿插部署。"
+  },
+  {
+    "id": "f-16-fighting-falcon",
+    "name_cn": "F-16战隼攻击机",
+    "name_en": "F-16 Fighting Falcon",
+    "type": "攻击机",
+    "type_en": "Attack Aircraft",
+    "faction": "nato",
+    "stats": {
+      "hp": 1500,
+      "armor": 25,
+      "main_weapon_damage": 95,
+      "secondary_weapon_damage": 60,
+      "speed": 100,
+      "stealth": 10,
+      "passenger_capacity": 1
+    },
+    "weapons": ["AGM-65小牛反坦克导弹", "GBU-12激光制导炸弹", "M61火神机炮"],
+    "unlock_rank": "上尉3",
+    "description": "制空和对地双重能力，快速抵达战场。投弹威力极大，但低空低速时脆弱，俯冲攻击后需快速拉起规避防空。"
+  },
+  {
+    "id": "su-25-frogfoot",
+    "name_cn": "Su-25蛙足攻击机",
+    "name_en": "Su-25 Frogfoot",
+    "type": "攻击机",
+    "type_en": "Attack Aircraft",
+    "faction": "east",
+    "stats": {
+      "hp": 2200,
+      "armor": 50,
+      "main_weapon_damage": 92,
+      "secondary_weapon_damage": 65,
+      "speed": 90,
+      "stealth": 12,
+      "passenger_capacity": 1
+    },
+    "weapons": ["Kh-25反坦克导弹", "S-24火箭弹", "GSh-30-2机炮"],
+    "unlock_rank": "上尉3",
+    "description": "专职对地攻击机，低空低速性能好，生存性优于F-16。装甲设计可承受轻武器攻击，适合CAS近距支援。"
+  },
+  {
+    "id": "humvee",
+    "name_cn": "悍马轻型突击车",
+    "name_en": "Humvee",
+    "type": "轻型突击车",
+    "type_en": "Light Attack Vehicle",
+    "faction": "nato",
+    "stats": {
+      "hp": 800,
+      "armor": 25,
+      "main_weapon_damage": 30,
+      "secondary_weapon_damage": 0,
+      "speed": 95,
+      "stealth": 55,
+      "passenger_capacity": 4
+    },
+    "weapons": ["M2重机枪/标枪导弹/陶式"],
+    "unlock_rank": "列兵",
+    "description": "基础轻型突击车，速度极快，适合快速穿插和侦察。可加装机枪或反坦克导弹，生存性低。"
+  },
+  {
+    "id": "btr-82a",
+    "name_cn": "BTR-82A轮式装甲车",
+    "name_en": "BTR-82A",
+    "type": "轮式装甲车",
+    "type_en": "Wheeled Armored Vehicle",
+    "faction": "east",
+    "stats": {
+      "hp": 1200,
+      "armor": 50,
+      "main_weapon_damage": 48,
+      "secondary_weapon_damage": 35,
+      "speed": 80,
+      "stealth": 42,
+      "passenger_capacity": 8
+    },
+    "weapons": ["30mm机炮", "反坦克导弹"],
+    "unlock_rank": "下士1",
+    "description": "俄系8x8轮式装甲车，公路机动性出色，载员量大。30mm机炮对步兵和轻装甲目标压制力强。"
+  },
+  {
+    "id": "stryker",
+    "name_cn": "斯特赖克轮式装甲车",
+    "name_en": "Stryker ICV",
+    "type": "轮式装甲车",
+    "type_en": "Wheeled Armored Vehicle",
+    "faction": "nato",
+    "stats": {
+      "hp": 1500,
+      "armor": 58,
+      "main_weapon_damage": 52,
+      "secondary_weapon_damage": 40,
+      "speed": 75,
+      "stealth": 38,
+      "passenger_capacity": 9
+    },
+    "weapons": ["Mk44大毒蛇II机炮", "陶式反坦克导弹"],
+    "unlock_rank": "下士1",
+    "description": "美军制式轮式装甲车，火力和装甲均优于BTR-82A。陶式导弹赋予其反坦克能力，是全面战场的多面手。"
+  }
+]
