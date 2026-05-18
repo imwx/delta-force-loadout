@@ -228,16 +228,16 @@ const Calculator = (function() {
     // 载具分析（havoc模式）
     if (mode === 'havoc' && v) {
       if (v.type === '主战坦克') {
-        pros.push(`【全面战场】${v.name_cn}正面装甲防护极佳，主炮威力巨大');
-        cons.push(`【全面战场】${v.name_cn}机动性差，容易被反坦克武器针对');
+        pros.push(`【全面战场】${v.name_cn}正面装甲防护极佳，主炮威力巨大`);
+        cons.push(`【全面战场】${v.name_cn}机动性差，容易被反坦克武器针对`);
       }
       if (v.type === '武装直升机') {
-        pros.push(`【全面战场】${v.name_cn}是空中坦克杀手，机动灵活');
-        cons.push(`【全面战场】${v.name_cn}装甲较弱，怕防空炮');
+        pros.push(`【全面战场】${v.name_cn}是空中坦克杀手，机动灵活`);
+        cons.push(`【全面战场】${v.name_cn}装甲较弱，怕防空炮`);
       }
       if (v.type === '运输直升机') {
-        pros.push(`【全面战场】${v.name_cn}载员量大，适合快速部署步兵班');
-        cons.push(`【全面战场】${v.name_cn}装甲极薄，需防空掩护');
+        pros.push(`【全面战场】${v.name_cn}载员量大，适合快速部署步兵班`);
+        cons.push(`【全面战场】${v.name_cn}装甲极薄，需防空掩护`);
       }
     }
 
