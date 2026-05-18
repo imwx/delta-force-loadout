@@ -566,11 +566,13 @@ function renderBuilder() {
 
         <div class="step-section">
           <div class="step-title"><span class="step-number">3</span> 武器配件</div>
+          <div id="builder-attachments-area">
           ${state.selectedWeapon ? `
           <div class="builder-attachments-grid">
             ${GEAR_SLOTS.map(slot => renderBuilderAttachmentSlot(slot)).join('')}
           </div>
           ` : `<div class="builder-att-placeholder">请先选择一把武器以配置配件</div>`}
+          </div>
         </div>
 
         <div class="step-section">
@@ -658,6 +660,13 @@ function selectWeapon(id) {
   state.selectedWeapon = id ? DataDB.getWeaponById(id) : null;
   state.builderAttachments = {};
   state.analysisResult = null;
+  // 更新配件区域
+  const attArea = $('#builder-attachments-area');
+  if (attArea) {
+    attArea.innerHTML = state.selectedWeapon
+      ? `<div class="builder-attachments-grid">${GEAR_SLOTS.map(slot => renderBuilderAttachmentSlot(slot)).join('')}</div>`
+      : `<div class="builder-att-placeholder">请先选择一把武器以配置配件</div>`;
+  }
   // 自动更新弹药选项
   if (id) {
     const w = state.selectedWeapon;
