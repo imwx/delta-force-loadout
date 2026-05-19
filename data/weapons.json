@@ -27,7 +27,10 @@
     ],
     "loadout_price": 17640,
     "price": 17640,
-    "custom_code": "6IK11K003KTK601F43COS"
+    "custom_code": "6IK11K003KTK601F43COS",
+    "price_3d": 17640,
+    "price_7d": 17640,
+    "price_30d": 17030
   },
   {
     "id": "w2",
@@ -55,9 +58,12 @@
     "tags": [
       "高伤害"
     ],
-    "loadout_price": 13899,
-    "price": 13899,
-    "custom_code": "6G9423S08OPOB8QKQ72I8"
+    "loadout_price": 13900,
+    "price": 13900,
+    "custom_code": "6G9423S08OPOB8QKQ72I8",
+    "price_3d": 13900,
+    "price_7d": 13150,
+    "price_30d": 13900
   },
   {
     "id": "w3",
@@ -85,9 +91,12 @@
     "tags": [
       "新手"
     ],
-    "loadout_price": 4800,
-    "price": 4800,
-    "custom_code": "6GDORHK02QIKBV894R7VJ"
+    "loadout_price": 58,
+    "price": 58,
+    "custom_code": "6GDORHK02QIKBV894R7VJ",
+    "price_3d": 58,
+    "price_7d": 5000,
+    "price_30d": 4800
   },
   {
     "id": "w4",
@@ -115,9 +124,12 @@
     "tags": [
       "全自动手枪"
     ],
-    "loadout_price": 17535,
-    "price": 17535,
-    "custom_code": "6GQG1O006S5HCI6L9NAJQ"
+    "loadout_price": 1540,
+    "price": 1540,
+    "custom_code": "6GQG1O006S5HCI6L9NAJQ",
+    "price_3d": 1540,
+    "price_7d": 18085,
+    "price_30d": 15885
   },
   {
     "id": "w5",
@@ -145,9 +157,12 @@
     "tags": [
       "经典"
     ],
-    "loadout_price": 17374,
-    "price": 17374,
-    "custom_code": "6IT12MG066MHHVC5Q80C6"
+    "loadout_price": 784,
+    "price": 784,
+    "custom_code": "6IT12MG066MHHVC5Q80C6",
+    "price_3d": 784,
+    "price_7d": 17375,
+    "price_30d": 17030
   },
   {
     "id": "w6",
@@ -175,9 +190,12 @@
     "tags": [
       "标准配置"
     ],
-    "loadout_price": 4800,
-    "price": 4800,
-    "custom_code": "6IT14U0066MHHVC5Q80C6"
+    "loadout_price": 56,
+    "price": 56,
+    "custom_code": "6IT14U0066MHHVC5Q80C6",
+    "price_3d": 56,
+    "price_7d": 5000,
+    "price_30d": 5000
   },
   {
     "id": "w7",
@@ -205,9 +223,12 @@
     "tags": [
       "全自动"
     ],
-    "loadout_price": 19111,
-    "price": 19111,
-    "custom_code": "6G941RG08OPOB8QKQ72I8"
+    "loadout_price": 585,
+    "price": 585,
+    "custom_code": "6G941RG08OPOB8QKQ72I8",
+    "price_3d": 585,
+    "price_7d": 19112,
+    "price_30d": 18725
   },
   {
     "id": "w8",
@@ -1887,9 +1908,12 @@
       "近战",
       "一箭秒杀"
     ],
-    "loadout_price": 78000,
-    "price": 78000,
-    "custom_code": "6GPEAS80CQ9J5LUV083F9"
+    "loadout_price": 108000,
+    "price": 108000,
+    "custom_code": "6GPEAS80CQ9J5LUV083F9",
+    "price_3d": 108000,
+    "price_7d": 108000,
+    "price_30d": 120000
   },
   {
     "id": "w63",
