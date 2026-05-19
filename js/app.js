@@ -54,7 +54,7 @@ function debounce(fn, ms) {
 const DataDB = {
   async load() {
     try {
-      const CACHE_BUST = '?v=9';
+      const CACHE_BUST = '?v=10';
       const [w, v, a, o, att, gear, codes] = await Promise.all([
         fetch('./data/weapons.json' + CACHE_BUST).then(r => r.json()),
         fetch('./data/vehicles.json' + CACHE_BUST).then(r => r.json()),
@@ -1113,7 +1113,12 @@ function renderGearPreview() {
         <option value="">— 默认弹药 —</option>
         ${(w.ammo_type || []).flatMap(t => {
           const caliber = t.trim();
-          return (AMMO_DATA || []).filter(a => a.caliber === caliber).map(a =>
+          const norm = caliber.replace(/[×xX\s]/g, '').toLowerCase();
+          return (AMMO_DATA || []).filter(a => {
+            if (!a.caliber) return false;
+            const aNorm = a.caliber.replace(/[×xX\s]/g, '').toLowerCase();
+            return aNorm.includes(norm) || norm.includes(aNorm) || a.caliber === caliber;
+          }).map(a =>
             `<option value="${a.id}">${a.name_cn}</option>`
           );
         }).join('')}
@@ -1247,7 +1252,7 @@ function updateGearPreview() {
   if (preview) {
     preview.innerHTML = renderGearPreview();
   }
-  const cost = Calculator.calcTotalCost(state.selectedWeapon, state.selectedAttachments, state.selectedGear);
+  const cost = Calculator.calcTotalCost(state.selectedWeapon, state.selectedAttachments, state.selectedGear, state.selectedAmmo);
   state.liveCost = cost;
   const costEl = $('#cost-value');
   if (costEl) costEl.textContent = `¥ ${cost.toLocaleString()}`;

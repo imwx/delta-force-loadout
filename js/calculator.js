@@ -333,7 +333,7 @@ const Calculator = (function() {
   }
 
   // ---- 战备中心：计算总金额 ----
-  function calcTotalCost(weapon, selectedAttachments, selectedGear) {
+  function calcTotalCost(weapon, selectedAttachments, selectedGear, selectedAmmo) {
     let total = 0;
     // 武器价格
     if (weapon && weapon.price) {
@@ -351,6 +351,10 @@ const Calculator = (function() {
       const gear = BATTLE_GEAR_DATA.find(g => g.id === gearId);
       if (gear) total += (gear.price || 0);
     });
+    // 弹药价格
+    if (selectedAmmo && selectedAmmo.price) {
+      total += selectedAmmo.price;
+    }
     return total;
   }
 
