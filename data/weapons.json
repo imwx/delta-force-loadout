@@ -236,9 +236,12 @@
       "版本强势",
       "危险行动"
     ],
-    "loadout_price": 38432,
-    "price": 38432,
-    "custom_code": "6H8OK3S0CN2U58NL2UJC9"
+    "loadout_price": 52292,
+    "price": 52292,
+    "custom_code": "6H8OK3S0CN2U58NL2UJC9",
+    "price_3d": 52292,
+    "price_7d": 50752,
+    "price_30d": 58452
   },
   {
     "id": "w9",
@@ -264,9 +267,12 @@
     "game_id": 364,
     "copy_count": 1336,
     "tags": [],
-    "loadout_price": 38081,
-    "price": 38081,
-    "custom_code": "6HBE1RO079EV449EBAHBQ"
+    "loadout_price": 53331,
+    "price": 53331,
+    "custom_code": "6HBE1RO079EV449EBAHBQ",
+    "price_3d": 53331,
+    "price_7d": 51806,
+    "price_30d": 59431
   },
   {
     "id": "w10",
@@ -295,9 +301,12 @@
       "版本强势",
       "全兵种"
     ],
-    "loadout_price": 151225,
-    "price": 151225,
-    "custom_code": "6H135GK0FIOH9JJL4D8E6"
+    "loadout_price": 161655,
+    "price": 161655,
+    "custom_code": "6H135GK0FIOH9JJL4D8E6",
+    "price_3d": 161655,
+    "price_7d": 125150,
+    "price_30d": 114720
   },
   {
     "id": "w11",
@@ -323,9 +332,12 @@
     "game_id": 139,
     "copy_count": 2891,
     "tags": [],
-    "loadout_price": 151225,
-    "price": 151225,
-    "custom_code": "6I6U22K04PC56TM4QFHON"
+    "loadout_price": 166870,
+    "price": 166870,
+    "custom_code": "6I6U22K04PC56TM4QFHON",
+    "price_3d": 166870,
+    "price_7d": 135580,
+    "price_30d": 245095
   },
   {
     "id": "w12",
@@ -351,9 +363,12 @@
     "game_id": 485,
     "copy_count": 3481,
     "tags": [],
-    "loadout_price": 12054,
-    "price": 12054,
-    "custom_code": "6HGJBO80APGGNCBFQNVEF"
+    "loadout_price": 12055,
+    "price": 12055,
+    "custom_code": "6HGJBO80APGGNCBFQNVEF",
+    "price_3d": 12055,
+    "price_7d": 12055,
+    "price_30d": 12055
   },
   {
     "id": "w13",
@@ -379,9 +394,12 @@
     "game_id": 294,
     "copy_count": 347,
     "tags": [],
-    "loadout_price": 151443,
-    "price": 151443,
-    "custom_code": "6GS6MS006U3GLSPD6DRKM"
+    "loadout_price": 121143,
+    "price": 121143,
+    "custom_code": "6GS6MS006U3GLSPD6DRKM",
+    "price_3d": 121143,
+    "price_7d": 87813,
+    "price_30d": 130233
   },
   {
     "id": "w14",
@@ -409,9 +427,12 @@
     "tags": [
       "国产"
     ],
-    "loadout_price": 124173,
-    "price": 124173,
-    "custom_code": "6GV4DOS03I0RFPFTOIP1D"
+    "loadout_price": 133263,
+    "price": 133263,
+    "custom_code": "6GV4DOS03I0RFPFTOIP1D",
+    "price_3d": 133263,
+    "price_7d": 115083,
+    "price_30d": 115083
   },
   {
     "id": "w15",
@@ -440,9 +461,12 @@
       "大弹容",
       "危险行动"
     ],
-    "loadout_price": 115855,
-    "price": 115855,
-    "custom_code": "6EHRS780C6U07V9G7JRFB"
+    "loadout_price": 82305,
+    "price": 82305,
+    "custom_code": "6EHRS780C6U07V9G7JRFB",
+    "price_3d": 82305,
+    "price_7d": 76205,
+    "price_30d": 94505
   },
   {
     "id": "w16",
@@ -470,9 +494,12 @@
     "tags": [
       "国产"
     ],
-    "loadout_price": 38035,
-    "price": 38035,
-    "custom_code": "6GS6O1K06U3GLSPD6DRKM"
+    "loadout_price": 50235,
+    "price": 50235,
+    "custom_code": "6GS6O1K06U3GLSPD6DRKM",
+    "price_3d": 50235,
+    "price_7d": 48710,
+    "price_30d": 53285
   },
   {
     "id": "w17",
@@ -500,9 +527,12 @@
     "tags": [
       "大弹容"
     ],
-    "loadout_price": 12100,
-    "price": 12100,
-    "custom_code": "6HGJDDK0APGGNCBFQNVEF"
+    "loadout_price": 12101,
+    "price": 12101,
+    "custom_code": "6HGJDDK0APGGNCBFQNVEF",
+    "price_3d": 12101,
+    "price_7d": 12101,
+    "price_30d": 12101
   },
   {
     "id": "w19",
@@ -533,7 +563,10 @@
     ],
     "loadout_price": 5000,
     "price": 5000,
-    "custom_code": "6JQT26402FA1JF0E0BJHI"
+    "custom_code": "6JQT26402FA1JF0E0BJHI",
+    "price_3d": 5000,
+    "price_7d": 5000,
+    "price_30d": 5000
   },
   {
     "id": "w20",
@@ -562,9 +595,12 @@
       "近战",
       "推荐配装"
     ],
-    "loadout_price": 39595,
-    "price": 39595,
-    "custom_code": "6GV59IS0AR9U1DEIO2NLB"
+    "loadout_price": 43435,
+    "price": 43435,
+    "custom_code": "6GV59IS0AR9U1DEIO2NLB",
+    "price_3d": 43435,
+    "price_7d": 39595,
+    "price_30d": 40875
   },
   {
     "id": "w21",
@@ -595,7 +631,10 @@
     ],
     "loadout_price": 31915,
     "price": 31915,
-    "custom_code": "6H2R61K08F8FFPMQA1O83"
+    "custom_code": "6H2R61K08F8FFPMQA1O83",
+    "price_3d": 31915,
+    "price_7d": 31915,
+    "price_30d": 31915
   },
   {
     "id": "w22",
@@ -625,7 +664,10 @@
     ],
     "loadout_price": 26588,
     "price": 26588,
-    "custom_code": "6G9406008OPOB8QKQ72I8"
+    "custom_code": "6G9406008OPOB8QKQ72I8",
+    "price_3d": 26588,
+    "price_7d": 26588,
+    "price_30d": 26588
   },
   {
     "id": "w23",
@@ -651,9 +693,12 @@
     "game_id": 58,
     "copy_count": 594,
     "tags": [],
-    "loadout_price": 12281,
-    "price": 12281,
-    "custom_code": "6GD1CM004J7LV61QLMNR9"
+    "loadout_price": 12295,
+    "price": 12295,
+    "custom_code": "6GD1CM004J7LV61QLMNR9",
+    "price_3d": 12295,
+    "price_7d": 12295,
+    "price_30d": 12295
   },
   {
     "id": "w24",
@@ -684,7 +729,10 @@
     ],
     "loadout_price": 129953,
     "price": 129953,
-    "custom_code": "6G94AKO0FHI6PKF6C3P0U"
+    "custom_code": "6G94AKO0FHI6PKF6C3P0U",
+    "price_3d": 129953,
+    "price_7d": 108288,
+    "price_30d": 117573
   },
   {
     "id": "w25",
@@ -713,9 +761,12 @@
       "高精准",
       "危险行动"
     ],
-    "loadout_price": 134554,
-    "price": 134554,
-    "custom_code": "6HFTMTK0EAR06C6UBJ9VT"
+    "loadout_price": 149854,
+    "price": 149854,
+    "custom_code": "6HFTMTK0EAR06C6UBJ9VT",
+    "price_3d": 149854,
+    "price_7d": 119254,
+    "price_30d": 152914
   },
   {
     "id": "w26",
@@ -744,9 +795,12 @@
       "高爆发",
       "穿透力强"
     ],
-    "loadout_price": 102147,
-    "price": 102147,
-    "custom_code": "6GRGLLS0FUH1E5MQ63E4O"
+    "loadout_price": 108157,
+    "price": 108157,
+    "custom_code": "6GRGLLS0FUH1E5MQ63E4O",
+    "price_3d": 108157,
+    "price_7d": 90127,
+    "price_30d": 114167
   },
   {
     "id": "w27",
@@ -775,9 +829,12 @@
       "性价比高",
       "全兵种"
     ],
-    "loadout_price": 175134,
-    "price": 175134,
-    "custom_code": "6GL0ARO0B47DBPRUAR75R"
+    "loadout_price": 164514,
+    "price": 164514,
+    "custom_code": "6GL0ARO0B47DBPRUAR75R",
+    "price_3d": 164514,
+    "price_7d": 153894,
+    "price_30d": 111414
   },
   {
     "id": "w28",
@@ -805,9 +862,12 @@
     "tags": [
       "版本强势"
     ],
-    "loadout_price": 123567,
-    "price": 123567,
-    "custom_code": "6GE93140C56ME2PP5PQ4N"
+    "loadout_price": 87387,
+    "price": 87387,
+    "custom_code": "6GE93140C56ME2PP5PQ4N",
+    "price_3d": 87387,
+    "price_7d": 75327,
+    "price_30d": 99447
   },
   {
     "id": "w29",
@@ -836,9 +896,12 @@
       "高射速",
       "消音"
     ],
-    "loadout_price": 178111,
-    "price": 178111,
-    "custom_code": "6GL0C5O094898G9NDDGRT"
+    "loadout_price": 214791,
+    "price": 214791,
+    "custom_code": "6GL0C5O094898G9NDDGRT",
+    "price_3d": 214791,
+    "price_7d": 172871,
+    "price_30d": 172871
   },
   {
     "id": "w30",
@@ -864,9 +927,12 @@
     "game_id": 175,
     "copy_count": 4583,
     "tags": [],
-    "loadout_price": 12303,
-    "price": 12303,
-    "custom_code": "6HH7K7K024CH4QGG5QQUE"
+    "loadout_price": 12304,
+    "price": 12304,
+    "custom_code": "6HH7K7K024CH4QGG5QQUE",
+    "price_3d": 12304,
+    "price_7d": 10768,
+    "price_30d": 12313
   },
   {
     "id": "w31",
@@ -897,7 +963,10 @@
     ],
     "loadout_price": 38843,
     "price": 38843,
-    "custom_code": "6IG61OK0AGKBQQUCGH41Q"
+    "custom_code": "6IG61OK0AGKBQQUCGH41Q",
+    "price_3d": 38843,
+    "price_7d": 38843,
+    "price_30d": 38843
   },
   {
     "id": "w32",
@@ -926,9 +995,12 @@
       "短管",
       "突击兵"
     ],
-    "loadout_price": 11563,
-    "price": 11563,
-    "custom_code": "6GRTB7002GFSJ497HHJD0"
+    "loadout_price": 12058,
+    "price": 12058,
+    "custom_code": "6GRTB7002GFSJ497HHJD0",
+    "price_3d": 12058,
+    "price_7d": 12058,
+    "price_30d": 12068
   },
   {
     "id": "w33",
@@ -956,7 +1028,10 @@
     "tags": [],
     "loadout_price": 38228,
     "price": 38228,
-    "custom_code": "6H01T1K09MTF0NSTEEU37"
+    "custom_code": "6H01T1K09MTF0NSTEEU37",
+    "price_3d": 38228,
+    "price_7d": 38228,
+    "price_30d": 38228
   },
   {
     "id": "w34",
@@ -984,7 +1059,10 @@
     "tags": [],
     "loadout_price": 39059,
     "price": 39059,
-    "custom_code": "6G94APG0FHI6PKF6C3P0U"
+    "custom_code": "6G94APG0FHI6PKF6C3P0U",
+    "price_3d": 39059,
+    "price_7d": 39059,
+    "price_30d": 45319
   },
   {
     "id": "w35",
@@ -1012,9 +1090,12 @@
     "tags": [
       "S5新增"
     ],
-    "loadout_price": 120177,
-    "price": 120177,
-    "custom_code": "6G1JN400AV5BVPK0VDMCD"
+    "loadout_price": 126187,
+    "price": 126187,
+    "custom_code": "6G1JN400AV5BVPK0VDMCD",
+    "price_3d": 126187,
+    "price_7d": 99142,
+    "price_30d": 120177
   },
   {
     "id": "w36",
@@ -1042,9 +1123,12 @@
     "tags": [
       "S5新增"
     ],
-    "loadout_price": 183351,
-    "price": 183351,
-    "custom_code": "6HH8PD802AMR3AEE8LQVJ"
+    "loadout_price": 151911,
+    "price": 151911,
+    "custom_code": "6HH8PD802AMR3AEE8LQVJ",
+    "price_3d": 151911,
+    "price_7d": 146671,
+    "price_30d": 120471
   },
   {
     "id": "w37",
@@ -1073,9 +1157,12 @@
       "S4新增",
       "版本强势"
     ],
-    "loadout_price": 154909,
-    "price": 154909,
-    "custom_code": "6JQ3PG00FKLSP2R6J3NCE"
+    "loadout_price": 117494,
+    "price": 117494,
+    "custom_code": "6JQ3PG00FKLSP2R6J3NCE",
+    "price_3d": 117494,
+    "price_7d": 106804,
+    "price_30d": 106804
   },
   {
     "id": "w38",
@@ -1104,9 +1191,12 @@
       "高性价比",
       "危险行动"
     ],
-    "loadout_price": 256464,
-    "price": 256464,
-    "custom_code": "6I32ADK0195JPE5VK38LR"
+    "loadout_price": 203014,
+    "price": 203014,
+    "custom_code": "6I32ADK0195JPE5VK38LR",
+    "price_3d": 203014,
+    "price_7d": 165599,
+    "price_30d": 197669
   },
   {
     "id": "w39",
@@ -1135,9 +1225,12 @@
       "新手友好",
       "高稳定性"
     ],
-    "loadout_price": 111360,
-    "price": 111360,
-    "custom_code": "6HITGQK01RBVGS0BGKPDN"
+    "loadout_price": 96310,
+    "price": 96310,
+    "custom_code": "6HITGQK01RBVGS0BGKPDN",
+    "price_3d": 96310,
+    "price_7d": 75240,
+    "price_30d": 96310
   },
   {
     "id": "w40",
@@ -1166,9 +1259,12 @@
       "大口径",
       "全兵种"
     ],
-    "loadout_price": 197326,
-    "price": 197326,
-    "custom_code": "6GE37N00EA3FRKHMS9J6U"
+    "loadout_price": 186656,
+    "price": 186656,
+    "custom_code": "6GE37N00EA3FRKHMS9J6U",
+    "price_3d": 186656,
+    "price_7d": 154646,
+    "price_30d": 143976
   },
   {
     "id": "w41",
@@ -1196,9 +1292,12 @@
     "tags": [
       "经典DMR"
     ],
-    "loadout_price": 39057,
-    "price": 39057,
-    "custom_code": "6H09U3K0C4V15L1N4PQQG"
+    "loadout_price": 54707,
+    "price": 54707,
+    "custom_code": "6H09U3K0C4V15L1N4PQQG",
+    "price_3d": 54707,
+    "price_7d": 51577,
+    "price_30d": 59402
   },
   {
     "id": "w42",
@@ -1226,9 +1325,12 @@
     "tags": [
       "S5新增"
     ],
-    "loadout_price": 85291,
-    "price": 85291,
-    "custom_code": "6HK8FU807G8S9A1C445HN"
+    "loadout_price": 154646,
+    "price": 154646,
+    "custom_code": "6HK8FU807G8S9A1C445HN",
+    "price_3d": 154646,
+    "price_7d": 127971,
+    "price_30d": 111966
   },
   {
     "id": "w43",
@@ -1257,9 +1359,12 @@
       "S5新增",
       "西部风格"
     ],
-    "loadout_price": 71415,
-    "price": 71415,
-    "custom_code": "6HJ5BG80FR6AJQIFQKVE3"
+    "loadout_price": 62295,
+    "price": 62295,
+    "custom_code": "6HJ5BG80FR6AJQIFQKVE3",
+    "price_3d": 62295,
+    "price_7d": 57735,
+    "price_30d": 72935
   },
   {
     "id": "w44",
@@ -1288,9 +1393,12 @@
       "高稳定性",
       "远距离"
     ],
-    "loadout_price": 189875,
-    "price": 189875,
-    "custom_code": "6GTTAT000CR1N4NF83220"
+    "loadout_price": 131850,
+    "price": 131850,
+    "custom_code": "6GTTAT000CR1N4NF83220",
+    "price_3d": 131850,
+    "price_7d": 116025,
+    "price_30d": 184600
   },
   {
     "id": "w45",
@@ -1319,9 +1427,12 @@
       "高稳定性",
       "远距离"
     ],
-    "loadout_price": 39092,
-    "price": 39092,
-    "custom_code": "6I8VVA80ASAH8NM367QOA"
+    "loadout_price": 38298,
+    "price": 38298,
+    "custom_code": "6I8VVA80ASAH8NM367QOA",
+    "price_3d": 38298,
+    "price_7d": 39093,
+    "price_30d": 36928
   },
   {
     "id": "w46",
@@ -1352,7 +1463,10 @@
     ],
     "loadout_price": 208163,
     "price": 208163,
-    "custom_code": "6GRAP2S0AV5BVPK0VDMCD"
+    "custom_code": "6GRAP2S0AV5BVPK0VDMCD",
+    "price_3d": 208163,
+    "price_7d": 176933,
+    "price_30d": 156113
   },
   {
     "id": "w47",
@@ -1381,9 +1495,12 @@
       "经典DMR",
       "全兵种"
     ],
-    "loadout_price": 86400,
-    "price": 86400,
-    "custom_code": "6GS5BGK064FJ19C5SGDFD"
+    "loadout_price": 135000,
+    "price": 135000,
+    "custom_code": "6GS5BGK064FJ19C5SGDFD",
+    "price_3d": 135000,
+    "price_7d": 126900,
+    "price_30d": 113400
   },
   {
     "id": "w48",
@@ -1411,9 +1528,12 @@
     "tags": [
       "消音"
     ],
-    "loadout_price": 47780,
-    "price": 47780,
-    "custom_code": "6JAPRKC024JT398JLMEUF"
+    "loadout_price": 46813,
+    "price": 46813,
+    "custom_code": "6JAPRKC024JT398JLMEUF",
+    "price_3d": 46813,
+    "price_7d": 46813,
+    "price_30d": 48488
   },
   {
     "id": "w50",
@@ -1441,9 +1561,12 @@
     "tags": [
       "半自动狙击"
     ],
-    "loadout_price": 129600,
-    "price": 129600,
-    "custom_code": "6H07HIO06GA8AHGUVS95M"
+    "loadout_price": 118800,
+    "price": 118800,
+    "custom_code": "6H07HIO06GA8AHGUVS95M",
+    "price_3d": 118800,
+    "price_7d": 110700,
+    "price_30d": 170100
   },
   {
     "id": "w51",
@@ -1471,9 +1594,12 @@
     "tags": [
       "经典"
     ],
-    "loadout_price": 48510,
-    "price": 48510,
-    "custom_code": "6FEHRUO0AV5BVPK0VDMCD"
+    "loadout_price": 47520,
+    "price": 47520,
+    "custom_code": "6FEHRUO0AV5BVPK0VDMCD",
+    "price_3d": 47520,
+    "price_7d": 43560,
+    "price_30d": 53460
   },
   {
     "id": "w52",
@@ -1499,9 +1625,12 @@
     "game_id": 511,
     "copy_count": 4850,
     "tags": [],
-    "loadout_price": 83575,
-    "price": 83575,
-    "custom_code": "6G940IC08OPOB8QKQ72I8"
+    "loadout_price": 80535,
+    "price": 80535,
+    "custom_code": "6G940IC08OPOB8QKQ72I8",
+    "price_3d": 80535,
+    "price_7d": 74455,
+    "price_30d": 82055
   },
   {
     "id": "w53",
@@ -1527,9 +1656,12 @@
     "game_id": 406,
     "copy_count": 2381,
     "tags": [],
-    "loadout_price": 600979,
-    "price": 600979,
-    "custom_code": "6G940L008OPOB8QKQ72I8"
+    "loadout_price": 779059,
+    "price": 779059,
+    "custom_code": "6G940L008OPOB8QKQ72I8",
+    "price_3d": 779059,
+    "price_7d": 741959,
+    "price_30d": 779059
   },
   {
     "id": "w54",
@@ -1555,9 +1687,12 @@
     "game_id": 449,
     "copy_count": 5417,
     "tags": [],
-    "loadout_price": 80535,
-    "price": 80535,
-    "custom_code": "6HG9MUK08KE3E5HTC891L"
+    "loadout_price": 123000,
+    "price": 123000,
+    "custom_code": "6HG9MUK08KE3E5HTC891L",
+    "price_3d": 123000,
+    "price_7d": 114000,
+    "price_30d": 204000
   },
   {
     "id": "w55",
@@ -1585,9 +1720,12 @@
     "tags": [
       "栓动狙击"
     ],
-    "loadout_price": 111000,
-    "price": 111000,
-    "custom_code": "6HBP2R0027UT3MNF433RH"
+    "loadout_price": 129000,
+    "price": 129000,
+    "custom_code": "6HBP2R0027UT3MNF433RH",
+    "price_3d": 129000,
+    "price_7d": 117000,
+    "price_30d": 153000
   },
   {
     "id": "w56",
@@ -1615,9 +1753,12 @@
     "tags": [
       "版本强势"
     ],
-    "loadout_price": 79218,
-    "price": 79218,
-    "custom_code": "6G94JAC08OPOB8QKQ72I8"
+    "loadout_price": 97518,
+    "price": 97518,
+    "custom_code": "6G94JAC08OPOB8QKQ72I8",
+    "price_3d": 97518,
+    "price_7d": 70068,
+    "price_30d": 192068
   },
   {
     "id": "w57",
@@ -1646,9 +1787,12 @@
       "国产",
       "全兵种"
     ],
-    "loadout_price": 115513,
-    "price": 115513,
-    "custom_code": "6GQTJKO095HC4609S9G3Q"
+    "loadout_price": 103353,
+    "price": 103353,
+    "custom_code": "6GQTJKO095HC4609S9G3Q",
+    "price_3d": 103353,
+    "price_7d": 75993,
+    "price_30d": 118553
   },
   {
     "id": "w58",
@@ -1676,9 +1820,12 @@
     "tags": [
       "版本强势"
     ],
-    "loadout_price": 192324,
-    "price": 192324,
-    "custom_code": "6GPHU14094898G9NDDGRT"
+    "loadout_price": 261809,
+    "price": 261809,
+    "custom_code": "6GPHU14094898G9NDDGRT",
+    "price_3d": 261809,
+    "price_7d": 203014,
+    "price_30d": 192324
   },
   {
     "id": "w59",
@@ -1706,9 +1853,12 @@
     "tags": [
       "大口径"
     ],
-    "loadout_price": 121593,
-    "price": 121593,
-    "custom_code": "6G94CVO0FHI6PKF6C3P0U"
+    "loadout_price": 106393,
+    "price": 106393,
+    "custom_code": "6G94CVO0FHI6PKF6C3P0U",
+    "price_3d": 106393,
+    "price_7d": 75993,
+    "price_30d": 88153
   },
   {
     "id": "w60",
@@ -1769,9 +1919,12 @@
       "S9新增",
       "大口径"
     ],
-    "loadout_price": 0,
-    "price": 0,
-    "custom_code": "6JTK8JO087KKF9T2HJCH4"
+    "loadout_price": 267079,
+    "price": 267079,
+    "custom_code": "6JTK8JO087KKF9T2HJCH4",
+    "price_3d": 267079,
+    "price_7d": 274499,
+    "price_30d": 393219
   },
   {
     "id": "w64",
@@ -1800,9 +1953,12 @@
       "S9新增",
       "高速弹药"
     ],
-    "loadout_price": 0,
-    "price": 0,
-    "custom_code": "6JOB6N40D4KUUL8R5A9D9"
+    "loadout_price": 149311,
+    "price": 149311,
+    "custom_code": "6JOB6N40D4KUUL8R5A9D9",
+    "price_3d": 149311,
+    "price_7d": 159981,
+    "price_30d": 133306
   },
   {
     "id": "w65",
@@ -1830,9 +1986,12 @@
     "tags": [
       "S9新增"
     ],
-    "loadout_price": 0,
-    "price": 0,
-    "custom_code": "6IUMT9S08T16JCU0J1S9V"
+    "loadout_price": 79380,
+    "price": 79380,
+    "custom_code": "6IUMT9S08T16JCU0J1S9V",
+    "price_3d": 79380,
+    "price_7d": 79380,
+    "price_30d": 79380
   },
   {
     "id": "w66",
@@ -1860,9 +2019,12 @@
     "tags": [
       "S9新增"
     ],
-    "loadout_price": 0,
-    "price": 0,
-    "custom_code": "6IV6SPG03GFRB8J9CH4VL"
+    "loadout_price": 79474,
+    "price": 79474,
+    "custom_code": "6IV6SPG03GFRB8J9CH4VL",
+    "price_3d": 79474,
+    "price_7d": 64174,
+    "price_30d": 79474
   },
   {
     "id": "w67",
@@ -1890,9 +2052,12 @@
     "tags": [
       "S9新增"
     ],
-    "loadout_price": 0,
-    "price": 0,
-    "custom_code": "6I6FFL806UPSRBSFIDPDC"
+    "loadout_price": 69633,
+    "price": 69633,
+    "custom_code": "6I6FFL806UPSRBSFIDPDC",
+    "price_3d": 69633,
+    "price_7d": 57513,
+    "price_30d": 75693
   },
   {
     "id": "w49",
@@ -1919,6 +2084,9 @@
     "copy_count": 3588,
     "tags": [],
     "loadout_price": 11250,
-    "price": 11250
+    "price": 11250,
+    "price_3d": 11250,
+    "price_7d": 10800,
+    "price_30d": 10800
   }
 ]

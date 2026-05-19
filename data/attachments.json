@@ -127,11 +127,14 @@
       "range": -5,
       "damage": -2
     },
-    "price": 27071,
+    "price": 101377,
     "price_source": "实测：93R实用轻枪管",
     "tags": [
       "近战"
-    ]
+    ],
+    "price_3d": 101377,
+    "price_7d": 102362,
+    "price_30d": 103347
   },
   {
     "id": "barrel_standard",
@@ -148,11 +151,14 @@
       "通用机枪"
     ],
     "stat_mods": {},
-    "price": 16772,
+    "price": 37214,
     "price_source": "无属性惩罚，默认免费",
     "tags": [
       "平衡"
-    ]
+    ],
+    "price_3d": 37214,
+    "price_7d": 52634,
+    "price_30d": 37214
   },
   {
     "id": "barrel_long",
@@ -172,11 +178,14 @@
       "mobility": -4,
       "handling": -2
     },
-    "price": 64281,
+    "price": 41067,
     "price_source": "实测：QBZ95战术枪管",
     "tags": [
       "远距离"
-    ]
+    ],
+    "price_3d": 41067,
+    "price_7d": 74477,
+    "price_30d": 37212
   },
   {
     "id": "barrel_heavy",
@@ -435,11 +444,14 @@
       "mobility": -2,
       "handling": -1
     },
-    "price": 49559,
+    "price": 51432,
     "price_source": "实测参考：扩容弹匣价格区间",
     "tags": [
       "续航"
-    ]
+    ],
+    "price_3d": 51432,
+    "price_7d": 78057,
+    "price_30d": 44332
   },
   {
     "id": "mag_drum",
@@ -457,11 +469,14 @@
       "mobility": -5,
       "handling": -3
     },
-    "price": 37050,
+    "price": 53217,
     "price_source": "实测：野牛64发弹筒",
     "tags": [
       "大容量"
-    ]
+    ],
+    "price_3d": 53217,
+    "price_7d": 88717,
+    "price_30d": 67417
   },
   {
     "id": "mag_fast",
@@ -549,11 +564,14 @@
       "range": 3,
       "mobility": -1
     },
-    "price": 23802,
+    "price": 51676,
     "price_source": "实测：OPS消音器 / 实用消音器",
     "tags": [
       "隐蔽"
-    ]
+    ],
+    "price_3d": 51676,
+    "price_7d": 71311,
+    "price_30d": 51676
   },
   {
     "id": "muzzle_brake",
