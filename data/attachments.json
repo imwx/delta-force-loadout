@@ -127,7 +127,7 @@
       "range": -5,
       "damage": -2
     },
-    "price": 3891,
+    "price": 27071,
     "price_source": "实测：93R实用轻枪管",
     "tags": [
       "近战"
@@ -148,7 +148,7 @@
       "通用机枪"
     ],
     "stat_mods": {},
-    "price": 0,
+    "price": 16772,
     "price_source": "无属性惩罚，默认免费",
     "tags": [
       "平衡"
@@ -172,7 +172,7 @@
       "mobility": -4,
       "handling": -2
     },
-    "price": 10807,
+    "price": 64281,
     "price_source": "实测：QBZ95战术枪管",
     "tags": [
       "远距离"
@@ -195,7 +195,7 @@
       "mobility": -6,
       "handling": -3
     },
-    "price": 3737,
+    "price": 34804,
     "price_source": "实测：93R实用重枪管",
     "tags": [
       "稳定"
@@ -260,7 +260,7 @@
       "handling": 3,
       "control": -2
     },
-    "price": 4143,
+    "price": 20551,
     "price_source": "实测：UZI枪托",
     "tags": [
       "机动"
@@ -303,7 +303,7 @@
       "handling": 5,
       "control": -3
     },
-    "price": 19408,
+    "price": 22986,
     "price_source": "实测：MP5伸缩枪托",
     "tags": [
       "机动"
@@ -347,7 +347,7 @@
       "accuracy": 3,
       "mobility": -2
     },
-    "price": 3554,
+    "price": 69323,
     "price_source": "实测：实用垂直握把",
     "tags": [
       "稳定"
@@ -435,7 +435,7 @@
       "mobility": -2,
       "handling": -1
     },
-    "price": 4800,
+    "price": 49559,
     "price_source": "实测参考：扩容弹匣价格区间",
     "tags": [
       "续航"
@@ -457,7 +457,7 @@
       "mobility": -5,
       "handling": -3
     },
-    "price": 9683,
+    "price": 37050,
     "price_source": "实测：野牛64发弹筒",
     "tags": [
       "大容量"
@@ -549,7 +549,7 @@
       "range": 3,
       "mobility": -1
     },
-    "price": 13296,
+    "price": 23802,
     "price_source": "实测：OPS消音器 / 实用消音器",
     "tags": [
       "隐蔽"
@@ -572,7 +572,7 @@
       "accuracy": 3,
       "mobility": -2
     },
-    "price": 11356,
+    "price": 13587,
     "price_source": "实测：AK实用补偿器",
     "tags": [
       "稳定"
@@ -592,7 +592,7 @@
       "control": 5,
       "accuracy": 4
     },
-    "price": 10107,
+    "price": 44752,
     "price_source": "实测参考：制退器/消焰器价格区间",
     "tags": [
       "近战"
@@ -676,7 +676,7 @@
     "stat_mods": {
       "mobility": -1
     },
-    "price": 2500,
+    "price": 41667,
     "price_source": "估算参考：低价瞄具区间",
     "tags": [
       "近战"
