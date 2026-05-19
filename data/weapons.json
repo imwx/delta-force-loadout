@@ -357,10 +357,10 @@
   },
   {
     "id": "w13",
-    "name_cn": "SR-3M紧凑突击步枪",
+    "name_cn": "SR-3M突击步枪",
     "name_en": "SR-3M Compact",
-    "type": "冲锋枪",
-    "type_en": "Submachine Gun",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
     "mode": "operations",
     "base_stats": {
       "damage": 52,
@@ -1079,10 +1079,10 @@
   },
   {
     "id": "w38",
-    "name_cn": "M7战斗步枪",
+    "name_cn": "M7突击步枪",
     "name_en": "M7 Battle Rifle",
-    "type": "战斗步枪",
-    "type_en": "Battle Rifle",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
     "mode": "both",
     "base_stats": {
       "damage": 85,
@@ -1110,10 +1110,10 @@
   },
   {
     "id": "w39",
-    "name_cn": "SCAR-H战斗步枪",
+    "name_cn": "SCAR-H突击步枪",
     "name_en": "SCAR-H BR",
-    "type": "战斗步枪",
-    "type_en": "Battle Rifle",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
     "mode": "operations",
     "base_stats": {
       "damage": 82,
@@ -1141,10 +1141,10 @@
   },
   {
     "id": "w40",
-    "name_cn": "ASh-12战斗步枪",
+    "name_cn": "ASh-12突击步枪",
     "name_en": "ASh-12 BR",
-    "type": "战斗步枪",
-    "type_en": "Battle Rifle",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
     "mode": "both",
     "base_stats": {
       "damage": 90,
@@ -1172,10 +1172,10 @@
   },
   {
     "id": "w41",
-    "name_cn": "G3战斗步枪",
+    "name_cn": "G3突击步枪",
     "name_en": "G3 BR",
-    "type": "战斗步枪",
-    "type_en": "Battle Rifle",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
     "mode": "both",
     "base_stats": {
       "damage": 82,
@@ -1202,10 +1202,10 @@
   },
   {
     "id": "w42",
-    "name_cn": "MK47战斗步枪",
+    "name_cn": "MK47突击步枪",
     "name_en": "MK47 BR",
-    "type": "战斗步枪",
-    "type_en": "Battle Rifle",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
     "mode": "both",
     "base_stats": {
       "damage": 80,
@@ -1234,8 +1234,8 @@
     "id": "w43",
     "name_cn": "杠杆式步枪",
     "name_en": "Lever Action Rifle",
-    "type": "战斗步枪",
-    "type_en": "Battle Rifle",
+    "type": "突击步枪",
+    "type_en": "Assault Rifle",
     "mode": "both",
     "base_stats": {
       "damage": 78,
@@ -1263,10 +1263,10 @@
   },
   {
     "id": "w44",
-    "name_cn": "M14战斗步枪",
+    "name_cn": "M14射手步枪",
     "name_en": "M14 DMR",
-    "type": "精确射手步枪",
-    "type_en": "Marksman Rifle",
+    "type": "射手步枪",
+    "type_en": "DMR",
     "mode": "operations",
     "base_stats": {
       "damage": 82,
@@ -1294,10 +1294,10 @@
   },
   {
     "id": "w45",
-    "name_cn": "Mini-14精确射手步枪",
+    "name_cn": "Mini-14射手步枪",
     "name_en": "Mini-14 DMR",
-    "type": "精确射手步枪",
-    "type_en": "Marksman Rifle",
+    "type": "射手步枪",
+    "type_en": "DMR",
     "mode": "warfare",
     "base_stats": {
       "damage": 65,
@@ -1325,10 +1325,10 @@
   },
   {
     "id": "w46",
-    "name_cn": "SR-25精确射手步枪",
+    "name_cn": "SR-25射手步枪",
     "name_en": "SR-25 DMR",
-    "type": "精确射手步枪",
-    "type_en": "Marksman Rifle",
+    "type": "射手步枪",
+    "type_en": "DMR",
     "mode": "both",
     "base_stats": {
       "damage": 78,
@@ -1356,10 +1356,10 @@
   },
   {
     "id": "w47",
-    "name_cn": "SVD精确射手步枪",
+    "name_cn": "SVD射手步枪",
     "name_en": "SVD DMR",
-    "type": "精确射手步枪",
-    "type_en": "Marksman Rifle",
+    "type": "射手步枪",
+    "type_en": "DMR",
     "mode": "warfare",
     "base_stats": {
       "damage": 80,
@@ -1387,10 +1387,10 @@
   },
   {
     "id": "w48",
-    "name_cn": "VSS精确射手步枪",
+    "name_cn": "VSS射手步枪",
     "name_en": "VSS DMR",
-    "type": "精确射手步枪",
-    "type_en": "Marksman Rifle",
+    "type": "射手步枪",
+    "type_en": "DMR",
     "mode": "warfare",
     "base_stats": {
       "damage": 68,
@@ -1417,10 +1417,10 @@
   },
   {
     "id": "w50",
-    "name_cn": "PSG-1精确射手步枪",
+    "name_cn": "PSG-1射手步枪",
     "name_en": "PSG-1 DMR",
-    "type": "精确射手步枪",
-    "type_en": "Marksman Rifle",
+    "type": "射手步枪",
+    "type_en": "DMR",
     "mode": "warfare",
     "base_stats": {
       "damage": 88,
@@ -1447,10 +1447,10 @@
   },
   {
     "id": "w51",
-    "name_cn": "SKS精确射手步枪",
+    "name_cn": "SKS射手步枪",
     "name_en": "SKS DMR",
-    "type": "精确射手步枪",
-    "type_en": "Marksman Rifle",
+    "type": "射手步枪",
+    "type_en": "DMR",
     "mode": "warfare",
     "base_stats": {
       "damage": 72,
@@ -1743,7 +1743,7 @@
   },
   {
     "id": "w63",
-    "name_cn": "M82巴雷特",
+    "name_cn": "M82狙击步枪",
     "name_en": "M82 Sniper",
     "type": "狙击步枪",
     "type_en": "Sniper Rifle",
@@ -1893,5 +1893,32 @@
     "loadout_price": 0,
     "price": 0,
     "custom_code": "6I6FFL806UPSRBSFIDPDC"
+  },
+  {
+    "id": "w49",
+    "name_cn": "SR9射手步枪",
+    "name_en": "SR9 DMR",
+    "type": "射手步枪",
+    "type_en": "DMR",
+    "mode": "both",
+    "base_stats": {
+      "damage": 62,
+      "rate_of_fire": 780,
+      "accuracy": 84,
+      "range": 82,
+      "control": 78,
+      "mobility": 68,
+      "handling": 78
+    },
+    "ammo_type": [
+      "7.62"
+    ],
+    "meta_tier": "B",
+    "unlock_level": 12,
+    "game_id": 340,
+    "copy_count": 3588,
+    "tags": [],
+    "loadout_price": 11250,
+    "price": 11250
   }
 ]
