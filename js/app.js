@@ -54,7 +54,7 @@ function debounce(fn, ms) {
 const DataDB = {
   async load() {
     try {
-      const CACHE_BUST = '?v=10';
+      const CACHE_BUST = '?v=11';
       const [w, v, a, o, att, gear, codes] = await Promise.all([
         fetch('./data/weapons.json' + CACHE_BUST).then(r => r.json()),
         fetch('./data/vehicles.json' + CACHE_BUST).then(r => r.json()),
@@ -1119,7 +1119,7 @@ function renderGearPreview() {
             const aNorm = a.caliber.replace(/[×xX\s]/g, '').toLowerCase();
             return aNorm.includes(norm) || norm.includes(aNorm) || a.caliber === caliber;
           }).map(a =>
-            `<option value="${a.id}">${a.name_cn}</option>`
+            `<option value="${a.id}"${state.selectedAmmo && state.selectedAmmo.id === a.id ? ' selected' : ''}>${a.name_cn}</option>`
           );
         }).join('')}
       </select>
@@ -1215,7 +1215,7 @@ function selectGearWeapon(id) {
 }
 
 function selectGearAmmo(id) {
-  state.selectedAmmo = id || null;
+  state.selectedAmmo = id ? DataDB.getAmmoById(id) : null;
   updateGearPreview();
 }
 
