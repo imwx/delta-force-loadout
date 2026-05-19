@@ -53,7 +53,7 @@ function debounce(fn, ms) {
 const DataDB = {
   async load() {
     try {
-      const CACHE_BUST = '?v=7';
+      const CACHE_BUST = '?v=8';
       const [w, v, a, o, att, gear] = await Promise.all([
         fetch('./data/weapons.json' + CACHE_BUST).then(r => r.json()),
         fetch('./data/vehicles.json' + CACHE_BUST).then(r => r.json()),
@@ -917,7 +917,7 @@ function renderGearCenter() {
             <span class="icon">🔫</span> 选择武器
           </div>
           <div class="gear-weapon-grid">
-            ${['手枪','冲锋枪','霰弹枪','突击步枪','战斗步枪','精确射手步枪','狙击步枪','轻机枪','通用机枪','特殊武器'].map(type => {
+            ${['手枪','冲锋枪','霰弹枪','突击步枪','射手步枪','狙击步枪','轻机枪','通用机枪','特殊武器'].map(type => {
               const guns = weapons.filter(w => w.type === type);
               if (!guns.length) return '';
               return `
@@ -1101,6 +1101,21 @@ function renderGearPreview() {
       </div>
     </div>
 
+    <!-- 子弹选择 -->
+    ${w.ammo_type && w.ammo_type.length > 0 ? `
+    <div class="gear-ammo-section">
+      <div class="step-title" style="font-size:0.8rem;margin-bottom:6px;"><span>💨</span> 选择子弹</div>
+      <select class="step-select" id="gear-sel-ammo" onchange="selectGearAmmo(this.value)" style="width:100%;">
+        <option value="">— 默认弹药 —</option>
+        ${(w.ammo_type || []).flatMap(t => {
+          const caliber = t.trim();
+          return (AMMO_DATA || []).filter(a => a.caliber === caliber).map(a =>
+            `<option value="${a.id}">${a.name_cn}</option>`
+          );
+        }).join('')}
+      </select>
+    </div>` : ''}
+
     <!-- 雷达图 -->
     <div class="radar-container">
       <h4>属性雷达图</h4>
@@ -1182,11 +1197,17 @@ function selectGearWeapon(id) {
   state.selectedAttachments = {};
   state.selectedGear = {};
   state.liveCost = 0;
+  state.selectedAmmo = null;
   render();
   setTimeout(() => {
     initGearCenter();
     drawGearRadar();
   }, 50);
+}
+
+function selectGearAmmo(id) {
+  state.selectedAmmo = id || null;
+  updateGearPreview();
 }
 
 function selectAttachment(slot, attId) {

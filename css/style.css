@@ -923,7 +923,8 @@ body {
   .cards-grid { grid-template-columns: 1fr; }
   .pros-cons { grid-template-columns: 1fr; }
   .nav-links { gap: 0; }
-  .nav-link span { display: none; }
+  .nav-link > span { display: none; }
+  .nav-link > span.icon { display: inline; }
   .result-dimension-scores { grid-template-columns: repeat(2, 1fr); }
   .filter-bar { gap: 8px; }
 }
