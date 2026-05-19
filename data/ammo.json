@@ -18,9 +18,12 @@
       "AUG",
       "CAR-15"
     ],
-    "price": 200,
+    "price": 3952,
     "unlock_level": 1,
-    "market_price": 286
+    "market_price": 286,
+    "price_3d": 3952,
+    "price_7d": 3952,
+    "price_30d": 4602
   },
   {
     "id": "556-ap",
@@ -38,9 +41,12 @@
       "K416",
       "CI-19"
     ],
-    "price": 350,
+    "price": 3952,
     "unlock_level": 15,
-    "market_price": 286
+    "market_price": 286,
+    "price_3d": 3952,
+    "price_7d": 3952,
+    "price_30d": 4602
   },
   {
     "id": "762x39",
@@ -57,9 +63,12 @@
       "AKM",
       "AKS-74"
     ],
-    "price": 220,
+    "price": 1156,
     "unlock_level": 1,
-    "market_price": 528
+    "market_price": 528,
+    "price_3d": 1156,
+    "price_7d": 981,
+    "price_30d": 1961
   },
   {
     "id": "762x51",
@@ -80,9 +89,12 @@
       "R93",
       "SV-98"
     ],
-    "price": 380,
+    "price": 5767,
     "unlock_level": 20,
-    "market_price": 528
+    "market_price": 528,
+    "price_3d": 5767,
+    "price_7d": 5767,
+    "price_30d": 6467
   },
   {
     "id": "545x39",
@@ -100,9 +112,12 @@
       "AK-12",
       "AKS-74"
     ],
-    "price": 200,
+    "price": 474,
     "unlock_level": 1,
-    "market_price": 489
+    "market_price": 489,
+    "price_3d": 474,
+    "price_7d": 309,
+    "price_30d": 444
   },
   {
     "id": "545-ap",
@@ -119,9 +134,12 @@
       "AK-74M",
       "AK-12"
     ],
-    "price": 340,
+    "price": 474,
     "unlock_level": 18,
-    "market_price": 489
+    "market_price": 489,
+    "price_3d": 474,
+    "price_7d": 309,
+    "price_30d": 444
   },
   {
     "id": "9x18",
@@ -156,9 +174,12 @@
       "UZI",
       "Vector"
     ],
-    "price": 120,
+    "price": 381,
     "unlock_level": 1,
-    "market_price": 366
+    "market_price": 366,
+    "price_3d": 381,
+    "price_7d": 291,
+    "price_30d": 486
   },
   {
     "id": "9x19-hp",
@@ -175,9 +196,12 @@
       "MP5",
       "UZI"
     ],
-    "price": 160,
+    "price": 381,
     "unlock_level": 8,
-    "description": "危险行动模式高伤害选择，对无护甲目标伤害极高，但无法穿透任何护甲。"
+    "description": "危险行动模式高伤害选择，对无护甲目标伤害极高，但无法穿透任何护甲。",
+    "price_3d": 381,
+    "price_7d": 291,
+    "price_30d": 486
   },
   {
     "id": "9x39",
@@ -195,10 +219,13 @@
       "SR-3M",
       "VSS"
     ],
-    "price": 300,
+    "price": 444,
     "unlock_level": 25,
     "description": "亚音速弹药，射击时声音极小（消音效果极佳），穿深和伤害均优秀，是潜入战术的首选弹药。",
-    "market_price": 489
+    "market_price": 489,
+    "price_3d": 444,
+    "price_7d": 404,
+    "price_30d": 444
   },
   {
     "id": "45acp",
@@ -215,9 +242,12 @@
       "SMG-45",
       "Vector"
     ],
-    "price": 130,
+    "price": 491,
     "unlock_level": 5,
-    "market_price": 1190
+    "market_price": 1190,
+    "price_3d": 491,
+    "price_7d": 461,
+    "price_30d": 596
   },
   {
     "id": "46x30",
@@ -233,10 +263,13 @@
     "best_for": [
       "MP7"
     ],
-    "price": 280,
+    "price": 387,
     "unlock_level": 22,
     "description": "专为MP7设计的穿甲弹，穿深极高，可击穿大多数轻型防弹衣。对护甲目标效果显著。",
-    "market_price": 970
+    "market_price": 970,
+    "price_3d": 387,
+    "price_7d": 342,
+    "price_30d": 462
   },
   {
     "id": "300-win",
@@ -252,10 +285,13 @@
     "best_for": [
       "AWM"
     ],
-    "price": 500,
+    "price": 542,
     "unlock_level": 35,
     "description": "狙击步枪顶级弹药，远射程、高穿深、超高伤害，一击可击穿三级护甲。",
-    "market_price": 542
+    "market_price": 542,
+    "price_3d": 542,
+    "price_7d": 407,
+    "price_30d": 617
   },
   {
     "id": "338-lapua",
@@ -289,10 +325,13 @@
     "best_for": [
       "S12K"
     ],
-    "price": 180,
+    "price": 519,
     "unlock_level": 1,
     "description": "近距离大威力霰弹，一发多丸，近距离可一击毙命。超出中距离几乎无效。",
-    "market_price": 511
+    "market_price": 511,
+    "price_3d": 519,
+    "price_7d": 499,
+    "price_30d": 519
   },
   {
     "id": "12g-ap",
@@ -308,9 +347,1684 @@
     "best_for": [
       "S12K"
     ],
-    "price": 260,
+    "price": 519,
     "unlock_level": 20,
     "description": "单发穿甲弹丸，可击穿轻装甲和头盔，近距离威力略低于鹿弹，但穿甲能力大幅提升。",
-    "market_price": 511
+    "market_price": 511,
+    "price_3d": 519,
+    "price_7d": 499,
+    "price_30d": 519
+  },
+  {
+    "id": "762x54r-t46m",
+    "name_cn": "7.62x54R T46M",
+    "name_en": "7.62x54R T46M",
+    "caliber": "7.62x54R T46M",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 382,
+    "price_3d": 382,
+    "price_7d": 402,
+    "price_30d": 582,
+    "unlock_level": 0,
+    "market_price": 382
+  },
+  {
+    "id": "762x39mm-bp",
+    "name_cn": "7.62x39mm BP",
+    "name_en": "7.62x39mm BP",
+    "caliber": "7.62x39mm BP",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 1156,
+    "price_3d": 1156,
+    "price_7d": 981,
+    "price_30d": 1961,
+    "unlock_level": 0,
+    "market_price": 1156
+  },
+  {
+    "id": "45-acp-fmj",
+    "name_cn": ".45 ACP FMJ",
+    "name_en": ".45 ACP FMJ",
+    "caliber": ".45 ACP FMJ",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 491,
+    "price_3d": 491,
+    "price_7d": 461,
+    "price_30d": 596,
+    "unlock_level": 0,
+    "market_price": 491
+  },
+  {
+    "id": "碳纤维穿甲箭矢",
+    "name_cn": "碳纤维穿甲箭矢",
+    "name_en": "碳纤维穿甲箭矢",
+    "caliber": "碳纤维穿甲箭矢",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 5794,
+    "price_3d": 5794,
+    "price_7d": 5214,
+    "price_30d": 4779,
+    "unlock_level": 0,
+    "market_price": 5794
+  },
+  {
+    "id": "50-ae-fmj",
+    "name_cn": ".50 AE FMJ",
+    "name_en": ".50 AE FMJ",
+    "caliber": ".50 AE FMJ",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 1685,
+    "price_3d": 1685,
+    "price_7d": 1325,
+    "price_30d": 2675,
+    "unlock_level": 0,
+    "market_price": 1685
+  },
+  {
+    "id": "12-gauge独头-ftx",
+    "name_cn": "12 Gauge独头 FTX",
+    "name_en": "12 Gauge独头 FTX",
+    "caliber": "12 Gauge独头 FTX",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 519,
+    "price_3d": 519,
+    "price_7d": 499,
+    "price_30d": 519,
+    "unlock_level": 0,
+    "market_price": 519
+  },
+  {
+    "id": "357-magnum-jhp",
+    "name_cn": ".357 Magnum JHP",
+    "name_en": ".357 Magnum JHP",
+    "caliber": ".357 Magnum JHP",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 519,
+    "price_3d": 519,
+    "price_7d": 459,
+    "price_30d": 499,
+    "unlock_level": 0,
+    "market_price": 519
+  },
+  {
+    "id": "45-70-govt-rn",
+    "name_cn": "45-70 Govt RN",
+    "name_en": "45-70 Govt RN",
+    "caliber": "45-70 Govt RN",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 404,
+    "price_3d": 404,
+    "price_7d": 404,
+    "price_30d": 404,
+    "unlock_level": 0,
+    "market_price": 404
+  },
+  {
+    "id": "762x54r-bt",
+    "name_cn": "7.62x54R BT",
+    "name_en": "7.62x54R BT",
+    "caliber": "7.62x54R BT",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 5134,
+    "price_3d": 5134,
+    "price_7d": 4894,
+    "price_30d": 5614,
+    "unlock_level": 0,
+    "market_price": 5134
+  },
+  {
+    "id": "762x39mm-ps",
+    "name_cn": "7.62x39mm PS",
+    "name_en": "7.62x39mm PS",
+    "caliber": "7.62x39mm PS",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 491,
+    "price_3d": 491,
+    "price_7d": 431,
+    "price_30d": 551,
+    "unlock_level": 0,
+    "market_price": 491
+  },
+  {
+    "id": "127x55mm-ps12a",
+    "name_cn": "12.7x55mm PS12A",
+    "name_en": "12.7x55mm PS12A",
+    "caliber": "12.7x55mm PS12A",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 554,
+    "price_3d": 554,
+    "price_7d": 484,
+    "price_30d": 624,
+    "unlock_level": 0,
+    "market_price": 554
+  },
+  {
+    "id": "357-magnum-hp",
+    "name_cn": ".357 Magnum HP",
+    "name_en": ".357 Magnum HP",
+    "caliber": ".357 Magnum HP",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 152,
+    "price_3d": 152,
+    "price_7d": 152,
+    "price_30d": 162,
+    "unlock_level": 0,
+    "market_price": 152
+  },
+  {
+    "id": "玻纤柳叶箭矢",
+    "name_cn": "玻纤柳叶箭矢",
+    "name_en": "玻纤柳叶箭矢",
+    "caliber": "玻纤柳叶箭矢",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 589,
+    "price_3d": 589,
+    "price_7d": 529,
+    "price_30d": 739,
+    "unlock_level": 0,
+    "market_price": 589
+  },
+  {
+    "id": "127x55mm-ps12",
+    "name_cn": "12.7x55mm PS12",
+    "name_en": "12.7x55mm PS12",
+    "caliber": "12.7x55mm PS12",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 1517,
+    "price_3d": 1517,
+    "price_7d": 1432,
+    "price_30d": 2452,
+    "unlock_level": 0,
+    "market_price": 1517
+  },
+  {
+    "id": "50-ae-ap",
+    "name_cn": ".50 AE AP",
+    "name_en": ".50 AE AP",
+    "caliber": ".50 AE AP",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 4268,
+    "price_3d": 4268,
+    "price_7d": 3893,
+    "price_30d": 8618,
+    "unlock_level": 0,
+    "market_price": 4268
+  },
+  {
+    "id": "68x51mm-hybrid",
+    "name_cn": "6.8x51mm Hybrid",
+    "name_en": "6.8x51mm Hybrid",
+    "caliber": "6.8x51mm Hybrid",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 5359,
+    "price_3d": 5359,
+    "price_7d": 5359,
+    "price_30d": 5359,
+    "unlock_level": 0,
+    "market_price": 5359
+  },
+  {
+    "id": "9x39mm-sp5",
+    "name_cn": "9x39mm SP5",
+    "name_en": "9x39mm SP5",
+    "caliber": "9x39mm SP5",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 444,
+    "price_3d": 444,
+    "price_7d": 404,
+    "price_30d": 444,
+    "unlock_level": 0,
+    "market_price": 444
+  },
+  {
+    "id": "9x19mm-ap63",
+    "name_cn": "9x19mm AP6.3",
+    "name_en": "9x19mm AP6.3",
+    "caliber": "9x19mm AP6.3",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 381,
+    "price_3d": 381,
+    "price_7d": 291,
+    "price_30d": 486,
+    "unlock_level": 0,
+    "market_price": 381
+  },
+  {
+    "id": "12-gauge独头-gt",
+    "name_cn": "12 Gauge独头 GT",
+    "name_en": "12 Gauge独头 GT",
+    "caliber": "12 Gauge独头 GT",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 65,
+    "price_3d": 65,
+    "price_7d": 65,
+    "price_30d": 65,
+    "unlock_level": 0,
+    "market_price": 65
+  },
+  {
+    "id": "碳纤维刺骨箭矢",
+    "name_cn": "碳纤维刺骨箭矢",
+    "name_en": "碳纤维刺骨箭矢",
+    "caliber": "碳纤维刺骨箭矢",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 1854,
+    "price_3d": 1854,
+    "price_7d": 1434,
+    "price_30d": 1714,
+    "unlock_level": 0,
+    "market_price": 1854
+  },
+  {
+    "id": "46x30mm-subsonic-sx",
+    "name_cn": "4.6x30mm Subsonic SX",
+    "name_en": "4.6x30mm Subsonic SX",
+    "caliber": "4.6x30mm Subsonic SX",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 387,
+    "price_3d": 387,
+    "price_7d": 342,
+    "price_30d": 462,
+    "unlock_level": 0,
+    "market_price": 387
+  },
+  {
+    "id": "12-gauge-箭形弹",
+    "name_cn": "12 Gauge 箭形弹",
+    "name_en": "12 Gauge 箭形弹",
+    "caliber": "12 Gauge 箭形弹",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 478,
+    "price_3d": 478,
+    "price_7d": 388,
+    "price_30d": 403,
+    "unlock_level": 0,
+    "market_price": 478
+  },
+  {
+    "id": "50-ae-jhp",
+    "name_cn": ".50 AE JHP",
+    "name_en": ".50 AE JHP",
+    "caliber": ".50 AE JHP",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 544,
+    "price_3d": 544,
+    "price_7d": 464,
+    "price_30d": 664,
+    "unlock_level": 0,
+    "market_price": 544
+  },
+  {
+    "id": "碳纤维散射箭矢",
+    "name_cn": "碳纤维散射箭矢",
+    "name_en": "碳纤维散射箭矢",
+    "caliber": "碳纤维散射箭矢",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 3991,
+    "price_3d": 3991,
+    "price_7d": 4116,
+    "price_30d": 5991,
+    "unlock_level": 0,
+    "market_price": 3991
+  },
+  {
+    "id": "545x39mm-ps",
+    "name_cn": "5.45x39mm PS",
+    "name_en": "5.45x39mm PS",
+    "caliber": "5.45x39mm PS",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 474,
+    "price_3d": 474,
+    "price_7d": 309,
+    "price_30d": 444,
+    "unlock_level": 0,
+    "market_price": 474
+  },
+  {
+    "id": "300blk_3",
+    "name_cn": ".300BLK_3",
+    "name_en": ".300BLK_3",
+    "caliber": ".300BLK_3",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 542,
+    "price_3d": 542,
+    "price_7d": 407,
+    "price_30d": 617,
+    "unlock_level": 0,
+    "market_price": 542
+  },
+  {
+    "id": "9x19mm-pbp",
+    "name_cn": "9x19mm PBP",
+    "name_en": "9x19mm PBP",
+    "caliber": "9x19mm PBP",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 976,
+    "price_3d": 976,
+    "price_7d": 946,
+    "price_30d": 1816,
+    "unlock_level": 0,
+    "market_price": 976
+  },
+  {
+    "id": "46x30mm-fmj-sx",
+    "name_cn": "4.6x30mm FMJ SX",
+    "name_en": "4.6x30mm FMJ SX",
+    "caliber": "4.6x30mm FMJ SX",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 995,
+    "price_3d": 995,
+    "price_7d": 945,
+    "price_30d": 1670,
+    "unlock_level": 0,
+    "market_price": 995
+  },
+  {
+    "id": "45-70-govt-ftx",
+    "name_cn": "45-70 Govt FTX",
+    "name_en": "45-70 Govt FTX",
+    "caliber": "45-70 Govt FTX",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 5515,
+    "price_3d": 5515,
+    "price_7d": 4955,
+    "price_30d": 7475,
+    "unlock_level": 0,
+    "market_price": 5515
+  },
+  {
+    "id": "300blk_4",
+    "name_cn": ".300BLK_4",
+    "name_en": ".300BLK_4",
+    "caliber": ".300BLK_4",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 1652,
+    "price_3d": 1652,
+    "price_7d": 1442,
+    "price_30d": 2107,
+    "unlock_level": 0,
+    "market_price": 1652
+  },
+  {
+    "id": "556x45mm-m995",
+    "name_cn": "5.56x45mm M995",
+    "name_en": "5.56x45mm M995",
+    "caliber": "5.56x45mm M995",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 3952,
+    "price_3d": 3952,
+    "price_7d": 3952,
+    "price_30d": 4602,
+    "unlock_level": 0,
+    "market_price": 3952
+  },
+  {
+    "id": "58x42mm-dvc12",
+    "name_cn": "5.8x42mm DVC12",
+    "name_en": "5.8x42mm DVC12",
+    "caliber": "5.8x42mm DVC12",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 4235,
+    "price_3d": 4235,
+    "price_7d": 4095,
+    "price_30d": 4795,
+    "unlock_level": 0,
+    "market_price": 4235
+  },
+  {
+    "id": "300blk_5",
+    "name_cn": ".300BLK_5",
+    "name_en": ".300BLK_5",
+    "caliber": ".300BLK_5",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 4743,
+    "price_3d": 4743,
+    "price_7d": 4743,
+    "price_30d": 5718,
+    "unlock_level": 0,
+    "market_price": 4743
+  },
+  {
+    "id": "46x30mm-ap-sx",
+    "name_cn": "4.6x30mm AP SX",
+    "name_en": "4.6x30mm AP SX",
+    "caliber": "4.6x30mm AP SX",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 3832,
+    "price_3d": 3832,
+    "price_7d": 3832,
+    "price_30d": 4052,
+    "unlock_level": 0,
+    "market_price": 3832
+  },
+  {
+    "id": "57x28mm-ss190",
+    "name_cn": "5.7x28mm SS190",
+    "name_en": "5.7x28mm SS190",
+    "caliber": "5.7x28mm SS190",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 4702,
+    "price_3d": 4702,
+    "price_7d": 4312,
+    "price_30d": 5287,
+    "unlock_level": 0,
+    "market_price": 4702
+  },
+  {
+    "id": "300blk-sub_3",
+    "name_cn": ".300BLK SUB_3",
+    "name_en": ".300BLK SUB_3",
+    "caliber": ".300BLK SUB_3",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 0,
+    "price_3d": 0,
+    "price_7d": 0,
+    "price_30d": 0,
+    "unlock_level": 0,
+    "market_price": 0
+  },
+  {
+    "id": "300blk-sub_4",
+    "name_cn": ".300BLK SUB_4",
+    "name_en": ".300BLK SUB_4",
+    "caliber": ".300BLK SUB_4",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 0,
+    "price_3d": 0,
+    "price_7d": 0,
+    "price_30d": 0,
+    "unlock_level": 0,
+    "market_price": 0
+  },
+  {
+    "id": "762x39mm-sub_4",
+    "name_cn": "7.62x39mm SUB_4",
+    "name_en": "7.62x39mm SUB_4",
+    "caliber": "7.62x39mm SUB_4",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 0,
+    "price_3d": 0,
+    "price_7d": 0,
+    "price_30d": 0,
+    "unlock_level": 0,
+    "market_price": 0
+  },
+  {
+    "id": "762x39mm-sub_5",
+    "name_cn": "7.62x39mm SUB_5",
+    "name_en": "7.62x39mm SUB_5",
+    "caliber": "7.62x39mm SUB_5",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 0,
+    "price_3d": 0,
+    "price_7d": 0,
+    "price_30d": 0,
+    "unlock_level": 0,
+    "market_price": 0
+  },
+  {
+    "id": "45-70-govt-fmj",
+    "name_cn": "45-70 Govt FMJ",
+    "name_en": "45-70 Govt FMJ",
+    "caliber": "45-70 Govt FMJ",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 953,
+    "price_3d": 953,
+    "price_7d": 1018,
+    "price_30d": 2968,
+    "unlock_level": 0,
+    "market_price": 953
+  },
+  {
+    "id": "9x19mm-pso",
+    "name_cn": "9x19mm PSO",
+    "name_en": "9x19mm PSO",
+    "caliber": "9x19mm PSO",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 32,
+    "price_3d": 32,
+    "price_7d": 32,
+    "price_30d": 32,
+    "unlock_level": 0,
+    "market_price": 32
+  },
+  {
+    "id": "556x45mm-m855",
+    "name_cn": "5.56x45mm M855",
+    "name_en": "5.56x45mm M855",
+    "caliber": "5.56x45mm M855",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 286,
+    "price_3d": 286,
+    "price_7d": 286,
+    "price_30d": 421,
+    "unlock_level": 0,
+    "market_price": 286
+  },
+  {
+    "id": "9x39mm-sp6",
+    "name_cn": "9x39mm SP6",
+    "name_en": "9x39mm SP6",
+    "caliber": "9x39mm SP6",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 1521,
+    "price_3d": 1521,
+    "price_7d": 1401,
+    "price_30d": 2761,
+    "unlock_level": 0,
+    "market_price": 1521
+  },
+  {
+    "id": "9x39mm-bp",
+    "name_cn": "9x39mm BP",
+    "name_en": "9x39mm BP",
+    "caliber": "9x39mm BP",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 4744,
+    "price_3d": 4744,
+    "price_7d": 4874,
+    "price_30d": 5329,
+    "unlock_level": 0,
+    "market_price": 4744
+  },
+  {
+    "id": "9x19mm-pst",
+    "name_cn": "9x19mm Pst",
+    "name_en": "9x19mm Pst",
+    "caliber": "9x19mm Pst",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 85,
+    "price_3d": 85,
+    "price_7d": 85,
+    "price_30d": 88,
+    "unlock_level": 0,
+    "market_price": 85
+  },
+  {
+    "id": "762x54r-lps",
+    "name_cn": "7.62x54R LPS",
+    "name_en": "7.62x54R LPS",
+    "caliber": "7.62x54R LPS",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 1530,
+    "price_3d": 1530,
+    "price_7d": 1410,
+    "price_30d": 2370,
+    "unlock_level": 0,
+    "market_price": 1530
+  },
+  {
+    "id": "762x51mm-m62",
+    "name_cn": "7.62x51mm M62",
+    "name_en": "7.62x51mm M62",
+    "caliber": "7.62x51mm M62",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 5767,
+    "price_3d": 5767,
+    "price_7d": 5767,
+    "price_30d": 6467,
+    "unlock_level": 0,
+    "market_price": 5767
+  },
+  {
+    "id": "762x51mm-bpz",
+    "name_cn": "7.62x51mm BPZ",
+    "name_en": "7.62x51mm BPZ",
+    "caliber": "7.62x51mm BPZ",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 508,
+    "price_3d": 508,
+    "price_7d": 448,
+    "price_30d": 608,
+    "unlock_level": 0,
+    "market_price": 508
+  },
+  {
+    "id": "762x51mm-m80",
+    "name_cn": "7.62x51mm M80",
+    "name_en": "7.62x51mm M80",
+    "caliber": "7.62x51mm M80",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 1098,
+    "price_3d": 1098,
+    "price_7d": 1018,
+    "price_30d": 2058,
+    "unlock_level": 0,
+    "market_price": 1098
+  },
+  {
+    "id": "762x39mm-ap",
+    "name_cn": "7.62x39mm AP",
+    "name_en": "7.62x39mm AP",
+    "caliber": "7.62x39mm AP",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 5121,
+    "price_3d": 5121,
+    "price_7d": 4971,
+    "price_30d": 5796,
+    "unlock_level": 0,
+    "market_price": 5121
+  },
+  {
+    "id": "762x39mm-lp",
+    "name_cn": "7.62x39mm LP",
+    "name_en": "7.62x39mm LP",
+    "caliber": "7.62x39mm LP",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 43,
+    "price_3d": 43,
+    "price_7d": 43,
+    "price_30d": 38,
+    "unlock_level": 0,
+    "market_price": 43
+  },
+  {
+    "id": "762x39mm-t45m",
+    "name_cn": "7.62x39mm T45M",
+    "name_en": "7.62x39mm T45M",
+    "caliber": "7.62x39mm T45M",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 111,
+    "price_3d": 111,
+    "price_7d": 111,
+    "price_30d": 111,
+    "unlock_level": 0,
+    "market_price": 111
+  },
+  {
+    "id": "68x51mm-fmj",
+    "name_cn": "6.8x51mm FMJ",
+    "name_en": "6.8x51mm FMJ",
+    "caliber": "6.8x51mm FMJ",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 1484,
+    "price_3d": 1484,
+    "price_7d": 1439,
+    "price_30d": 2834,
+    "unlock_level": 0,
+    "market_price": 1484
+  },
+  {
+    "id": "58x42mm-dvp88",
+    "name_cn": "5.8x42mm DVP88",
+    "name_en": "5.8x42mm DVP88",
+    "caliber": "5.8x42mm DVP88",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 493,
+    "price_3d": 493,
+    "price_7d": 403,
+    "price_30d": 463,
+    "unlock_level": 0,
+    "market_price": 493
+  },
+  {
+    "id": "57x28mm-ss198lf",
+    "name_cn": "5.7x28mm SS198LF",
+    "name_en": "5.7x28mm SS198LF",
+    "caliber": "5.7x28mm SS198LF",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 43,
+    "price_3d": 43,
+    "price_7d": 38,
+    "price_30d": 38,
+    "unlock_level": 0,
+    "market_price": 43
+  },
+  {
+    "id": "57x28mm-ss197sr",
+    "name_cn": "5.7x28mm SS197SR",
+    "name_en": "5.7x28mm SS197SR",
+    "caliber": "5.7x28mm SS197SR",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 102,
+    "price_3d": 102,
+    "price_7d": 97,
+    "price_30d": 102,
+    "unlock_level": 0,
+    "market_price": 102
+  },
+  {
+    "id": "556x45mm-m855a1",
+    "name_cn": "5.56x45mm M855A1",
+    "name_en": "5.56x45mm M855A1",
+    "caliber": "5.56x45mm M855A1",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 981,
+    "price_3d": 981,
+    "price_7d": 981,
+    "price_30d": 2181,
+    "unlock_level": 0,
+    "market_price": 981
+  },
+  {
+    "id": "556x45mm-rrlp",
+    "name_cn": "5.56x45mm RRLP",
+    "name_en": "5.56x45mm RRLP",
+    "caliber": "5.56x45mm RRLP",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 35,
+    "price_3d": 35,
+    "price_7d": 33,
+    "price_30d": 35,
+    "unlock_level": 0,
+    "market_price": 35
+  },
+  {
+    "id": "556x45mm-fmj",
+    "name_cn": "5.56x45mm FMJ",
+    "name_en": "5.56x45mm FMJ",
+    "caliber": "5.56x45mm FMJ",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 79,
+    "price_3d": 79,
+    "price_7d": 79,
+    "price_30d": 84,
+    "unlock_level": 0,
+    "market_price": 79
+  },
+  {
+    "id": "545x39mm-bs",
+    "name_cn": "5.45x39mm BS",
+    "name_en": "5.45x39mm BS",
+    "caliber": "5.45x39mm BS",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 4639,
+    "price_3d": 4639,
+    "price_7d": 4584,
+    "price_30d": 4254,
+    "unlock_level": 0,
+    "market_price": 4639
+  },
+  {
+    "id": "545x39mm-prs",
+    "name_cn": "5.45x39mm PRS",
+    "name_en": "5.45x39mm PRS",
+    "caliber": "5.45x39mm PRS",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 40,
+    "price_3d": 40,
+    "price_7d": 39,
+    "price_30d": 40,
+    "unlock_level": 0,
+    "market_price": 40
+  },
+  {
+    "id": "127x55mm-pd12双头弹",
+    "name_cn": "12.7x55mm PD12双头弹",
+    "name_en": "12.7x55mm PD12双头弹",
+    "caliber": "12.7x55mm PD12双头弹",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 2567,
+    "price_3d": 2567,
+    "price_7d": 2467,
+    "price_30d": 2667,
+    "unlock_level": 0,
+    "market_price": 2567
+  },
+  {
+    "id": "12-gauge独头-rip",
+    "name_cn": "12 Gauge独头 RIP",
+    "name_en": "12 Gauge独头 RIP",
+    "caliber": "12 Gauge独头 RIP",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 148,
+    "price_3d": 148,
+    "price_7d": 133,
+    "price_30d": 133,
+    "unlock_level": 0,
+    "market_price": 148
+  },
+  {
+    "id": "12-gauge独头-ap-20",
+    "name_cn": "12 Gauge独头 AP-20",
+    "name_en": "12 Gauge独头 AP-20",
+    "caliber": "12 Gauge独头 AP-20",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 631,
+    "price_3d": 631,
+    "price_7d": 431,
+    "price_30d": 631,
+    "unlock_level": 0,
+    "market_price": 631
+  },
+  {
+    "id": "50-ae-hp",
+    "name_cn": ".50 AE HP",
+    "name_en": ".50 AE HP",
+    "caliber": ".50 AE HP",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 164,
+    "price_3d": 164,
+    "price_7d": 154,
+    "price_30d": 164,
+    "unlock_level": 0,
+    "market_price": 164
+  },
+  {
+    "id": "45-acp-hs",
+    "name_cn": ".45 ACP HS",
+    "name_en": ".45 ACP HS",
+    "caliber": ".45 ACP HS",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 43,
+    "price_3d": 43,
+    "price_7d": 43,
+    "price_30d": 43,
+    "unlock_level": 0,
+    "market_price": 43
+  },
+  {
+    "id": "45-acp-jhp",
+    "name_cn": ".45 ACP JHP",
+    "name_en": ".45 ACP JHP",
+    "caliber": ".45 ACP JHP",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 111,
+    "price_3d": 111,
+    "price_7d": 111,
+    "price_30d": 120,
+    "unlock_level": 0,
+    "market_price": 111
+  },
+  {
+    "id": "357-magnum-fmj",
+    "name_cn": ".357 Magnum FMJ",
+    "name_en": ".357 Magnum FMJ",
+    "caliber": ".357 Magnum FMJ",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 590,
+    "price_3d": 590,
+    "price_7d": 500,
+    "price_30d": 635,
+    "unlock_level": 0,
+    "market_price": 590
+  },
+  {
+    "id": "58x42mm-dbp10",
+    "name_cn": "5.8x42mm DBP10",
+    "name_en": "5.8x42mm DBP10",
+    "caliber": "5.8x42mm DBP10",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 1533,
+    "price_3d": 1533,
+    "price_7d": 1323,
+    "price_30d": 2058,
+    "unlock_level": 0,
+    "market_price": 1533
+  },
+  {
+    "id": "45-acp-ap",
+    "name_cn": ".45 ACP AP",
+    "name_en": ".45 ACP AP",
+    "caliber": ".45 ACP AP",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 1260,
+    "price_3d": 1260,
+    "price_7d": 1155,
+    "price_30d": 2240,
+    "unlock_level": 0,
+    "market_price": 1260
+  },
+  {
+    "id": "12-gauge-龙息弹",
+    "name_cn": "12 Gauge 龙息弹",
+    "name_en": "12 Gauge 龙息弹",
+    "caliber": "12 Gauge 龙息弹",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 1760,
+    "price_3d": 1760,
+    "price_7d": 1400,
+    "price_30d": 2160,
+    "unlock_level": 0,
+    "market_price": 1760
+  },
+  {
+    "id": "127x55mm-ps12b",
+    "name_cn": "12.7x55mm PS12B",
+    "name_en": "12.7x55mm PS12B",
+    "caliber": "12.7x55mm PS12B",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 5143,
+    "price_3d": 5143,
+    "price_7d": 5143,
+    "price_30d": 6043,
+    "unlock_level": 0,
+    "market_price": 5143
+  },
+  {
+    "id": "57x28mm-l191",
+    "name_cn": "5.7x28mm L191",
+    "name_en": "5.7x28mm L191",
+    "caliber": "5.7x28mm L191",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 495,
+    "price_3d": 495,
+    "price_7d": 390,
+    "price_30d": 555,
+    "unlock_level": 0,
+    "market_price": 495
+  },
+  {
+    "id": "57x28mm-ss193",
+    "name_cn": "5.7x28mm SS193",
+    "name_en": "5.7x28mm SS193",
+    "caliber": "5.7x28mm SS193",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 1803,
+    "price_3d": 1803,
+    "price_7d": 1443,
+    "price_30d": 2823,
+    "unlock_level": 0,
+    "market_price": 1803
+  },
+  {
+    "id": "762x51mm-ultra-nosler",
+    "name_cn": "7.62x51mm Ultra Nosler",
+    "name_en": "7.62x51mm Ultra Nosler",
+    "caliber": "7.62x51mm Ultra Nosler",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 114,
+    "price_3d": 114,
+    "price_7d": 124,
+    "price_30d": 119,
+    "unlock_level": 0,
+    "market_price": 114
+  },
+  {
+    "id": "545x39mm-bt",
+    "name_cn": "5.45x39mm BT",
+    "name_en": "5.45x39mm BT",
+    "caliber": "5.45x39mm BT",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 1191,
+    "price_3d": 1191,
+    "price_7d": 991,
+    "price_30d": 1591,
+    "unlock_level": 0,
+    "market_price": 1191
+  },
+  {
+    "id": "545x39mm-bs-st",
+    "name_cn": "5.45x39mm BS ST",
+    "name_en": "5.45x39mm BS ST",
+    "caliber": "5.45x39mm BS ST",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 6372,
+    "price_3d": 6372,
+    "price_7d": 6207,
+    "price_30d": 7802,
+    "unlock_level": 0,
+    "market_price": 6372
+  },
+  {
+    "id": "58x42mm-dbp87",
+    "name_cn": "5.8x42mm DBP87",
+    "name_en": "5.8x42mm DBP87",
+    "caliber": "5.8x42mm DBP87",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 99,
+    "price_3d": 99,
+    "price_7d": 99,
+    "price_30d": 99,
+    "unlock_level": 0,
+    "market_price": 99
+  },
+  {
+    "id": "545x39mm-t",
+    "name_cn": "5.45x39mm T",
+    "name_en": "5.45x39mm T",
+    "caliber": "5.45x39mm T",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 100,
+    "price_3d": 100,
+    "price_7d": 100,
+    "price_30d": 100,
+    "unlock_level": 0,
+    "market_price": 100
+  },
+  {
+    "id": "12-gauge-85毫米鹿弹",
+    "name_cn": "12 Gauge 8.5毫米鹿弹",
+    "name_en": "12 Gauge 8.5毫米鹿弹",
+    "caliber": "12 Gauge 8.5毫米鹿弹",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 383,
+    "price_3d": 383,
+    "price_7d": 378,
+    "price_30d": 388,
+    "unlock_level": 0,
+    "market_price": 383
+  },
+  {
+    "id": "545x39mm-bt-st",
+    "name_cn": "5.45x39mm BT ST",
+    "name_en": "5.45x39mm BT ST",
+    "caliber": "5.45x39mm BT ST",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 1982,
+    "price_3d": 1982,
+    "price_7d": 1947,
+    "price_30d": 2052,
+    "unlock_level": 0,
+    "market_price": 1982
+  },
+  {
+    "id": "556x45mm-m855a1-apc",
+    "name_cn": "5.56x45mm M855A1 APC",
+    "name_en": "5.56x45mm M855A1 APC",
+    "caliber": "5.56x45mm M855A1 APC",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 1850,
+    "price_3d": 1850,
+    "price_7d": 1900,
+    "price_30d": 2650,
+    "unlock_level": 0,
+    "market_price": 1850
+  },
+  {
+    "id": "357-magnum-9号霰射鼠弹",
+    "name_cn": ".357 Magnum 9号霰射鼠弹",
+    "name_en": ".357 Magnum 9号霰射鼠弹",
+    "caliber": ".357 Magnum 9号霰射鼠弹",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 283,
+    "price_3d": 283,
+    "price_7d": 233,
+    "price_30d": 213,
+    "unlock_level": 0,
+    "market_price": 283
+  },
+  {
+    "id": "45-acp-rip",
+    "name_cn": ".45 ACP RIP",
+    "name_en": ".45 ACP RIP",
+    "caliber": ".45 ACP RIP",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 755,
+    "price_3d": 755,
+    "price_7d": 710,
+    "price_30d": 845,
+    "unlock_level": 0,
+    "market_price": 755
+  },
+  {
+    "id": "556x45mm-m855-apc",
+    "name_cn": "5.56x45mm M855 APC",
+    "name_en": "5.56x45mm M855 APC",
+    "caliber": "5.56x45mm M855 APC",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 442,
+    "price_3d": 442,
+    "price_7d": 392,
+    "price_30d": 492,
+    "unlock_level": 0,
+    "market_price": 442
+  },
+  {
+    "id": "9x19mm-rip",
+    "name_cn": "9x19mm RIP",
+    "name_en": "9x19mm RIP",
+    "caliber": "9x19mm RIP",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 768,
+    "price_3d": 768,
+    "price_7d": 608,
+    "price_30d": 698,
+    "unlock_level": 0,
+    "market_price": 768
+  },
+  {
+    "id": "57x28mm-r37f",
+    "name_cn": "5.7x28mm R37.F",
+    "name_en": "5.7x28mm R37.F",
+    "caliber": "5.7x28mm R37.F",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 697,
+    "price_3d": 697,
+    "price_7d": 547,
+    "price_30d": 687,
+    "unlock_level": 0,
+    "market_price": 697
+  },
+  {
+    "id": "12-gauge-7毫米鹿弹",
+    "name_cn": "12 Gauge 7毫米鹿弹",
+    "name_en": "12 Gauge 7毫米鹿弹",
+    "caliber": "12 Gauge 7毫米鹿弹",
+    "stats": {
+      "penetration": 0,
+      "damage": 0,
+      "range": 0,
+      "armor_piercing": "未知"
+    },
+    "best_for": [],
+    "price": 28,
+    "price_3d": 28,
+    "price_7d": 20,
+    "price_30d": 28,
+    "unlock_level": 0,
+    "market_price": 28
   }
 ]

@@ -111,9 +111,11 @@ def parse_table(html, page_num):
 
         # 推断槽位（仅战备装备）
         slot = infer_slot(name)
-        # 计算展示价格：优先 price_current（正数），否则 price_30d
-        pc = price_current if price_current and price_current > 0 else None
-        display_price = pc if pc else (price_30d if price_30d else 0)
+        # 计算展示价格：优先 price_3d（3日价格），否则 price_30d，最后 price_current
+        display_price = (price_3d if price_3d and price_3d > 0 else None) \
+                        or (price_30d if price_30d and price_30d > 0 else None) \
+                        or (price_current if price_current and price_current > 0 else None) \
+                        or 0
 
         items.append({
             'id': item_id,

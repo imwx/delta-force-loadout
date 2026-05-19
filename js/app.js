@@ -53,7 +53,7 @@ function debounce(fn, ms) {
 const DataDB = {
   async load() {
     try {
-      const CACHE_BUST = '?v=6';
+      const CACHE_BUST = '?v=7';
       const [w, v, a, o, att, gear] = await Promise.all([
         fetch('./data/weapons.json' + CACHE_BUST).then(r => r.json()),
         fetch('./data/vehicles.json' + CACHE_BUST).then(r => r.json()),
@@ -296,6 +296,7 @@ function renderWeaponCard(w) {
         <div class="stat-value">${s.mobility}</div>
       </div>
     </div>
+    ${w.custom_code ? `<div style="margin-top:10px;font-size:0.7rem;color:var(--accent-cyan);font-family:var(--font-mono);">🔧 改枪码</div>` : ''}
     ${w.copy_count ? `<div style="margin-top:12px;font-size:0.72rem;color:var(--text-muted);">👥 ${formatNumber(w.copy_count)} 人使用</div>` : ''}
   </div>`;
 }
@@ -1371,10 +1372,25 @@ function showWeaponDetail(id) {
         <div class="stat-value">${w.base_stats.control}</div>
       </div>
     </div>
+    ${w.custom_code ? `
+    <div class="loadout-code-box" style="flex-direction:column;align-items:flex-start;gap:4px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;width:100%;gap:12px;">
+        <div>
+          <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:2px;">改枪码</div>
+          <div class="loadout-code">${w.custom_code}</div>
+        </div>
+        <button class="copy-btn" onclick="copyLoadout('${w.custom_code}', this)">复制</button>
+      </div>
+    </div>` : ''}
     ${w.loadout_code ? `
-    <div class="loadout-code-box">
-      <div class="loadout-code">${w.loadout_code}</div>
-      <button class="copy-btn" onclick="copyLoadout('${w.loadout_code}', this)">复制</button>
+    <div class="loadout-code-box" style="flex-direction:column;align-items:flex-start;gap:4px;">
+      <div style="display:flex;align-items:center;justify-content:space-between;width:100%;gap:12px;">
+        <div>
+          <div style="font-size:0.7rem;color:var(--text-muted);margin-bottom:2px;">配装码</div>
+          <div class="loadout-code">${w.loadout_code}</div>
+        </div>
+        <button class="copy-btn" onclick="copyLoadout('${w.loadout_code}', this)">复制</button>
+      </div>
     </div>` : ''}
     ${w.copy_count ? `<div style="font-size:0.8rem;color:var(--text-muted);margin-bottom:16px;">👥 ${formatNumber(w.copy_count)} 名玩家使用此配装</div>` : ''}
     ${similar.length > 0 ? `
