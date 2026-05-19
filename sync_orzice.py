@@ -27,6 +27,19 @@ def normalize_caliber(name):
     """归一化口径符号"""
     return name.replace('\u00d7','x').replace('*','x').replace(' ','')
 
+def extract_caliber(name):
+    """从名称中提取口径字符串"""
+    n = normalize_caliber(norm(name))
+    m = re.search(r'(\d+\.?\d*x\d+(?:\.\d+)?(?:mm|nato)?)', n)
+    if m: return m.group(1).replace('mm','')
+    if '.300blk' in n or '300bl' in n: return '300blk'
+    if '.300win' in n or '300w' in n: return '300win'
+    if '.338lap' in n or '338l' in n: return '338lap'
+    if '.45-70' in n or '4570' in n: return '4570gov'
+    if '.357' in n: return '357mag'
+    if '.50ae' in n or '50 ae' in n: return '50ae'
+    return ''
+
 def fuzzy_match(name, candidates, name_field='name', threshold=50):
     """多级模糊匹配"""
     n = norm(name)
@@ -80,18 +93,38 @@ def main():
     equip_section = [s for s in scraped if not is_gun(s['name'])]
 
     # 手枪/弓在战备section（分类错误）
-    pistol_kw = ['沙漠之鹰','g17','g18','m1911','93r','qsz92g','左轮']
+    # pistol_kw: 用于找出手枪/弓基础物品（加入武器池）
+    # base_weapon_suffix: 手枪/弓附件后缀词，有这些后缀的物品不算武器
+    pistol_kw = ['沙漠之鹰','g17','g18','m1911','93r','qsz92g','左轮','.357','g11','glock']
     bow_kw = ['复合弓']
+    attach_suf = ['扳机','击锤','枪管','枪托','握把','弹匣','弹鼓','护木','导轨','枪口',
+                  '枪机','背带','瞄具','支架','箭台','弓臂','弓弦','平衡杆','倍镜',
+                  '准星','枪衣','弹夹','护垫','战术','套件','阻手','消音']
     pistols = [s for s in equip_section if any(p in norm(s['name']) for p in pistol_kw)]
     bows = [s for s in equip_section if any(p in norm(s['name']) for p in bow_kw)]
     ammo_section = [s for s in equip_section if is_ammo(s['name'])]
+    # 排除规则：含手枪关键词 AND 无附件后缀词 → 才是武器，才排除
+    # 含手枪关键词 AND 有附件后缀词 → 纯装备，保留
     pure_gear = [s for s in equip_section
                  if not is_ammo(s['name'])
-                 and not any(p in norm(s['name']) for p in pistol_kw)
+                 and not (any(p in norm(s['name']) for p in pistol_kw) and not any(suf in s['name'] for suf in attach_suf))
                  and not any(p in norm(s['name']) for p in bow_kw)]
 
+    # 弹匣/弹鼓/瞄具类配件：既在pure_gear里，也加入匹配池（battle-gear.json有这些）
+    mag_optic_kw = ['弹匣','弹鼓','瞄准镜','PSO','棱镜','XCOG','消音器','补偿器','登山包']
+    attachments_pool = [s for s in equip_section
+                        if any(k in s['name'] for k in mag_optic_kw)
+                        and not is_ammo(s['name'])
+                        and not (any(p in norm(s['name']) for p in pistol_kw) and not any(suf in s['name'] for suf in attach_suf))
+                        and not any(p in norm(s['name']) for p in bow_kw)]
     weapon_pool = gun_section + pistols + bows
-    print(f'分类: 武器={len(weapon_pool)}, 弹药={len(ammo_section)}, 战备={len(pure_gear)}')
+    match_pool = pure_gear + attachments_pool
+    print(f'分类: 武器={len(weapon_pool)}, 弹药={len(ammo_section)}, 战备={len(pure_gear)}, 附件池={len(attachments_pool)}')
+    # 口径索引：口径 -> 网站弹药列表
+    caliber_to_ammo = {}
+    for a in ammo_section:
+        cal = extract_caliber(a['name'])
+        if cal: caliber_to_ammo.setdefault(cal, []).append(a)
 
     # === weapons.json ===
     print('\n=== weapons.json ===')
@@ -117,17 +150,28 @@ def main():
     ammo = json.load(open(AMMO,'r',encoding='utf-8'))
     updated_a, unmatched_a = 0, []
     for item in ammo:
-        m, score = fuzzy_match(item.get('name_cn',''), ammo_section)
+        name_cn = item.get('name_cn','')
+        # 方法1: 名称模糊匹配
+        m, score = fuzzy_match(name_cn, ammo_section)
         if m and score >= 50:
             p, p7, p30 = update_item(item, m)
             if p > 0:
                 item['price'] = item['price_current'] = item['price_3d'] = p
                 item['price_7d'] = p7; item['price_30d'] = p30
                 updated_a += 1
-            else:
-                unmatched_a.append(item['name_cn'])
-        else:
-            unmatched_a.append(item['name_cn'])
+                continue
+        # 方法2: 口径匹配兜底
+        cal = extract_caliber(name_cn)
+        if cal and cal in caliber_to_ammo:
+            candidates = caliber_to_ammo[cal]
+            matched = candidates[0]
+            p, p7, p30 = update_item(item, matched)
+            if p > 0:
+                item['price'] = item['price_current'] = item['price_3d'] = p
+                item['price_7d'] = p7; item['price_30d'] = p30
+                updated_a += 1
+                continue
+        unmatched_a.append(name_cn)
     json.dump(ammo, open(AMMO,'w',encoding='utf-8'), ensure_ascii=False, indent=2)
     print(f'  更新: {updated_a}/{len(ammo)}  未匹配: {unmatched_a[:10]}')
     if len(unmatched_a) > 10: print(f'  ... 还有 {len(unmatched_a)-10} 条')
@@ -137,8 +181,8 @@ def main():
     attachments = json.load(open(ATTACHMENTS,'r',encoding='utf-8'))
     updated_at = 0
     for item in attachments:
-        m, score = fuzzy_match(item.get('name_cn',''), pure_gear)
-        if m and score >= 50:
+        m, score = fuzzy_match(item.get('name_cn',''), match_pool)
+        if m and score >= 40:
             p, p7, p30 = update_item(item, m)
             if p > 0:
                 item['price'] = item['price_3d'] = p
@@ -159,8 +203,8 @@ def main():
     updated_g, unmatched_g = 0, []
     for item in gear_pure:
         nm = item.get('name_cn') or item.get('name','')
-        m, score = fuzzy_match(nm, pure_gear)
-        if m and score >= 50:
+        m, score = fuzzy_match(nm, match_pool)
+        if m and score >= 40:
             p, p7, p30 = update_item(item, m)
             if p > 0:
                 item['price'] = item['price_3d'] = p

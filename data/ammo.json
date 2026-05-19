@@ -23,7 +23,8 @@
     "market_price": 286,
     "price_3d": 3952,
     "price_7d": 3952,
-    "price_30d": 4602
+    "price_30d": 4602,
+    "price_current": 3952
   },
   {
     "id": "556-ap",
@@ -63,12 +64,13 @@
       "AKM",
       "AKS-74"
     ],
-    "price": 1156,
+    "price": 5121,
     "unlock_level": 1,
     "market_price": 528,
-    "price_3d": 1156,
-    "price_7d": 981,
-    "price_30d": 1961
+    "price_3d": 5121,
+    "price_7d": 4971,
+    "price_30d": 5796,
+    "price_current": 5121
   },
   {
     "id": "762x51",
@@ -94,7 +96,8 @@
     "market_price": 528,
     "price_3d": 5767,
     "price_7d": 5767,
-    "price_30d": 6467
+    "price_30d": 6467,
+    "price_current": 5767
   },
   {
     "id": "545x39",
@@ -112,12 +115,13 @@
       "AK-12",
       "AKS-74"
     ],
-    "price": 474,
+    "price": 6372,
     "unlock_level": 1,
     "market_price": 489,
-    "price_3d": 474,
-    "price_7d": 309,
-    "price_30d": 444
+    "price_3d": 6372,
+    "price_7d": 6207,
+    "price_30d": 7802,
+    "price_current": 6372
   },
   {
     "id": "545-ap",
@@ -174,12 +178,13 @@
       "UZI",
       "Vector"
     ],
-    "price": 381,
+    "price": 976,
     "unlock_level": 1,
     "market_price": 366,
-    "price_3d": 381,
-    "price_7d": 291,
-    "price_30d": 486
+    "price_3d": 976,
+    "price_7d": 946,
+    "price_30d": 1816,
+    "price_current": 976
   },
   {
     "id": "9x19-hp",
@@ -219,13 +224,14 @@
       "SR-3M",
       "VSS"
     ],
-    "price": 444,
+    "price": 4744,
     "unlock_level": 25,
     "description": "亚音速弹药，射击时声音极小（消音效果极佳），穿深和伤害均优秀，是潜入战术的首选弹药。",
     "market_price": 489,
-    "price_3d": 444,
-    "price_7d": 404,
-    "price_30d": 444
+    "price_3d": 4744,
+    "price_7d": 4874,
+    "price_30d": 5329,
+    "price_current": 4744
   },
   {
     "id": "45acp",
@@ -264,13 +270,14 @@
     "best_for": [
       "MP7"
     ],
-    "price": 387,
+    "price": 3832,
     "unlock_level": 22,
     "description": "专为MP7设计的穿甲弹，穿深极高，可击穿大多数轻型防弹衣。对护甲目标效果显著。",
     "market_price": 970,
-    "price_3d": 387,
-    "price_7d": 342,
-    "price_30d": 462
+    "price_3d": 3832,
+    "price_7d": 3832,
+    "price_30d": 4052,
+    "price_current": 3832
   },
   {
     "id": "300-win",
@@ -1062,12 +1069,13 @@
       "armor_piercing": "未知"
     },
     "best_for": [],
-    "price": 0,
-    "price_3d": 0,
-    "price_7d": 0,
-    "price_30d": 0,
+    "price": 4743,
+    "price_3d": 4743,
+    "price_7d": 4743,
+    "price_30d": 5718,
     "unlock_level": 0,
-    "market_price": 0
+    "market_price": 0,
+    "price_current": 4743
   },
   {
     "id": "300blk-sub_4",
@@ -1081,12 +1089,13 @@
       "armor_piercing": "未知"
     },
     "best_for": [],
-    "price": 0,
-    "price_3d": 0,
-    "price_7d": 0,
-    "price_30d": 0,
+    "price": 4743,
+    "price_3d": 4743,
+    "price_7d": 4743,
+    "price_30d": 5718,
     "unlock_level": 0,
-    "market_price": 0
+    "market_price": 0,
+    "price_current": 4743
   },
   {
     "id": "762x39mm-sub_4",
