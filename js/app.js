@@ -9,6 +9,7 @@ let AMMO_DATA = [];
 let OPERATORS_DATA = [];
 let ATTACHMENTS_DATA = [];
 let BATTLE_GEAR_DATA = [];
+let CUSTOM_CODES_DATA = [];
 
 // ---- 当前状态 ----
 let state = {
@@ -53,14 +54,15 @@ function debounce(fn, ms) {
 const DataDB = {
   async load() {
     try {
-      const CACHE_BUST = '?v=8';
-      const [w, v, a, o, att, gear] = await Promise.all([
+      const CACHE_BUST = '?v=9';
+      const [w, v, a, o, att, gear, codes] = await Promise.all([
         fetch('./data/weapons.json' + CACHE_BUST).then(r => r.json()),
         fetch('./data/vehicles.json' + CACHE_BUST).then(r => r.json()),
         fetch('./data/ammo.json' + CACHE_BUST).then(r => r.json()),
         fetch('./data/operators.json' + CACHE_BUST).then(r => r.json()),
         fetch('./data/attachments.json' + CACHE_BUST).then(r => { if (!r.ok) throw new Error('attachments HTTP '+r.status); return r.json(); }).catch(e => { console.error('附件加载失败:', e); return []; }),
-        fetch('./data/battle-gear.json' + CACHE_BUST).then(r => { if (!r.ok) throw new Error('battle-gear HTTP '+r.status); return r.json(); }).catch(e => { console.error('战备装备加载失败:', e); return []; })
+        fetch('./data/battle-gear.json' + CACHE_BUST).then(r => { if (!r.ok) throw new Error('battle-gear HTTP '+r.status); return r.json(); }).catch(e => { console.error('战备装备加载失败:', e); return []; }),
+        fetch('./data/custom-codes.json' + CACHE_BUST).then(r => r.json()).catch(e => { console.error('改枪码加载失败:', e); return []; })
       ]);
       WEAPONS_DATA = w;
       VEHICLES_DATA = v;
@@ -68,7 +70,8 @@ const DataDB = {
       OPERATORS_DATA = o;
       ATTACHMENTS_DATA = Array.isArray(att) ? att : (att.data || []);
       BATTLE_GEAR_DATA = Array.isArray(gear) ? gear : (gear.data || []);
-      console.log('数据加载完成:', { weapons: WEAPONS_DATA.length, attachments: ATTACHMENTS_DATA.length, battleGear: BATTLE_GEAR_DATA.length });
+      CUSTOM_CODES_DATA = Array.isArray(codes) ? codes : [];
+      console.log('数据加载完成:', { weapons: WEAPONS_DATA.length, attachments: ATTACHMENTS_DATA.length, battleGear: BATTLE_GEAR_DATA.length, customCodes: CUSTOM_CODES_DATA.length });
     } catch(e) {
       console.warn('数据加载失败，使用内联数据');
       WEAPONS_DATA = inlineWeapons;
@@ -164,6 +167,7 @@ function render() {
     case 'build': main.innerHTML = renderBuilder(); initBuilderPage(); break;
     case 'meta': main.innerHTML = renderMeta(); break;
     case 'gear-center': main.innerHTML = renderGearCenter(); initGearCenter(); break;
+    case 'codes': main.innerHTML = renderCodes(); initCodesPage(); break;
     default: main.innerHTML = renderHome();
   }
 }
@@ -1303,6 +1307,295 @@ function drawGearRadar() {
         }
       }
     }
+  });
+}
+
+// ---- 改枪码 ----
+function renderCodes() {
+  const codes = CUSTOM_CODES_DATA;
+  const weaponTypes = [...new Set(codes.map(c => c.weapon_type))];
+
+  return `
+  <div class="page-header container">
+    <h1 class="page-title"><span class="icon">🔧</span> 改枪码</h1>
+    <p class="page-subtitle">${codes.length} 个改枪码方案 · 一键复制导入游戏 · 机密场T0推荐</p>
+  </div>
+  <div class="container">
+    <div class="filter-bar">
+      <div class="search-box">
+        <span class="icon">🔍</span>
+        <input type="text" id="codes-search" placeholder="搜索武器或方案名称...">
+      </div>
+      <button class="filter-btn active" data-ctype="all" onclick="filterCodes('all')">全部</button>
+      ${weaponTypes.map(t => `
+      <button class="filter-btn" data-ctype="${t}" onclick="filterCodes('${t}')">${t}</button>`).join('')}
+      <div style="display:flex;gap:6px;margin-left:auto;">
+        <button class="filter-btn" data-ctype="t0" onclick="filterCodes('t0')" style="color:var(--accent-red);">⭐ T0推荐</button>
+      </div>
+    </div>
+
+    <div class="codes-info-bar">
+      <div class="codes-info-item">
+        <span class="type-badge blue">🔵</span> 通用码 - 适配所有玩家
+      </div>
+      <div class="codes-info-item">
+        <span class="type-badge green">🟢</span> 客户定制码 - 针对灵敏度/FOV优化
+      </div>
+      <div class="codes-info-item">
+        <span class="type-badge yellow">🟡</span> 制式套装码 - 烽火地带解锁
+      </div>
+      <div class="codes-info-item">
+        <span class="type-badge purple">🟣</span> 烽火地带 - 机密场推荐
+      </div>
+      <div class="codes-info-item">
+        <span class="type-badge red">🔴</span> 高端方案
+      </div>
+    </div>
+
+    <div class="codes-grid" id="codes-grid">
+      ${renderCodesList(codes)}
+    </div>
+
+    <div class="price-tips">
+      <h3>💰 价格区间参考</h3>
+      <div class="price-tiers">
+        <div class="price-tier">
+          <div class="tier-name">丐版入门</div>
+          <div class="tier-range">10-25w</div>
+          <div class="tier-guns">PTR-32、UZI、MP5</div>
+        </div>
+        <div class="price-tier">
+          <div class="tier-name">半改性价比</div>
+          <div class="tier-range">30-50w</div>
+          <div class="tier-guns">K416、KC17、MK47</div>
+        </div>
+        <div class="price-tier">
+          <div class="tier-name">满改高端</div>
+          <div class="tier-range">60-130w</div>
+          <div class="tier-guns">M7、M14</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .codes-info-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      padding: 12px 16px;
+      background: var(--bg-card);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      margin-bottom: 20px;
+      font-size: 0.8rem;
+    }
+    .codes-info-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .codes-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+    .code-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      padding: 16px;
+      transition: all 0.25s;
+    }
+    .code-card:hover {
+      border-color: var(--accent-primary);
+      box-shadow: 0 4px 20px rgba(240,192,64,0.1);
+    }
+    .code-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 12px;
+    }
+    .code-weapon-name {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+    .code-plan-name {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      margin-top: 4px;
+    }
+    .code-type-badge {
+      font-size: 0.72rem;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-weight: 600;
+    }
+    .code-type-badge.blue { background: rgba(59,130,246,0.2); color: #60a5fa; }
+    .code-type-badge.green { background: rgba(34,197,94,0.2); color: #4ade80; }
+    .code-type-badge.yellow { background: rgba(234,179,8,0.2); color: #facc15; }
+    .code-type-badge.purple { background: rgba(168,85,247,0.2); color: #c084fc; }
+    .code-type-badge.red { background: rgba(239,68,68,0.2); color: #f87171; }
+    .code-attachments {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 12px;
+    }
+    .code-att {
+      font-size: 0.75rem;
+      padding: 3px 8px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 4px;
+      color: var(--text-secondary);
+    }
+    .code-description {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+      margin-bottom: 12px;
+      line-height: 1.5;
+    }
+    .code-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 12px;
+      border-top: 1px solid var(--border-default);
+    }
+    .code-price {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--accent-gold);
+    }
+    .code-number {
+      font-size: 0.72rem;
+      color: var(--text-muted);
+    }
+    .code-copy-btn {
+      padding: 8px 16px;
+      background: var(--accent-primary);
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-weight: 600;
+      transition: all 0.2s;
+    }
+    .code-copy-btn:hover {
+      background: var(--accent-hover);
+      transform: translateY(-1px);
+    }
+    .code-copy-btn.copied {
+      background: var(--accent-green);
+    }
+    .price-tips {
+      background: var(--bg-card);
+      border: 1px solid var(--border-default);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      margin-bottom: 40px;
+    }
+    .price-tips h3 {
+      font-size: 1rem;
+      margin-bottom: 16px;
+    }
+    .price-tiers {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    .price-tier {
+      text-align: center;
+      padding: 16px;
+      background: rgba(255,255,255,0.03);
+      border-radius: 8px;
+    }
+    .tier-name {
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .tier-range {
+      font-size: 1.2rem;
+      font-weight: 800;
+      color: var(--accent-gold);
+      margin-bottom: 8px;
+    }
+    .tier-guns {
+      font-size: 0.8rem;
+      color: var(--text-secondary);
+    }
+    @media (max-width: 768px) {
+      .price-tiers { grid-template-columns: 1fr; }
+      .codes-grid { grid-template-columns: 1fr; }
+    }
+  </style>`;
+}
+
+function renderCodesList(codes) {
+  return codes.map(c => `
+  <div class="code-card">
+    <div class="code-card-header">
+      <div>
+        <div class="code-weapon-name">${c.weapon_name}</div>
+        <div class="code-plan-name">${c.name}</div>
+      </div>
+      <span class="code-type-badge ${c.type_color}">${c.type}</span>
+    </div>
+    <div class="code-attachments">
+      ${(c.attachments || []).map(a => `<span class="code-att">${a}</span>`).join('')}
+    </div>
+    <div class="code-description">${c.description || ''}</div>
+    <div class="code-footer">
+      <div>
+        <div class="code-price">💰 ${c.price_display}</div>
+        ${c['外设编号'] ? `<div class="code-number">外设编号: ${c['外设编号']}</div>` : ''}
+      </div>
+      <button class="code-copy-btn" onclick="copyCode('${c.code}', this)">复制改枪码</button>
+    </div>
+  </div>`).join('');
+}
+
+function initCodesPage() {
+  const input = $('#codes-search');
+  if (input) {
+    input.addEventListener('input', debounce(e => {
+      const q = e.target.value.toLowerCase();
+      const filtered = CUSTOM_CODES_DATA.filter(c =>
+        c.weapon_name.includes(q) || c.name.includes(q) || c.weapon_type.includes(q)
+      );
+      $('#codes-grid').innerHTML = renderCodesList(filtered);
+    }, 200));
+  }
+}
+
+function filterCodes(type) {
+  $$('.filter-btn[data-ctype]').forEach(btn => {
+    if (btn.dataset.ctype === type) btn.classList.add('active');
+    else btn.classList.remove('active');
+  });
+
+  let filtered = CUSTOM_CODES_DATA;
+  if (type === 't0') {
+    filtered = CUSTOM_CODES_DATA.filter(c => c.name.includes('T0') || c.description.includes('T0'));
+  } else if (type !== 'all') {
+    filtered = CUSTOM_CODES_DATA.filter(c => c.weapon_type === type);
+  }
+  $('#codes-grid').innerHTML = renderCodesList(filtered);
+}
+
+function copyCode(code, btn) {
+  navigator.clipboard.writeText(code).then(() => {
+    const originalText = btn.textContent;
+    btn.textContent = '已复制 ✓';
+    btn.classList.add('copied');
+    setTimeout(() => {
+      btn.textContent = originalText;
+      btn.classList.remove('copied');
+    }, 2000);
   });
 }
 
