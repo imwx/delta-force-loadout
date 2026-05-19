@@ -54,7 +54,7 @@ function debounce(fn, ms) {
 const DataDB = {
   async load() {
     try {
-      const CACHE_BUST = '?v=16';
+      const CACHE_BUST = '?v=17';
       const [w, v, a, o, att, gear, codes] = await Promise.all([
         fetch('./data/weapons.json' + CACHE_BUST).then(r => r.json()),
         fetch('./data/vehicles.json' + CACHE_BUST).then(r => r.json()),
